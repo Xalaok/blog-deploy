@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2024 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="robot-solid" unicode="&#xe800;" d="M625 850c35 0 63-28 63-62v-125h234c78 0 141-63 141-141v-531c0-78-63-141-141-141h-594c-78 0-140 63-140 141v531c0 78 62 141 140 141h235v125c0 34 27 62 62 62z m-219-750c-17 0-31-14-31-31s14-31 31-31h63c17 0 31 14 31 31s-14 31-31 31h-63z m188 0c-17 0-31-14-31-31s14-31 31-31h62c17 0 32 14 32 31s-15 31-32 31h-62z m187 0c-17 0-31-14-31-31s14-31 31-31h63c17 0 31 14 31 31s-14 31-31 31h-63z m-265 250a78 78 0 1 1-157 0 78 78 0 1 1 157 0z m297-78a78 78 0 1 1 0 156 78 78 0 1 1 0-156z m-719 141h31v-375h-31c-52 0-94 42-94 93v188c0 52 42 94 94 94z m1062 0c52 0 94-42 94-94v-188c0-51-42-93-94-93h-31v375h31z" horiz-adv-x="1250" />
+</font>
+</defs>
+</svg>

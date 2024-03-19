@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Office on Naive Koala</title><link>https://www.xalaok.top/tags/office/</link><description>Recent content in Office on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 18 Jan 2024 11:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/office/index.xml" rel="self" type="application/rss+xml"/><item><title>利用 GitHub Action 实现 Microsoft 365 E5 订阅自动续订</title><link>https://www.xalaok.top/post/auto-keep-e5-alive/</link><pubDate>Thu, 18 Jan 2024 11:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/auto-keep-e5-alive/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/cover.webp" alt="Featured image of post 利用 GitHub Action 实现 Microsoft 365 E5 订阅自动续订" />&lt;p>2021 年初买的电脑，附赠的是 2019 版的 Office。因为更喜欢 Microsoft 365 的新版界面，所以大概一年前申请了 Developer E5 账户。当时是在 B 站找的教程视频开的账号，续期教程没看，因为想着三个月有效期，到时候再看不迟，但没想到不知道是什么原因它自动续期了。不知道大家有没有遇到这种情况。直到去年 12/31 收到邮件提醒说没用于开发用途，账号要被删除了，于是赶紧百度续期教程，找到了利用 GitHub Actions 实现的自动调用 API 来续期 E5 账户的教程，成功以后便来记录一下，也方便后面自己或他人查阅。&lt;/p>
+&lt;p>以下是提醒邮件内容：
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/01.webp"
+loading="lazy"
+>&lt;/p>
+&lt;hr>
+&lt;h3 id="新建个人访问令牌">新建个人访问令牌&lt;/h3>
+&lt;ol>
+&lt;li>打开 &lt;a class="link" href="https://github.com/settings/tokens" target="_blank" rel="noopener"
+>https://github.com/settings/tokens&lt;/a>&lt;/li>
+&lt;li>右上角新建个人访问令牌（经典）【注：我用的是油猴插件 &lt;a class="link" href="https://greasyfork.org/scripts/435208" target="_blank" rel="noopener"
+>GitHub 中文化&lt;/a>】
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/02.webp"
+loading="lazy"
+>&lt;/li>
+&lt;li>&lt;code>Note&lt;/code>（备注）：起个名字，随便填&lt;br>
+&lt;code>Expiration&lt;/code>（有效期）：我选的无限期（No expiration），按自己需求选择即可&lt;br>
+&lt;code>Select scopes&lt;/code>（选择作用域）：作用域定义了个人令牌的访问范围，勾选 &lt;code>repo&lt;/code> 和 &lt;code>workflow&lt;/code> 两项即可
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/03.webp"
+loading="lazy"
+>&lt;/li>
+&lt;li>&lt;strong>妥善及时保存&lt;/strong>好新生成的 token，只会出现一次，过后不再可见&lt;/li>
+&lt;/ol>
+&lt;h3 id="导入仓库">导入仓库&lt;/h3>
+&lt;ol>
+&lt;li>GitHub 主页右上角加号选择导入仓库（&lt;code>import repository&lt;/code>）
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/04.webp"
+loading="lazy"
+>&lt;/li>
+&lt;li>Your old repository&amp;rsquo;s clone URL 填写 &lt;code>https://github.com/vcheckzen/KeepAliveE5.git&lt;/code>，Privacy 建议选择 Private（私有）&lt;/li>
+&lt;li>导入完成后打开导入后的仓库&lt;/li>
+&lt;li>打开 Settings-Actions-General（&lt;code>https://github.com/你的用户名/仓库名/settings/actions&lt;/code>），将 &lt;code>Actions permissions&lt;/code> 设为 &lt;code>Allow all actions add reusable workflows&lt;/code>（第一项）即可看到 Actions 选项卡&lt;/li>
+&lt;/ol>
+&lt;h3 id="设置-secrets">设置 Secrets&lt;/h3>
+&lt;ol>
+&lt;li>打开 Settings-Secrets-Actions（&lt;code>https://github.com/你的用户名/仓库名/settings/secrets/actions&lt;/code>），点击 New repository secret&lt;/li>
+&lt;li>根据仓库作者 README 添加三项 Secret&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PAT&lt;/td>
+&lt;td>Github 个人访问密钥，需要具有 workflow 权限&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>USER&lt;/td>
+&lt;td>E5 管理员邮箱（支持多个，每行一个，不要填写子号）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PASSWD&lt;/td>
+&lt;td>E5 管理员密码（支持多个，每行一个，顺序必须和邮箱一致）&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/05.webp"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="禁用安全默认值">禁用安全默认值&lt;/h3>
+&lt;p>根据&lt;a class="link" href="https://learn.microsoft.com/zh-cn/entra/fundamentals/security-defaults#disabling-security-defaults" target="_blank" rel="noopener"
+>微软官方教程&lt;/a>禁用安全默认值，否则无法注册成功，进而无法调用 API
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/06.webp"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="手动触发-actions">手动触发 Actions&lt;/h3>
+&lt;ol>
+&lt;li>转到 &lt;code>Action&lt;/code> 面板，在 &lt;code>All workflows&lt;/code> 下找到 &lt;code>Register APP&lt;/code>，手动触发它完成注册流程，2 分钟左右。如果确认一切操作正确仍然 &lt;code>Register&lt;/code> 失败，可等待 10-30min 后再操作，因为关闭安全默认值后，微软系统要过一段时间才会刷新。
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/07.webp"
+loading="lazy"
+>&lt;/li>
+&lt;li>再找到 &lt;code>Invoke API&lt;/code> 手动触发。如无错误，任务会定时执行，基本可保证续订成功。
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/08.webp"
+loading="lazy"
+>&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>01/04 收到微软邮件通知续期成功，邮件内容如下：
+&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/09.webp"
+loading="lazy"
+>&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>参考：&lt;a class="link" href="https://logi.im/script/permanently-keeping-an-office-e5-account.html" target="_blank" rel="noopener"
+># Office 365 E5 账号申请及永久续期教程 - LOGI&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on Naive Koala</title><link>https://www.xalaok.top/tags/vercel/</link><description>Recent content in Vercel on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
+>Vercel 文档&lt;/a> 中看到确实支持&lt;/p>
+&lt;h2 id="准备工作">准备工作&lt;/h2>
+&lt;ol>
+&lt;li>Github 账号&lt;/li>
+&lt;li>Vercel 账号&lt;/li>
+&lt;li>Typecho 程序&lt;/li>
+&lt;li>数据库&lt;/li>
+&lt;li>自己的域名（可选，国内注册可以首年1元甚至免费）&lt;br>
+部署完成之后默认会给你的项目分配一个 vercel.app 的三级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
+&lt;/ol>
+&lt;h2 id="过程">过程&lt;/h2>
+&lt;ol>
+&lt;li>创建 Github 仓库&lt;/li>
+&lt;li>本地解压 Typecho 程序&lt;/li>
+&lt;li>在根目录下新建 &lt;code>vercel.json&lt;/code> 并填入以下代码&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;functions&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;api/index.php&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;runtime&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;vercel-php@0.4.0&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;routes&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[{&lt;/span> &lt;span class="nt">&amp;#34;src&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;/(.*)&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nt">&amp;#34;dest&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;/api/index.php&amp;#34;&lt;/span> &lt;span class="p">}]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>在根目录下新建 &lt;code>config.inc.php&lt;/code> 并填入以下代码&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-php" data-lang="php">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> * Typecho Blog Platform
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> *
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> * @copyright Copyright (c) 2008 Typecho team (http://www.typecho.org)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> * @license GNU General Public License 2.0
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> * @version $Id$
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 开启https */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;__TYPECHO_SECURE__&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="k">true&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 定义根目录 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;__TYPECHO_ROOT_DIR__&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">dirname&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="no">__FILE__&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 定义插件目录(相对路径) */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;__TYPECHO_PLUGIN_DIR__&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;/usr/plugins&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 定义模板目录(相对路径) */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;__TYPECHO_THEME_DIR__&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;/usr/themes&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 后台路径(相对路径) */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">define&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;__TYPECHO_ADMIN_DIR__&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;/admin/&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 设置包含路径 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">@&lt;/span>&lt;span class="nx">set_include_path&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">get_include_path&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">.&lt;/span> &lt;span class="nx">PATH_SEPARATOR&lt;/span> &lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">__TYPECHO_ROOT_DIR__&lt;/span> &lt;span class="o">.&lt;/span> &lt;span class="s1">&amp;#39;/var&amp;#39;&lt;/span> &lt;span class="o">.&lt;/span> &lt;span class="nx">PATH_SEPARATOR&lt;/span> &lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">__TYPECHO_ROOT_DIR__&lt;/span> &lt;span class="o">.&lt;/span> &lt;span class="nx">__TYPECHO_PLUGIN_DIR__&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 载入API支持 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">require_once&lt;/span> &lt;span class="s1">&amp;#39;Typecho/Common.php&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 程序初始化 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Typecho_Common&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">init&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd">/** 定义数据库参数 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$db&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">Typecho_Db&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;Pdo_Mysql&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;typecho_&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$db&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">addServer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">array&lt;/span> &lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;host&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;数据库地址&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;数据库用户名&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;password&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;数据库密码&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;charset&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;utf8mb4&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;port&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;3306&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;database&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;数据库名称&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;engine&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;MyISAM&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">),&lt;/span> &lt;span class="nx">Typecho_Db&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">READ&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">Typecho_Db&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">WRITE&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Typecho_Db&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">set&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$db&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>在根目录下新建 &lt;code>/api/index.php&lt;/code> 并填入以下代码&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-php" data-lang="php">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$file&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="no">__DIR__&lt;/span> &lt;span class="o">.&lt;/span> &lt;span class="s1">&amp;#39;/..&amp;#39;&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">$_SERVER&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;PHP_SELF&amp;#34;&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">file_exists&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$file&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">false&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">require_once&lt;/span> &lt;span class="no">__DIR__&lt;/span> &lt;span class="o">.&lt;/span> &lt;span class="s1">&amp;#39;/../index.php&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#echo $_SERVER[&amp;#34;PHP_SELF&amp;#34;];
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>下载一个自己心仪的主题解压放到 &lt;code>/usr/themes/&lt;/code> 目录下&lt;/li>
+&lt;li>将所有文件上传到第一步创建好的 GitHub 仓库里&lt;/li>
+&lt;li>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+>Vercel&lt;/a> 然后通过 GitHub 快捷登录
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/4.jpg"
+loading="lazy"
+>&lt;/li>
+&lt;li>登陆后会自动跳转 Dashboard，点击 Add new - Project
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/5.jpg"
+loading="lazy"
+>&lt;/li>
+&lt;li>Import Git Repository 选择 Continue With GitHub&lt;br>
+此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/li>
+&lt;li>选择你的仓库&lt;/li>
+&lt;li>即将开始部署，在这个界面你可以设置项目名称（可以随意设置），其他项全部保持默认即可，最后点击 Deploy 部署&lt;/li>
+&lt;li>部署成功后会显示 Congratulation 页面&lt;/li>
+&lt;li>如果你有域名，直接从此界面右边“Add Domain”进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角“Go to Dashboard”就可以看到 Vercel 为你准备的域名&lt;/li>
+&lt;li>打开 &lt;code>https://你的网址/install.php&lt;/code> 初始化&lt;/li>
+&lt;/ol>
+&lt;p>Enjoy~&lt;/p></description></item></channel></rss>

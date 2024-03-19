@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>镜像 on Naive Koala</title><link>https://www.xalaok.top/tags/%E9%95%9C%E5%83%8F/</link><description>Recent content in 镜像 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 05 May 2023 22:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E9%95%9C%E5%83%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>利用 Vercel 免费搭建镜像网站</title><link>https://www.xalaok.top/post/websiteproxy/</link><pubDate>Fri, 05 May 2023 22:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/websiteproxy/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/05/cover.webp" alt="Featured image of post 利用 Vercel 免费搭建镜像网站" />
+&lt;div class="notice notice-warning" >
+&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="#704343">&lt;path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>本教程不能镜像某些网站（如资源文件域名与网页域名不同的网站）。也请勿使用此教程镜像非法网站在国内访问，否则后果（被请喝茶或域名被墙等）自负！&lt;/p>&lt;/div>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>有自己服务器的朋友可以使用 nginx 反代理。但是服务器不便宜，本文介绍的方法使用 GitHub + Vercel，部署非常简单&lt;/p>
+&lt;p>你只需要：&lt;/p>
+&lt;ol>
+&lt;li>GitHub账号&lt;/li>
+&lt;li>Vercel账号&lt;/li>
+&lt;li>自己的域名（可选，国内注册可以首年 1 元甚至免费）&lt;br>
+部署完成之后默认会给你的项目分配一个 vercel.app 的二级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
+&lt;/ol>
+&lt;h2 id="步骤">步骤&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>首先打开 GitHub 的 &lt;a class="link" href="https://github.com/gaowanlu/google" target="_blank" rel="noopener"
+>这个仓库&lt;/a>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/1.webp"
+loading="lazy"
+alt="1"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>fork 此仓库（或者自己打包下载源代码然后上传到自己的仓库）
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/2.webp"
+loading="lazy"
+alt="2"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 api/proxy.js 并编辑&lt;br>
+找到第四行，你会看到以下代码&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">let target = &amp;#34;https://www.google.com/&amp;#34;;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>修改&lt;code>target =&lt;/code>后面的网址成你要镜像的网站&lt;br>
+比如我要镜像英文维基百科，那么就将默认的谷歌网址替换为&lt;code>https://en.wikipedia.org/&lt;/code>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/3.webp"
+loading="lazy"
+alt="3"
+>&lt;br>
+如果你要镜像的是谷歌，那么保持默认即可，无需修改&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+>Vercel&lt;/a> 然后通过 GitHub 快捷登录
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/4.webp"
+loading="lazy"
+alt="4"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>登陆后会自动跳转 Dashboard，点击 Add new - Project
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/5.webp"
+loading="lazy"
+alt="5"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Import Git Repository 选择 Continue With GitHub&lt;br>
+此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择你的仓库（我这里叫“enWiki-Proxy”）
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/6.webp"
+loading="lazy"
+alt="6"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>即将开始部署，在这个界面你可以设置项目名称（可以随意设置），其他项全部保持默认即可，最后点击 Deploy 部署
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/7.webp"
+loading="lazy"
+alt="7"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>部署大概需要半分钟，完成后会显示 Congratulation 页面
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/8.webp"
+loading="lazy"
+alt="8"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>如果你有域名，直接从此界面右边“Add Domain”进入添加域名，没有的话直接右上角“Go to Dashboard”就可以看到 Vercel 为你准备的域名
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/9.webp"
+loading="lazy"
+alt="9"
+>&lt;br>
+可以看到，Vercel 为我自动提供了域名
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/10.webp"
+loading="lazy"
+alt="10"
+>&lt;br>
+域名解析，主机记录填写自己想要的域名，后面的按照我的填写，最后点击确定&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>修改域名，Vercel 会自动生成 SSL 证书（开启 https）
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/11.webp"
+loading="lazy"
+alt="11"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Enjoy~&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

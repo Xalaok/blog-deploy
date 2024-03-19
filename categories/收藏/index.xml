@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>收藏 on Naive Koala</title><link>https://www.xalaok.top/categories/%E6%94%B6%E8%97%8F/</link><description>Recent content in 收藏 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 24 Oct 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/categories/%E6%94%B6%E8%97%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>“二世同堂”——控制面板与设置并存</title><link>https://www.xalaok.top/post/controlpanelsettings/</link><pubDate>Tue, 24 Oct 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/controlpanelsettings/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/10/24/cover.webp" alt="Featured image of post “二世同堂”——控制面板与设置并存" />&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>目前最新的 Windows 11 中依然有控制面板，和设置共存，这让使用体验非常割裂。微软为何不完全删除控制面板呢？&lt;/p>
+&lt;p>首先，为何微软要重新做一套设置 UI？很显然是为了简化操作以及为移动端触屏考虑。原先控制面板的交互逻辑非常复杂而且只能用键鼠完成。
+大家知道乔布斯评价过微软：&lt;/p>
+&lt;blockquote>
+&lt;p>The only problem with Microsoft is they just have no taste. They have absolutely no taste. And I don&amp;rsquo;t mean that in a small way, I mean that in a big way, in the sense that they don&amp;rsquo;t think of original ideas, and they don&amp;rsquo;t bring much culture into their products.&lt;br>
+微软唯一的问题是完全没有品味。我不是指在小节上，而是大节上。他们没有自己的创新，也没有把他们自身的文化贯注入自己的产品中。&lt;/p>
+&lt;/blockquote>
+&lt;p>所以微软从 Windows 8 开始制作了一个全新的设置 UI 并一直改进升级，延续到 Windows 11。其实这个设计更像是一种妥协。控制面板虽然用起来复杂但起码功能强大。&lt;/p>
+&lt;h2 id="控制面板为何不能被去除">控制面板为何不能被去除&lt;/h2>
+&lt;h3 id="设置的功能还不全">设置的功能还不全&lt;/h3>
+&lt;p>比如修改 IP 还是需要到控制面板才能修改。那么为什么微软就不能一次把功能做全吗？这应该是微软的重视程度不够或者这项功能开发优先级不够。毕竟会搞这些设置的一般是高级用户，高级用户自己想办法找出控制面板也不是一件难事。除此之外新的设置 UI 也被很多人诟病，比如卡顿，还不能多开窗口……当然，不能多开显然是故意。毕竟限制越多，bug 也越少。但设置依然存在不少的问题。很多时候我知道这个功能在控制面板的位置我在设置里死活找不到，想必这类问题大家也遇到了不少。&lt;/p>
+&lt;h3 id="为了兼容老程序">为了兼容老程序&lt;/h3>
+&lt;p>如果功能不完善那也许 Windows 12 会完善，会慢慢添加。而兼容融性问题才是最繁琐的。控制面板其实不单纯是一个用来设置页面，其为开发者提供了一大串的 API 接口。很多老程序都要依赖这些 API 接口。这些 API 是以 DLL 接口存在的。DLL 接口是不能随便删改的。哪怕少了一个接口，甚至接口的参数发生改变，程序直接无法运行。所以为了让老程序兼容，微软不得不保留这些接口。在 Windows 中有上千个 DLL 文件每个 DLL 文件中有几十甚至上百个接口。所以如果你是微软程序员，你敢随便删改吗？所以未来如果控制面板消失了，那大概率也只是隐身了，它的核心代码肯定是保留的。毕竟微软做不到苹果那么霸气，系统升级直接让老程序无法使用，开发者必须跟着系统升级而升级应用，否则就会被逐出 AppStore。微软则像一个中央空调，为了照顾所有开发者，新的旧的全部留下。还有，一些老程序的配置入口是嵌入在控制面板里，就是 CPL 后缀的文件，就是控制面板的加载项。如果去掉了控制面板可能会导致第三方程序的设置入口丢失。&lt;/p>
+&lt;h3 id="老用户抗拒">老用户抗拒&lt;/h3>
+&lt;p>无论是国内的 B 站，还是知乎，还有国外的油管，提起控制面板不少人都讨厌新的设置页面，而微软让用户适应新的设置 UI 也是需要时间的。可能某一天控制面板真的会连入口都没有了，那么我相信也一定会出来一个叫做 Control Pannel All Back 的软件。&lt;/p></description></item></channel></rss>

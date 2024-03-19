@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memos on Naive Koala</title><link>https://www.xalaok.top/tags/memos/</link><description>Recent content in Memos on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/memos/index.xml" rel="self" type="application/rss+xml"/><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
+&lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>官方给了几种部署方式：Docker，Render，Fly，Zeabur，PikaPods
+但是作为没有服务器不想绑信用卡的白嫖党来说，全部不可用，那么今天就来白嫖 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
+>Replit&lt;/a> 不用服务器搭建 &lt;a class="link" href="https://github.com/usememos/memos" target="_blank" rel="noopener"
+>Memos&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>要用到的网站或仓库：&lt;br>
+&lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
+>https://replit.com&lt;/a>&lt;br>
+&lt;a class="link" href="https://github.com/usememos/memos" target="_blank" rel="noopener"
+>https://github.com/usememos/memos&lt;/a>&lt;br>
+&lt;a class="link" href="https://github.com/sixmillions/memos-replit" target="_blank" rel="noopener"
+>https://github.com/sixmillions/memos-replit&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/memos.webp"
+loading="lazy"
+alt="MEMOS"
+>&lt;/p>
+&lt;h2 id="部署">部署&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
+>Replit 官网&lt;/a>&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/2.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/3.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="方式-1clone-github-仓库">方式 1：Clone GitHub 仓库&lt;/h3>
+&lt;ol start="3">
+&lt;li>Clone &lt;a class="link" href="https://github.com/sixmillions/memos-replit" target="_blank" rel="noopener"
+>sixmillions/memos-replit&lt;/a> 到 Replit，语言选择 Go&lt;/li>
+&lt;li>检查 文件（点击 &lt;code>Files&lt;/code> 右上角三个点，选择 &lt;code>Show hidden files&lt;/code>，就能看到 &lt;code>.replit&lt;/code> 文件，检查该文件内容是否与仓库内的一致&lt;/li>
+&lt;li>运行 &lt;code>main.sh&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/1.webp"
+loading="lazy"
+alt="创建repl"
+>&lt;/p>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/2.webp"
+loading="lazy"
+alt="run"
+>&lt;/p>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/3.webp"
+loading="lazy"
+alt="success"
+>&lt;/p>
+&lt;h3 id="方式-2使用-replit-template">方式 2：使用 Replit Template&lt;/h3>
+&lt;ol>
+&lt;li>打开同样是这个作者创建的 &lt;a class="link" href="https://replit.com/@sixmillions/memos-replit" target="_blank" rel="noopener"
+>模板地址&lt;/a>&lt;/li>
+&lt;li>点击右上角 &lt;code>Use Template&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/4.webp"
+loading="lazy"
+alt="template"
+>&lt;/p>
+&lt;h3 id="方式-3自己构建">方式 3：自己构建&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>构建 Memos&lt;/p>
+&lt;blockquote>
+&lt;p>构建思路：&lt;/p>
+&lt;ol>
+&lt;li>Replit 中 Go 语言环境使用的是 &lt;strong>ubuntu20.04&lt;/strong>&lt;/li>
+&lt;li>用&lt;strong>同样的环境&lt;/strong>构建出 memos&lt;/li>
+&lt;li>把构建出来的可执行文件放到 Replit 上运行&lt;br>
+具体方式参考 &lt;a class="link" href="https://github.com/sixmillions/memos-replit/#%e5%85%b7%e4%bd%93%e6%ad%a5%e9%aa%a4" target="_blank" rel="noopener"
+>https://github.com/sixmillions/memos-replit/#具体步骤&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>将 Memos 上传到 Replit&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>运行 &lt;code>main.sh&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="自定义域名">自定义域名&lt;/h2>
+&lt;p>在 Webview 选项卡网址右侧的第一个图标点开自定义域名&lt;/p>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/5.webp"
+loading="lazy"
+alt="replit-custom-domain"
+>&lt;/p>
+&lt;p>然后到你的 DNS 解析服务商添加 &lt;code>cname&lt;/code> 和 &lt;code>txt&lt;/code> 解析&lt;/p>
+&lt;h2 id="版本升级">版本升级&lt;/h2>
+&lt;p>注意备份数据！&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 先备份数据库然后下载&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">zip memeos-db.zip -qr db/*
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 备份旧的memos&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv memos memos.bk
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 安装最新版（项目构建的最新版）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bash main.sh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 或者指定版本（项目构建的某个版本）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bash main.sh v0.12.2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="防止-replit-休眠">防止 Replit 休眠&lt;/h2>
+&lt;p>好像 Replit 超过五分钟不操作就会休眠，官方也提供了保持唤醒的方案，但是要付费，不得不说，这点难受了，好在有方式可以替代&lt;/p>
+&lt;h3 id="方式-1linux-系统-crontab">方式 1：linux 系统 crontab&lt;/h3>
+&lt;p>在 &lt;code>main.sh&lt;/code> 中加入以下代码&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">curl 你memos地址 &amp;gt;/dev/null 2&amp;gt;&lt;span class="p">&amp;amp;&lt;/span>&lt;span class="m">1&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="方式-2监控平台定时访问">方式 2：监控平台定时访问&lt;/h2>
+&lt;blockquote>
+&lt;p>我目前知道的平台：&lt;/p>
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://uptime.betterstack.com/" target="_blank" rel="noopener"
+>Uptime&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://cron-job.org" target="_blank" rel="noopener"
+>cron-job&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://uptime.kuma.pet/" target="_blank" rel="noopener"
+>Uptime Kuma&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;hr>
+&lt;div class="notice notice-warning" >
+&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="#704343">&lt;path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>Replit 的免费版本中所有项目都是公开的，所以任何人都可以看到你的文件，包括数据库，所以不要用来存重要数据或者隐私数据。&lt;/p>&lt;/div></description></item></channel></rss>

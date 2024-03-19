@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2FA on Naive Koala</title><link>https://www.xalaok.top/tags/2fa/</link><description>Recent content in 2FA on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 29 Sep 2023 15:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/2fa/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub 开启 2FA</title><link>https://www.xalaok.top/post/github-2fa/</link><pubDate>Fri, 29 Sep 2023 15:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/github-2fa/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/09/29/cover.webp" alt="Featured image of post GitHub 开启 2FA" />&lt;p>现在打开 GitHub 会要求有代码提交的用户开启两步验证，否则后面提交不了代码&lt;/p>
+&lt;blockquote>
+&lt;p>Because of your contributions on GitHub, two-factor authentication will be required for your account starting Sep 28, 2023. Thank you for helping keep the ecosystem safe! &lt;a class="link" href="https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/" target="_blank" rel="noopener"
+>Learn more about our two-factor authentication initiative&lt;/a>.&lt;br>
+Because of your contributions on GitHub, two-factor authentication will be required for your account starting Oct 6, 2023. Thank you for helping keep the ecosystem safe! &lt;a class="link" href="https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/" target="_blank" rel="noopener"
+>Learn more about our two-factor authentication initiative&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/09/29/2fa.webp"
+loading="lazy"
+>&lt;/p>
+&lt;p>GitHub 提供了两种方式：身份验证器应用或手机短信验证&lt;/p>
+&lt;p>但是从&lt;a class="link" href="https://docs.github.com/articles/countries-where-sms-authentication-is-supported#supported-countries-for-sms-authentication" target="_blank" rel="noopener"
+>官方文档&lt;/a>可知，GitHub 手机短信验证不支持中国号码，所以没有国外号码的话只能考虑 TOTP 应用或浏览器扩展&lt;/p>
+&lt;h2 id="totp应用">TOTP应用&lt;/h2>
+&lt;p>以微软的 Authenticator 为例&lt;/p>
+&lt;ol>
+&lt;li>GitHub 右上角选择【设置】，或者打开 &lt;a class="link" href="https://github.com/settings/security" target="_blank" rel="noopener"
+>https://github.com/settings/security&lt;/a>&lt;/li>
+&lt;li>页面拉到底点击 &lt;code>Enable two-factor authentication&lt;/code> 打开的页面会显示一个二维码
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/09/29/totp.webp"
+loading="lazy"
+alt="totp"
+>&lt;/li>
+&lt;li>打开 Authenticator 应用，从右上角的 + 号添加帐户，选择其他帐户，然后扫一扫二维码&lt;/li>
+&lt;li>扫描完成之后帐号就添加到 Authenticator 中了，下次打开切到 GitHub 即可展示动态验证码&lt;/li>
+&lt;/ol>
+&lt;h2 id="浏览器扩展">浏览器扩展&lt;/h2>
+&lt;p>以开源免费的 Authenticator: 2FA Client 为例&lt;/p>
+&lt;ol>
+&lt;li>GitHub 右上角选择【设置】，或者打开 &lt;a class="link" href="https://github.com/settings/security" target="_blank" rel="noopener"
+>https://github.com/settings/security&lt;/a>&lt;/li>
+&lt;li>页面拉到底点击 &lt;code>Enable two-factor authentication&lt;/code> 打开的页面会显示一个二维码&lt;/li>
+&lt;li>点击扩展上的扫描按钮，用鼠标选中二维码，即可添加 GitHub帐号&lt;/li>
+&lt;/ol>
+&lt;p>开源地址：&lt;a class="link" href="https://github.com/Authenticator-Extension/Authenticator" target="_blank" rel="noopener"
+>https://github.com/Authenticator-Extension/Authenticator&lt;/a>&lt;br>
+Edge扩展：&lt;a class="link" href="https://microsoftedge.microsoft.com/addons/detail/authenticator-2fa-client/ocglkepbibnalbgmbachknglpdipeoio" target="_blank" rel="noopener"
+>Authenticator: 2FA Client - Microsoft Edge Addons&lt;/a>&lt;br>
+Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8/bhghoamapcdpbohphigoooaddinpkbai" target="_blank" rel="noopener"
+>身份验证器 - Chrome 应用商店&lt;/a>&lt;/p></description></item></channel></rss>

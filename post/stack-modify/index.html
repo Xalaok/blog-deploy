@@ -1,0 +1,763 @@
+<!doctype html><html lang=zh-cn dir=ltr><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content='折腾主题'><title>Hugo-theme-Stack 魔改美化 | Naive Koala</title>
+<link rel=canonical href=https://www.xalaok.top/post/stack-modify/><link rel=stylesheet href=/scss/style.min.224ae690652a5ca9d68a56e77afd6871f7444b7b630992ed975cb54a12d38d2f.css><link rel=stylesheet href=/fontello/css/fontello.css><link rel=stylesheet href=/fontello/css/fontello-codes.css><script id=LA_COLLECT src=//sdk.51.la/js-sdk-pro.min.js></script><script>LA.init({id:"K3aYNEt3ZeYoZwhE",ck:"K3aYNEt3ZeYoZwhE"})</script><script async src=https://umami.xalaok.top/analytics data-website-id=095ee454-e560-4d9b-bf1c-869f8529c17f></script><meta property='og:title' content='Hugo-theme-Stack 魔改美化'><meta property='og:description' content='折腾主题'><meta property='og:url' content='https://www.xalaok.top/post/stack-modify/'><meta property='og:site_name' content='Naive Koala'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='Hugo'><meta property='article:tag' content='Stack'><meta property='article:tag' content='魔改'><meta property='article:published_time' content='2023-08-03T21:00:00+08:00'><meta property='article:modified_time' content='2024-02-12T10:00:00+00:00'><meta property='og:image' content='https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp'><meta name=twitter:title content="Hugo-theme-Stack 魔改美化"><meta name=twitter:description content="折腾主题"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content='https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp'><link rel="shortcut icon" href=/favicon.png><link rel=stylesheet href=https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"light")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label=切换菜单>
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png width=300 height=300 class=site-logo loading=lazy alt=Avatar>
+</a><span class=emoji>😎</span></figure><div class=site-meta><h1 class=site-name><a href=/>Naive Koala</a></h1><h2 class=site-description>Live and learn. ✍️</h2></div></header><ol class=social-menu><li><a href=https://github.com/Xalaok target=_blank title=aGitHub rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li><li><a href=https://memos.xalaok.top target=_blank title=bmemos rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-feather" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20l10-10m0-5v5h5m-9-1v5h5m-9-1v5h5m-5-5 4-4 4-4"/><path d="M19 10c.638-.636 1-1.515 1-2.486A3.515 3.515.0 0016.483 4c-.97.0-1.847.367-2.483 1m-3 13 4-4 4-4"/></svg></a></li><li><a href=mailto:2679779587@qq.com target=_blank title=cemail rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 012-2h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"/><path d="M3 7l9 6 9-6"/></svg></a></li><li><a href=/index.xml target=_blank title=dRSS rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="5" cy="19" r="1"/><path d="M4 4a16 16 0 0116 16"/><path d="M4 11a9 9 0 019 9"/></svg></a></li><li><a href=https://www.travellings.cn/go.html target=_blank title=eTravelling rel=me><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-train" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M21 13c0-3.87-3.37-7-10-7H3"/><path d="M3 15h16a2 2 0 002-2"/><path d="M3 6v5h17.5"/><line x1="3" y1="10" x2="3" y2="14"/><line x1="8" y1="11" x2="8" y2="6"/><line x1="13" y1="11" x2="13" y2="6.5"/><line x1="3" y1="19" x2="21" y2="19"/></svg></a></li></ol><ol class=menu id=main-menu><li><a href=/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
+<span>首页</span></a></li><li><a href=/archives/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+<span>归档</span></a></li><li><a href=/board/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 9h8"/><path d="M8 13h6"/><path d="M18 4a3 3 0 013 3v8a3 3 0 01-3 3h-5l-5 3v-3H6a3 3 0 01-3-3V7a3 3 0 013-3h12z"/></svg>
+<span>留言</span></a></li><li><a href=/about/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>
+<span>关于</span></a></li><li><a href=/links/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M10 14a3.5 3.5.0 005 0l4-4a3.5 3.5.0 00-5-5l-.5.5"/><path d="M14 10a3.5 3.5.0 00-5 0l-4 4a3.5 3.5.0 005 5l.5-.5"/></svg>
+<span>友链</span></a></li><li><a href=/search/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+<span>搜索</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun-high" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.828 14.828A4 4 0 109.172 9.172a4 4 0 005.656 5.656z"/><path d="M6.343 17.657l-1.414 1.414"/><path d="M6.343 6.343 4.929 4.929"/><path d="M17.657 6.343l1.414-1.414"/><path d="M17.657 17.657l1.414 1.414"/><path d="M4 12H2"/><path d="M12 4V2"/><path d="M20 12h2"/><path d="M12 20v2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-stars" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"/><path d="M17 4a2 2 0 002 2 2 2 0 00-2 2 2 2 0 00-2-2 2 2 0 002-2"/><path d="M19 11h2m-1-1v2"/></svg>
+<span>暗色模式</span></li></ol></li></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">目录</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#全局>全局</a><ol><li><a href=#零碎玩意>零碎玩意</a></li><li><a href=#菜单栏圆角>菜单栏圆角</a></li><li><a href=#滚动条>滚动条</a></li><li><a href=#加载进度条>加载进度条</a></li><li><a href=#深色模式开关图标>深色模式开关图标</a></li><li><a href=#修改布局>修改布局</a></li></ol></li><li><a href=#页面>页面</a><ol><li><a href=#归档>归档</a><ol><li><a href=#双栏>双栏</a></li><li><a href=#卡片缩放动画>卡片缩放动画</a></li></ol></li><li><a href=#友链三栏>友链三栏</a></li><li><a href=#首页>首页</a><ol><li><a href=#布局>布局</a></li><li><a href=#右侧导航栏动画>右侧导航栏动画</a></li></ol></li></ol></li><li><a href=#细节>细节</a><ol><li><a href=#首页欢迎横幅>首页欢迎横幅</a></li><li><a href=#代码块>代码块</a><ol><li><a href=#macos-风格红绿灯图标>macOS 风格红绿灯图标</a></li><li><a href=#显示语言和复制按钮>显示语言和复制按钮</a></li></ol></li><li><a href=#固定块的高度>固定块的高度</a></li><li><a href=#键盘样式>键盘样式</a></li><li><a href=#头像旋转>头像旋转</a></li></ol></li><li><a href=#鸣谢>鸣谢</a></li></ol></nav></div></section></aside><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/post/stack-modify/><img src=https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp loading=lazy alt="Featured image of post Hugo-theme-Stack 魔改美化"></a></div><div class=article-details><header class=article-category><a href=/categories/%E5%8E%9F%E5%88%9B/ style=background-color:#2a9d8f;color:#fff>原创
+</a><a href=/categories/%E6%8A%98%E8%85%BE/ style=background-color:#2a9d8f;color:#fff>折腾</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/post/stack-modify/>Hugo-theme-Stack 魔改美化</a></h2><h3 class=article-subtitle>折腾主题</h3></div><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>2023-08-03</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>阅读时长: 5 分钟</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 20h4L18.5 9.5a1.5 1.5.0 00-4-4L4 16v4"/><path d="M13.5 6.5l4 4"/></svg>
+<time class=article-words>字数: 2389 字</time></div></footer></div></header><section class=article-content><h2 id=全局>全局<a hidden class=anchor aria-hidden=true href=#全局>#</a></h2><h3 id=零碎玩意>零碎玩意<a hidden class=anchor aria-hidden=true href=#零碎玩意>#</a></h3><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>// 页面基本配色
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nd>:root</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 全局顶部边距
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>--main-top-padding</span><span class=o>:</span> <span class=mi>30</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 全局卡片圆角
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>--card-border-radius</span><span class=o>:</span> <span class=mi>25</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 标签云卡片圆角
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>--tag-border-radius</span><span class=o>:</span> <span class=mi>8</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 卡片间距
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>--section-separation</span><span class=o>:</span> <span class=mi>40</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 全局字体大小
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>--article-font-size</span><span class=o>:</span> <span class=mi>1</span><span class=mf>.8</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 行内代码背景色
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>--code-background-color</span><span class=o>:</span> <span class=mh>#f8f8f8</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 行内代码前景色
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>--code-text-color</span><span class=o>:</span> <span class=mh>#e96900</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 暗色模式下样式
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=k>&amp;</span><span class=o>[</span><span class=nt>data-scheme</span><span class=o>=</span><span class=s2>&#34;dark&#34;</span><span class=o>]</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=c1>// 行内代码背景色
+</span></span></span><span class=line><span class=cl><span class=c1></span>    <span class=na>--code-background-color</span><span class=o>:</span> <span class=mh>#ff6d1b</span><span class=mi>17</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=c1>// 行内代码前景色
+</span></span></span><span class=line><span class=cl><span class=c1></span>    <span class=na>--code-text-color</span><span class=o>:</span> <span class=mh>#e96900</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//------------------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>// 修复引用块内容窄页面显示问题
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nt>a</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>word-break</span><span class=o>:</span> <span class=ni>break-all</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nt>code</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>word-break</span><span class=o>:</span> <span class=ni>break-all</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//---------------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>// 文章内容图片圆角阴影
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.article-page</span> <span class=nc>.main-article</span> <span class=nc>.article-content</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nt>img</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>max-width</span><span class=o>:</span> <span class=mi>96</span><span class=kt>%</span> <span class=k>!important</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>height</span><span class=o>:</span> <span class=ni>auto</span> <span class=k>!important</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>border-radius</span><span class=o>:</span> <span class=mi>8</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//------------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>// 文章内容引用块样式
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.article-content</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nt>blockquote</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>border-left</span><span class=o>:</span> <span class=mi>6</span><span class=kt>px</span> <span class=ni>solid</span> <span class=mh>#358b9a</span><span class=mi>1</span><span class=kt>f</span> <span class=k>!important</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background</span><span class=o>:</span> <span class=mh>#3a9743</span><span class=mi>1</span><span class=kt>f</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=c1>// ---------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>// 代码块基础样式修改
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.highlight</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>max-width</span><span class=o>:</span> <span class=mi>102</span><span class=kt>%</span> <span class=k>!important</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>background-color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=ni>pre</span><span class=o>-</span><span class=n>background-color</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>padding</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>card-padding</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>position</span><span class=o>:</span> <span class=ni>relative</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>20</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>margin-left</span><span class=o>:</span> <span class=o>-</span><span class=mi>7</span><span class=kt>px</span> <span class=k>!important</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>margin-right</span><span class=o>:</span> <span class=o>-</span><span class=mi>12</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>box-shadow</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>shadow-l1</span><span class=p>)</span> <span class=k>!important</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>&amp;</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nc>.copyCodeButton</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>opacity</span><span class=o>:</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// keep Codeblocks LTR
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=o>[</span><span class=nt>dir</span><span class=o>=</span><span class=s2>&#34;rtl&#34;</span><span class=o>]</span> <span class=k>&amp;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>direction</span><span class=o>:</span> <span class=ni>ltr</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nt>pre</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin</span><span class=o>:</span> <span class=ni>initial</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>width</span><span class=o>:</span> <span class=ni>auto</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// light模式下的代码块样式调整
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=o>[</span><span class=nt>data-scheme</span><span class=o>=</span><span class=s2>&#34;light&#34;</span><span class=o>]</span> <span class=nc>.article-content</span> <span class=nc>.highlight</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>background-color</span><span class=o>:</span> <span class=mh>#fff9f3</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span><span class=nt>data-scheme</span><span class=o>=</span><span class=s2>&#34;light&#34;</span><span class=o>]</span> <span class=nc>.chroma</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>color</span><span class=o>:</span> <span class=mh>#ff6f00</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>background-color</span><span class=o>:</span> <span class=mh>#fff9f3</span><span class=n>cc</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//-------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>// 设置选中字体的区域背景颜色
+</span></span></span><span class=line><span class=cl><span class=c1>//修改选中颜色
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nd>::selection</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>color</span><span class=o>:</span> <span class=mh>#fff</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>background</span><span class=o>:</span> <span class=mh>#34495e</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nt>a</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>text-decoration</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>accent-color</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>&amp;</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>accent-color-darker</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>&amp;</span><span class=nc>.link</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>color</span><span class=o>:</span> <span class=mh>#4288b9</span><span class=n>ad</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>font-weight</span><span class=o>:</span> <span class=mi>600</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span> <span class=mi>2</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>text-decoration</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>cursor</span><span class=o>:</span> <span class=ni>pointer</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>&amp;</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>text-decoration</span><span class=o>:</span> <span class=ni>underline</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//-------------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>//文章封面高度更改
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.article-list</span> <span class=nt>article</span> <span class=nc>.article-image</span> <span class=nt>img</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>width</span><span class=o>:</span> <span class=mi>100</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>height</span><span class=o>:</span> <span class=mi>150</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>object-fit</span><span class=o>:</span> <span class=ni>cover</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>md</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>height</span><span class=o>:</span> <span class=mi>200</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>xl</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>height</span><span class=o>:</span> <span class=mi>305</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//---------------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>// 全局页面布局间距调整
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.main-container</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>min-height</span><span class=o>:</span> <span class=mi>100</span><span class=kt>vh</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>align-items</span><span class=o>:</span> <span class=ni>flex-start</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span> <span class=mi>15</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>gap</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>section-separation</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>padding-top</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>main-top-padding</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>md</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span> <span class=mi>37</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//--------------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>//页面三栏宽度调整
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.container</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>margin-left</span><span class=o>:</span> <span class=ni>auto</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>margin-right</span><span class=o>:</span> <span class=ni>auto</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nc>.left-sidebar</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>order</span><span class=o>:</span> <span class=o>-</span><span class=mi>3</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>max-width</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=ni>left</span><span class=o>-</span><span class=n>sidebar-max-width</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nc>.right-sidebar</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>order</span><span class=o>:</span> <span class=o>-</span><span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>max-width</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=ni>right</span><span class=o>-</span><span class=n>sidebar-max-width</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=c1>/// Display right sidebar when min-width: lg
+</span></span></span><span class=line><span class=cl><span class=c1></span>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>lg</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>display</span><span class=o>:</span> <span class=ni>flex</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>&amp;</span><span class=nc>.extended</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>md</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>max-width</span><span class=o>:</span> <span class=mi>1024</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>--left-sidebar-max-width</span><span class=o>:</span> <span class=mi>25</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>--right-sidebar-max-width</span><span class=o>:</span> <span class=mi>22</span><span class=kt>%</span> <span class=k>!important</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>lg</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>max-width</span><span class=o>:</span> <span class=mi>1280</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>--left-sidebar-max-width</span><span class=o>:</span> <span class=mi>20</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>--right-sidebar-max-width</span><span class=o>:</span> <span class=mi>30</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>xl</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>max-width</span><span class=o>:</span> <span class=mi>1453</span><span class=kt>px</span><span class=p>;</span> <span class=c1>//1536px;
+</span></span></span><span class=line><span class=cl><span class=c1></span>      <span class=na>--left-sidebar-max-width</span><span class=o>:</span> <span class=mi>15</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>--right-sidebar-max-width</span><span class=o>:</span> <span class=mi>25</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>&amp;</span><span class=nc>.compact</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>md</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>--left-sidebar-max-width</span><span class=o>:</span> <span class=mi>25</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>max-width</span><span class=o>:</span> <span class=mi>768</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>lg</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>max-width</span><span class=o>:</span> <span class=mi>1024</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>--left-sidebar-max-width</span><span class=o>:</span> <span class=mi>20</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>xl</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>max-width</span><span class=o>:</span> <span class=mi>1280</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//-------------------------------------------------------
+</span></span></span><span class=line><span class=cl><span class=c1>//全局页面小图片样式微调
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.article-list--compact</span> <span class=nt>article</span> <span class=nc>.article-image</span> <span class=nt>img</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>width</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=ni>image</span><span class=o>-</span><span class=n>size</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>height</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=ni>image</span><span class=o>-</span><span class=n>size</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>object-fit</span><span class=o>:</span> <span class=ni>cover</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>17</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=菜单栏圆角>菜单栏圆角<a hidden class=anchor aria-hidden=true href=#菜单栏圆角>#</a></h3><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>// 菜单栏样式
+</span></span></span><span class=line><span class=cl><span class=c1>// 下拉菜单改圆角样式
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.menu</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>padding-left</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>list-style</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>flex-direction</span><span class=o>:</span> <span class=ni>column</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>overflow-x</span><span class=o>:</span> <span class=ni>hidden</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>overflow-y</span><span class=o>:</span> <span class=ni>scroll</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>flex-grow</span><span class=o>:</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>font-size</span><span class=o>:</span> <span class=mi>1</span><span class=mf>.6</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>background-color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>card-background</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=na>box-shadow</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>shadow-l2</span><span class=p>);</span> <span class=c1>//改个阴影
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>display</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>margin</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span> <span class=c1>//改为0
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>10</span><span class=kt>px</span><span class=p>;</span> <span class=c1>//加个圆角
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>padding</span><span class=o>:</span> <span class=mi>30</span><span class=kt>px</span> <span class=mi>30</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>xl</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>15</span><span class=kt>px</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>&amp;</span><span class=o>,</span>
+</span></span><span class=line><span class=cl>  <span class=nc>.menu-bottom-section</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>gap</span><span class=o>:</span> <span class=mi>30</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>xl</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>gap</span><span class=o>:</span> <span class=mi>25</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>&amp;</span><span class=nc>.show</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>flex</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>md</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>align-items</span><span class=o>:</span> <span class=ni>flex-end</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>flex</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-color</span><span class=o>:</span> <span class=ni>transparent</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>box-shadow</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nt>li</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>position</span><span class=o>:</span> <span class=ni>relative</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>vertical-align</span><span class=o>:</span> <span class=ni>middle</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>md</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>width</span><span class=o>:</span> <span class=mi>100</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nt>svg</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>stroke-width</span><span class=o>:</span> <span class=mi>1</span><span class=mf>.33</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>      <span class=na>width</span><span class=o>:</span> <span class=mi>20</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>height</span><span class=o>:</span> <span class=mi>20</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nt>a</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>height</span><span class=o>:</span> <span class=mi>100</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>display</span><span class=o>:</span> <span class=ni>inline-flex</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>align-items</span><span class=o>:</span> <span class=ni>center</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>body-text-color</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=na>gap</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=ni>menu</span><span class=o>-</span><span class=ni>icon</span><span class=o>-</span><span class=n>separation</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nt>span</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>flex</span><span class=o>:</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>&amp;</span><span class=nc>.current</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nt>a</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>accent-color</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=na>font-weight</span><span class=o>:</span> <span class=ni>bold</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=滚动条>滚动条<a hidden class=anchor aria-hidden=true href=#滚动条>#</a></h3><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>//将滚动条修改为圆角样式
+</span></span></span><span class=line><span class=cl><span class=c1>//菜单滚动条美化
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.menu</span><span class=nd>::-webkit-scrollbar</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 全局滚动条美化
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nt>html</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nd>::-webkit-scrollbar</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>width</span><span class=o>:</span> <span class=mi>20</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nd>::-webkit-scrollbar-track</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-color</span><span class=o>:</span> <span class=ni>transparent</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nd>::-webkit-scrollbar-thumb</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-color</span><span class=o>:</span> <span class=mh>#d6dee1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>border-radius</span><span class=o>:</span> <span class=mi>20</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>border</span><span class=o>:</span> <span class=mi>6</span><span class=kt>px</span> <span class=ni>solid</span> <span class=ni>transparent</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-clip</span><span class=o>:</span> <span class=ni>content-box</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nd>::-webkit-scrollbar-thumb:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-color</span><span class=o>:</span> <span class=mh>#a8bbbf</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=加载进度条>加载进度条<a hidden class=anchor aria-hidden=true href=#加载进度条>#</a></h3><p>在 <code>/layouts/partials/footer/custom.html</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>script</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js&#34;</span> <span class=na>crossorigin</span><span class=o>=</span><span class=s>&#34;anonymous&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>link</span> <span class=na>rel</span><span class=o>=</span><span class=s>&#34;stylesheet&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css&#34;</span> <span class=na>crossorigin</span><span class=o>=</span><span class=s>&#34;anonymous&#34;</span> <span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nx>NProgress</span><span class=p>.</span><span class=nx>start</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    <span class=nb>document</span><span class=p>.</span><span class=nx>addEventListener</span><span class=p>(</span><span class=s2>&#34;readystatechange&#34;</span><span class=p>,</span> <span class=p>()</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=nb>document</span><span class=p>.</span><span class=nx>readyState</span> <span class=o>===</span> <span class=s2>&#34;interactive&#34;</span><span class=p>)</span> <span class=nx>NProgress</span><span class=p>.</span><span class=nx>inc</span><span class=p>(</span><span class=mf>0.8</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=nb>document</span><span class=p>.</span><span class=nx>readyState</span> <span class=o>===</span> <span class=s2>&#34;complete&#34;</span><span class=p>)</span> <span class=nx>NProgress</span><span class=p>.</span><span class=nx>done</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    <span class=p>});</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span></code></pre></div><h3 id=深色模式开关图标>深色模式开关图标<a hidden class=anchor aria-hidden=true href=#深色模式开关图标>#</a></h3><p>不太喜欢默认图标，默认图标不够直观，当然你可以不换<br>我选取了 <a class=link href=https://tablericons.com/ target=_blank rel=noopener>Tabler Icons</a> 中的 <code>sun-high</code> 和 <code>moon-stars</code> 这两个图标<br>在 <code>/assets/scss/partials/sidebar.scss</code> 第 154~180 行中将图标名进行修改，最终效果：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=cm>/* .\assets\scss\partials\sidebar.scss Line 154*/</span>
+</span></span><span class=line><span class=cl><span class=o>[</span><span class=nt>data-scheme</span><span class=o>=</span><span class=s2>&#34;dark&#34;</span><span class=o>]</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nn>#dark-mode-toggle</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>accent-color</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=na>font-weight</span><span class=o>:</span> <span class=mi>700</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=nc>.icon-tabler-sun-high</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=na>display</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=nc>.icon-tabler-moon-stars</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=na>display</span><span class=o>:</span> <span class=ni>unset</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nn>#dark-mode-toggle</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin-top</span><span class=o>:</span> <span class=ni>auto</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>body-text-color</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>flex</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>align-items</span><span class=o>:</span> <span class=ni>center</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>cursor</span><span class=o>:</span> <span class=ni>pointer</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>gap</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=ni>menu</span><span class=o>-</span><span class=ni>icon</span><span class=o>-</span><span class=n>separation</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nc>.icon-tabler-moon-stars</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>display</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><p>在 <code>/layouts/partials/sidebar/left.html</code> 第 91~97 行中将图标名进行修改，最终效果：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=c>&lt;!---.\layouts\partials\sidebar\left.html Line 91---&gt;</span>
+</span></span><span class=line><span class=cl>{{ if (default false .Site.Params.colorScheme.toggle) }}
+</span></span><span class=line><span class=cl>  <span class=p>&lt;</span><span class=nt>li</span> <span class=na>id</span><span class=o>=</span><span class=s>&#34;dark-mode-toggle&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    {{ partial &#34;helper/icon&#34; &#34;sun-high&#34; }}
+</span></span><span class=line><span class=cl>    {{ partial &#34;helper/icon&#34; &#34;moon-stars&#34; }}
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span><span class=p>&gt;</span>{{ T &#34;darkMode&#34; }}<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=p>&lt;/</span><span class=nt>li</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>{{ end }}
+</span></span></code></pre></div><h3 id=修改布局>修改布局<a hidden class=anchor aria-hidden=true href=#修改布局>#</a></h3><p>在 <code>/assets/scss/grid.scss</code> 中修改 <code>left-sidebar</code> 和 <code>right-sidebar</code> 的描述：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl>    <span class=nc>.left-sidebar</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>order</span><span class=o>:</span> <span class=o>-</span><span class=mi>3</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=c1>// max-width: var(--left-sidebar-max-width);
+</span></span></span><span class=line><span class=cl><span class=c1></span>        <span class=na>max-width</span><span class=o>:</span> <span class=mi>10</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nc>.right-sidebar</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>order</span><span class=o>:</span> <span class=o>-</span><span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=c1>// max-width: var(--right-sidebar-max-width);
+</span></span></span><span class=line><span class=cl><span class=c1></span>        <span class=na>max-width</span><span class=o>:</span> <span class=mi>20</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=c1>/// Display right sidebar when min-width: lg
+</span></span></span><span class=line><span class=cl><span class=c1></span>        <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>lg</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=na>display</span><span class=o>:</span> <span class=ni>flex</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span></code></pre></div><p>把正文的占比改到了 70%, 原来的只有 50% 左右</p><h2 id=页面>页面<a hidden class=anchor aria-hidden=true href=#页面>#</a></h2><h3 id=归档>归档<a hidden class=anchor aria-hidden=true href=#归档>#</a></h3><h4 id=双栏>双栏<a hidden class=anchor aria-hidden=true href=#双栏>#</a></h4><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>// 归档页面两栏
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=k>@media</span> <span class=p>(</span><span class=na>min-width</span><span class=o>:</span> <span class=mi>1024</span><span class=kt>px</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nc>.article-list--compact</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>grid</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>grid-template-columns</span><span class=o>:</span> <span class=mi>1</span><span class=kt>fr</span> <span class=mi>1</span><span class=kt>fr</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>box-shadow</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>gap</span><span class=o>:</span> <span class=mi>1</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nt>article</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>background</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>card-background</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=na>border</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>box-shadow</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>shadow-l2</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=na>margin-bottom</span><span class=o>:</span> <span class=mi>8</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>border-radius</span><span class=o>:</span> <span class=mi>16</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h4 id=卡片缩放动画>卡片缩放动画<a hidden class=anchor aria-hidden=true href=#卡片缩放动画>#</a></h4><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=cm>/*-----------归档页面----------*/</span>
+</span></span><span class=line><span class=cl><span class=c1>//归档页面卡片缩放
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.article-list--tile</span> <span class=nt>article</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transition</span><span class=o>:</span> <span class=mf>.6</span><span class=kt>s</span> <span class=ni>ease</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.article-list--tile</span> <span class=nt>article</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transform</span><span class=o>:</span> <span class=nf>scale</span><span class=p>(</span><span class=mi>1</span><span class=mf>.03</span><span class=o>,</span> <span class=mi>1</span><span class=mf>.03</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=友链三栏>友链三栏<a hidden class=anchor aria-hidden=true href=#友链三栏>#</a></h3><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>// 友情链接三栏
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=k>@media</span> <span class=p>(</span><span class=na>min-width</span><span class=o>:</span> <span class=mi>1024</span><span class=kt>px</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nc>.article-list--compact.links</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>grid</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>grid-template-columns</span><span class=o>:</span> <span class=mi>1</span><span class=kt>fr</span> <span class=mi>1</span><span class=kt>fr</span> <span class=mi>1</span><span class=kt>fr</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>box-shadow</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>gap</span><span class=o>:</span> <span class=mi>1</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nt>article</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>background</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>card-background</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=na>border</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>box-shadow</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>shadow-l2</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>      <span class=na>margin-bottom</span><span class=o>:</span> <span class=mi>8</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=na>border-radius</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>card-border-radius</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>      <span class=k>&amp;</span><span class=nd>:nth-child</span><span class=o>(</span><span class=nt>odd</span><span class=o>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>margin-right</span><span class=o>:</span> <span class=mi>8</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=首页>首页<a hidden class=anchor aria-hidden=true href=#首页>#</a></h3><h4 id=布局>布局<a hidden class=anchor aria-hidden=true href=#布局>#</a></h4><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=cm>/*主页布局间距调整*/</span>
+</span></span><span class=line><span class=cl><span class=nc>.main-container</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>gap</span><span class=o>:</span> <span class=mi>50</span><span class=kt>px</span><span class=p>;</span> <span class=c1>//文章宽度
+</span></span></span><span class=line><span class=cl><span class=c1></span>
+</span></span><span class=line><span class=cl>  <span class=k>@include</span><span class=nd> respond</span><span class=p>(</span><span class=n>md</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span> <span class=mi>30</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>gap</span><span class=o>:</span> <span class=mi>40</span><span class=kt>px</span><span class=p>;</span> <span class=c1>//中等屏幕时的文章宽度
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.related-contents</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>overflow-x</span><span class=o>:</span> <span class=ni>visible</span><span class=p>;</span> <span class=c1>//显示隐藏的图标
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=na>padding-bottom</span><span class=o>:</span> <span class=mi>15</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h4 id=右侧导航栏动画>右侧导航栏动画<a hidden class=anchor aria-hidden=true href=#右侧导航栏动画>#</a></h4><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=cm>/*------------------右侧导航栏--------------*/</span>
+</span></span><span class=line><span class=cl><span class=c1>// 搜索菜单动画
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.search-form.widget</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transition</span><span class=o>:</span> <span class=ni>transform</span> <span class=mi>0</span><span class=mf>.6</span><span class=kt>s</span> <span class=ni>ease</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.search-form.widget</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transform</span><span class=o>:</span> <span class=nf>scale</span><span class=p>(</span><span class=mi>1</span><span class=mf>.1</span><span class=o>,</span> <span class=mi>1</span><span class=mf>.1</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//归档小图标放大动画
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.widget.archives</span> <span class=nc>.widget-archive--list</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transition</span><span class=o>:</span> <span class=ni>transform</span> <span class=mf>.3</span><span class=kt>s</span> <span class=ni>ease</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.widget.archives</span> <span class=nc>.widget-archive--list</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transform</span><span class=o>:</span> <span class=nf>scale</span><span class=p>(</span><span class=mi>1</span><span class=mf>.05</span><span class=o>,</span> <span class=mi>1</span><span class=mf>.05</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//右侧标签放大动画
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.tagCloud</span> <span class=nc>.tagCloud-tags</span> <span class=nt>a</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>10</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>font-size</span><span class=o>:</span> <span class=mi>1</span><span class=mf>.4</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>transition</span><span class=o>:</span> <span class=ni>transform</span> <span class=mf>.3</span><span class=kt>s</span> <span class=ni>ease</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.tagCloud</span> <span class=nc>.tagCloud-tags</span> <span class=nt>a</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transform</span><span class=o>:</span> <span class=nf>scale</span><span class=p>(</span><span class=mi>1</span><span class=mf>.1</span><span class=o>,</span> <span class=mi>1</span><span class=mf>.1</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h2 id=细节>细节<a hidden class=anchor aria-hidden=true href=#细节>#</a></h2><h3 id=首页欢迎横幅>首页欢迎横幅<a hidden class=anchor aria-hidden=true href=#首页欢迎横幅>#</a></h3><p>在 <code>/layouts/index.html</code> 的 <code>&lt;section class="article-list"></code> 前添加以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=c>&lt;!-- 首页欢迎字幅 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;welcome&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=p>&lt;</span><span class=nt>p</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;font-size: 2rem; text-align: center; font-weight: bold&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;shake&#34;</span><span class=p>&gt;</span>👋<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text1&#34;</span> <span class=p>&gt;</span> Welcome<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text2&#34;</span><span class=p>&gt;</span> To <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text3&#34;</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;color:#e99312&#34;</span><span class=p>&gt;</span>Xa<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text4&#34;</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;color:#e99312&#34;</span><span class=p>&gt;</span>l<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text5&#34;</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;color:#e99312&#34;</span><span class=p>&gt;</span>a<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text6&#34;</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;color:#e99312&#34;</span><span class=p>&gt;</span>o<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text7&#34;</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;color:#e99312&#34;</span><span class=p>&gt;</span>k<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text8&#34;</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;color:#e99312&#34;</span><span class=p>&gt;</span>&#39;s<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;jump-text9&#34;</span> <span class=na>style</span><span class=o>=</span><span class=s>&#34;color:#e99312&#34;</span><span class=p>&gt;</span>Blog<span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=p>&lt;/</span><span class=nt>p</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!-- 首页欢迎字幅 --&gt;</span>
+</span></span></code></pre></div><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>//首页欢迎板块样式
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.welcome</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>color</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>card-text-color-main</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>background</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>card-background</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>box-shadow</span><span class=o>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>shadow-l2</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>30</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// 👋emoji实现摆动效果
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.shake</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>shake</span> <span class=mi>1</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-duration</span><span class=o>:</span> <span class=mi>1</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-timing-function</span><span class=o>:</span> <span class=ni>ease</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-iteration-count</span><span class=o>:</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-direction</span><span class=o>:</span> <span class=ni>normal</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-fill-mode</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-play-state</span><span class=o>:</span> <span class=ni>running</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-name</span><span class=o>:</span> <span class=n>shake</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-timeline</span><span class=o>:</span> <span class=ni>auto</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-range-start</span><span class=o>:</span> <span class=ni>normal</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-range-end</span><span class=o>:</span> <span class=ni>normal</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>2</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=k>@keyframes</span> <span class=nt>shake</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nt>0</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>transform</span><span class=o>:</span> <span class=nf>rotate</span><span class=p>(</span><span class=mi>0</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=nt>25</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>transform</span><span class=o>:</span> <span class=nf>rotate</span><span class=p>(</span><span class=mi>45</span><span class=kt>deg</span><span class=p>)</span> <span class=nf>scale</span><span class=p>(</span><span class=mi>1</span><span class=mf>.2</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=nt>50</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>transform</span><span class=o>:</span> <span class=nf>rotate</span><span class=p>(</span><span class=mi>0</span><span class=p>)</span> <span class=nf>scale</span><span class=p>(</span><span class=mi>1</span><span class=mf>.2</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=nt>75</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>transform</span><span class=o>:</span> <span class=nf>rotate</span><span class=p>(</span><span class=mi>45</span><span class=kt>deg</span><span class=p>)</span> <span class=nf>scale</span><span class=p>(</span><span class=mi>1</span><span class=mf>.2</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=nt>100</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=na>transform</span><span class=o>:</span> <span class=nf>rotate</span><span class=p>(</span><span class=mi>0</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=c1>// 实现字符跳动动画
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.jump-text1</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text2</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.1</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text3</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.2</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text4</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.3</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text5</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.4</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text6</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text7</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.6</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text8</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.7</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.jump-text9</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation</span><span class=o>:</span> <span class=n>jump</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>s</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>animation-delay</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.9</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>@keyframes</span> <span class=nt>jump</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nt>0</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>transform</span><span class=o>:</span> <span class=nf>translateY</span><span class=p>(</span><span class=mi>0</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=nt>50</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>transform</span><span class=o>:</span> <span class=nf>translateY</span><span class=p>(</span><span class=o>-</span><span class=mi>20</span><span class=kt>px</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=nt>100</span><span class=err>%</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>transform</span><span class=o>:</span> <span class=nf>translateY</span><span class=p>(</span><span class=mi>0</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=代码块>代码块<a hidden class=anchor aria-hidden=true href=#代码块>#</a></h3><h4 id=macos-风格红绿灯图标>macOS 风格红绿灯图标<a hidden class=anchor aria-hidden=true href=#macos-风格红绿灯图标>#</a></h4><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>// macOS 风格代码块
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.article-content</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nc>.highlight</span><span class=nd>:before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>content</span><span class=o>:</span> <span class=s1>&#39;&#39;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background</span><span class=o>:</span> <span class=sx>url(/code-header.svg)</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>height</span><span class=o>:</span> <span class=mi>32</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>width</span><span class=o>:</span> <span class=mi>100</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-size</span><span class=o>:</span> <span class=mi>57</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-repeat</span><span class=o>:</span> <span class=ni>no-repeat</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin-bottom</span><span class=o>:</span> <span class=mi>5</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background-position</span><span class=o>:</span> <span class=o>-</span><span class=mi>1</span><span class=kt>px</span> <span class=mi>2</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><p>在 <code>static</code> 文件夹下新建 <code>code-header.svg</code>，写入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-xml data-lang=xml><span class=line><span class=cl>// macOS 红绿灯图标
+</span></span><span class=line><span class=cl><span class=nt>&lt;svg</span> <span class=na>xmlns=</span><span class=s>&#34;http://www.w3.org/2000/svg&#34;</span> <span class=na>version=</span><span class=s>&#34;1.1&#34;</span>  <span class=na>x=</span><span class=s>&#34;0px&#34;</span> <span class=na>y=</span><span class=s>&#34;0px&#34;</span> <span class=na>width=</span><span class=s>&#34;450px&#34;</span> <span class=na>height=</span><span class=s>&#34;130px&#34;</span><span class=nt>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;ellipse</span> <span class=na>cx=</span><span class=s>&#34;65&#34;</span> <span class=na>cy=</span><span class=s>&#34;65&#34;</span> <span class=na>rx=</span><span class=s>&#34;50&#34;</span> <span class=na>ry=</span><span class=s>&#34;52&#34;</span> <span class=na>stroke=</span><span class=s>&#34;rgb(220,60,54)&#34;</span> <span class=na>stroke-width=</span><span class=s>&#34;2&#34;</span> <span class=na>fill=</span><span class=s>&#34;rgb(237,108,96)&#34;</span><span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;ellipse</span> <span class=na>cx=</span><span class=s>&#34;225&#34;</span> <span class=na>cy=</span><span class=s>&#34;65&#34;</span> <span class=na>rx=</span><span class=s>&#34;50&#34;</span> <span class=na>ry=</span><span class=s>&#34;52&#34;</span>  <span class=na>stroke=</span><span class=s>&#34;rgb(218,151,33)&#34;</span> <span class=na>stroke-width=</span><span class=s>&#34;2&#34;</span> <span class=na>fill=</span><span class=s>&#34;rgb(247,193,81)&#34;</span><span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;ellipse</span> <span class=na>cx=</span><span class=s>&#34;385&#34;</span> <span class=na>cy=</span><span class=s>&#34;65&#34;</span> <span class=na>rx=</span><span class=s>&#34;50&#34;</span> <span class=na>ry=</span><span class=s>&#34;52&#34;</span>  <span class=na>stroke=</span><span class=s>&#34;rgb(27,161,37)&#34;</span> <span class=na>stroke-width=</span><span class=s>&#34;2&#34;</span> <span class=na>fill=</span><span class=s>&#34;rgb(100,200,86)&#34;</span><span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/svg&gt;</span>
+</span></span></code></pre></div><h4 id=显示语言和复制按钮>显示语言和复制按钮<a hidden class=anchor aria-hidden=true href=#显示语言和复制按钮>#</a></h4><p>在 <code>/assets/ts/custom.ts</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-typescript data-lang=typescript><span class=line><span class=cl><span class=c1>// 显示语言和复制按钮
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=kr>const</span> <span class=nx>highlights</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelectorAll</span><span class=p>(</span><span class=s1>&#39;.article-content div.highlight&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=kr>const</span> <span class=nx>copyText</span> <span class=o>=</span> <span class=sb>`📄拷贝`</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>            <span class=nx>copiedText</span> <span class=o>=</span> <span class=sb>`已拷贝!`</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=nx>highlights</span><span class=p>.</span><span class=nx>forEach</span><span class=p>(</span><span class=nx>highlight</span> <span class=o>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=kr>const</span> <span class=nx>copyButton</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>createElement</span><span class=p>(</span><span class=s1>&#39;button&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>            <span class=nx>copyButton</span><span class=p>.</span><span class=nx>innerHTML</span> <span class=o>=</span> <span class=nx>copyText</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>            <span class=nx>copyButton</span><span class=p>.</span><span class=nx>classList</span><span class=p>.</span><span class=nx>add</span><span class=p>(</span><span class=s1>&#39;copyCodeButton&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>            <span class=nx>highlight</span><span class=p>.</span><span class=nx>appendChild</span><span class=p>(</span><span class=nx>copyButton</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=kr>const</span> <span class=nx>codeBlock</span> <span class=o>=</span> <span class=nx>highlight</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;code[data-lang]&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>            <span class=c1>// 获取语言
+</span></span></span><span class=line><span class=cl><span class=c1></span>            <span class=kr>const</span> <span class=nx>lang</span> <span class=o>=</span> <span class=nx>codeBlock</span><span class=p>.</span><span class=nx>getAttribute</span><span class=p>(</span><span class=s1>&#39;data-lang&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>codeBlock</span><span class=p>)</span> <span class=k>return</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=nx>copyButton</span><span class=p>.</span><span class=nx>addEventListener</span><span class=p>(</span><span class=s1>&#39;click&#39;</span><span class=p>,</span> <span class=p>()</span> <span class=o>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=nx>navigator</span><span class=p>.</span><span class=nx>clipboard</span><span class=p>.</span><span class=nx>writeText</span><span class=p>(</span><span class=nx>codeBlock</span><span class=p>.</span><span class=nx>textContent</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                    <span class=p>.</span><span class=nx>then</span><span class=p>(()</span> <span class=o>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                        <span class=nx>copyButton</span><span class=p>.</span><span class=nx>textContent</span> <span class=o>=</span> <span class=nx>copiedText</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>                        <span class=nx>setTimeout</span><span class=p>(()</span> <span class=o>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                            <span class=nx>copyButton</span><span class=p>.</span><span class=nx>textContent</span> <span class=o>=</span> <span class=nx>copyText</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>                        <span class=p>},</span> <span class=mi>1000</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>                    <span class=p>})</span>
+</span></span><span class=line><span class=cl>                    <span class=p>.</span><span class=k>catch</span><span class=p>(</span><span class=nx>err</span> <span class=o>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                        <span class=nx>alert</span><span class=p>(</span><span class=nx>err</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                        <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s1>&#39;Something went wrong&#39;</span><span class=p>,</span> <span class=nx>err</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>                    <span class=p>});</span>
+</span></span><span class=line><span class=cl>            <span class=p>});</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1>// Add language code button
+</span></span></span><span class=line><span class=cl><span class=c1></span>            <span class=kr>const</span> <span class=nx>languageButton</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>createElement</span><span class=p>(</span><span class=s1>&#39;button&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>            <span class=nx>languageButton</span><span class=p>.</span><span class=nx>innerHTML</span> <span class=o>=</span> <span class=nx>lang</span><span class=p>.</span><span class=nx>toUpperCase</span><span class=p>()</span><span class=o>+</span><span class=s1>&#39;&amp;nbsp;&amp;nbsp;&#39;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>            <span class=nx>languageButton</span><span class=p>.</span><span class=nx>classList</span><span class=p>.</span><span class=nx>add</span><span class=p>(</span><span class=s1>&#39;languageCodeButton&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>            
+</span></span><span class=line><span class=cl>            <span class=nx>highlight</span><span class=p>.</span><span class=nx>appendChild</span><span class=p>(</span><span class=nx>languageButton</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=p>});</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>new</span> <span class=nx>StackColorScheme</span><span class=p>(</span><span class=nb>document</span><span class=p>.</span><span class=nx>getElementById</span><span class=p>(</span><span class=s1>&#39;dark-mode-toggle&#39;</span><span class=p>));</span>
+</span></span></code></pre></div><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码（可按需自行修改）：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>//代码复制按钮
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.article-content</span> <span class=nc>.copyCodeButton</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>position</span><span class=o>:</span> <span class=ni>absolute</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>top</span><span class=o>:</span> <span class=mi>10</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>right</span><span class=o>:</span> <span class=mi>18</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>12</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>opacity</span><span class=o>:</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>color</span><span class=o>:</span> <span class=mh>#ffffff</span><span class=n>ad</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>background</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>font-weight</span><span class=o>:</span> <span class=mi>500</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.article-content</span> <span class=nc>.languageCodeButton</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>position</span><span class=o>:</span> <span class=ni>absolute</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>top</span><span class=o>:</span> <span class=mi>9</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>right</span><span class=o>:</span> <span class=mi>69</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>12</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>opacity</span><span class=o>:</span> <span class=mi>1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span> <span class=mi>5</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>background</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>color</span><span class=o>:</span> <span class=mh>#ffffff</span><span class=n>ad</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>font-family</span><span class=o>:</span> <span class=n>lato</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>font-size</span><span class=o>:</span> <span class=mi>1</span><span class=mf>.5</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=固定块的高度>固定块的高度<a hidden class=anchor aria-hidden=true href=#固定块的高度>#</a></h3><p>过长的内容影响观感，所以把 block 的高度限制在 20em，并隐藏滚动条<br>在 <code>/assets/scss/partials/layout/article.scss</code> 中进行如下修改：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=nc>.article-content</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>   <span class=nc>.highlight</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl><span class=o>-</span>     <span class=nt>padding</span><span class=nd>:</span> <span class=nt>var</span><span class=o>(--</span><span class=nt>card-padding</span><span class=o>)</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=nt>pre</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>margin</span><span class=o>:</span> <span class=ni>initial</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=na>margin</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=na>width</span><span class=o>:</span> <span class=ni>auto</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=o>+</span>       <span class=nt>max-height</span><span class=nd>:</span> <span class=nt>20em</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=o>+</span>       <span class=nt>scrollbar-width</span><span class=nd>:</span> <span class=nt>none</span><span class=p>;</span> <span class=cm>/* Firefox */</span>
+</span></span><span class=line><span class=cl><span class=o>+</span>       <span class=k>&amp;</span><span class=nd>::-webkit-scrollbar</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl><span class=o>+</span>         <span class=nt>display</span><span class=nd>:</span> <span class=nt>none</span><span class=p>;</span> <span class=cm>/* Chrome Safari */</span>
+</span></span><span class=line><span class=cl><span class=o>+</span>       <span class=p>}</span>
+</span></span><span class=line><span class=cl>      <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=键盘样式>键盘样式<a hidden class=anchor aria-hidden=true href=#键盘样式>#</a></h3><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>// 键盘样式
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nt>kbd</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>margin</span><span class=o>:</span> <span class=mi>0</span> <span class=mf>.1</span><span class=kt>em</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>padding</span><span class=o>:</span> <span class=mf>.1</span><span class=kt>em</span> <span class=mf>.6</span><span class=kt>em</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>font-size</span><span class=o>:</span> <span class=mf>.8</span><span class=kt>em</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>color</span><span class=o>:</span> <span class=mh>#242729</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>background</span><span class=o>:</span> <span class=mh>#fff</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border</span><span class=o>:</span> <span class=mi>1</span><span class=kt>px</span> <span class=ni>solid</span> <span class=mh>#adb3b9</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>border-radius</span><span class=o>:</span> <span class=mi>3</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>box-shadow</span><span class=o>:</span> <span class=mi>0</span><span class=kt>px</span> <span class=mi>1</span><span class=kt>px</span> <span class=mi>0</span> <span class=nf>rgba</span><span class=p>(</span><span class=mi>12</span><span class=o>,</span> <span class=mi>13</span><span class=o>,</span> <span class=mi>14</span><span class=o>,</span> <span class=mi>0</span><span class=mf>.2</span><span class=p>)</span><span class=o>,</span> <span class=mi>0</span> <span class=mi>0</span> <span class=mi>0</span> <span class=mi>2</span><span class=kt>px</span> <span class=mh>#fff</span> <span class=ni>inset</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>white-space</span><span class=o>:</span> <span class=ni>nowrap</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>vertical-align</span><span class=o>:</span> <span class=ni>middle</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=na>font-family</span><span class=o>:</span> <span class=ni>monospace</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><p>这样即可使用如下 Markdown 高级语法生成键盘样式：<br><code>&lt;kbd>CTRL&lt;/kbd> + &lt;kbd>C&lt;/kbd></code><br><kbd>CTRL</kbd> + <kbd>C</kbd></p><h3 id=头像旋转>头像旋转<a hidden class=anchor aria-hidden=true href=#头像旋转>#</a></h3><p>在 <code>/assets/scss/custom.scss</code> 中加入以下代码：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=c1>// 头像旋转动画
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nc>.sidebar</span> <span class=nt>header</span> <span class=nc>.site-avatar</span> <span class=nc>.site-logo</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transition</span><span class=o>:</span> <span class=ni>transform</span> <span class=mi>1</span><span class=mf>.65</span><span class=kt>s</span> <span class=ni>ease-in-out</span><span class=p>;</span> <span class=c1>// 旋转时间
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>.sidebar</span> <span class=nt>header</span> <span class=nc>.site-avatar</span> <span class=nc>.site-logo</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=na>transform</span><span class=o>:</span> <span class=nf>rotate</span><span class=p>(</span><span class=mi>360</span><span class=kt>deg</span><span class=p>);</span> <span class=c1>// 旋转角度为360度
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=p>}</span>
+</span></span></code></pre></div><h2 id=鸣谢>鸣谢<a hidden class=anchor aria-hidden=true href=#鸣谢>#</a></h2><blockquote><p><a class=link href=https://stack.jimmycai.com/ target=_blank rel=noopener>Stack 主题文档</a><br><a class=link href=https://blog.linsnow.cn/p/modify-hugo/ target=_blank rel=noopener>L1nSn0w</a><br><a class=link href=https://lovir.cn/p/changes-in-my-blog/ target=_blank rel=noopener>小骆同学1</a> <a class=link href=https://lovir.cn/p/build-with-hugo02/ target=_blank rel=noopener>小骆同学2</a><br><a class=link href=https://blog.echosec.top/p/custom-hugo-theme-styles/ target=_blank rel=noopener>Echosec</a></p></blockquote></section><footer class=article-footer><section class=article-tags><a href=/tags/hugo/>Hugo</a>
+<a href=/tags/stack/>Stack</a>
+<a href=/tags/%E9%AD%94%E6%94%B9/>魔改</a></section><section class=article-view><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 104 0 2 2 0 00-4 0"/><path d="M21 12c-2.4 4-5.4 6-9 6s-6.6-2-9-6c2.4-4 5.4-6 9-6s6.6 2 9 6"/></svg>
+阅读量: <span id=twikoo_visitors>0</span></section><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0 转载请在留言板告知</span></section><section class=article-lastmod><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<span>最后更新于 2024-02-12 10:00</span></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>相关文章</h2><div class=related-content><div class="flex article-list--tile"><article class=has-image><a href=/post/hugo-stack/><div class=article-image><img src=https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp loading=lazy data-key=hugo-stack data-hash=https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp></div><div class=article-details><h2 class=article-title>投入 Hugo 的怀抱！</h2></div></a></article><article class=has-image><a href=/post/blog-modify/><div class=article-image><img src=https://cdn.xalaok.top/images/blog/2023/08/04/cover.webp loading=lazy data-key=blog-modify data-hash=https://cdn.xalaok.top/images/blog/2023/08/04/cover.webp></div><div class=article-details><h2 class=article-title>博客魔改美化（通用）</h2></div></a></article><article class=has-image><a href=/post/hugo-timezone-problem/><div class=article-image><img src=https://cdn.xalaok.top/images/blog/2023/07/28/cover.webp loading=lazy data-key=hugo-timezone-problem data-hash=https://cdn.xalaok.top/images/blog/2023/07/28/cover.webp></div><div class=article-details><h2 class=article-title>解决 Hugo 默认时区问题</h2></div></a></article><article class=has-image><a href=/post/hugo-shortcodes/><div class=article-image><img src=https://cdn.xalaok.top/images/blog/2023/07/18/cover.webp loading=lazy data-key=hugo-shortcodes data-hash=https://cdn.xalaok.top/images/blog/2023/07/18/cover.webp></div><div class=article-details><h2 class=article-title>一些 Hugo 短代码</h2></div></a></article><article class=has-image><a href=/post/aisummary/><div class=article-image><img src=https://cdn.xalaok.top/images/blog/2024/02/24/cover.webp loading=lazy data-key=aisummary data-hash=https://cdn.xalaok.top/images/blog/2024/02/24/cover.webp></div><div class=article-details><h2 class=article-title>Hi，AI 摘要</h2></div></a></article></div></div></aside><script src=//cdn.bootcdn.net/ajax/libs/twikoo/1.6.31/twikoo.all.min.js></script><div id=tcomment></div><style>.twikoo{background-color:var(--card-background);border-radius:var(--card-border-radius);box-shadow:var(--shadow-l1);padding:var(--card-padding)}:root[data-scheme=dark]{--twikoo-body-text-color-main:rgba(255, 255, 255, 0.9);--twikoo-body-text-color:rgba(255, 255, 255, 0.7)}.twikoo .el-input-group__prepend,.twikoo .tk-action-icon,.twikoo .tk-submit-action-icon,.twikoo .tk-time,.twikoo .tk-comments-no,.twikoo .tk-comments-count{color:var(--twikoo-body-text-color)}.twikoo .el-input__inner,.twikoo .el-textarea__inner,.twikoo .tk-preview-container,.twikoo .tk-content,.twikoo .tk-nick,.twikoo .tk-send{color:var(--twikoo-body-text-color-main)}.twikoo .el-button{color:var(--twikoo-body-text-color)!important}.twikoo .el-input__count{color:var(--twikoo-body-text-color)!important}.OwO .OwO-body{background-color:var(--body-background)!important;color:var(--body-text-color)!important}</style><script>twikoo.init({envId:"https://tk.xalaok.top",el:"#tcomment",lang:"zh-CN"})</script><footer class=site-footer><section class=copyright>&copy;
+2023 -
+2024 Naive Koala
+<a target=_blank href=https://umami.xalaok.top/share/2ndVFyWbLflp6As3/Blog>访问统计</a><br>共 58.47k 字 · 共 38 篇文章<br><span id=timeDate>载入天数...</span><span id=times>载入时分秒...</span><br><span id=voyager>载入旅行者一号离地球距离信息...</span>
+<script src=//cdn.xalaok.top/js/sitetime.js></script></section><section class=powerby><a href="https://icp.gov.moe/?keyword=20241129" target=_blank>萌ICP备20241129号</a><br>使用 <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> 构建<br>主题 <b><a href=https://stack.jimmycai.com/ target=_blank rel=noopener data-version=3.24.0>Stack</a></b> 由 <a href=https://jimmycai.com/ target=_blank rel=noopener>Jimmy</a> 设计</section><a target=_blank href=https://creativecommons.org/licenses/by-nc-sa/4.0/ title="采用 CC BY-NC-SA 4.0 协议"><img src=https://cdn.xalaok.top/badge/ccbyncsa.svg alt></a>
+<a target=_blank href=https://gohugo.io/><img src=https://cdn.xalaok.top/badge/hugo.svg alt></a>
+<a target=_blank href=https://vercel.com/ title="部署于 Vercel"><img src=https://cdn.xalaok.top/badge/vercel.svg alt></a>
+<a target=_blank href=https://github.com/ title="网站源码托管于 Github"><img src=https://cdn.xalaok.top/badge/github.svg alt></a>
+<a target=_blank href="https://icp.gov.moe/?keyword=20241129" title=萌ICP备20241129号><img src=https://cdn.xalaok.top/badge/moe.svg alt></a>
+<a target=_blank href=https://umami.is/ title="由 Umami 提供数据分析"><img src=/umami.svg alt></a><br><a target=_blank href=https://notbyai.fyi><img src=/notbyai.png title="Written by Human, Not by AI" height=30></a>
+<a target=_blank href=https://www.travellings.cn/go.html target=_blank rel=noopener title=开往-友链接力><img src=https://www.travellings.cn/assets/logo.gif title=开往-友链接力 height=30>
+</a><a target=_blank href=https://www.foreverblog.cn/go.html target=_blank><img src=https://img.foreverblog.cn/wormhole_3.gif height=30 title=穿梭虫洞-随机访问十年之约友链博客>
+</a><a target=_blank href=https://www.boyouquan.com/planet-shuttle target=_blank><img src=https://www.boyouquan.com/assets/images/sites/logo/planet-shuttle.png height=30 title=博友圈·星球穿梭></a></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.bootcdn.net/ajax/libs/photoswipe/4.1.3/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.bootcdn.net/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.bootcdn.net/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.bootcdn.net/ajax/libs/photoswipe/4.1.3/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script><script type=text/javascript src=/ts/custom.js defer></script><script src=https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js crossorigin=anonymous></script><link rel=stylesheet href=https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css crossorigin=anonymous><script>NProgress.start(),document.addEventListener("readystatechange",()=>{document.readyState==="interactive"&&NProgress.inc(.8),document.readyState==="complete"&&NProgress.done()})</script></body></html>

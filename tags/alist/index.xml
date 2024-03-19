@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AList on Naive Koala</title><link>https://www.xalaok.top/tags/alist/</link><description>Recent content in AList on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 25 Jun 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/alist/index.xml" rel="self" type="application/rss+xml"/><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/alist-replit.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
+&lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>相信大家之前应该有所耳闻著名的文件列表程序——AList，目前在 GitHub 上有 35.2k star。&lt;/p>
+&lt;p>官方这边给了几个 PaaS 部署的平台，但是基本上都禁掉了官方仓库，无法导入，fork 成自己的仓库也一样可以检测到。&lt;/p>
+&lt;p>官方文档说过，所有上传均使用服务器传输，会消耗服务器流量与对应存储的API通信（具体见 &lt;a class="link" href="https://alist.nn.ci/zh/faq/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%E6%98%BE%E7%A4%BA-uploading-in-backend" target="_blank" rel="noopener"
+>这里 ↗&lt;/a>），我猜测占服务器资源应该就是这些平台禁止部署 AList 的原因吧？&lt;/p>
+&lt;p>我之前在网上也看过一些方法，但那些方法都失效了，前几天找到了一个新方法，尝试部署目前最新版 3.19.0 之后成功了，而且到今天已经稳定运行几天了，下面就来分享一下方法&lt;/p>
+&lt;h2 id="过程">过程&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
+>官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/1.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解压下载下来的压缩包，得到一个名为 alist 的无扩展名文件，将它改名为“Replit”（所有地方避免出现“AList”字样）&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
+>Replit 官网&lt;/a>&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/2.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/3.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>登录后点击左上角 Create Repl，创建 Bash 项目，名字随便起，比如114514（不要起“AList”）&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/4.webp"
+loading="lazy"
+>&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/5.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>进入项目面板后，左侧上传第一步准备好的 replit 文件&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/6.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>中间可以看到编辑 main.sh 的窗口，删除里面的所有代码并粘贴以下代码：&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Shell" data-lang="Shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> Hello World
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">URL&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">REPL_SLUG&lt;/span>&lt;span class="si">}&lt;/span>.&lt;span class="si">${&lt;/span>&lt;span class="nv">REPL_OWNER&lt;/span>&lt;span class="si">}&lt;/span>.repl.co
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">while&lt;/span> true&lt;span class="p">;&lt;/span> &lt;span class="k">do&lt;/span> curl -s &lt;span class="s2">&amp;#34;https://&lt;/span>&lt;span class="nv">$URL&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &amp;gt;/dev/null 2&amp;gt;&lt;span class="p">&amp;amp;&lt;/span>&lt;span class="m">1&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>date +&lt;span class="s1">&amp;#39;%Y%m%d%H%M%S&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2"> Keeping online …&amp;#34;&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sleep 300&lt;span class="p">;&lt;/span> &lt;span class="k">done&lt;/span> &lt;span class="p">&amp;amp;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">chmod +x ./replit
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">nohup ./replit server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>其中第 3 行是自动保活，每三分钟自动检测一次并输出“日期 + 时间 + Keeping online &amp;hellip;”&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/7.webp"
+loading="lazy"
+>&lt;/p>
+&lt;ol start="7">
+&lt;li>
+&lt;p>注册远程数据库&lt;br>
+官方说明：You may need to use another remote MySQL/Postgres database as local sqlite3 is public for everyone.&lt;br>
+使用私有数据库就不用担心账号泄露了，而且更新时不会丢失数据，我就随便挑了一个官方给的免费数据库平台，&lt;a class="link" href="https://db4free.net/" target="_blank" rel="noopener"
+>https://db4free.net/&lt;/a>，界面就不放了，不用注册账号，只要一个邮箱直接可以创建数据库。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在 Replit 上添加环境变量&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/8.webp"
+loading="lazy"
+>&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/9.webp"
+loading="lazy"
+>&lt;br>
+在左下角 Tools 中找到“Secret”，右侧会弹出面板，右上角 Edit as JSON，删掉里面原来的内容，填写以下内容：&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JSON" data-lang="JSON">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_TYPE&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;mysql&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_HOST&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;db4free.net&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_PORT&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;3306&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_USER&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;注册时填的用户名&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_PASS&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;数据库密码&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_NAME&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;注册时填的数据库名&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_TABLE_PREFIX&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;alist_&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_SSL_MODE&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;PREFERRED&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后把这些在 &lt;code>/data/config.json&lt;/code> 也填一下，不然好像不能成功启用数据库&lt;/p>
+&lt;ol start="9">
+&lt;li>
+&lt;p>点击项目顶部“RUN”按钮，启动项目&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/10.webp"
+loading="lazy"
+>&lt;br>
+启动后可能弹出 Repl 不可用，不用慌，不是被封了，过几分钟再打开看就好啦&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>右上角的 Webview 窗口就可以看到网页预览和 Replit 为你创建好的域名（项目名.用户名.repl.co），网址右侧第一个按钮点开就可以自定义域名&lt;br>
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/11.webp"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>右下角点开日志的标签页可以看到 AList 创建的管理员账号初始密码&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>enjoy~&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

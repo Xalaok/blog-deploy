@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Badge on Naive Koala</title><link>https://www.xalaok.top/tags/badge/</link><description>Recent content in Badge on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 02 Aug 2023 15:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/badge/index.xml" rel="self" type="application/rss+xml"/><item><title>Shields.io Badge 徽章使用方式记录</title><link>https://www.xalaok.top/post/shieldsio-badge/</link><pubDate>Wed, 02 Aug 2023 15:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/shieldsio-badge/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/02/cover.webp" alt="Featured image of post Shields.io Badge 徽章使用方式记录" />&lt;p>你肯定在一些开源仓库的 Readme 或者一些博客上看到过类似这样的徽章👇
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/02/01.webp"
+loading="lazy"
+>
+这些都是用 Shields.io 的 API 做出来的，前段时间研究这玩意咋用研究了蛮长时间，今天来记录研究成果（目前只研究了最基本的使用，官网有其他玩法以后再说🤣）
+&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/02/02.webp"
+loading="lazy"
+>&lt;/p>
+&lt;h2 id="基本">基本&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://img.shields.io/badge/:badgeContent
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>:badgeContent&lt;/code> 的内容是 &lt;code>label-message-color?Query Parameters&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;code>lablel&lt;/code>：徽章左侧字符&lt;br>
+&lt;code>message&lt;/code>：徽章右侧字符（可选）&lt;br>
+&lt;code>color&lt;/code>：颜色（可填入 hex, rgb, rgba, hsl, hsla, css 颜色名）&lt;br>
+&lt;code>Query Parameters&lt;/code>：查询参数（可选，见下）&lt;/p>
+&lt;/blockquote>
+&lt;p>示例：&lt;br>
+&lt;code>https://img.shields.io/badge/label-red&lt;/code>
+&lt;img src="https://img.shields.io/badge/label-red"
+loading="lazy"
+>&lt;br>
+&lt;code>https://img.shields.io/badge/label-message-red&lt;/code>
+&lt;img src="https://img.shields.io/badge/label-message-red"
+loading="lazy"
+>&lt;br>
+&lt;code>https://img.shields.io/badge/label-message-fdfesf&lt;/code>
+&lt;img src="https://img.shields.io/badge/label-message-fdfesf"
+loading="lazy"
+>&lt;/p>
+&lt;h2 id="进阶加查询参数">进阶（加查询参数）&lt;/h2>
+&lt;h3 id="color">color&lt;/h3>
+&lt;p>类型：字符串&lt;br>
+内容：颜色值（支持 hex、rgb、rgba、hsl、hsla 和 css 颜色名）&lt;br>
+右侧部分的背景颜色&lt;br>
+在前面基础款徽章里面就有此项，因此此项并不必要，两处任意选一处即可。&lt;/p>
+&lt;h3 id="label">label&lt;/h3>
+&lt;p>类型：字符串&lt;br>
+左侧文本（空格或特殊字符需要&lt;a class="link" href="https://developer.mozilla.org/zh-CN/docs/Glossary/percent-encoding" target="_blank" rel="noopener"
+>百分比编码&lt;/a>）&lt;br>
+在前面基础款徽章里面就有此项，因此此项并不必要，两处任意选一处即可。&lt;/p>
+&lt;h3 id="labelcolor">labelColor&lt;/h3>
+&lt;p>类型：字符串&lt;br>
+内容：颜色值（支持 hex、rgb、rgba、hsl、hsla 和 css 颜色名）&lt;br>
+左侧部分的背景颜色&lt;br>
+示例：&lt;br>
+&lt;code>https://img.shields.io/badge/label-message-red?labelColor=green&lt;/code>
+&lt;img src="https://img.shields.io/badge/label-message-red?labelColor=green"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="style">style&lt;/h3>
+&lt;p>类型：字符串&lt;br>
+内容：&lt;code>flat&lt;/code>, &lt;code>flat-square&lt;/code>, &lt;code>plastic&lt;/code>, &lt;code>for-the-badge&lt;/code>, &lt;code>social&lt;/code>&lt;br>
+不添加该参数则默认为 &lt;code>flat&lt;/code> 样式&lt;br>
+示例：&lt;br>
+&lt;code>flat&lt;/code>：&lt;img src="https://img.shields.io/badge/label-message-red?style=flat"
+loading="lazy"
+>&lt;br>
+&lt;code>flat-square&lt;/code>：&lt;img src="https://img.shields.io/badge/label-message-red?style=flat-square"
+loading="lazy"
+>&lt;br>
+&lt;code>plastic&lt;/code>：&lt;img src="https://img.shields.io/badge/label-message-red?style=plastic"
+loading="lazy"
+>&lt;br>
+&lt;code>for-the-badge&lt;/code>：&lt;img src="https://img.shields.io/badge/label-message-red?style=for-the-badge"
+loading="lazy"
+>&lt;br>
+&lt;code>social&lt;/code>：&lt;img src="https://img.shields.io/badge/label-message-red?style=social"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="logo">logo&lt;/h3>
+&lt;p>类型：字符串&lt;br>
+内容：bitcoin、dependabot、gitlab、npm、paypal、serverfault、stackexchange、superuser、telegram、travis 或 &lt;a class="link" href="https://simpleicons.org/" target="_blank" rel="noopener"
+>Simple Icons&lt;/a> 图标（单击图标标题来复制 slug）或 Base64 编码图片&lt;br>
+示例：&lt;br>
+&lt;code>https://img.shields.io/badge/label-这里的图标是指定图标之一-red?logo=dependabot&lt;/code>
+&lt;img src="https://img.shields.io/badge/label-%e8%bf%99%e9%87%8c%e7%9a%84%e5%9b%be%e6%a0%87%e6%98%af%e6%8c%87%e5%ae%9a%e5%9b%be%e6%a0%87%e4%b9%8b%e4%b8%80-red?logo=dependabot"
+loading="lazy"
+>&lt;br>
+&lt;code>https://img.shields.io/badge/label-这里的图标是simple%20icon图标-red?logo=creativecommons&lt;/code>
+&lt;img src="https://img.shields.io/badge/label-%e8%bf%99%e9%87%8c%e7%9a%84%e5%9b%be%e6%a0%87%e6%98%afsimple%20icon%e5%9b%be%e6%a0%87-red?logo=creativecommons"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="logocolor">logoColor&lt;/h3>
+&lt;p>类型：字符串&lt;br>
+内容：颜色值（支持 hex、rgb、rgba、hsl、hsla 和 css 颜色名）&lt;br>
+支持 Simple-Icon 图标和 Shields 图标，但不支持自定义图标&lt;br>
+示例：&lt;br>
+&lt;code>https://img.shields.io/badge/label-message-red?logo=dependabot&amp;amp;logoColor=blue&lt;/code>
+&lt;img src="https://img.shields.io/badge/label-message-red?logo=dependabot&amp;amp;logoColor=blue"
+loading="lazy"
+>&lt;/p></description></item></channel></rss>
