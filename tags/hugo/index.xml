@@ -1,39 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Naive Koala</title><link>https://www.xalaok.top/tags/hugo/</link><description>Recent content in Hugo on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 21 Nov 2023 20:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown 学习笔记上线🎉🎉🎉</title><link>https://www.xalaok.top/post/introducing-mddocs/</link><pubDate>Tue, 21 Nov 2023 20:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/introducing-mddocs/</guid><description>&lt;img src="https://md.xalaok.top/md.webp" alt="Featured image of post Markdown 学习笔记上线🎉🎉🎉" />&lt;p>&lt;a class="link" href="https://md.xalaok.top/" target="_blank" rel="noopener"
->Markdown 学习笔记&lt;/a>上线🎉🎉🎉&lt;/p>
-&lt;p>一份 Markdown 学习笔记，可以快速上手 Markdown 写作。&lt;/p>
-&lt;p>主要内容：&lt;/p>
-&lt;ul>
-&lt;li>Markdown 语法&lt;/li>
-&lt;li>Markdown 写作规范&lt;/li>
-&lt;/ul>
-&lt;p>原作者：&lt;a class="link" href="https://keatonlao.gitee.io/a-study-note-for-markdown/" target="_blank" rel="noopener"
->keatonlao&lt;/a> 最近更新时间大约 3 年前&lt;/p>
-&lt;p>修改内容：&lt;/p>
-&lt;ul>
-&lt;li>统一使用减号 &lt;code>-&lt;/code> 来表示无序列表&lt;/li>
-&lt;li>修改部分关于时间的用词&lt;/li>
-&lt;li>统一使用英文文件名&lt;/li>
-&lt;li>根据“Markdown 写作规范”里提及的相关国家标准与行业标准修正部分问题&lt;/li>
-&lt;li>调整文件树结构&lt;/li>
-&lt;li>删除多余空行、举例&lt;/li>
-&lt;li>修改 Front Matter 及文章内短代码以适配本主题&lt;/li>
-&lt;li>文字格式从简，尽量纯文本，重内容&lt;/li>
-&lt;li>用 Markdown 语法替换部分不必使用 HTML 语法的地方&lt;/li>
-&lt;li>删除部分与 Markdown 本身主题偏离的文档&lt;/li>
-&lt;li>替换部分国家标准失效的链接&lt;/li>
-&lt;li>Typora 性质变更&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;blockquote>
-&lt;ul>
-&lt;li>➀ 本笔记含有许多网络文章，感谢其作者们！  &lt;/li>
-&lt;li>➁ 如果发现文档有问题请 &lt;a class="link" href="https://github.com/Xalaok/md-docs/issues" target="_blank" rel="noopener"
->Report issues&lt;/a>。&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;hr>
-&lt;p>This work is licensed under &lt;a class="link" href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" rel="noopener"
->CC BY-NC-SA 4.0&lt;/a>&lt;/p></description></item><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">全局&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Naive Koala</title><link>https://www.xalaok.top/tags/hugo/</link><description>Recent content in Hugo on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 03 Aug 2023 21:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">全局&lt;/h2>
 &lt;h3 id="零碎玩意">零碎玩意&lt;/h3>
 &lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 页面基本配色
