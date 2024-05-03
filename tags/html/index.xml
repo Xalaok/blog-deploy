@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTML on Naive Koala</title><link>https://www.xalaok.top/tags/html/</link><description>Recent content in HTML on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Apr 2023 09:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/html/index.xml" rel="self" type="application/rss+xml"/><item><title>HTML 基础</title><link>https://www.xalaok.top/post/html/</link><pubDate>Sat, 08 Apr 2023 09:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/html/</guid><description>&lt;h1 id="一html简介">一、HTML简介&lt;/h1>
-&lt;h2 id="11-网页">1.1 网页&lt;/h2>
-&lt;h3 id="111-什么是网页">1.1.1 什么是网页？&lt;/h3>
-&lt;p>**网站：**利用前端技术制作的网页集合。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTML on Naive Koala</title><link>https://www.xalaok.top/tags/html/</link><description>Recent content in HTML on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Apr 2023 09:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/html/index.xml" rel="self" type="application/rss+xml"/><item><title>HTML 基础</title><link>https://www.xalaok.top/post/html/</link><pubDate>Sat, 08 Apr 2023 09:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/html/</guid><description>&lt;h1 id="一html简介">&lt;a href="#%e4%b8%80html%e7%ae%80%e4%bb%8b" class="header-anchor">&lt;/a>一、HTML简介
+&lt;/h1>&lt;h2 id="11-网页">&lt;a href="#11-%e7%bd%91%e9%a1%b5" class="header-anchor">&lt;/a>1.1 网页
+&lt;/h2>&lt;h3 id="111-什么是网页">&lt;a href="#111-%e4%bb%80%e4%b9%88%e6%98%af%e7%bd%91%e9%a1%b5" class="header-anchor">&lt;/a>1.1.1 什么是网页？
+&lt;/h3>&lt;p>**网站：**利用前端技术制作的网页集合。&lt;/p>
 &lt;p>**网页：**构成网站的基本元素，通常是 HTML 格式的文件（.htm 或 .html）必须通过浏览器来阅读。&lt;/p>
-&lt;h3 id="112-什么是html">1.1.2 什么是HTML?&lt;/h3>
-&lt;p>**超文本：**由图片、声音、动画、视频……构成且可以相互链接的文本。&lt;/p>
+&lt;h3 id="112-什么是html">&lt;a href="#112-%e4%bb%80%e4%b9%88%e6%98%afhtml" class="header-anchor">&lt;/a>1.1.2 什么是HTML?
+&lt;/h3>&lt;p>**超文本：**由图片、声音、动画、视频……构成且可以相互链接的文本。&lt;/p>
 &lt;p>**HTML：**超文本标记语言（HTML 不是编程语言，而是由一套标记标签构成的标记语言）。&lt;/p>
-&lt;h3 id="113-网页的形成">1.1.3 网页的形成&lt;/h3>
-&lt;p>前端代码开发 ——&amp;gt; 浏览器解析、渲染代码 ——&amp;gt; 呈现 Web 页面。&lt;/p>
-&lt;h2 id="12-浏览器">1.2 浏览器&lt;/h2>
-&lt;h3 id="121-常用浏览器">1.2.1 常用浏览器&lt;/h3>
-&lt;p>&lt;strong>PC 端五大浏览器：&lt;/strong> &lt;code>Edge&lt;/code>、&lt;code>Chrome&lt;/code>、&lt;code>Firefox&lt;/code>、&lt;code>Safari&lt;/code>、&lt;code>Opera&lt;/code>&lt;/p>
-&lt;h3 id="122-浏览器内核">1.2.2 浏览器内核&lt;/h3>
-&lt;p>**四大浏览器内核：**IE（&lt;code>Trident&lt;/code>）、Firefox（&lt;code>Gecko&lt;/code>）、Safari（&lt;code>Webkit&lt;/code>）、Chrome / Opera / Edge（&lt;code>Blink&lt;/code> 属于 Webkit 的分支，Blink 兼容 Webkit）&lt;/p>
+&lt;h3 id="113-网页的形成">&lt;a href="#113-%e7%bd%91%e9%a1%b5%e7%9a%84%e5%bd%a2%e6%88%90" class="header-anchor">&lt;/a>1.1.3 网页的形成
+&lt;/h3>&lt;p>前端代码开发 ——&amp;gt; 浏览器解析、渲染代码 ——&amp;gt; 呈现 Web 页面。&lt;/p>
+&lt;h2 id="12-浏览器">&lt;a href="#12-%e6%b5%8f%e8%a7%88%e5%99%a8" class="header-anchor">&lt;/a>1.2 浏览器
+&lt;/h2>&lt;h3 id="121-常用浏览器">&lt;a href="#121-%e5%b8%b8%e7%94%a8%e6%b5%8f%e8%a7%88%e5%99%a8" class="header-anchor">&lt;/a>1.2.1 常用浏览器
+&lt;/h3>&lt;p>&lt;strong>PC 端五大浏览器：&lt;/strong> &lt;code>Edge&lt;/code>、&lt;code>Chrome&lt;/code>、&lt;code>Firefox&lt;/code>、&lt;code>Safari&lt;/code>、&lt;code>Opera&lt;/code>&lt;/p>
+&lt;h3 id="122-浏览器内核">&lt;a href="#122-%e6%b5%8f%e8%a7%88%e5%99%a8%e5%86%85%e6%a0%b8" class="header-anchor">&lt;/a>1.2.2 浏览器内核
+&lt;/h3>&lt;p>**四大浏览器内核：**IE（&lt;code>Trident&lt;/code>）、Firefox（&lt;code>Gecko&lt;/code>）、Safari（&lt;code>Webkit&lt;/code>）、Chrome / Opera / Edge（&lt;code>Blink&lt;/code> 属于 Webkit 的分支，Blink 兼容 Webkit）&lt;/p>
 &lt;p>注：目前国内浏览器一般都采用 Webkit / Blink 内核。&lt;/p>
-&lt;h2 id="13-web标准">1.3 Web标准&lt;/h2>
-&lt;p>&lt;strong>W3C：&lt;/strong> &lt;code>万维网联盟&lt;/code>，国际最著名的标准化组织之一。&lt;/p>
+&lt;h2 id="13-web标准">&lt;a href="#13-web%e6%a0%87%e5%87%86" class="header-anchor">&lt;/a>1.3 Web标准
+&lt;/h2>&lt;p>&lt;strong>W3C：&lt;/strong> &lt;code>万维网联盟&lt;/code>，国际最著名的标准化组织之一。&lt;/p>
 &lt;p>**Web 标准：**W3C 组织和其他标准化组织为 Web 开发制定的一系列标准的集合。&lt;/p>
-&lt;h3 id="131-为什么需要web标准">1.3.1 为什么需要Web标准？&lt;/h3>
-&lt;p>浏览器不同，解析渲染显示的页面效果就有些许差异，通过 Web 标准可以统一浏览器解析显示效果，同时大大减少开发者的工作量（一套代码，多种浏览器平台兼容运行）。&lt;/p>
+&lt;h3 id="131-为什么需要web标准">&lt;a href="#131-%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81web%e6%a0%87%e5%87%86" class="header-anchor">&lt;/a>1.3.1 为什么需要Web标准？
+&lt;/h3>&lt;p>浏览器不同，解析渲染显示的页面效果就有些许差异，通过 Web 标准可以统一浏览器解析显示效果，同时大大减少开发者的工作量（一套代码，多种浏览器平台兼容运行）。&lt;/p>
 &lt;p>遵循 Web 标准除了可以让不同的开发人员写出的页面更标准、更统一外，还有以下优点：&lt;/p>
 &lt;ul>
 &lt;li>
@@ -40,8 +40,8 @@
 &lt;p>提高页面的加载速度&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="132-web标准的构成">1.3.2 Web标准的构成&lt;/h3>
-&lt;p>&lt;strong>主要包括三个方面：&lt;/strong> &lt;code>结构&lt;/code>、&lt;code>表现&lt;/code>、&lt;code>行为&lt;/code>。&lt;/p>
+&lt;h3 id="132-web标准的构成">&lt;a href="#132-web%e6%a0%87%e5%87%86%e7%9a%84%e6%9e%84%e6%88%90" class="header-anchor">&lt;/a>1.3.2 Web标准的构成
+&lt;/h3>&lt;p>&lt;strong>主要包括三个方面：&lt;/strong> &lt;code>结构&lt;/code>、&lt;code>表现&lt;/code>、&lt;code>行为&lt;/code>。&lt;/p>
 &lt;ul>
 &lt;li>**结构：**用于对网页元素进行整理和分类，现阶段主要指的是 &lt;code>HTML&lt;/code>&lt;/li>
 &lt;li>**表现：**用于设置网页元素的版式、大小、颜色等外观样式，主要指 &lt;code>CSS&lt;/code>&lt;/li>
@@ -52,13 +52,13 @@
 &lt;li>**简单的理解：**结构写到 &lt;code>.html&lt;/code> 文件中、表现写到 &lt;code>.css&lt;/code> 文件中、行为写到 &lt;code>.js&lt;/code> 文件中&lt;/li>
 &lt;li>**一句话解释：**结构类似身体、表现类似衣服、行为类似动作（结构始终是一切的基础！）&lt;/li>
 &lt;/ul>
-&lt;h1 id="二html标签">二、HTML标签&lt;/h1>
-&lt;blockquote>
+&lt;h1 id="二html标签">&lt;a href="#%e4%ba%8chtml%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>二、HTML标签
+&lt;/h1>&lt;blockquote>
 &lt;p>以下内容中，HTML 标签内会出现若干 “标签样式属性”，此处只需要了解即可，因为实际开发中都是使用 CSS 来对 HTML 进行样式设置，一般都不会使用样式属性。&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="21-html语法规范">2.1 HTML语法规范&lt;/h2>
-&lt;h3 id="211-基本语法概述">2.1.1 基本语法概述&lt;/h3>
-&lt;p>HTML 标签是由&lt;strong>尖括号&lt;/strong>包围的关键字词，例如：&lt;code>&amp;lt;html&amp;gt;&lt;/code>。&lt;/p>
+&lt;h2 id="21-html语法规范">&lt;a href="#21-html%e8%af%ad%e6%b3%95%e8%a7%84%e8%8c%83" class="header-anchor">&lt;/a>2.1 HTML语法规范
+&lt;/h2>&lt;h3 id="211-基本语法概述">&lt;a href="#211-%e5%9f%ba%e6%9c%ac%e8%af%ad%e6%b3%95%e6%a6%82%e8%bf%b0" class="header-anchor">&lt;/a>2.1.1 基本语法概述
+&lt;/h3>&lt;p>HTML 标签是由&lt;strong>尖括号&lt;/strong>包围的关键字词，例如：&lt;code>&amp;lt;html&amp;gt;&lt;/code>。&lt;/p>
 &lt;p>HTML 标签通常是成对出现的，例如：&lt;code>&amp;lt;html&amp;gt;&lt;/code> 和 &lt;code>&amp;lt;/html&amp;gt;&lt;/code>，我们称为&lt;strong>双标签&lt;/strong>。标签对中的第一个标签是&lt;strong>开始标签&lt;/strong>，第二个标签是&lt;strong>结束标签&lt;/strong>。&lt;/p>
 &lt;p>有些特殊的标签必须是单个标签，例如：&lt;code>&amp;lt;br /&amp;gt;&lt;/code>，我们称为&lt;strong>单标签&lt;/strong>。注意：&lt;code>/&lt;/code> 之前有一个空格（Coding Style 编码风格）。每个标签原则上都应该有&lt;strong>结束符&lt;/strong>，即：&lt;code> /&lt;/code>。所以单标签的最后要加 &lt;code>/&lt;/code> 以表示结束，当然不加也是可以被浏览器正常解析的。&lt;/p>
 &lt;blockquote>
@@ -67,8 +67,8 @@
 &lt;blockquote>
 &lt;p>任何标签都建议不要大写，即便是 &lt;code>&amp;lt;!doctype html&amp;gt;&lt;/code> 标签。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="212-标签关系">2.1.2 标签关系&lt;/h3>
-&lt;ol>
+&lt;h3 id="212-标签关系">&lt;a href="#212-%e6%a0%87%e7%ad%be%e5%85%b3%e7%b3%bb" class="header-anchor">&lt;/a>2.1.2 标签关系
+&lt;/h3>&lt;ol>
 &lt;li>&lt;strong>包含关系&lt;/strong>&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -81,9 +81,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="22-html基础结构标签">2.2 HTML基础结构标签&lt;/h2>
-&lt;h3 id="221-第一个html网页">2.2.1 第一个HTML网页&lt;/h3>
-&lt;p>每个网页都会有一个基础的结构标签（骨架标签：4组），页面内容也是在这些基础标签上书写的。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="22-html基础结构标签">&lt;a href="#22-html%e5%9f%ba%e7%a1%80%e7%bb%93%e6%9e%84%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.2 HTML基础结构标签
+&lt;/h2>&lt;h3 id="221-第一个html网页">&lt;a href="#221-%e7%ac%ac%e4%b8%80%e4%b8%aahtml%e7%bd%91%e9%a1%b5" class="header-anchor">&lt;/a>2.2.1 第一个HTML网页
+&lt;/h3>&lt;p>每个网页都会有一个基础的结构标签（骨架标签：4组），页面内容也是在这些基础标签上书写的。&lt;/p>
 &lt;blockquote>
 &lt;p>HTML 页面也称为 HTML 文档。&lt;/p>
 &lt;/blockquote>
@@ -126,8 +126,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="23-网页开发工具">2.3 网页开发工具&lt;/h2>
-&lt;ul>
+&lt;h2 id="23-网页开发工具">&lt;a href="#23-%e7%bd%91%e9%a1%b5%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7" class="header-anchor">&lt;/a>2.3 网页开发工具
+&lt;/h2>&lt;ul>
 &lt;li>&lt;code>WebStorm&lt;/code>（生态、智能、收费）&lt;/li>
 &lt;li>&lt;code>VSCode&lt;/code>（免费、插件、轻量）&lt;/li>
 &lt;li>&lt;code>HBuilderX&lt;/code>（国产、跨端开发）&lt;/li>
@@ -138,8 +138,8 @@
 &lt;li>&lt;code>Windows 记事本&lt;/code>（坑爹）&lt;/li>
 &lt;li>……&lt;/li>
 &lt;/ul>
-&lt;h3 id="231-文档类型声明标签">2.3.1 文档类型声明标签&lt;/h3>
-&lt;p>&lt;code>&amp;lt;!doctype&amp;gt;&lt;/code> 文档类型声明，作用是告诉浏览器应该使用哪种 HTML 版本来解析渲染网页。&lt;/p>
+&lt;h3 id="231-文档类型声明标签">&lt;a href="#231-%e6%96%87%e6%a1%a3%e7%b1%bb%e5%9e%8b%e5%a3%b0%e6%98%8e%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.3.1 文档类型声明标签
+&lt;/h3>&lt;p>&lt;code>&amp;lt;!doctype&amp;gt;&lt;/code> 文档类型声明，作用是告诉浏览器应该使用哪种 HTML 版本来解析渲染网页。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 当前页面采用 HTML5 版本 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>注意：&lt;/strong>&lt;/p>
@@ -148,8 +148,8 @@
 &lt;li>&lt;code>&amp;lt;!doctype&amp;gt;&lt;/code> 文档类型声明标签，不属于 HTML 标签&lt;/li>
 &lt;li>请默认统一指定 HTML5 版本 &lt;code>&amp;lt;!doctype html&amp;gt;&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h3 id="232-lang语言种类">2.3.2 lang语言种类&lt;/h3>
-&lt;p>用来定义当前网页显示的主语言，书写在 &lt;code>&amp;lt;html&amp;gt;&lt;/code> 标签内。&lt;/p>
+&lt;h3 id="232-lang语言种类">&lt;a href="#232-lang%e8%af%ad%e8%a8%80%e7%a7%8d%e7%b1%bb" class="header-anchor">&lt;/a>2.3.2 lang语言种类
+&lt;/h3>&lt;p>用来定义当前网页显示的主语言，书写在 &lt;code>&amp;lt;html&amp;gt;&lt;/code> 标签内。&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>en&lt;/code> 定义语言为英语&lt;/li>
 &lt;li>&lt;code>zh&lt;/code> 定义语言为中文&lt;/li>
@@ -169,8 +169,8 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>语言的设置是为了方便 &lt;code>浏览器搜索推荐&lt;/code> 以及触发 &lt;code>浏览器翻译功能&lt;/code>，并不是说设置了某类主语言后网页中就不能存在其他类型的语言了。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="233-字符集">2.3.3 字符集&lt;/h3>
-&lt;p>**字符集：**多个字符的集合，以便计算机能够识别和储存各种文字。&lt;/p>
+&lt;h3 id="233-字符集">&lt;a href="#233-%e5%ad%97%e7%ac%a6%e9%9b%86" class="header-anchor">&lt;/a>2.3.3 字符集
+&lt;/h3>&lt;p>**字符集：**多个字符的集合，以便计算机能够识别和储存各种文字。&lt;/p>
 &lt;p>在 &lt;code>&amp;lt;head&amp;gt;&lt;/code> 标签内，可以通过 &lt;code>&amp;lt;meta&amp;gt;&lt;/code> 标签的 &lt;code>charset&lt;/code> 属性来规定 HTML 文档应该使用哪种字符编码。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;UTF-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>charset&lt;/code> 常用的值有：&lt;code>GB2312&lt;/code>、&lt;code>BIG5&lt;/code>、&lt;code>GBK&lt;/code>、&lt;code>UTF-8&lt;/code>，其中 &lt;code>UTF-8&lt;/code> 也被称为：万国码，基本包含了全世界所有国家需要用到的字符。&lt;/p>
@@ -188,8 +188,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="234-ie-兼容模式">2.3.4 IE 兼容模式&lt;/h3>
-&lt;p>IE 支持通过特定的 &lt;code>&amp;lt;meta&amp;gt;&lt;/code> 标签来确定绘制当前页面所应该采用的 IE 版本。除非有强烈的特殊需求，否则最好是设置为 &lt;strong>edge mode&lt;/strong>，从而通知 IE 采用其所支持的最新的绘制模式。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="234-ie-兼容模式">&lt;a href="#234-ie-%e5%85%bc%e5%ae%b9%e6%a8%a1%e5%bc%8f" class="header-anchor">&lt;/a>2.3.4 IE 兼容模式
+&lt;/h3>&lt;p>IE 支持通过特定的 &lt;code>&amp;lt;meta&amp;gt;&lt;/code> 标签来确定绘制当前页面所应该采用的 IE 版本。除非有强烈的特殊需求，否则最好是设置为 &lt;strong>edge mode&lt;/strong>，从而通知 IE 采用其所支持的最新的绘制模式。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -203,11 +203,11 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="24-html常用标签">2.4 HTML常用标签&lt;/h2>
-&lt;h3 id="241-标签语义">2.4.1 标签语义&lt;/h3>
-&lt;p>**简单的理解：**标签的含义，即：这个标签是用来干嘛的。&lt;/p>
-&lt;h3 id="242-标题标签">2.4.2 标题标签&lt;/h3>
-&lt;p>为了使网页更具有语义化，我们经常会在页面中用到标题标签。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="24-html常用标签">&lt;a href="#24-html%e5%b8%b8%e7%94%a8%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.4 HTML常用标签
+&lt;/h2>&lt;h3 id="241-标签语义">&lt;a href="#241-%e6%a0%87%e7%ad%be%e8%af%ad%e4%b9%89" class="header-anchor">&lt;/a>2.4.1 标签语义
+&lt;/h3>&lt;p>**简单的理解：**标签的含义，即：这个标签是用来干嘛的。&lt;/p>
+&lt;h3 id="242-标题标签">&lt;a href="#242-%e6%a0%87%e9%a2%98%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.4.2 标题标签
+&lt;/h3>&lt;p>为了使网页更具有语义化，我们经常会在页面中用到标题标签。&lt;/p>
 &lt;p>HTML 提供了 6 个等级的网页标题，即：&lt;code>&amp;lt;h1&amp;gt;&lt;/code> 到 &lt;code>&amp;lt;h6&amp;gt;&lt;/code>。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>一级标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>二级标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -229,8 +229,8 @@
 &lt;p>级别越大的标题标签，对网页元素的强调性越强，同时也和浏览器 SEO 优化有关。&lt;/p>
 &lt;p>故：标题标签不得滥用，要用在合适的地方！&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="243-段落和换行标签">2.4.3 段落和换行标签&lt;/h3>
-&lt;p>在网页中，要把文字有条理地显示出来，就需要将这些文字分段显示，在 HTML 标签中，&lt;code>&amp;lt;p&amp;gt;&lt;/code> 标签用于定义段落，它可以将整个网页分为若干个段落。&lt;/p>
+&lt;h3 id="243-段落和换行标签">&lt;a href="#243-%e6%ae%b5%e8%90%bd%e5%92%8c%e6%8d%a2%e8%a1%8c%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.4.3 段落和换行标签
+&lt;/h3>&lt;p>在网页中，要把文字有条理地显示出来，就需要将这些文字分段显示，在 HTML 标签中，&lt;code>&amp;lt;p&amp;gt;&lt;/code> 标签用于定义段落，它可以将整个网页分为若干个段落。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>我是一个段落标签&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>单词 paragraph 的缩写，意为：段落。&lt;/p>
@@ -269,8 +269,8 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>注意：实际开发中并不常用 hr 作为分割线，而是使用 CSS 盒子模型中的边框来实现分割线效果，或是利用一个空盒子设置长宽高及背景颜色来实现分割线效果。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="244-文本格式化标签">2.4.4 文本格式化标签&lt;/h3>
-&lt;p>在网页中，有时需要为文字设置粗体、斜体或下划线等效果，这时就需要用到 HTML 中的文本格式化标签，使文字以特殊的方式显示。&lt;/p>
+&lt;h3 id="244-文本格式化标签">&lt;a href="#244-%e6%96%87%e6%9c%ac%e6%a0%bc%e5%bc%8f%e5%8c%96%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.4.4 文本格式化标签
+&lt;/h3>&lt;p>在网页中，有时需要为文字设置粗体、斜体或下划线等效果，这时就需要用到 HTML 中的文本格式化标签，使文字以特殊的方式显示。&lt;/p>
 &lt;p>**标签语义：**突出重要性，比普通文字更重要。&lt;/p>
 &lt;table>
 &lt;thead>
@@ -306,8 +306,8 @@
 &lt;blockquote>
 &lt;p>注意：&lt;code>&amp;lt;em&amp;gt;&lt;/code> 标签不只是单纯的用于倾斜文本，其核心的意义在于对元素进行&lt;strong>强调！&lt;strong>所以在后期的开发中可以把一些&lt;/strong>特殊性、强调性&lt;/strong>的元素放在 em 标签中，然后再对 em 这个盒子进行样式设置，这比把其放入其他盒子（如：span）中要更合理，同理 &lt;code>&amp;lt;strong&amp;gt;&lt;/code> 标签页适合放一些&lt;strong>重点强调&lt;/strong>的元素。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="245-div和span标签">2.4.5 &amp;lt;div&amp;gt;和&amp;lt;span&amp;gt;标签&lt;/h3>
-&lt;p>&lt;code>&amp;lt;div&amp;gt;&lt;/code> 和 &lt;code>&amp;lt;span&amp;gt;&lt;/code> 是没有语义的，它们就是两种盒子，用来对网页进行布局和装其他内容。&lt;/p>
+&lt;h3 id="245-div和span标签">&lt;a href="#245-div%e5%92%8cspan%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.4.5 &amp;lt;div&amp;gt;和&amp;lt;span&amp;gt;标签
+&lt;/h3>&lt;p>&lt;code>&amp;lt;div&amp;gt;&lt;/code> 和 &lt;code>&amp;lt;span&amp;gt;&lt;/code> 是没有语义的，它们就是两种盒子，用来对网页进行布局和装其他内容。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>这是头部&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>今日价格&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
@@ -323,8 +323,8 @@
 &lt;/ul>
 &lt;p>**说明：**后期可以通过 CSS 将 div 与 span 之间的特性相互转换。&lt;/p>
 &lt;p>&lt;strong>拓展：&lt;/strong> &lt;code>span&lt;/code> 标签不单单是用于布局，对于一些需要单独修饰和设置的元素，可以将其用 &lt;code>span&lt;/code> 标签嵌套起来，然后就可以单独对其进行设置（比如：在一个 p 标签的段落中要对其中某一句话单独设置样式，那么就可以用 span 将这句话单独嵌套起来，这样就方便对其单独设置样式还不会影响段落中的其他内容，这其实也是利用了 span 一行可以放置多个盒子的特性），不过对于特殊且具有强调性的元素建议使用 &lt;code>em&lt;/code>，对于重点强调但不特殊的的元素建议使用 &lt;code>strong&lt;/code>。&lt;/p>
-&lt;h3 id="246-图像标签和路径">2.4.6 图像标签和路径&lt;/h3>
-&lt;p>&lt;strong>（1）图像标签&lt;/strong>&lt;/p>
+&lt;h3 id="246-图像标签和路径">&lt;a href="#246-%e5%9b%be%e5%83%8f%e6%a0%87%e7%ad%be%e5%92%8c%e8%b7%af%e5%be%84" class="header-anchor">&lt;/a>2.4.6 图像标签和路径
+&lt;/h3>&lt;p>&lt;strong>（1）图像标签&lt;/strong>&lt;/p>
 &lt;p>在 HTML 标签中，&lt;code>&amp;lt;img&amp;gt;&lt;/code> 标签用于定义 HTML 页面中的图像。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;图像URL&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
@@ -433,8 +433,8 @@
 &lt;blockquote>
 &lt;p>这里所说的绝对路径为 &lt;code>/&lt;/code>（正斜杠）指的是在 Windows 环境中，而 Linux 系统依旧是反斜杠。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="247-超链接标签">2.4.7 超链接标签&lt;/h3>
-&lt;p>在 HTML 标签中，&lt;code>&amp;lt;a&amp;gt;&lt;/code> 标签用于定义超链接，作用是从一个页面链接到另一个页面。&lt;/p>
+&lt;h3 id="247-超链接标签">&lt;a href="#247-%e8%b6%85%e9%93%be%e6%8e%a5%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.4.7 超链接标签
+&lt;/h3>&lt;p>在 HTML 标签中，&lt;code>&amp;lt;a&amp;gt;&lt;/code> 标签用于定义超链接，作用是从一个页面链接到另一个页面。&lt;/p>
 &lt;p>&lt;strong>（1）链接的语法格式&lt;/strong>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;跳转目标&amp;#34;&lt;/span> &lt;span class="na">target&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;目标窗口的弹出方式&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>文本、图像或其他内容&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
@@ -474,17 +474,17 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="25-html中的注释和特殊字符">2.5 HTML中的注释和特殊字符&lt;/h2>
-&lt;h3 id="251-注释">2.5.1 注释&lt;/h3>
-&lt;p>如果需要在 HTML 文档中添加一些便于阅读和理解但又不需要显示在页面中的文字，就需要使用注释标签。&lt;/p>
+&lt;h2 id="25-html中的注释和特殊字符">&lt;a href="#25-html%e4%b8%ad%e7%9a%84%e6%b3%a8%e9%87%8a%e5%92%8c%e7%89%b9%e6%ae%8a%e5%ad%97%e7%ac%a6" class="header-anchor">&lt;/a>2.5 HTML中的注释和特殊字符
+&lt;/h2>&lt;h3 id="251-注释">&lt;a href="#251-%e6%b3%a8%e9%87%8a" class="header-anchor">&lt;/a>2.5.1 注释
+&lt;/h3>&lt;p>如果需要在 HTML 文档中添加一些便于阅读和理解但又不需要显示在页面中的文字，就需要使用注释标签。&lt;/p>
 &lt;p>HTML 中的注释以：&lt;code>&amp;lt;!--&lt;/code> 开头，以 &lt;code>--&amp;gt;&lt;/code> 结束。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 注释语句 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>一句话：注释标签里面的内容是给程序员看的，这个代码是不执行不显示到页面中的。&lt;/p>
 &lt;blockquote>
 &lt;p>注释是为了更好地解释代码功能，便于相关开发人员理解和阅读代码，程序是不会执行注释内容的。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="252-特殊字符">2.5.2 特殊字符&lt;/h3>
-&lt;p>在 HTML 页面中，一些特殊的符号很难或者不方便直接使用，此时我们就可以使用下面的字符来替代。&lt;/p>
+&lt;h3 id="252-特殊字符">&lt;a href="#252-%e7%89%b9%e6%ae%8a%e5%ad%97%e7%ac%a6" class="header-anchor">&lt;/a>2.5.2 特殊字符
+&lt;/h3>&lt;p>在 HTML 页面中，一些特殊的符号很难或者不方便直接使用，此时我们就可以使用下面的字符来替代。&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -537,18 +537,18 @@
 &lt;/tbody>
 &lt;/table>
 &lt;p>注意：下标请使用：&lt;code>&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&lt;/code>，同时上标也建议使用：&lt;code>&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;&lt;/code>。&lt;/p>
-&lt;h2 id="26-表格标签">2.6 表格标签&lt;/h2>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/04/08/2.png"
+&lt;h2 id="26-表格标签">&lt;a href="#26-%e8%a1%a8%e6%a0%bc%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.6 表格标签
+&lt;/h2>&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/04/08/2.png"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="261-表格的主要作用">2.6.1 表格的主要作用&lt;/h3>
-&lt;p>表格主要用于显示、展示数据。因为它可以让数据显示得非常的规整，可读性非常好。特别是后台展示数据的时候，能够熟练运用表格就显得很重要。一个清爽简约的表格能够把繁杂的数据表现得很有条理（合理的使用表格也能够有效提高 SEO）。&lt;/p>
+&lt;h3 id="261-表格的主要作用">&lt;a href="#261-%e8%a1%a8%e6%a0%bc%e7%9a%84%e4%b8%bb%e8%a6%81%e4%bd%9c%e7%94%a8" class="header-anchor">&lt;/a>2.6.1 表格的主要作用
+&lt;/h3>&lt;p>表格主要用于显示、展示数据。因为它可以让数据显示得非常的规整，可读性非常好。特别是后台展示数据的时候，能够熟练运用表格就显得很重要。一个清爽简约的表格能够把繁杂的数据表现得很有条理（合理的使用表格也能够有效提高 SEO）。&lt;/p>
 &lt;p>**注意：**表格不是用来布局页面的，而是用来展示数据的。&lt;strong>表格常用于表单数据的 “布局”&lt;/strong>。&lt;/p>
 &lt;blockquote>
 &lt;p>特别强调，表格是用于表单数据的 “布局”，而不是页面的布局！&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="262-表格的基本语法">2.6.2 表格的基本语法&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;h3 id="262-表格的基本语法">&lt;a href="#262-%e8%a1%a8%e6%a0%bc%e7%9a%84%e5%9f%ba%e6%9c%ac%e8%af%ad%e6%b3%95" class="header-anchor">&lt;/a>2.6.2 表格的基本语法
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>单元格&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ...
@@ -562,8 +562,8 @@ loading="lazy"
 &lt;li>字母 td 指表格数据（table data），即：数据单元格的内容&lt;/li>
 &lt;li>单元格 td 里面可以放任何的元素&lt;/li>
 &lt;/ul>
-&lt;h3 id="263-表头单元格标签">2.6.3 表头单元格标签&lt;/h3>
-&lt;p>一般表头单元格位于表格的第一行或第一列，作用是：突出重要性，表头单元格里面的文本内容&lt;strong>默认加粗居中&lt;/strong>显示。&lt;/p>
+&lt;h3 id="263-表头单元格标签">&lt;a href="#263-%e8%a1%a8%e5%a4%b4%e5%8d%95%e5%85%83%e6%a0%bc%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.6.3 表头单元格标签
+&lt;/h3>&lt;p>一般表头单元格位于表格的第一行或第一列，作用是：突出重要性，表头单元格里面的文本内容&lt;strong>默认加粗居中&lt;/strong>显示。&lt;/p>
 &lt;p>&lt;code>&amp;lt;th&amp;gt;&lt;/code> 标签表示 HTML 表格的表头部分（table head 的缩写）。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -574,8 +574,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ...
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="264-表格属性">2.6.4 表格属性&lt;/h3>
-&lt;p>**注意：**表格标签的属性在实际开发中并不常用，而是通过后面的 CSS 来设置，这里了解即可。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="264-表格属性">&lt;a href="#264-%e8%a1%a8%e6%a0%bc%e5%b1%9e%e6%80%a7" class="header-anchor">&lt;/a>2.6.4 表格属性
+&lt;/h3>&lt;p>**注意：**表格标签的属性在实际开发中并不常用，而是通过后面的 CSS 来设置，这里了解即可。&lt;/p>
 &lt;p>以下属性都写在 table 开始标签内，多个属性之间用空格隔开。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">table&lt;/span> &lt;span class="na">align&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;center&amp;#34;&lt;/span> &lt;span class="na">border&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;1&amp;#34;&lt;/span> &lt;span class="na">cellpadding&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;0&amp;#34;&lt;/span> &lt;span class="na">cellspacing&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;0&amp;#34;&lt;/span> &lt;span class="na">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;500&amp;#34;&lt;/span> &lt;span class="na">height&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;240&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ...
@@ -621,8 +621,8 @@ loading="lazy"
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="265-表格结构标签">2.6.5 表格结构标签&lt;/h3>
-&lt;p>**使用场景：**因为表格可能很长，为了更好的表示表格的语义，可以将表格分割成：&lt;code>表格头部&lt;/code> 和 &lt;code>表格主体&lt;/code> 两大部分。&lt;/p>
+&lt;h3 id="265-表格结构标签">&lt;a href="#265-%e8%a1%a8%e6%a0%bc%e7%bb%93%e6%9e%84%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.6.5 表格结构标签
+&lt;/h3>&lt;p>**使用场景：**因为表格可能很长，为了更好的表示表格的语义，可以将表格分割成：&lt;code>表格头部&lt;/code> 和 &lt;code>表格主体&lt;/code> 两大部分。&lt;/p>
 &lt;p>在表格标签中，分别用：&lt;code>&amp;lt;thead&amp;gt;&lt;/code> 标签表示表格的头部区域，&lt;code>&amp;lt;tbody&amp;gt;&lt;/code> 标签表示表格的主体区域，这样可以更好的分清表格结构。&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>&amp;lt;thead&amp;gt;&lt;/code> &lt;code>&amp;lt;/thead&amp;gt;&lt;/code>：用于定义表格的头部，&lt;code>&amp;lt;thead&amp;gt;&lt;/code> 内部必须拥有 &lt;code>&amp;lt;tr&amp;gt;&lt;/code> 标签，一般是位于第一行，且一般 &lt;code>&amp;lt;tr&amp;gt;&lt;/code> 标签中推荐放置 &lt;code>&amp;lt;th&amp;gt;&lt;/code> 标签&lt;/li>
@@ -650,8 +650,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ...
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tbody&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="266-合并单元格">2.6.6 合并单元格&lt;/h3>
-&lt;p>特殊情况下，可以把多个单元格合并为一个单元格，这里会最简单的合并单元格即可。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="266-合并单元格">&lt;a href="#266-%e5%90%88%e5%b9%b6%e5%8d%95%e5%85%83%e6%a0%bc" class="header-anchor">&lt;/a>2.6.6 合并单元格
+&lt;/h3>&lt;p>特殊情况下，可以把多个单元格合并为一个单元格，这里会最简单的合并单元格即可。&lt;/p>
 &lt;p>&lt;strong>合并单元格的方式：&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>跨行合并（上下合并）：&lt;code>rowspan=&amp;quot;合并单元格的个数&amp;quot;&lt;/code>&lt;/li>
@@ -749,8 +749,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/04/08/4.png"
 loading="lazy"
 >&lt;/p>
-&lt;h2 id="27-列表标签">2.7 列表标签&lt;/h2>
-&lt;p>表格是用来显示数据的，那么&lt;strong>列表就是用来布局的&lt;/strong>。&lt;/p>
+&lt;h2 id="27-列表标签">&lt;a href="#27-%e5%88%97%e8%a1%a8%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.7 列表标签
+&lt;/h2>&lt;p>表格是用来显示数据的，那么&lt;strong>列表就是用来布局的&lt;/strong>。&lt;/p>
 &lt;p>列表最大的特点就是：整齐、整洁、有序、它作为布局会更加自由和方便。&lt;/p>
 &lt;p>在实际开发中凡是遇到排列整齐的简洁内容，都可以使用列表来进行布局。&lt;/p>
 &lt;p>合理的使用列表布局可以有效提高 SEO。&lt;/p>
@@ -806,8 +806,8 @@ loading="lazy"
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/04/08/8.png"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="271-无序列表">2.7.1 无序列表&lt;/h3>
-&lt;p>&lt;code>&amp;lt;ul&amp;gt;&lt;/code> 标签表示 HTML 页面中项目的无序列表，一般会以项目符号呈现列表项，而列表项使用 &lt;code>&amp;lt;li&amp;gt;&lt;/code> 标签定义（开发中经常使用）。&lt;/p>
+&lt;h3 id="271-无序列表">&lt;a href="#271-%e6%97%a0%e5%ba%8f%e5%88%97%e8%a1%a8" class="header-anchor">&lt;/a>2.7.1 无序列表
+&lt;/h3>&lt;p>&lt;code>&amp;lt;ul&amp;gt;&lt;/code> 标签表示 HTML 页面中项目的无序列表，一般会以项目符号呈现列表项，而列表项使用 &lt;code>&amp;lt;li&amp;gt;&lt;/code> 标签定义（开发中经常使用）。&lt;/p>
 &lt;p>&lt;strong>无序列表的基本语法格式如下：&lt;/strong>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>列表项1&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -825,8 +825,8 @@ loading="lazy"
 &lt;blockquote>
 &lt;p>附：去除 li 前符号的方法：&lt;code>style=&amp;quot;list-style: none;&amp;quot;&lt;/code>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="272-有序列表">2.7.2 有序列表&lt;/h3>
-&lt;p>有序列表即为有序排列顺序的列表，其各个列表项会按照一定的顺序排列定义（开发中不太常用）。&lt;/p>
+&lt;h3 id="272-有序列表">&lt;a href="#272-%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8" class="header-anchor">&lt;/a>2.7.2 有序列表
+&lt;/h3>&lt;p>有序列表即为有序排列顺序的列表，其各个列表项会按照一定的顺序排列定义（开发中不太常用）。&lt;/p>
 &lt;p>在 HTML 标签中，&lt;code>&amp;lt;ol&amp;gt;&lt;/code> 标签用于定义有序列表，列表排序以数字来显示，并且使用 &lt;code>&amp;lt;li&amp;gt;&lt;/code> 标签来定义列表项。&lt;/p>
 &lt;p>&lt;strong>有序列表的基本语法格式如下：&lt;/strong>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ol&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -844,8 +844,8 @@ loading="lazy"
 &lt;blockquote>
 &lt;p>附：去除 li 前符号的方法：&lt;code>style=&amp;quot;list-style: none;&amp;quot;&lt;/code>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="273-自定义列表">2.7.3 自定义列表&lt;/h3>
-&lt;p>&lt;strong>自定义列表的使用场景：&lt;/strong>&lt;/p>
+&lt;h3 id="273-自定义列表">&lt;a href="#273-%e8%87%aa%e5%ae%9a%e4%b9%89%e5%88%97%e8%a1%a8" class="header-anchor">&lt;/a>2.7.3 自定义列表
+&lt;/h3>&lt;p>&lt;strong>自定义列表的使用场景：&lt;/strong>&lt;/p>
 &lt;p>自定义列表常用于对术语或名词进行解释、描述和展开，定义列表的列表项前没有任何项目符号（开发中常用）。&lt;/p>
 &lt;p>在 HTML 标签中，&lt;code>&amp;lt;dl&amp;gt;&lt;/code> 标签用于定义描述列表（或定义列表），该标签会与 &lt;code>&amp;lt;dt&amp;gt;&lt;/code>（定义项目/名字）和 &lt;code>&amp;lt;dd&amp;gt;&lt;/code>（描述每一个项目/名字）一起使用。&lt;/p>
 &lt;p>其基本语法如下：&lt;/p>
@@ -859,14 +859,14 @@ loading="lazy"
 &lt;li>&lt;code>&amp;lt;dt&amp;gt;&lt;/code> 和 &lt;code>&amp;lt;dd&amp;gt;&lt;/code> 个数没有限制，经常是一个 &lt;code>&amp;lt;dt&amp;gt;&lt;/code> 对应多个 &lt;code>&amp;lt;dd&amp;gt;&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;img src="https://cdn.xalaok.top/images/blog/2023/04/08/11.png" style="zoom:50%;" />
-&lt;h2 id="28-表单标签">2.8 表单标签&lt;/h2>
-&lt;h3 id="281-为什么需要表单">2.8.1 为什么需要表单&lt;/h3>
-&lt;p>使用表单的目的是收集用户信息。&lt;/p>
+&lt;h2 id="28-表单标签">&lt;a href="#28-%e8%a1%a8%e5%8d%95%e6%a0%87%e7%ad%be" class="header-anchor">&lt;/a>2.8 表单标签
+&lt;/h2>&lt;h3 id="281-为什么需要表单">&lt;a href="#281-%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e8%a1%a8%e5%8d%95" class="header-anchor">&lt;/a>2.8.1 为什么需要表单
+&lt;/h3>&lt;p>使用表单的目的是收集用户信息。&lt;/p>
 &lt;p>在网页中，需要跟用户进行交互，收集用户资料，此时就需要表单。&lt;/p>
-&lt;h3 id="282-表单的组成">2.8.2 表单的组成&lt;/h3>
-&lt;p>在 HTML 中，一个完整的表单通常由 &lt;code>表单域&lt;/code>、&lt;code>表单控件&lt;/code>（也称为表单元素）和 &lt;code>提示信息&lt;/code> 3 个部分构成。&lt;/p>
-&lt;h3 id="283-表单域">2.8.3 表单域&lt;/h3>
-&lt;p>&lt;strong>表单域是一个包含表单元素的区域。&lt;/strong>&lt;/p>
+&lt;h3 id="282-表单的组成">&lt;a href="#282-%e8%a1%a8%e5%8d%95%e7%9a%84%e7%bb%84%e6%88%90" class="header-anchor">&lt;/a>2.8.2 表单的组成
+&lt;/h3>&lt;p>在 HTML 中，一个完整的表单通常由 &lt;code>表单域&lt;/code>、&lt;code>表单控件&lt;/code>（也称为表单元素）和 &lt;code>提示信息&lt;/code> 3 个部分构成。&lt;/p>
+&lt;h3 id="283-表单域">&lt;a href="#283-%e8%a1%a8%e5%8d%95%e5%9f%9f" class="header-anchor">&lt;/a>2.8.3 表单域
+&lt;/h3>&lt;p>&lt;strong>表单域是一个包含表单元素的区域。&lt;/strong>&lt;/p>
 &lt;p>在 HTML 标签中，&lt;code>&amp;lt;form&amp;gt;&lt;/code> 标签用于定义表单域，以实现用户信息的收集和传递。&lt;/p>
 &lt;p>&lt;code>&amp;lt;form&amp;gt;&lt;/code> 会把它范围内的表单元素信息提交给服务器。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">form&lt;/span> &lt;span class="na">action&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;url地址&amp;#34;&lt;/span> &lt;span class="na">method&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;提交方式&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;表单域名称&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -961,8 +961,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/04/08/12.png"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="284-表单控件表单元素">2.8.4 表单控件（表单元素）&lt;/h3>
-&lt;p>在表单域中可以定义各种表单元素，这些表单元素就是允许用户在表单中输入或者选择的内容控件。&lt;/p>
+&lt;h3 id="284-表单控件表单元素">&lt;a href="#284-%e8%a1%a8%e5%8d%95%e6%8e%a7%e4%bb%b6%e8%a1%a8%e5%8d%95%e5%85%83%e7%b4%a0" class="header-anchor">&lt;/a>2.8.4 表单控件（表单元素）
+&lt;/h3>&lt;p>在表单域中可以定义各种表单元素，这些表单元素就是允许用户在表单中输入或者选择的内容控件。&lt;/p>
 &lt;p>&lt;strong>（1）&amp;lt;input&amp;gt; 表单元素&lt;/strong>&lt;/p>
 &lt;p>在英文单词中，input 是输入的意思，而在表单元素中 &lt;code>&amp;lt;input&amp;gt;&lt;/code> 标签用于收集用户信息。&lt;/p>
 &lt;p>在 &lt;code>&amp;lt;input&amp;gt;&lt;/code> 标签中，包含一个 type 属性，根据不同的 type 属性值，输入字段拥有很多种形式（可以是文本、字段、复选框、掩码后的文本控件、单选按钮、按钮等）。&lt;/p>
@@ -1159,8 +1159,8 @@ loading="lazy"
 &lt;p>如果要禁止拉伸文本框大小，则：&lt;code>style=&amp;quot;resize: none&amp;quot; &lt;/code>&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="285-表单元素几个总结">2.8.5 表单元素几个总结&lt;/h3>
-&lt;p>（1）表单元素我们学习了三大组 &lt;code>input 输入表单元素&lt;/code>、&lt;code>select 下拉表单元素&lt;/code>、&lt;code>textarea 文本域表单元素&lt;/code>&lt;/p>
+&lt;h3 id="285-表单元素几个总结">&lt;a href="#285-%e8%a1%a8%e5%8d%95%e5%85%83%e7%b4%a0%e5%87%a0%e4%b8%aa%e6%80%bb%e7%bb%93" class="header-anchor">&lt;/a>2.8.5 表单元素几个总结
+&lt;/h3>&lt;p>（1）表单元素我们学习了三大组 &lt;code>input 输入表单元素&lt;/code>、&lt;code>select 下拉表单元素&lt;/code>、&lt;code>textarea 文本域表单元素&lt;/code>&lt;/p>
 &lt;p>（2）这三组表单元素都应该包含在 &lt;code>form 表单域&lt;/code> 里面，并且应该有 &lt;code>name 属性&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">form&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">input&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;text&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -1180,15 +1180,15 @@ loading="lazy"
 &lt;p>name 属性用于对提交到服务器后的表单数据进行标识。注意：只有设置了 name 属性的表单元素才能在提交表单时传递它们的值。简单来说，name 就是提交到后台的索引，比如在复选框中都要设置成name=&amp;ldquo;hobby&amp;rdquo; 说明几个复选框都在 ”爱好“ 下。&lt;/p>
 &lt;p>即：表单想要把数据提交到指定的位置，表单控件必须要有 name 属性。&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="29-内联框架">2.9 内联框架&lt;/h2>
-&lt;p>&lt;code>&amp;lt;iframe&amp;gt;&lt;/code> 标签规定一个&lt;strong>内联框架&lt;/strong>。&lt;/p>
+&lt;h2 id="29-内联框架">&lt;a href="#29-%e5%86%85%e8%81%94%e6%a1%86%e6%9e%b6" class="header-anchor">&lt;/a>2.9 内联框架
+&lt;/h2>&lt;p>&lt;code>&amp;lt;iframe&amp;gt;&lt;/code> 标签规定一个&lt;strong>内联框架&lt;/strong>。&lt;/p>
 &lt;p>一个内联框架被用来在当前 HTML 文档中嵌入另一个文档。&lt;/p>
 &lt;p>通过使用框架，你可以在同一个浏览器窗口中显示不止一个页面。&lt;/p>
-&lt;h3 id="291-iframe-语法">2.9.1 iframe 语法&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">iframe&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;URL&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">iframe&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;h3 id="291-iframe-语法">&lt;a href="#291-iframe-%e8%af%ad%e6%b3%95" class="header-anchor">&lt;/a>2.9.1 iframe 语法
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">iframe&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;URL&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">iframe&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>该 URL 指向不同的网页。&lt;/p>
-&lt;h3 id="292-iframe---设置高度与宽度">2.9.2 iframe - 设置高度与宽度&lt;/h3>
-&lt;p>&lt;code>height&lt;/code> 和 &lt;code>width&lt;/code> 属性用来定义 iframe 标签的高度与宽度。&lt;/p>
+&lt;h3 id="292-iframe---设置高度与宽度">&lt;a href="#292-iframe---%e8%ae%be%e7%bd%ae%e9%ab%98%e5%ba%a6%e4%b8%8e%e5%ae%bd%e5%ba%a6" class="header-anchor">&lt;/a>2.9.2 iframe - 设置高度与宽度
+&lt;/h3>&lt;p>&lt;code>height&lt;/code> 和 &lt;code>width&lt;/code> 属性用来定义 iframe 标签的高度与宽度。&lt;/p>
 &lt;p>属性默认以像素为单位，但是你可以指定其按比例显示（如：&amp;ldquo;70%&amp;quot;）。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">iframe&lt;/span> &lt;span class="na">height&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;500px&amp;#34;&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://www.bilibili.com/&amp;#34;&lt;/span> &lt;span class="na">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;70%&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">iframe&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/04/08/16.png"
@@ -1216,8 +1216,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nt">style&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="三seo优化">三、SEO优化&lt;/h1>
-&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="三seo优化">&lt;a href="#%e4%b8%89seo%e4%bc%98%e5%8c%96" class="header-anchor">&lt;/a>三、SEO优化
+&lt;/h1>&lt;blockquote>
 &lt;p>SEO 优化是个复杂长期的过程，此处只是简单的介绍 SEO 优化，目的是提高前端初学者的认知。&lt;/p>
 &lt;/blockquote>
 &lt;p>SEO（Search Engine Optimization）：汉译为&lt;strong>搜索引擎优化&lt;/strong>。是一种方式：利用&lt;a class="link" href="https://baike.baidu.com/item/%e6%90%9c%e7%b4%a2%e5%bc%95%e6%93%8e/104812" target="_blank" rel="noopener"

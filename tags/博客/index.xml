@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Naive Koala</title><link>https://www.xalaok.top/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 24 Feb 2024 14:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Hi，AI 摘要</title><link>https://www.xalaok.top/post/aisummary/</link><pubDate>Sat, 24 Feb 2024 14:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/aisummary/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/02/24/cover.webp" alt="Featured image of post Hi，AI 摘要" />&lt;p>又又又来折腾博客了，看不少博友都加上了 AI 总结文章的功能，也想自己整一个。本文借鉴了&lt;a class="link" href="https://www.eallion.com/ai-summary/" target="_blank" rel="noopener"
 >大大的小蜗牛&lt;/a>并进行了部分修改。&lt;/p>
-&lt;h2 id="获取摘要数据">获取摘要数据&lt;/h2>
-&lt;h3 id="ai-生成总结">AI 生成总结&lt;/h3>
-&lt;p>方式有三种：&lt;/p>
+&lt;h2 id="获取摘要数据">&lt;a href="#%e8%8e%b7%e5%8f%96%e6%91%98%e8%a6%81%e6%95%b0%e6%8d%ae" class="header-anchor">&lt;/a>获取摘要数据
+&lt;/h2>&lt;h3 id="ai-生成总结">&lt;a href="#ai-%e7%94%9f%e6%88%90%e6%80%bb%e7%bb%93" class="header-anchor">&lt;/a>AI 生成总结
+&lt;/h3>&lt;p>方式有三种：&lt;/p>
 &lt;ul>
 &lt;li>接入 &lt;a class="link" href="https://github.com/zhheo/Post-Abstract-AI" target="_blank" rel="noopener"
 >TianliGPT&lt;/a>，自动在访问时生成（需要购买 Key）&lt;/li>
@@ -10,8 +10,8 @@
 &lt;li>手动把文章内容喂给 ChatGPT 或 Claude2 获取&lt;/li>
 &lt;/ul>
 &lt;p>我自己用的是第三种。因为我博客也就三十几篇文章，TianliGPT 9块钱能生成至少 50 篇文章的摘要，而且目前博客访问的人也不多，能省就省省😅。脚本虽然很方便，但貌似我还不太会使用，搞不出来。正好之前部署过 NextChat 且有一个免费的 GPT-3.5 的 API Key，所以就手动喂给 GPT 了。&lt;/p>
-&lt;h3 id="数据存在哪">数据存在哪&lt;/h3>
-&lt;p>有两种方式：&lt;/p>
+&lt;h3 id="数据存在哪">&lt;a href="#%e6%95%b0%e6%8d%ae%e5%ad%98%e5%9c%a8%e5%93%aa" class="header-anchor">&lt;/a>数据存在哪
+&lt;/h3>&lt;p>有两种方式：&lt;/p>
 &lt;ol>
 &lt;li>在 &lt;code>/data&lt;/code> 目录下用 &lt;code>json&lt;/code> 文件保存&lt;/li>
 &lt;li>把摘要结果放在文章 Front Matter 的 &lt;code>summary&lt;/code> 下&lt;/li>
@@ -28,9 +28,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">渲染 AI 摘要&lt;/h2>
-&lt;h3 id="修改模板文件">修改模板文件&lt;/h3>
-&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">&lt;a href="#%e6%b8%b2%e6%9f%93-ai-%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>渲染 AI 摘要
+&lt;/h2>&lt;h3 id="修改模板文件">&lt;a href="#%e4%bf%ae%e6%94%b9%e6%a8%a1%e6%9d%bf%e6%96%87%e4%bb%b6" class="header-anchor">&lt;/a>修改模板文件
+&lt;/h3>&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
 &lt;p>在 &lt;code>/layouts/partial/article/components&lt;/code> 创建 &lt;code>aisummary.html&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 获取数据 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $summary := getJSON &amp;#34;data/summary/summary.json&amp;#34; }}
@@ -77,8 +77,8 @@
 如不需要打字机效果，需要将 &lt;code>&amp;lt;div id=&amp;quot;ai-explanation&amp;quot; class=&amp;quot;ai-explanation&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code> 和 JS 部分注释掉。&lt;br>
 这里的修改是把 unpkg 换成了国内的饿了么 npm 镜像，并且调快了打字机速度（原来感觉有点太慢了，如果还觉得慢可以把 &lt;code>speed&lt;/code> 数值继续调小）&lt;br>
 然后把摘要引入文章的模板文件。在 &lt;code>/layouts/partial/article/article.html&lt;/code> 的 &lt;code>header&lt;/code> 和 &lt;code>content&lt;/code> 中间加上 &lt;code>{{ partial &amp;quot;article/components/aisummary&amp;quot; . }}&lt;/code>&lt;/p>
-&lt;h3 id="添加-css">添加 CSS&lt;/h3>
-&lt;p>同样本着一个文件干一件事的原则单独创建自定义 SCSS。在 &lt;code>/assets/scss&lt;/code> 下的合适位置（我是 &lt;code>/assets/scss/custom&lt;/code>）创建 &lt;code>ai.scss&lt;/code>：&lt;/p>
+&lt;h3 id="添加-css">&lt;a href="#%e6%b7%bb%e5%8a%a0-css" class="header-anchor">&lt;/a>添加 CSS
+&lt;/h3>&lt;p>同样本着一个文件干一件事的原则单独创建自定义 SCSS。在 &lt;code>/assets/scss&lt;/code> 下的合适位置（我是 &lt;code>/assets/scss/custom&lt;/code>）创建 &lt;code>ai.scss&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.post-ai&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#f5f5f5&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
@@ -133,8 +133,8 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>部分参数可以自行根据喜好更改。&lt;br>
 如不需要打字机效果，也要把最后一项 &lt;code>ai-explanation-content&lt;/code> 的 CSS 注释掉。&lt;br>
 然后在 &lt;code>/assets/scss/custom.scss&lt;/code> 中引入（&lt;code>@import &amp;quot;custom/ai.scss&amp;quot;;&lt;/code>）。&lt;/p>
-&lt;h2 id="单篇文章禁用摘要">单篇文章禁用摘要&lt;/h2>
-&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
+&lt;h2 id="单篇文章禁用摘要">&lt;a href="#%e5%8d%95%e7%af%87%e6%96%87%e7%ab%a0%e7%a6%81%e7%94%a8%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>单篇文章禁用摘要
+&lt;/h2>&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
 &lt;p>询问 ChatGPT 后得知，上面的代码意思是：&lt;/p>
 &lt;blockquote>
 &lt;p>这段代码是在Hugo模板中使用的条件语句，用于根据条件来决定是否插入数学公式。让我们逐步解释这段代码的含义：&lt;/p>
@@ -165,8 +165,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    {{ partial &amp;#34;article/components/aisummary&amp;#34; . }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end }}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再在 &lt;code>hugo.yaml&lt;/code> 或 &lt;code>config.yaml&lt;/code> 中加一个 &lt;code>article.ai&lt;/code> 字段并设为 &lt;code>true&lt;/code>，想要禁用单篇文章摘要在 Front Matter 中加上 &lt;code>ai: false&lt;/code> 即可。&lt;/p>
-&lt;p>Enjoy~&lt;/p></description></item><item><title>你好，2024</title><link>https://www.xalaok.top/post/hello-2024/</link><pubDate>Tue, 23 Jan 2024 19:45:00 +0800</pubDate><guid>https://www.xalaok.top/post/hello-2024/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/23/cover.webp" alt="Featured image of post 你好，2024" />&lt;h2 id="折腾">折腾&lt;/h2>
-&lt;p>2023 这一年，我使用过的平台有 9 个：&lt;a class="link" href="https://swb.cc" target="_blank" rel="noopener"
+&lt;p>Enjoy~&lt;/p></description></item><item><title>你好，2024</title><link>https://www.xalaok.top/post/hello-2024/</link><pubDate>Tue, 23 Jan 2024 19:45:00 +0800</pubDate><guid>https://www.xalaok.top/post/hello-2024/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/23/cover.webp" alt="Featured image of post 你好，2024" />&lt;h2 id="折腾">&lt;a href="#%e6%8a%98%e8%85%be" class="header-anchor">&lt;/a>折腾
+&lt;/h2>&lt;p>2023 这一年，我使用过的平台有 9 个：&lt;a class="link" href="https://swb.cc" target="_blank" rel="noopener"
 >Freehost&lt;/a>，&lt;a class="link" href="https://netlify.com" target="_blank" rel="noopener"
 >Netlify&lt;/a>，&lt;a class="link" href="https://starxn.com" target="_blank" rel="noopener"
 >星辰云&lt;/a>，&lt;a class="link" href="https://namesilo.com" target="_blank" rel="noopener"
@@ -186,31 +186,31 @@
 >1Panel&lt;/a>，&lt;a class="link" href="https://waline.js.org" target="_blank" rel="noopener"
 >Waline&lt;/a>；&lt;span class="blur">建站支出 123.26 元，魔法支出 21.16 元&lt;/span>。&lt;/p>
 &lt;p>下面我就以博客框架为线索回顾这一年折腾了些啥。&lt;/p>
-&lt;h3 id="wordpress202301">WordPress（2023.01）&lt;/h3>
-&lt;p>2023 年初，我找到了一个免费主机平台 &lt;a class="link" href="https://www.swb.cc" target="_blank" rel="noopener"
+&lt;h3 id="wordpress202301">&lt;a href="#wordpress202301" class="header-anchor">&lt;/a>WordPress（2023.01）
+&lt;/h3>&lt;p>2023 年初，我找到了一个免费主机平台 &lt;a class="link" href="https://www.swb.cc" target="_blank" rel="noopener"
 >Freehost&lt;/a>（当时域名还是 freehost.cc，前段时间换成了 swb.cc），于是我与我自己的数字花园的故事开始了。&lt;/p>
 &lt;p>首先了解的博客系统自然是“市场份额”最高的 WordPress，但是通过官网、百度、谷歌等地方初步了解后，我觉得它太“庞大”。不是说它占用空间大，而是功能很多，上手困难。&lt;/p>
 &lt;p>然后我又了解到了同样历史悠久（WordPress 2003，Typecho 2009）的 Typecho。正如开发团队所说，在使用博客程序的大部分时间里，我们只是发几段文字，贴几张图片，不需要高级复杂的系统，需要的是一个简单快速的博客平台。它相较 Wordpress 的确轻量很多。&lt;/p>
 &lt;p>奈何在那时还只是个纯小白的我与 Typecho 无缘，在安装时到填数据库的那一步，因为 Freehost 的面板太难用导致没有找到数据库连接方式😭（后来我找到了数据库信息，不过那时已经准备弃用 WP 了）。Freehost 大概是特地给 WP 做过适配，安装的时候自动填写了数据库信息，无脑下一步就成功了。&lt;/p>
 &lt;p>对这段时期的记忆就剩下了 Argon 主题，界面过于复杂导致自定义修改很繁琐，再加上最重要的一点，国外主机访问速度实在过于感人……&lt;/p>
-&lt;h3 id="gridea20230111-20230623">Gridea（2023.01.11-2023.06.23）&lt;/h3>
-&lt;p>在有了 WordPress 的这个经历之后，当我在 B 站上刷到了推荐 &lt;a class="link" href="https://open.gridea.dev" target="_blank" rel="noopener"
+&lt;h3 id="gridea20230111-20230623">&lt;a href="#gridea20230111-20230623" class="header-anchor">&lt;/a>Gridea（2023.01.11-2023.06.23）
+&lt;/h3>&lt;p>在有了 WordPress 的这个经历之后，当我在 B 站上刷到了推荐 &lt;a class="link" href="https://open.gridea.dev" target="_blank" rel="noopener"
 >Gridea&lt;/a> 的视频（BV15M411m7d9），我就立刻被易用的图形化界面电脑客户端和静态网站所具有的部署方便所吸引。&lt;/p>
 &lt;p>然而使用 Gridea 的时间也不长，原因主要有二：其一，主题还太少，基本找不到心仪的主题，个别喜欢的又有各种问题，页面模板少。最后还是软件作者自己的一个付费主题（Rocky）勉强能用。幸运的是，本着能白嫖不付钱的原则，一番寻找后在 GitHub 上找到了有人基于此主题修改的版本。但是主题加载优化很烂，网页加载要二十秒左右。罪魁祸首可能是 jsDelivr 把整个霞骛文楷的字体都加载上去了。这个 Netlify 部署的站点现在还留着（https://xalaok.netlify.app/），有兴趣可以打开试试，有没有强迫症当场去世的感觉🤔。当然，如果用上霞鹜文楷的分片版字体后肯定大大改善（现在的站点就是），但是已经懒得再去部署看看效果了。我已经将我修改成分片版字体的主题放在 GitHub 上了（仓库地址：https://github.com/Xalaok/Gridea-theme-Rocky-Mod），在用 Gridea 的可以看看效果。&lt;/p>
-&lt;h3 id="typecho20230318-20230611">Typecho（2023.03.18-2023.06.11）&lt;/h3>
-&lt;p>这一次还是 B 站，看到了星辰云站长阿付的宣传视频。星辰云的价格确实很诱人（入门款￥2/月但仅限一个网站而且空间 128MB），而且香港虚拟主机免备案。正好三月的时候想给班级搭个网站记录每天的趣事，于是&lt;del>一拍即合&lt;/del>（影视飓风看多了属于是）。这次安装 Typecho 像之前安装 WordPress 一样无脑下一步就成功了，很神奇。关于主题，一开始用的是 Initial，后来找到了我更满意的 Matcha 主题。现在已经换成了和我博客一样的静态网站~&lt;/p>
+&lt;h3 id="typecho20230318-20230611">&lt;a href="#typecho20230318-20230611" class="header-anchor">&lt;/a>Typecho（2023.03.18-2023.06.11）
+&lt;/h3>&lt;p>这一次还是 B 站，看到了星辰云站长阿付的宣传视频。星辰云的价格确实很诱人（入门款￥2/月但仅限一个网站而且空间 128MB），而且香港虚拟主机免备案。正好三月的时候想给班级搭个网站记录每天的趣事，于是&lt;del>一拍即合&lt;/del>（影视飓风看多了属于是）。这次安装 Typecho 像之前安装 WordPress 一样无脑下一步就成功了，很神奇。关于主题，一开始用的是 Initial，后来找到了我更满意的 Matcha 主题。现在已经换成了和我博客一样的静态网站~&lt;/p>
 &lt;p>又在星辰云买了个四块钱一个月的普通主机迁移了博客。其实也不能叫迁移，因为这段时间是 Typecho 博客和 Gridea 博客并存。&lt;/p>
 &lt;p>在此特别说明，我不是在给星辰云打广告😅，星辰云的虚拟主机虽然价格便宜，但是稳定性欠佳，不适合生产环境使用。&lt;/p>
-&lt;h3 id="域名">域名&lt;/h3>
-&lt;p>一开始博客用的一直是免费二级域名，Freehost 时的 .freeee.ml，Netlify 的 .netlify.app，星辰云的 .svvs.top .scxc.ink，都是平台专用的，也就是说我只要换一个平台，就得换一个域名，这样非常不利于读者找到（这话说的，根本就没什么人看嘛），更重要的是自己看着这么长的域名也糟心，而且不少博客都是要求友链不能是免费域名。如果要加入十年之约的话也不能是免费域名。&lt;/p>
+&lt;h3 id="域名">&lt;a href="#%e5%9f%9f%e5%90%8d" class="header-anchor">&lt;/a>域名
+&lt;/h3>&lt;p>一开始博客用的一直是免费二级域名，Freehost 时的 .freeee.ml，Netlify 的 .netlify.app，星辰云的 .svvs.top .scxc.ink，都是平台专用的，也就是说我只要换一个平台，就得换一个域名，这样非常不利于读者找到（这话说的，根本就没什么人看嘛），更重要的是自己看着这么长的域名也糟心，而且不少博客都是要求友链不能是免费域名。如果要加入十年之约的话也不能是免费域名。&lt;/p>
 &lt;p>域名当然直接用网名，但是我一直想不到一个自己满意的网名🙃，最后用我喜欢的动物考拉的英文单词倒序再在前面加上 X（似乎是更酷一点罢）于是就有了这个 &lt;code>Xalaok&lt;/code>。但是中文的网名还想不到好的😣&lt;/p>
 &lt;p>到了域名注册环节，作为一个学生自然是选最便宜的顶级域名，com 自然是说再见了。腾讯云（我也不知道为什么不是阿里云）的新人优惠里面的顶级域名有 cn top fun xyz 等，其中 top 和 fun 都是首年一元，再看看续费价格最便宜的就是 top，但是国内注册商要实名啥的，我又没到备案年龄，于是就在国外域名注册商里找到了一个我能找到最便宜的 NameSilo 注册了。&lt;/p>
 &lt;p>2023.04.30 我有了自己的域名。&lt;/p>
-&lt;h3 id="hugo20230611-present">Hugo（2023.06.11-present）&lt;/h3>
-&lt;p>同为静态网站生成工具，hexo 基于 npm，而 Hugo 有可执行程序。这对于没研究过 npm 的我来说更易上手。正如官网所说 &lt;code>The world’s fastest framework for building websites&lt;/code>，Hugo 生成网页速度确实很快，不到一秒就能完成目前我几十篇博文的输出。再搭配 05/04 开始使用 的 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+&lt;h3 id="hugo20230611-present">&lt;a href="#hugo20230611-present" class="header-anchor">&lt;/a>Hugo（2023.06.11-present）
+&lt;/h3>&lt;p>同为静态网站生成工具，hexo 基于 npm，而 Hugo 有可执行程序。这对于没研究过 npm 的我来说更易上手。正如官网所说 &lt;code>The world’s fastest framework for building websites&lt;/code>，Hugo 生成网页速度确实很快，不到一秒就能完成目前我几十篇博文的输出。再搭配 05/04 开始使用 的 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
 >Vercel&lt;/a> 的自动部署和免费且自动续期 SSL 证书，整个过程的成本只有域名，非常舒服！从六月到今年一月不断的完善下，我把目前使用的 Stack 主题修改到基本符合我心意。而 Hugo 也将成为未来一段时间我的博客框架。&lt;/p>
-&lt;h3 id="vps20231217">VPS（2023.12.17）&lt;/h3>
-&lt;p>这台 CloudCone 2C1G VPS 才用一个月，目前也就是接替了今年开始收费的 Replit 的任务，搭建了 AList 和 Memos，所以就不先写了。敬请期待 2024 年度总结吧。&lt;/p>
+&lt;h3 id="vps20231217">&lt;a href="#vps20231217" class="header-anchor">&lt;/a>VPS（2023.12.17）
+&lt;/h3>&lt;p>这台 CloudCone 2C1G VPS 才用一个月，目前也就是接替了今年开始收费的 Replit 的任务，搭建了 AList 和 Memos，所以就不先写了。敬请期待 2024 年度总结吧。&lt;/p>
 &lt;hr>
 &lt;p>在&lt;a class="link" href="https://yinji.org" target="_blank" rel="noopener"
 >印记&lt;/a>读到以下观点：&lt;/p>
@@ -229,8 +229,8 @@
 &lt;div class="notice notice-info" >
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="#705943">&lt;path d="M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z"/>&lt;/svg>&lt;/div>&lt;p>&lt;strong>WebP&lt;/strong> 是一种同时提供了有损压缩与无损压缩（可逆压缩）的图片文件格式，派生自影像编码格式 VP8，被认为是 WebM 多媒体格式的姊妹项目，是由 Google 在购买 On2 Technologies 后发展出来，以 BSD 授权条款发布。&lt;/p>&lt;/div>
 &lt;p>百度一搜发现人家诞生的目标就是在达到和JPEG格式相同的图片质量的前提下减少文件大小，而且&lt;strong>同时支持静态图片和动态图片&lt;/strong>！大开眼界啊！&lt;/p></description></item><item><title>博客魔改美化（通用）</title><link>https://www.xalaok.top/post/blog-modify/</link><pubDate>Fri, 04 Aug 2023 20:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/blog-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/04/cover.webp" alt="Featured image of post 博客魔改美化（通用）" />&lt;p>昨天写过一篇 Stack 主题魔改，那篇仅适用于 Stack 主题，今天的这篇适用于所有 Hugo 博客（部分适用于所有网页），以后所有的添加也会在这篇文章里面&lt;/p>
-&lt;h2 id="博客运行时间">博客运行时间&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;timeDate&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入天数&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&amp;lt;span id=&amp;#34;times&amp;#34;&amp;gt;载入时分秒...&amp;lt;/span&amp;gt;&lt;/span>
+&lt;h2 id="博客运行时间">&lt;a href="#%e5%8d%9a%e5%ae%a2%e8%bf%90%e8%a1%8c%e6%97%b6%e9%97%b4" class="header-anchor">&lt;/a>博客运行时间
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;timeDate&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入天数&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&amp;lt;span id=&amp;#34;times&amp;#34;&amp;gt;载入时分秒...&amp;lt;/span&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">script&lt;/span> &lt;span class="nx">language&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">now&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Date&lt;/span>&lt;span class="p">();&lt;/span>
@@ -255,8 +255,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setInterval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;createtime()&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">250&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/script&amp;gt; &lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="旅行者-1-号离地球距离">旅行者 1 号离地球距离&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;voyager&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入旅行者一号离地球距离信息&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="旅行者-1-号离地球距离">&lt;a href="#%e6%97%85%e8%a1%8c%e8%80%85-1-%e5%8f%b7%e7%a6%bb%e5%9c%b0%e7%90%83%e8%b7%9d%e7%a6%bb" class="header-anchor">&lt;/a>旅行者 1 号离地球距离
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;voyager&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入旅行者一号离地球距离信息&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">script&lt;/span> &lt;span class="nx">language&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">now&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Date&lt;/span>&lt;span class="p">();&lt;/span>
@@ -271,8 +271,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setInterval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;createtime()&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">250&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/script&amp;gt; &lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="已写完了哪本书">已写完了哪本书？&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://immmmm.com/what-book-i-write/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="已写完了哪本书">&lt;a href="#%e5%b7%b2%e5%86%99%e5%ae%8c%e4%ba%86%e5%93%aa%e6%9c%ac%e4%b9%a6" class="header-anchor">&lt;/a>已写完了哪本书？
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://immmmm.com/what-book-i-write/" target="_blank" rel="noopener"
 >已写完了哪本书？ :: 木木木木木&lt;/a>&lt;/p>
 &lt;p>将以下代码添加到 footer.html：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span>&lt;span class="nx">$scratch&lt;/span> &lt;span class="o">:=&lt;/span> &lt;span class="nx">newScratch&lt;/span>&lt;span class="p">}}&lt;/span>
@@ -309,15 +309,15 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="nx">ge&lt;/span> &lt;span class="nx">$wowWord&lt;/span> &lt;span class="mi">5&lt;/span> &lt;span class="p">}}{{&lt;/span>&lt;span class="nx">$wowBook&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;写完一本 埃克苏佩里 的&amp;lt;/br&amp;gt;《小王子》了！&amp;#34;&lt;/span>&lt;span class="p">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span> &lt;span class="nx">end&lt;/span> &lt;span class="p">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">共&lt;/span> &lt;span class="p">{{&lt;/span>&lt;span class="nx">$totalWord&lt;/span> &lt;span class="p">}}&lt;/span> &lt;span class="nx">字&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">br&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="p">{{&lt;/span>&lt;span class="nx">$wowBook&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeHTML&lt;/span> &lt;span class="p">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="图片懒加载">图片懒加载&lt;/h2>
-&lt;p>注：Stack 主题默认有懒加载，不需要自行添加&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="图片懒加载">&lt;a href="#%e5%9b%be%e7%89%87%e6%87%92%e5%8a%a0%e8%bd%bd" class="header-anchor">&lt;/a>图片懒加载
+&lt;/h2>&lt;p>注：Stack 主题默认有懒加载，不需要自行添加&lt;/p>
 &lt;p>原理：使用 Hugo (v0.62+) 的渲染钩子对 markdown 文件内的链接和图像自定义渲染&lt;/p>
 &lt;p>实现：&lt;code>/layouts/_default/_markup&lt;/code> 中新建 &lt;code>render-image.html&lt;/code> 然后丢入代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;md_image&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">loading&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#39;lazy&amp;#39;&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Destination | safeURL }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Text }}&amp;#34;&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">with&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Title&lt;/span>&lt;span class="err">}}&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="博客产量">博客产量&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://blog.douchi.space/hugo-blog-heatmap/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="博客产量">&lt;a href="#%e5%8d%9a%e5%ae%a2%e4%ba%a7%e9%87%8f" class="header-anchor">&lt;/a>博客产量
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://blog.douchi.space/hugo-blog-heatmap/" target="_blank" rel="noopener"
 >如何给 Hugo 博客添加热力图 - 椒盐豆豉&lt;/a>&lt;/p>
 &lt;p>任意位置加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;heatmap&amp;#34;&lt;/span> &lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;
@@ -486,9 +486,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见首页&lt;/p>
-&lt;h2 id="自定义字体">自定义字体&lt;/h2>
-&lt;h3 id="使用谷歌字体">使用谷歌字体&lt;/h3>
-&lt;ol>
+&lt;h2 id="自定义字体">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>自定义字体
+&lt;/h2>&lt;h3 id="使用谷歌字体">&lt;a href="#%e4%bd%bf%e7%94%a8%e8%b0%b7%e6%ad%8c%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>使用谷歌字体
+&lt;/h3>&lt;ol>
 &lt;li>修改 &lt;code>/layouts/partials/footer/components/custom-font.html&lt;/code> 为以下代码：&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;preconnect&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://fonts.googleapis.com&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -506,9 +506,9 @@
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="其他字体">其他字体&lt;/h3>
-&lt;h4 id="霞骛文楷">霞骛文楷&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="其他字体">&lt;a href="#%e5%85%b6%e4%bb%96%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>其他字体
+&lt;/h3>&lt;h4 id="霞骛文楷">&lt;a href="#%e9%9c%9e%e9%aa%9b%e6%96%87%e6%a5%b7" class="header-anchor">&lt;/a>霞骛文楷
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- LXGW WenKai GB Screen --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- LXGW WenKai GB Screen R --&amp;gt;&lt;/span>
@@ -527,8 +527,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;LXGW WenKai Screen R&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="harmonyos-sans">HarmonyOS Sans&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="harmonyos-sans">&lt;a href="#harmonyos-sans" class="header-anchor">&lt;/a>HarmonyOS Sans
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- B 站 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span>
@@ -545,8 +545,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#39;HarmonyOS_Regular&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">MiSans&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">&lt;a href="#misans" class="header-anchor">&lt;/a>MiSans
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;stylesheet&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;https://cdn.jsdelivr.net/npm/misans@3.1.1/lib/misans-400-regular.min.css&amp;#34;&lt;/span>
@@ -556,8 +556,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;MiSans&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鼠标样式">鼠标样式&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://blog.xecades.xyz/articles/cursor/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鼠标样式">&lt;a href="#%e9%bc%a0%e6%a0%87%e6%a0%b7%e5%bc%8f" class="header-anchor">&lt;/a>鼠标样式
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://blog.xecades.xyz/articles/cursor/" target="_blank" rel="noopener"
 >打造一款乖巧的鼠标指针特效 - Xecades&lt;/a>&lt;/p>
 &lt;p>Cursor.css&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">#&lt;/span>&lt;span class="nn">cursor&lt;/span> &lt;span class="p">{&lt;/span>
@@ -671,11 +671,11 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 需要重新获取列表时，使用 CURSOR.refresh()
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">})();&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见 &lt;a class="link" href="https://xecades.xyz" target="_blank" rel="noopener"
->Xecades 主页&lt;/a>&lt;/p></description></item><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
+>Xecades 主页&lt;/a>&lt;/p></description></item><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
 >Vercel 文档&lt;/a> 中看到确实支持&lt;/p>
-&lt;h2 id="准备工作">准备工作&lt;/h2>
-&lt;ol>
+&lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
+&lt;/h2>&lt;ol>
 &lt;li>Github 账号&lt;/li>
 &lt;li>Vercel 账号&lt;/li>
 &lt;li>Typecho 程序&lt;/li>
@@ -683,8 +683,8 @@
 &lt;li>自己的域名（可选，国内注册可以首年1元甚至免费）&lt;br>
 部署完成之后默认会给你的项目分配一个 vercel.app 的三级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
 &lt;/ol>
-&lt;h2 id="过程">过程&lt;/h2>
-&lt;ol>
+&lt;h2 id="过程">&lt;a href="#%e8%bf%87%e7%a8%8b" class="header-anchor">&lt;/a>过程
+&lt;/h2>&lt;ol>
 &lt;li>创建 Github 仓库&lt;/li>
 &lt;li>本地解压 Typecho 程序&lt;/li>
 &lt;li>在根目录下新建 &lt;code>vercel.json&lt;/code> 并填入以下代码&lt;/li>

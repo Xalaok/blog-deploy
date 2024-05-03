@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 08 Aug 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Umami 网站统计服务</title><link>https://www.xalaok.top/post/umami-on-vercel/</link><pubDate>Tue, 08 Aug 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/umami-on-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/umami.webp" alt="Featured image of post Vercel 部署 Umami 网站统计服务" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>最近逛木木佬的博客看到&lt;a class="link" href="https://immmmm.com/hi-umami-api/" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 08 Aug 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Umami 网站统计服务</title><link>https://www.xalaok.top/post/umami-on-vercel/</link><pubDate>Tue, 08 Aug 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/umami-on-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/umami.webp" alt="Featured image of post Vercel 部署 Umami 网站统计服务" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>最近逛木木佬的博客看到&lt;a class="link" href="https://immmmm.com/hi-umami-api/" target="_blank" rel="noopener"
 >前端调用 Umami API&lt;/a> 这篇文章，看封面图像是网站访问统计啥的，一搜发现是类似 51la 统计的玩意，还开源，支持 Serverless 自部署，有东西折腾，搞！&lt;/p>
-&lt;h2 id="准备工作">准备工作&lt;/h2>
-&lt;ol>
+&lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
+&lt;/h2>&lt;ol>
 &lt;li>Github 账号&lt;/li>
 &lt;li>Vercel 账号&lt;/li>
 &lt;li>数据库&lt;/li>
 &lt;li>自己的域名（可选）&lt;br>
 部署完成之后默认会给你的项目分配一个 vercel.app 的三级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
 &lt;/ol>
-&lt;h2 id="开搞">开搞&lt;/h2>
-&lt;ol>
+&lt;h2 id="开搞">&lt;a href="#%e5%bc%80%e6%90%9e" class="header-anchor">&lt;/a>开搞
+&lt;/h2>&lt;ol>
 &lt;li>Fork 官方 GitHub 仓库
 &lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/fork.webp"
 loading="lazy"

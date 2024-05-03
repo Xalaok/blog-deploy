@@ -11,8 +11,8 @@ loading="lazy"
 &lt;p>GitHub 提供了两种方式：身份验证器应用或手机短信验证&lt;/p>
 &lt;p>但是从&lt;a class="link" href="https://docs.github.com/articles/countries-where-sms-authentication-is-supported#supported-countries-for-sms-authentication" target="_blank" rel="noopener"
 >官方文档&lt;/a>可知，GitHub 手机短信验证不支持中国号码，所以没有国外号码的话只能考虑 TOTP 应用或浏览器扩展&lt;/p>
-&lt;h2 id="totp应用">TOTP应用&lt;/h2>
-&lt;p>以微软的 Authenticator 为例&lt;/p>
+&lt;h2 id="totp应用">&lt;a href="#totp%e5%ba%94%e7%94%a8" class="header-anchor">&lt;/a>TOTP应用
+&lt;/h2>&lt;p>以微软的 Authenticator 为例&lt;/p>
 &lt;ol>
 &lt;li>GitHub 右上角选择【设置】，或者打开 &lt;a class="link" href="https://github.com/settings/security" target="_blank" rel="noopener"
 >https://github.com/settings/security&lt;/a>&lt;/li>
@@ -24,8 +24,8 @@ alt="totp"
 &lt;li>打开 Authenticator 应用，从右上角的 + 号添加帐户，选择其他帐户，然后扫一扫二维码&lt;/li>
 &lt;li>扫描完成之后帐号就添加到 Authenticator 中了，下次打开切到 GitHub 即可展示动态验证码&lt;/li>
 &lt;/ol>
-&lt;h2 id="浏览器扩展">浏览器扩展&lt;/h2>
-&lt;p>以开源免费的 Authenticator: 2FA Client 为例&lt;/p>
+&lt;h2 id="浏览器扩展">&lt;a href="#%e6%b5%8f%e8%a7%88%e5%99%a8%e6%89%a9%e5%b1%95" class="header-anchor">&lt;/a>浏览器扩展
+&lt;/h2>&lt;p>以开源免费的 Authenticator: 2FA Client 为例&lt;/p>
 &lt;ol>
 &lt;li>GitHub 右上角选择【设置】，或者打开 &lt;a class="link" href="https://github.com/settings/security" target="_blank" rel="noopener"
 >https://github.com/settings/security&lt;/a>&lt;/li>

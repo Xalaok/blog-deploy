@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PuTTY on Naive Koala</title><link>https://www.xalaok.top/tags/putty/</link><description>Recent content in PuTTY on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Apr 2024 13:30:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/putty/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>去年十二月中旬由&lt;a class="link" href="https://yinji.org/" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PuTTY on Naive Koala</title><link>https://www.xalaok.top/tags/putty/</link><description>Recent content in PuTTY on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Apr 2024 13:30:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/putty/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>去年十二月中旬由&lt;a class="link" href="https://yinji.org/" target="_blank" rel="noopener"
 >胡同学&lt;/a>推荐买了 CloudCone VPS 用来搭建一些 Docker 自托管项目，因为原本我部署 Uptime Kuma、AList 和 Memos 的平台 Zeabur 和 Replit 都相继在年底开启了收费。&lt;br>
 初上手 VPS 就跑了个 1Panel 面板方便管理，但还是经常要使用 SSH 连接。当时根本没啥安全意识，就设了个密码连接，而且那个密码很简单。果不其然还没过几天就出事了，搭建的服务全部 502，SSH 也连不上，直接整个人愣在当场。打开 CC 后台看到 CPU 占用为 0，我觉得是被人黑了，所以重置了 SSH 密码然后还是连不上。心急如焚地试了各种办法，发现后台重启能获得短暂复活时间，但不一会又死掉。利用短暂时间把面板密码、SSH 密码又都改了，但服务器每次重启都还是会在很短的时间内再次断连。对方手速真是太快了，而且我想不明白黑客是怎么搞我的。最后迫不得已决定尝试终极办法——后台重装系统，还好 1Panel 有备份恢复功能，数据完好无损。这才总算是恢复了对服务器的控制权。&lt;/p>
 &lt;p>问了 ChatGPT，它告诉我：&lt;/p>
@@ -13,8 +13,8 @@
 &lt;p>开始前先说一下，如果有朋友想买 CC 的 VPS 可以走我的 AFF 啊哈哈&lt;br>
 &lt;a class="link" href="https://app.cloudcone.com/?ref=11248" target="_blank" rel="noopener"
 >https://app.cloudcone.com/?ref=11248&lt;/a>&lt;/p>
-&lt;h2 id="putty-下载">PuTTY 下载&lt;/h2>
-&lt;p>PuTTY 官方下载地址：&lt;a class="link" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener"
+&lt;h2 id="putty-下载">&lt;a href="#putty-%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>PuTTY 下载
+&lt;/h2>&lt;p>PuTTY 官方下载地址：&lt;a class="link" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener"
 >https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html&lt;/a>&lt;/p>
 &lt;p>在下载页提供有集成 PuTTY 及相关工具的完整安装包，也可以视需求单独下载某个程序使用：&lt;/p>
 &lt;table>
@@ -55,37 +55,37 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="创建-ssh-会话">创建 SSH 会话&lt;/h2>
-&lt;p>运行 putty.exe，在程序界面内输入服务器 IP 地址和端口，选中 SSH 连接类型，设置连接会话名称，点击保存，然后点击 Open 按钮连接登录。&lt;/p>
+&lt;h2 id="创建-ssh-会话">&lt;a href="#%e5%88%9b%e5%bb%ba-ssh-%e4%bc%9a%e8%af%9d" class="header-anchor">&lt;/a>创建 SSH 会话
+&lt;/h2>&lt;p>运行 putty.exe，在程序界面内输入服务器 IP 地址和端口，选中 SSH 连接类型，设置连接会话名称，点击保存，然后点击 Open 按钮连接登录。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/01.webp"
 loading="lazy"
 alt="创建会话"
 >&lt;/p>
 &lt;p>首次连接会提示服务器指纹，保存后登录同一台服务器将不再提示（如果提示，则表示服务器指纹发生了变化，可能是重装系统所致或连接服务器被冒充）。如果需要注销连接会话，使用 &lt;code>exit&lt;/code> 命令或 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>D&lt;/kbd> 快捷键。&lt;/p>
-&lt;h2 id="putty-配置">PuTTY 配置&lt;/h2>
-&lt;p>选中 SSH 会话，点击 &lt;code>Load&lt;/code> 加载设置，然后开始修改设置，最后回到首页点击 &lt;code>Save&lt;/code> 保存。&lt;/p>
-&lt;h3 id="使用私钥登录">使用私钥登录&lt;/h3>
-&lt;h4 id="生成密钥">生成密钥&lt;/h4>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/02.webp"
+&lt;h2 id="putty-配置">&lt;a href="#putty-%e9%85%8d%e7%bd%ae" class="header-anchor">&lt;/a>PuTTY 配置
+&lt;/h2>&lt;p>选中 SSH 会话，点击 &lt;code>Load&lt;/code> 加载设置，然后开始修改设置，最后回到首页点击 &lt;code>Save&lt;/code> 保存。&lt;/p>
+&lt;h3 id="使用私钥登录">&lt;a href="#%e4%bd%bf%e7%94%a8%e7%a7%81%e9%92%a5%e7%99%bb%e5%bd%95" class="header-anchor">&lt;/a>使用私钥登录
+&lt;/h3>&lt;h4 id="生成密钥">&lt;a href="#%e7%94%9f%e6%88%90%e5%af%86%e9%92%a5" class="header-anchor">&lt;/a>生成密钥
+&lt;/h4>&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/02.webp"
 loading="lazy"
 alt="生成密钥"
 >&lt;/p>
 &lt;p>运行 puttygen.exe，点击 &lt;code>Generate&lt;/code> 生成密钥对，然后在 &lt;code>Key passphrase&lt;/code> 设置密码后点击 &lt;code>Save public key&lt;/code> 和 &lt;code>Save private key&lt;/code> 保存。公钥上传到服务器（CloudCone 后台可以上传），私钥自己妥善保存。&lt;/p>
-&lt;h4 id="设置密钥">设置密钥&lt;/h4>
-&lt;p>侧边栏依次打开 Connection -&amp;gt; SSH -&amp;gt; Auth -&amp;gt; Credentials，浏览选中私钥文件，保存设置后即可使用密钥方式登录。&lt;/p>
+&lt;h4 id="设置密钥">&lt;a href="#%e8%ae%be%e7%bd%ae%e5%af%86%e9%92%a5" class="header-anchor">&lt;/a>设置密钥
+&lt;/h4>&lt;p>侧边栏依次打开 Connection -&amp;gt; SSH -&amp;gt; Auth -&amp;gt; Credentials，浏览选中私钥文件，保存设置后即可使用密钥方式登录。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/03.webp"
 loading="lazy"
 alt="设置密钥"
 >&lt;/p>
 &lt;p>注意要使用 PPK 格式因为 PuTTY 不支持 &lt;code>PEM&lt;/code> 格式密钥。需要用 puttygen.exe 转换一下。点击 &lt;code>Load&lt;/code> 导入私钥文件，然后点击 &lt;code>Save private key&lt;/code> 另存为 &lt;code>PPK&lt;/code> 格式。&lt;/p>
-&lt;h3 id="会话保持">会话保持&lt;/h3>
-&lt;p>当与服务器长时间没数据传输，PuTTY 会自动断开连接。可以在侧边栏 Connection 选项卡设置 &lt;code>Seconds between keepalives&lt;/code> 值开启会话保持功能。&lt;/p>
+&lt;h3 id="会话保持">&lt;a href="#%e4%bc%9a%e8%af%9d%e4%bf%9d%e6%8c%81" class="header-anchor">&lt;/a>会话保持
+&lt;/h3>&lt;p>当与服务器长时间没数据传输，PuTTY 会自动断开连接。可以在侧边栏 Connection 选项卡设置 &lt;code>Seconds between keepalives&lt;/code> 值开启会话保持功能。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/04.webp"
 loading="lazy"
 alt="会话保持"
 >&lt;/p>
-&lt;h3 id="窗口内容长度">窗口内容长度&lt;/h3>
-&lt;p>当打开一个很长内容的文件，或者程序命令不断输出内容，PuTTY 会话窗口只显示最后 2000 行内容。如果需要调整，在侧边栏 Windows 选项卡里修改 &lt;code>Lines of scrollback&lt;/code> 数值。&lt;/p>
+&lt;h3 id="窗口内容长度">&lt;a href="#%e7%aa%97%e5%8f%a3%e5%86%85%e5%ae%b9%e9%95%bf%e5%ba%a6" class="header-anchor">&lt;/a>窗口内容长度
+&lt;/h3>&lt;p>当打开一个很长内容的文件，或者程序命令不断输出内容，PuTTY 会话窗口只显示最后 2000 行内容。如果需要调整，在侧边栏 Windows 选项卡里修改 &lt;code>Lines of scrollback&lt;/code> 数值。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/05.webp"
 loading="lazy"
 alt="窗口内容长度"

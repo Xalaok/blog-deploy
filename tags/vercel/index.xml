@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on Naive Koala</title><link>https://www.xalaok.top/tags/vercel/</link><description>Recent content in Vercel on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on Naive Koala</title><link>https://www.xalaok.top/tags/vercel/</link><description>Recent content in Vercel on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
 >Vercel 文档&lt;/a> 中看到确实支持&lt;/p>
-&lt;h2 id="准备工作">准备工作&lt;/h2>
-&lt;ol>
+&lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
+&lt;/h2>&lt;ol>
 &lt;li>Github 账号&lt;/li>
 &lt;li>Vercel 账号&lt;/li>
 &lt;li>Typecho 程序&lt;/li>
@@ -10,8 +10,8 @@
 &lt;li>自己的域名（可选，国内注册可以首年1元甚至免费）&lt;br>
 部署完成之后默认会给你的项目分配一个 vercel.app 的三级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
 &lt;/ol>
-&lt;h2 id="过程">过程&lt;/h2>
-&lt;ol>
+&lt;h2 id="过程">&lt;a href="#%e8%bf%87%e7%a8%8b" class="header-anchor">&lt;/a>过程
+&lt;/h2>&lt;ol>
 &lt;li>创建 Github 仓库&lt;/li>
 &lt;li>本地解压 Typecho 程序&lt;/li>
 &lt;li>在根目录下新建 &lt;code>vercel.json&lt;/code> 并填入以下代码&lt;/li>

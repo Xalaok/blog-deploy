@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AList on Naive Koala</title><link>https://www.xalaok.top/tags/alist/</link><description>Recent content in AList on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 25 Jun 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/alist/index.xml" rel="self" type="application/rss+xml"/><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/alist-replit.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
 &lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>相信大家之前应该有所耳闻著名的文件列表程序——AList，目前在 GitHub 上有 35.2k star。&lt;/p>
+&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>相信大家之前应该有所耳闻著名的文件列表程序——AList，目前在 GitHub 上有 35.2k star。&lt;/p>
 &lt;p>官方这边给了几个 PaaS 部署的平台，但是基本上都禁掉了官方仓库，无法导入，fork 成自己的仓库也一样可以检测到。&lt;/p>
 &lt;p>官方文档说过，所有上传均使用服务器传输，会消耗服务器流量与对应存储的API通信（具体见 &lt;a class="link" href="https://alist.nn.ci/zh/faq/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%E6%98%BE%E7%A4%BA-uploading-in-backend" target="_blank" rel="noopener"
 >这里 ↗&lt;/a>），我猜测占服务器资源应该就是这些平台禁止部署 AList 的原因吧？&lt;/p>
 &lt;p>我之前在网上也看过一些方法，但那些方法都失效了，前几天找到了一个新方法，尝试部署目前最新版 3.19.0 之后成功了，而且到今天已经稳定运行几天了，下面就来分享一下方法&lt;/p>
-&lt;h2 id="过程">过程&lt;/h2>
-&lt;ol>
+&lt;h2 id="过程">&lt;a href="#%e8%bf%87%e7%a8%8b" class="header-anchor">&lt;/a>过程
+&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
 >官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;br>

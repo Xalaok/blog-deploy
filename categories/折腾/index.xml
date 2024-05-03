@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Apr 2024 13:30:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>去年十二月中旬由&lt;a class="link" href="https://yinji.org/" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Apr 2024 13:30:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>去年十二月中旬由&lt;a class="link" href="https://yinji.org/" target="_blank" rel="noopener"
 >胡同学&lt;/a>推荐买了 CloudCone VPS 用来搭建一些 Docker 自托管项目，因为原本我部署 Uptime Kuma、AList 和 Memos 的平台 Zeabur 和 Replit 都相继在年底开启了收费。&lt;br>
 初上手 VPS 就跑了个 1Panel 面板方便管理，但还是经常要使用 SSH 连接。当时根本没啥安全意识，就设了个密码连接，而且那个密码很简单。果不其然还没过几天就出事了，搭建的服务全部 502，SSH 也连不上，直接整个人愣在当场。打开 CC 后台看到 CPU 占用为 0，我觉得是被人黑了，所以重置了 SSH 密码然后还是连不上。心急如焚地试了各种办法，发现后台重启能获得短暂复活时间，但不一会又死掉。利用短暂时间把面板密码、SSH 密码又都改了，但服务器每次重启都还是会在很短的时间内再次断连。对方手速真是太快了，而且我想不明白黑客是怎么搞我的。最后迫不得已决定尝试终极办法——后台重装系统，还好 1Panel 有备份恢复功能，数据完好无损。这才总算是恢复了对服务器的控制权。&lt;/p>
 &lt;p>问了 ChatGPT，它告诉我：&lt;/p>
@@ -13,8 +13,8 @@
 &lt;p>开始前先说一下，如果有朋友想买 CC 的 VPS 可以走我的 AFF 啊哈哈&lt;br>
 &lt;a class="link" href="https://app.cloudcone.com/?ref=11248" target="_blank" rel="noopener"
 >https://app.cloudcone.com/?ref=11248&lt;/a>&lt;/p>
-&lt;h2 id="putty-下载">PuTTY 下载&lt;/h2>
-&lt;p>PuTTY 官方下载地址：&lt;a class="link" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener"
+&lt;h2 id="putty-下载">&lt;a href="#putty-%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>PuTTY 下载
+&lt;/h2>&lt;p>PuTTY 官方下载地址：&lt;a class="link" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener"
 >https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html&lt;/a>&lt;/p>
 &lt;p>在下载页提供有集成 PuTTY 及相关工具的完整安装包，也可以视需求单独下载某个程序使用：&lt;/p>
 &lt;table>
@@ -55,45 +55,45 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="创建-ssh-会话">创建 SSH 会话&lt;/h2>
-&lt;p>运行 putty.exe，在程序界面内输入服务器 IP 地址和端口，选中 SSH 连接类型，设置连接会话名称，点击保存，然后点击 Open 按钮连接登录。&lt;/p>
+&lt;h2 id="创建-ssh-会话">&lt;a href="#%e5%88%9b%e5%bb%ba-ssh-%e4%bc%9a%e8%af%9d" class="header-anchor">&lt;/a>创建 SSH 会话
+&lt;/h2>&lt;p>运行 putty.exe，在程序界面内输入服务器 IP 地址和端口，选中 SSH 连接类型，设置连接会话名称，点击保存，然后点击 Open 按钮连接登录。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/01.webp"
 loading="lazy"
 alt="创建会话"
 >&lt;/p>
 &lt;p>首次连接会提示服务器指纹，保存后登录同一台服务器将不再提示（如果提示，则表示服务器指纹发生了变化，可能是重装系统所致或连接服务器被冒充）。如果需要注销连接会话，使用 &lt;code>exit&lt;/code> 命令或 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>D&lt;/kbd> 快捷键。&lt;/p>
-&lt;h2 id="putty-配置">PuTTY 配置&lt;/h2>
-&lt;p>选中 SSH 会话，点击 &lt;code>Load&lt;/code> 加载设置，然后开始修改设置，最后回到首页点击 &lt;code>Save&lt;/code> 保存。&lt;/p>
-&lt;h3 id="使用私钥登录">使用私钥登录&lt;/h3>
-&lt;h4 id="生成密钥">生成密钥&lt;/h4>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/02.webp"
+&lt;h2 id="putty-配置">&lt;a href="#putty-%e9%85%8d%e7%bd%ae" class="header-anchor">&lt;/a>PuTTY 配置
+&lt;/h2>&lt;p>选中 SSH 会话，点击 &lt;code>Load&lt;/code> 加载设置，然后开始修改设置，最后回到首页点击 &lt;code>Save&lt;/code> 保存。&lt;/p>
+&lt;h3 id="使用私钥登录">&lt;a href="#%e4%bd%bf%e7%94%a8%e7%a7%81%e9%92%a5%e7%99%bb%e5%bd%95" class="header-anchor">&lt;/a>使用私钥登录
+&lt;/h3>&lt;h4 id="生成密钥">&lt;a href="#%e7%94%9f%e6%88%90%e5%af%86%e9%92%a5" class="header-anchor">&lt;/a>生成密钥
+&lt;/h4>&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/02.webp"
 loading="lazy"
 alt="生成密钥"
 >&lt;/p>
 &lt;p>运行 puttygen.exe，点击 &lt;code>Generate&lt;/code> 生成密钥对，然后在 &lt;code>Key passphrase&lt;/code> 设置密码后点击 &lt;code>Save public key&lt;/code> 和 &lt;code>Save private key&lt;/code> 保存。公钥上传到服务器（CloudCone 后台可以上传），私钥自己妥善保存。&lt;/p>
-&lt;h4 id="设置密钥">设置密钥&lt;/h4>
-&lt;p>侧边栏依次打开 Connection -&amp;gt; SSH -&amp;gt; Auth -&amp;gt; Credentials，浏览选中私钥文件，保存设置后即可使用密钥方式登录。&lt;/p>
+&lt;h4 id="设置密钥">&lt;a href="#%e8%ae%be%e7%bd%ae%e5%af%86%e9%92%a5" class="header-anchor">&lt;/a>设置密钥
+&lt;/h4>&lt;p>侧边栏依次打开 Connection -&amp;gt; SSH -&amp;gt; Auth -&amp;gt; Credentials，浏览选中私钥文件，保存设置后即可使用密钥方式登录。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/03.webp"
 loading="lazy"
 alt="设置密钥"
 >&lt;/p>
 &lt;p>注意要使用 PPK 格式因为 PuTTY 不支持 &lt;code>PEM&lt;/code> 格式密钥。需要用 puttygen.exe 转换一下。点击 &lt;code>Load&lt;/code> 导入私钥文件，然后点击 &lt;code>Save private key&lt;/code> 另存为 &lt;code>PPK&lt;/code> 格式。&lt;/p>
-&lt;h3 id="会话保持">会话保持&lt;/h3>
-&lt;p>当与服务器长时间没数据传输，PuTTY 会自动断开连接。可以在侧边栏 Connection 选项卡设置 &lt;code>Seconds between keepalives&lt;/code> 值开启会话保持功能。&lt;/p>
+&lt;h3 id="会话保持">&lt;a href="#%e4%bc%9a%e8%af%9d%e4%bf%9d%e6%8c%81" class="header-anchor">&lt;/a>会话保持
+&lt;/h3>&lt;p>当与服务器长时间没数据传输，PuTTY 会自动断开连接。可以在侧边栏 Connection 选项卡设置 &lt;code>Seconds between keepalives&lt;/code> 值开启会话保持功能。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/04.webp"
 loading="lazy"
 alt="会话保持"
 >&lt;/p>
-&lt;h3 id="窗口内容长度">窗口内容长度&lt;/h3>
-&lt;p>当打开一个很长内容的文件，或者程序命令不断输出内容，PuTTY 会话窗口只显示最后 2000 行内容。如果需要调整，在侧边栏 Windows 选项卡里修改 &lt;code>Lines of scrollback&lt;/code> 数值。&lt;/p>
+&lt;h3 id="窗口内容长度">&lt;a href="#%e7%aa%97%e5%8f%a3%e5%86%85%e5%ae%b9%e9%95%bf%e5%ba%a6" class="header-anchor">&lt;/a>窗口内容长度
+&lt;/h3>&lt;p>当打开一个很长内容的文件，或者程序命令不断输出内容，PuTTY 会话窗口只显示最后 2000 行内容。如果需要调整，在侧边栏 Windows 选项卡里修改 &lt;code>Lines of scrollback&lt;/code> 数值。&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/04/13/05.webp"
 loading="lazy"
 alt="窗口内容长度"
 >&lt;/p></description></item><item><title>Hi，AI 摘要</title><link>https://www.xalaok.top/post/aisummary/</link><pubDate>Sat, 24 Feb 2024 14:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/aisummary/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/02/24/cover.webp" alt="Featured image of post Hi，AI 摘要" />&lt;p>又又又来折腾博客了，看不少博友都加上了 AI 总结文章的功能，也想自己整一个。本文借鉴了&lt;a class="link" href="https://www.eallion.com/ai-summary/" target="_blank" rel="noopener"
 >大大的小蜗牛&lt;/a>并进行了部分修改。&lt;/p>
-&lt;h2 id="获取摘要数据">获取摘要数据&lt;/h2>
-&lt;h3 id="ai-生成总结">AI 生成总结&lt;/h3>
-&lt;p>方式有三种：&lt;/p>
+&lt;h2 id="获取摘要数据">&lt;a href="#%e8%8e%b7%e5%8f%96%e6%91%98%e8%a6%81%e6%95%b0%e6%8d%ae" class="header-anchor">&lt;/a>获取摘要数据
+&lt;/h2>&lt;h3 id="ai-生成总结">&lt;a href="#ai-%e7%94%9f%e6%88%90%e6%80%bb%e7%bb%93" class="header-anchor">&lt;/a>AI 生成总结
+&lt;/h3>&lt;p>方式有三种：&lt;/p>
 &lt;ul>
 &lt;li>接入 &lt;a class="link" href="https://github.com/zhheo/Post-Abstract-AI" target="_blank" rel="noopener"
 >TianliGPT&lt;/a>，自动在访问时生成（需要购买 Key）&lt;/li>
@@ -101,8 +101,8 @@ alt="窗口内容长度"
 &lt;li>手动把文章内容喂给 ChatGPT 或 Claude2 获取&lt;/li>
 &lt;/ul>
 &lt;p>我自己用的是第三种。因为我博客也就三十几篇文章，TianliGPT 9块钱能生成至少 50 篇文章的摘要，而且目前博客访问的人也不多，能省就省省😅。脚本虽然很方便，但貌似我还不太会使用，搞不出来。正好之前部署过 NextChat 且有一个免费的 GPT-3.5 的 API Key，所以就手动喂给 GPT 了。&lt;/p>
-&lt;h3 id="数据存在哪">数据存在哪&lt;/h3>
-&lt;p>有两种方式：&lt;/p>
+&lt;h3 id="数据存在哪">&lt;a href="#%e6%95%b0%e6%8d%ae%e5%ad%98%e5%9c%a8%e5%93%aa" class="header-anchor">&lt;/a>数据存在哪
+&lt;/h3>&lt;p>有两种方式：&lt;/p>
 &lt;ol>
 &lt;li>在 &lt;code>/data&lt;/code> 目录下用 &lt;code>json&lt;/code> 文件保存&lt;/li>
 &lt;li>把摘要结果放在文章 Front Matter 的 &lt;code>summary&lt;/code> 下&lt;/li>
@@ -119,9 +119,9 @@ alt="窗口内容长度"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">渲染 AI 摘要&lt;/h2>
-&lt;h3 id="修改模板文件">修改模板文件&lt;/h3>
-&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">&lt;a href="#%e6%b8%b2%e6%9f%93-ai-%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>渲染 AI 摘要
+&lt;/h2>&lt;h3 id="修改模板文件">&lt;a href="#%e4%bf%ae%e6%94%b9%e6%a8%a1%e6%9d%bf%e6%96%87%e4%bb%b6" class="header-anchor">&lt;/a>修改模板文件
+&lt;/h3>&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
 &lt;p>在 &lt;code>/layouts/partial/article/components&lt;/code> 创建 &lt;code>aisummary.html&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 获取数据 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $summary := getJSON &amp;#34;data/summary/summary.json&amp;#34; }}
@@ -168,8 +168,8 @@ alt="窗口内容长度"
 如不需要打字机效果，需要将 &lt;code>&amp;lt;div id=&amp;quot;ai-explanation&amp;quot; class=&amp;quot;ai-explanation&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code> 和 JS 部分注释掉。&lt;br>
 这里的修改是把 unpkg 换成了国内的饿了么 npm 镜像，并且调快了打字机速度（原来感觉有点太慢了，如果还觉得慢可以把 &lt;code>speed&lt;/code> 数值继续调小）&lt;br>
 然后把摘要引入文章的模板文件。在 &lt;code>/layouts/partial/article/article.html&lt;/code> 的 &lt;code>header&lt;/code> 和 &lt;code>content&lt;/code> 中间加上 &lt;code>{{ partial &amp;quot;article/components/aisummary&amp;quot; . }}&lt;/code>&lt;/p>
-&lt;h3 id="添加-css">添加 CSS&lt;/h3>
-&lt;p>同样本着一个文件干一件事的原则单独创建自定义 SCSS。在 &lt;code>/assets/scss&lt;/code> 下的合适位置（我是 &lt;code>/assets/scss/custom&lt;/code>）创建 &lt;code>ai.scss&lt;/code>：&lt;/p>
+&lt;h3 id="添加-css">&lt;a href="#%e6%b7%bb%e5%8a%a0-css" class="header-anchor">&lt;/a>添加 CSS
+&lt;/h3>&lt;p>同样本着一个文件干一件事的原则单独创建自定义 SCSS。在 &lt;code>/assets/scss&lt;/code> 下的合适位置（我是 &lt;code>/assets/scss/custom&lt;/code>）创建 &lt;code>ai.scss&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.post-ai&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#f5f5f5&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
@@ -224,8 +224,8 @@ alt="窗口内容长度"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>部分参数可以自行根据喜好更改。&lt;br>
 如不需要打字机效果，也要把最后一项 &lt;code>ai-explanation-content&lt;/code> 的 CSS 注释掉。&lt;br>
 然后在 &lt;code>/assets/scss/custom.scss&lt;/code> 中引入（&lt;code>@import &amp;quot;custom/ai.scss&amp;quot;;&lt;/code>）。&lt;/p>
-&lt;h2 id="单篇文章禁用摘要">单篇文章禁用摘要&lt;/h2>
-&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
+&lt;h2 id="单篇文章禁用摘要">&lt;a href="#%e5%8d%95%e7%af%87%e6%96%87%e7%ab%a0%e7%a6%81%e7%94%a8%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>单篇文章禁用摘要
+&lt;/h2>&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
 &lt;p>询问 ChatGPT 后得知，上面的代码意思是：&lt;/p>
 &lt;blockquote>
 &lt;p>这段代码是在Hugo模板中使用的条件语句，用于根据条件来决定是否插入数学公式。让我们逐步解释这段代码的含义：&lt;/p>
@@ -271,8 +271,8 @@ alt="系统信息"
 &lt;li>Y530/Y540/Y545/Y730/Y740&lt;/li>
 &lt;li>Legion 5i/Legion 7&lt;/li>
 &lt;/ul>
-&lt;h2 id="我的电脑信息">我的电脑信息&lt;/h2>
-&lt;p>Lenovo LEGION Y7000 2020&lt;/p>
+&lt;h2 id="我的电脑信息">&lt;a href="#%e6%88%91%e7%9a%84%e7%94%b5%e8%84%91%e4%bf%a1%e6%81%af" class="header-anchor">&lt;/a>我的电脑信息
+&lt;/h2>&lt;p>Lenovo LEGION Y7000 2020&lt;/p>
 &lt;ul>
 &lt;li>CPU：Intel Core i7-10750H&lt;/li>
 &lt;li>GPU：Nvidia GeForce GTX1650Ti&lt;/li>
@@ -280,9 +280,9 @@ alt="系统信息"
 &lt;li>硬盘：Lenovo SL700 SATA3 240GB&lt;/li>
 &lt;li>无线网卡：Intel Wi-Fi 6 AX201 160MHz&lt;/li>
 &lt;/ul>
-&lt;h2 id="准备阶段">准备阶段&lt;/h2>
-&lt;h3 id="工具下载">工具下载&lt;/h3>
-&lt;ul>
+&lt;h2 id="准备阶段">&lt;a href="#%e5%87%86%e5%a4%87%e9%98%b6%e6%ae%b5" class="header-anchor">&lt;/a>准备阶段
+&lt;/h2>&lt;h3 id="工具下载">&lt;a href="#%e5%b7%a5%e5%85%b7%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>工具下载
+&lt;/h3>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.diskgenius.cn/" target="_blank" rel="noopener"
 >DiskGenius&lt;/a> - 分区，管理启动项&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.drive-image.com/" target="_blank" rel="noopener"
@@ -292,16 +292,16 @@ alt="系统信息"
 &lt;li>&lt;a class="link" href="https://etcher.balena.io/" target="_blank" rel="noopener"
 >balenaEtcher&lt;/a> - 刻录镜像&lt;/li>
 &lt;/ul>
-&lt;h3 id="镜像下载">镜像下载&lt;/h3>
-&lt;p>10.13.6~13.x 镜像都可以&lt;/p>
-&lt;h3 id="准备磁盘">准备磁盘&lt;/h3>
-&lt;ol>
+&lt;h3 id="镜像下载">&lt;a href="#%e9%95%9c%e5%83%8f%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>镜像下载
+&lt;/h3>&lt;p>10.13.6~13.x 镜像都可以&lt;/p>
+&lt;h3 id="准备磁盘">&lt;a href="#%e5%87%86%e5%a4%87%e7%a3%81%e7%9b%98" class="header-anchor">&lt;/a>准备磁盘
+&lt;/h3>&lt;ol>
 &lt;li>将硬盘转换为 GPT 格式，采用 UEFI 引导&lt;/li>
 &lt;li>&lt;strong>单硬盘双系统&lt;/strong>：在有充足空间的分区上划分出 64G 以上空间，不要格式化&lt;/li>
 &lt;li>&lt;strong>多硬盘双系统&lt;/strong>：需要安装黑苹果的硬盘删除所有分区，然后建立 ESP 和 MSR 分区，剩余空间不要格式化&lt;/li>
 &lt;/ol>
-&lt;h3 id="efi">EFI&lt;/h3>
-&lt;p>已经将我的 EFI 发布在 GitHub 上（仓库地址：&lt;a class="link" href="https://github.com/Xalaok/LEGION-Y7000-2020-EFI" target="_blank" rel="noopener"
+&lt;h3 id="efi">&lt;a href="#efi" class="header-anchor">&lt;/a>EFI
+&lt;/h3>&lt;p>已经将我的 EFI 发布在 GitHub 上（仓库地址：&lt;a class="link" href="https://github.com/Xalaok/LEGION-Y7000-2020-EFI" target="_blank" rel="noopener"
 >Xalaok/LEGION-Y7000-2020-EFI&lt;/a>）。如果和我的配置一样（硬盘除外），且安装的 macOS 版本也是 Ventura，那么可以直接使用本 EFI，如果不是 Ventura 需要更换无线网卡驱动（方法参见下面第 3 步），如果配置不同需要自行根据下面教程配置 EFI&lt;/p>
 &lt;ol>
 &lt;li>在 xiaoM 大佬的&lt;a class="link" href="https://github.com/xiaoMGitHub/LEGION_Y7000Series_Hackintosh" target="_blank" rel="noopener"
@@ -318,15 +318,15 @@ alt="系统信息"
 &lt;li>在 OCAT 工具中打开 &lt;code>config.plist&lt;/code>，打开 &lt;code>Kernel&lt;/code> 选项卡拖入新添加的 Kext(Kernel Extention)，全部启用后保存&lt;/li>
 &lt;li>如果是 PM981、PM981a、镁光、海力士固态需要屏蔽。在 &lt;code>/EFI/OC/config.plist&lt;/code> 搜索 &lt;code>SSDT-DNVMe.aml&lt;/code>，将上方的 &lt;code>&amp;lt;key&amp;gt;Enabled&amp;lt;/key&amp;gt;&lt;/code> 下面一行 &lt;code>&amp;lt;false/&amp;gt;&lt;/code> 修改为 &lt;code>&amp;lt;true/&amp;gt;&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;h3 id="bios-设置">BIOS 设置&lt;/h3>
-&lt;h3 id="拯救者一键修改-bios-脚本">拯救者一键修改 BIOS 脚本&lt;/h3>
-&lt;ol>
+&lt;h3 id="bios-设置">&lt;a href="#bios-%e8%ae%be%e7%bd%ae" class="header-anchor">&lt;/a>BIOS 设置
+&lt;/h3>&lt;h3 id="拯救者一键修改-bios-脚本">&lt;a href="#%e6%8b%af%e6%95%91%e8%80%85%e4%b8%80%e9%94%ae%e4%bf%ae%e6%94%b9-bios-%e8%84%9a%e6%9c%ac" class="header-anchor">&lt;/a>拯救者一键修改 BIOS 脚本
+&lt;/h3>&lt;ol>
 &lt;li>下载工具：&lt;a class="link" href="https://github.com/xiaoMGitHub/LEGION_Y7000Series_Insyde_Advanced_Settings_Tools" target="_blank" rel="noopener"
 >xiaoMGitHub/LEGION_Y7000Series_Insyde_Advanced_Settings_Tools&lt;/a>&lt;/li>
 &lt;li>解压后运行&lt;code>双击执行.bat&lt;/code>。依次执行 2、4、5（如果是八代处理器则需要额外多执行 1）后重启&lt;/li>
 &lt;/ol>
-&lt;h3 id="重启按-f2-进入-bios">重启按 F2 进入 BIOS&lt;/h3>
-&lt;ul>
+&lt;h3 id="重启按-f2-进入-bios">&lt;a href="#%e9%87%8d%e5%90%af%e6%8c%89-f2-%e8%bf%9b%e5%85%a5-bios" class="header-anchor">&lt;/a>重启按 F2 进入 BIOS
+&lt;/h3>&lt;ul>
 &lt;li>关闭 Disabled
 &lt;ul>
 &lt;li>Secure Boot（安全启动，必须关闭）&lt;/li>
@@ -340,29 +340,29 @@ alt="系统信息"
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="安装系统">安装系统&lt;/h2>
-&lt;h3 id="安装版">安装版&lt;/h3>
-&lt;p>balenaEtcher 刻录镜像到 U 盘，替换 EFI，重启按 F12 选择 U 盘启动安装&lt;/p>
-&lt;h3 id="恢复版">恢复版&lt;/h3>
-&lt;h4 id="恢复镜像">恢复镜像&lt;/h4>
-&lt;ol>
+&lt;h2 id="安装系统">&lt;a href="#%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f" class="header-anchor">&lt;/a>安装系统
+&lt;/h2>&lt;h3 id="安装版">&lt;a href="#%e5%ae%89%e8%a3%85%e7%89%88" class="header-anchor">&lt;/a>安装版
+&lt;/h3>&lt;p>balenaEtcher 刻录镜像到 U 盘，替换 EFI，重启按 F12 选择 U 盘启动安装&lt;/p>
+&lt;h3 id="恢复版">&lt;a href="#%e6%81%a2%e5%a4%8d%e7%89%88" class="header-anchor">&lt;/a>恢复版
+&lt;/h3>&lt;h4 id="恢复镜像">&lt;a href="#%e6%81%a2%e5%a4%8d%e9%95%9c%e5%83%8f" class="header-anchor">&lt;/a>恢复镜像
+&lt;/h4>&lt;ol>
 &lt;li>安装并打开 R-Drive Image，选择“恢复映像”&lt;/li>
 &lt;li>选取镜像文件，然后点“下一步”&lt;/li>
 &lt;li>从源中将镜像按住拖到下面的“目标磁盘”或者“空闲分区”中，然后点“下一步”&lt;/li>
 &lt;li>点“启动”开始恢复镜像&lt;/li>
 &lt;/ol>
-&lt;h4 id="空余空间的的合并方法">空余空间的的合并方法&lt;/h4>
-&lt;p>当恢复完镜像后，会发现实际可用空间小于硬盘分区大小，有空余的空间出现。只需要在进入 macOS 后，点启动台 &amp;gt; 其它 &amp;gt; 磁盘工具 &amp;gt; 分区，合并未使用磁盘。&lt;/p>
+&lt;h4 id="空余空间的的合并方法">&lt;a href="#%e7%a9%ba%e4%bd%99%e7%a9%ba%e9%97%b4%e7%9a%84%e7%9a%84%e5%90%88%e5%b9%b6%e6%96%b9%e6%b3%95" class="header-anchor">&lt;/a>空余空间的的合并方法
+&lt;/h4>&lt;p>当恢复完镜像后，会发现实际可用空间小于硬盘分区大小，有空余的空间出现。只需要在进入 macOS 后，点启动台 &amp;gt; 其它 &amp;gt; 磁盘工具 &amp;gt; 分区，合并未使用磁盘。&lt;/p>
 &lt;p>10.13.6 先点+号划分出大概 5G 左右空间，然后点应用进行分区，分好之后再点分区，点未分配的空间，然后点下面的减号，再应用即可成功合并。&lt;/p>
-&lt;h2 id="引导建立">引导建立&lt;/h2>
-&lt;ol>
+&lt;h2 id="引导建立">&lt;a href="#%e5%bc%95%e5%af%bc%e5%bb%ba%e7%ab%8b" class="header-anchor">&lt;/a>引导建立
+&lt;/h2>&lt;ol>
 &lt;li>打开 DiskGenius，在工具选项卡打开&lt;code>设置 UEFI BIOS 启动项&lt;/code>&lt;/li>
 &lt;li>添加引导项选中 &lt;code>/EFI/BOOT/bootx64.efi&lt;/code>&lt;/li>
 &lt;li>给引导项改个名字，然后点“保存当前启动项设置”&lt;/li>
 &lt;li>点“上移”，将该引导项移到最上面即可&lt;/li>
 &lt;/ol>
-&lt;h2 id="系统优化">系统优化&lt;/h2>
-&lt;p>在 macOS 打开终端执行 &lt;code>sudo sh -c &amp;quot;$(curl -fsSL https://gitee.com/xiaoMGit/Y7000Series_Hackintosh_Fix/raw/master/Script/Optimize.sh)&amp;quot;&lt;/code>&lt;/p>
+&lt;h2 id="系统优化">&lt;a href="#%e7%b3%bb%e7%bb%9f%e4%bc%98%e5%8c%96" class="header-anchor">&lt;/a>系统优化
+&lt;/h2>&lt;p>在 macOS 打开终端执行 &lt;code>sudo sh -c &amp;quot;$(curl -fsSL https://gitee.com/xiaoMGit/Y7000Series_Hackintosh_Fix/raw/master/Script/Optimize.sh)&amp;quot;&lt;/code>&lt;/p>
 &lt;p>开启休眠（hibernatemode 25）（适用 8 代、10 代处理器，9 代处理器不支持）：上述优化脚本执行命令 7 即可&lt;/p>
 &lt;p>触控板带实体按钮的机型设置（主要针对 2018 款 Y7000 以及部分 2019 款 Y7000）：系统偏好设置 &amp;gt; 触控板 &amp;gt; 取消勾选&amp;quot;用力点按和触感反馈&amp;quot;&lt;/p>
 &lt;p>小键盘相关设置（8代处理器的机器不需要执行）：&lt;/p>
@@ -371,11 +371,11 @@ alt="系统信息"
 &lt;li>打开 系统偏好设置 &amp;gt; 安全性与隐私 &amp;gt; 隐私 &amp;gt; 辅助功能&lt;/li>
 &lt;li>将 setleds 添加到辅助功能&lt;/li>
 &lt;/ol>
-&lt;h2 id="去除多余-no_name-或-efi-引导项">去除多余 NO_NAME 或 EFI 引导项&lt;/h2>
-&lt;p>这是 OpenCore 0.8.8 开始的新特性，解决方案是在 &lt;code>/EFI/Boot&lt;/code> 创建一个内含 &lt;code>Disabled&lt;/code> 字符的 &lt;code>.contentVisibility&lt;/code> 文件&lt;/p>
-&lt;h2 id="说明">说明&lt;/h2>
-&lt;h3 id="正常工作的功能">正常工作的功能&lt;/h3>
-&lt;ul>
+&lt;h2 id="去除多余-no_name-或-efi-引导项">&lt;a href="#%e5%8e%bb%e9%99%a4%e5%a4%9a%e4%bd%99-no_name-%e6%88%96-efi-%e5%bc%95%e5%af%bc%e9%a1%b9" class="header-anchor">&lt;/a>去除多余 NO_NAME 或 EFI 引导项
+&lt;/h2>&lt;p>这是 OpenCore 0.8.8 开始的新特性，解决方案是在 &lt;code>/EFI/Boot&lt;/code> 创建一个内含 &lt;code>Disabled&lt;/code> 字符的 &lt;code>.contentVisibility&lt;/code> 文件&lt;/p>
+&lt;h2 id="说明">&lt;a href="#%e8%af%b4%e6%98%8e" class="header-anchor">&lt;/a>说明
+&lt;/h2>&lt;h3 id="正常工作的功能">&lt;a href="#%e6%ad%a3%e5%b8%b8%e5%b7%a5%e4%bd%9c%e7%9a%84%e5%8a%9f%e8%83%bd" class="header-anchor">&lt;/a>正常工作的功能
+&lt;/h3>&lt;ul>
 &lt;li>UEFI 通过 Clover/OpenCore 启动&lt;/li>
 &lt;li>支持任意版本系统 OTA 升级到最新系统&lt;/li>
 &lt;li>内置键盘以及数字键盘&lt;/li>
@@ -400,8 +400,8 @@ alt="系统信息"
 &lt;li>iMessage/FaceTime&lt;/li>
 &lt;li>休眠唤醒（hibernatemode 25）&lt;/li>
 &lt;/ul>
-&lt;h3 id="不能正常使用的功能">不能正常使用的功能&lt;/h3>
-&lt;ul>
+&lt;h3 id="不能正常使用的功能">&lt;a href="#%e4%b8%8d%e8%83%bd%e6%ad%a3%e5%b8%b8%e4%bd%bf%e7%94%a8%e7%9a%84%e5%8a%9f%e8%83%bd" class="header-anchor">&lt;/a>不能正常使用的功能
+&lt;/h3>&lt;ul>
 &lt;li>睡眠唤醒（原作者说鼠标，键盘、电源键唤醒均正常，但实测我的型号不正常😭）&lt;/li>
 &lt;li>HDMI，因为 HDMI 端口连接到已禁用的 Nvidia 卡&lt;/li>
 &lt;/ul>
@@ -419,8 +419,8 @@ alt="系统信息"
 loading="lazy"
 >&lt;/p>
 &lt;hr>
-&lt;h3 id="新建个人访问令牌">新建个人访问令牌&lt;/h3>
-&lt;ol>
+&lt;h3 id="新建个人访问令牌">&lt;a href="#%e6%96%b0%e5%bb%ba%e4%b8%aa%e4%ba%ba%e8%ae%bf%e9%97%ae%e4%bb%a4%e7%89%8c" class="header-anchor">&lt;/a>新建个人访问令牌
+&lt;/h3>&lt;ol>
 &lt;li>打开 &lt;a class="link" href="https://github.com/settings/tokens" target="_blank" rel="noopener"
 >https://github.com/settings/tokens&lt;/a>&lt;/li>
 &lt;li>右上角新建个人访问令牌（经典）【注：我用的是油猴插件 &lt;a class="link" href="https://greasyfork.org/scripts/435208" target="_blank" rel="noopener"
@@ -436,8 +436,8 @@ loading="lazy"
 >&lt;/li>
 &lt;li>&lt;strong>妥善及时保存&lt;/strong>好新生成的 token，只会出现一次，过后不再可见&lt;/li>
 &lt;/ol>
-&lt;h3 id="导入仓库">导入仓库&lt;/h3>
-&lt;ol>
+&lt;h3 id="导入仓库">&lt;a href="#%e5%af%bc%e5%85%a5%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>导入仓库
+&lt;/h3>&lt;ol>
 &lt;li>GitHub 主页右上角加号选择导入仓库（&lt;code>import repository&lt;/code>）
 &lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/04.webp"
 loading="lazy"
@@ -446,8 +446,8 @@ loading="lazy"
 &lt;li>导入完成后打开导入后的仓库&lt;/li>
 &lt;li>打开 Settings-Actions-General（&lt;code>https://github.com/你的用户名/仓库名/settings/actions&lt;/code>），将 &lt;code>Actions permissions&lt;/code> 设为 &lt;code>Allow all actions add reusable workflows&lt;/code>（第一项）即可看到 Actions 选项卡&lt;/li>
 &lt;/ol>
-&lt;h3 id="设置-secrets">设置 Secrets&lt;/h3>
-&lt;ol>
+&lt;h3 id="设置-secrets">&lt;a href="#%e8%ae%be%e7%bd%ae-secrets" class="header-anchor">&lt;/a>设置 Secrets
+&lt;/h3>&lt;ol>
 &lt;li>打开 Settings-Secrets-Actions（&lt;code>https://github.com/你的用户名/仓库名/settings/secrets/actions&lt;/code>），点击 New repository secret&lt;/li>
 &lt;li>根据仓库作者 README 添加三项 Secret&lt;/li>
 &lt;/ol>
@@ -476,14 +476,14 @@ loading="lazy"
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/05.webp"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="禁用安全默认值">禁用安全默认值&lt;/h3>
-&lt;p>根据&lt;a class="link" href="https://learn.microsoft.com/zh-cn/entra/fundamentals/security-defaults#disabling-security-defaults" target="_blank" rel="noopener"
+&lt;h3 id="禁用安全默认值">&lt;a href="#%e7%a6%81%e7%94%a8%e5%ae%89%e5%85%a8%e9%bb%98%e8%ae%a4%e5%80%bc" class="header-anchor">&lt;/a>禁用安全默认值
+&lt;/h3>&lt;p>根据&lt;a class="link" href="https://learn.microsoft.com/zh-cn/entra/fundamentals/security-defaults#disabling-security-defaults" target="_blank" rel="noopener"
 >微软官方教程&lt;/a>禁用安全默认值，否则无法注册成功，进而无法调用 API
 &lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/06.webp"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="手动触发-actions">手动触发 Actions&lt;/h3>
-&lt;ol>
+&lt;h3 id="手动触发-actions">&lt;a href="#%e6%89%8b%e5%8a%a8%e8%a7%a6%e5%8f%91-actions" class="header-anchor">&lt;/a>手动触发 Actions
+&lt;/h3>&lt;ol>
 &lt;li>转到 &lt;code>Action&lt;/code> 面板，在 &lt;code>All workflows&lt;/code> 下找到 &lt;code>Register APP&lt;/code>，手动触发它完成注册流程，2 分钟左右。如果确认一切操作正确仍然 &lt;code>Register&lt;/code> 失败，可等待 10-30min 后再操作，因为关闭安全默认值后，微软系统要过一段时间才会刷新。
 &lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/07.webp"
 loading="lazy"
@@ -502,8 +502,8 @@ loading="lazy"
 &lt;blockquote>
 &lt;p>参考：&lt;a class="link" href="https://logi.im/script/permanently-keeping-an-office-e5-account.html" target="_blank" rel="noopener"
 ># Office 365 E5 账号申请及永久续期教程 - LOGI&lt;/a>&lt;/p>
-&lt;/blockquote></description></item><item><title>APK 的修改与精简</title><link>https://www.xalaok.top/post/mod-apk/</link><pubDate>Sun, 07 Jan 2024 17:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/mod-apk/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/07/cover.webp" alt="Featured image of post APK 的修改与精简" />&lt;h2 id="准备">准备&lt;/h2>
-&lt;p>手机可以使用 MT 管理器&lt;/p>
+&lt;/blockquote></description></item><item><title>APK 的修改与精简</title><link>https://www.xalaok.top/post/mod-apk/</link><pubDate>Sun, 07 Jan 2024 17:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/mod-apk/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/07/cover.webp" alt="Featured image of post APK 的修改与精简" />&lt;h2 id="准备">&lt;a href="#%e5%87%86%e5%a4%87" class="header-anchor">&lt;/a>准备
+&lt;/h2>&lt;p>手机可以使用 MT 管理器&lt;/p>
 &lt;p>电脑可以使用 &lt;a class="link" href="https://apktool.org/" target="_blank" rel="noopener"
 >ApkTool&lt;/a>：&lt;/p>
 &lt;ol>
@@ -515,8 +515,8 @@ loading="lazy"
 &lt;li>将要解包的 apk 放在同一目录下&lt;/li>
 &lt;li>运行 &lt;code>apktool d 安装包文件名.apk -o 输出文件夹&lt;/code> 解码 apk&lt;/li>
 &lt;/ol>
-&lt;h2 id="apk-包结构">APK 包结构&lt;/h2>
-&lt;p>在精简 apk 之前，首先要了解一下它的结构。&lt;/p>
+&lt;h2 id="apk-包结构">&lt;a href="#apk-%e5%8c%85%e7%bb%93%e6%9e%84" class="header-anchor">&lt;/a>APK 包结构
+&lt;/h2>&lt;p>在精简 apk 之前，首先要了解一下它的结构。&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>【assets】&lt;br>
@@ -547,8 +547,8 @@ loading="lazy"
 这里面是一些二进制的资源引用，通过它可以查资源的十六进制的引用值，方便修改 DEX。&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="精简-lib">精简 &lt;code>lib&lt;/code>&lt;/h2>
-&lt;p>armeabi-v7a、arm64-v8a、armeabi、x86、x86_64 有什么区别？以下是 ChatGPT 给出的内容：&lt;/p>
+&lt;h2 id="精简-lib">&lt;a href="#%e7%b2%be%e7%ae%80-lib" class="header-anchor">&lt;/a>精简 &lt;code>lib&lt;/code>
+&lt;/h2>&lt;p>armeabi-v7a、arm64-v8a、armeabi、x86、x86_64 有什么区别？以下是 ChatGPT 给出的内容：&lt;/p>
 &lt;ul>
 &lt;li>armeabi-v7a：基于 ARMv7 指令集的 CPU 架构，适用于大多数现代的 ARM 处理器。&lt;/li>
 &lt;li>arm64-v8a：基于 ARMv8 指令集的 64 位 CPU 架构，适用于支持 64 位指令集的 ARM 处理器。&lt;/li>
@@ -557,8 +557,8 @@ loading="lazy"
 &lt;li>x86_64：基于 x86-64 指令集的 64 位 CPU 架构，适用于支持 64 位指令集的 x86 处理器。&lt;/li>
 &lt;/ul>
 &lt;p>现在大部分手机都支持 arm64-v8a 吧，自己看着留。&lt;/p>
-&lt;h2 id="精简-res-asstes">精简 &lt;code>res&lt;/code> &lt;code>asstes&lt;/code>&lt;/h2>
-&lt;ol>
+&lt;h2 id="精简-res-asstes">&lt;a href="#%e7%b2%be%e7%ae%80-res-asstes" class="header-anchor">&lt;/a>精简 &lt;code>res&lt;/code> &lt;code>asstes&lt;/code>
+&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>删除广告插件&lt;br>
 主要有 bdx 开头的压缩包（百度）和 gdt_ 开头的文件夹（腾讯）&lt;/p>
@@ -571,10 +571,10 @@ loading="lazy"
 &lt;p>删除 &lt;code>abc\_&lt;/code> 开头的图片文件（这种一般都是自动生成的，开发者也不会调用）&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="精简-classesdex-resourcesacrs">精简 &lt;code>classes.dex&lt;/code> &lt;code>resources.acrs&lt;/code>&lt;/h2>
-&lt;p>剥离广告 sdk，用 proguard 工具啥的太高级了，还不会。听说有时候 arsc 越精简越大😅&lt;/p>
-&lt;h2 id="精简-androidmanifestxml">精简 &lt;code>AndroidManifest.xml&lt;/code>&lt;/h2>
-&lt;p>删掉无用 activity service permission 啥的。&lt;/p>
+&lt;h2 id="精简-classesdex-resourcesacrs">&lt;a href="#%e7%b2%be%e7%ae%80-classesdex-resourcesacrs" class="header-anchor">&lt;/a>精简 &lt;code>classes.dex&lt;/code> &lt;code>resources.acrs&lt;/code>
+&lt;/h2>&lt;p>剥离广告 sdk，用 proguard 工具啥的太高级了，还不会。听说有时候 arsc 越精简越大😅&lt;/p>
+&lt;h2 id="精简-androidmanifestxml">&lt;a href="#%e7%b2%be%e7%ae%80-androidmanifestxml" class="header-anchor">&lt;/a>精简 &lt;code>AndroidManifest.xml&lt;/code>
+&lt;/h2>&lt;p>删掉无用 activity service permission 啥的。&lt;/p>
 &lt;p>常见的广告关键词：&lt;/p>
 &lt;ul>
 &lt;li>qq.e（腾讯）&lt;/li>
@@ -586,8 +586,8 @@ loading="lazy"
 &lt;li>sdk（带有 huawei，xiaomi，meizu，vivo，push 等字样的）&lt;/li>
 &lt;/ul>
 &lt;p>sdk 要自行判断，比如微博的 sdk 删了会导致无法用微博登陆和分享，删淘宝可能会导致无法调用淘宝，删 alipay 可能导致无法调用支付宝支付，删带有手机型号的可能会导致无法使用手机运营商相关的服务等等&lt;/p>
-&lt;h2 id="构建修改好的-apk">构建修改好的 apk&lt;/h2>
-&lt;p>运行 &lt;code>apktool b 文件夹 -o 新安装包文件名.apk&lt;/code> 即可，注意，还要签名才能安装。&lt;/p></description></item><item><title>GitHub 开启 2FA</title><link>https://www.xalaok.top/post/github-2fa/</link><pubDate>Fri, 29 Sep 2023 15:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/github-2fa/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/09/29/cover.webp" alt="Featured image of post GitHub 开启 2FA" />&lt;p>现在打开 GitHub 会要求有代码提交的用户开启两步验证，否则后面提交不了代码&lt;/p>
+&lt;h2 id="构建修改好的-apk">&lt;a href="#%e6%9e%84%e5%bb%ba%e4%bf%ae%e6%94%b9%e5%a5%bd%e7%9a%84-apk" class="header-anchor">&lt;/a>构建修改好的 apk
+&lt;/h2>&lt;p>运行 &lt;code>apktool b 文件夹 -o 新安装包文件名.apk&lt;/code> 即可，注意，还要签名才能安装。&lt;/p></description></item><item><title>GitHub 开启 2FA</title><link>https://www.xalaok.top/post/github-2fa/</link><pubDate>Fri, 29 Sep 2023 15:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/github-2fa/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/09/29/cover.webp" alt="Featured image of post GitHub 开启 2FA" />&lt;p>现在打开 GitHub 会要求有代码提交的用户开启两步验证，否则后面提交不了代码&lt;/p>
 &lt;blockquote>
 &lt;p>Because of your contributions on GitHub, two-factor authentication will be required for your account starting Sep 28, 2023. Thank you for helping keep the ecosystem safe! &lt;a class="link" href="https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/" target="_blank" rel="noopener"
 >Learn more about our two-factor authentication initiative&lt;/a>.&lt;br>
@@ -600,8 +600,8 @@ loading="lazy"
 &lt;p>GitHub 提供了两种方式：身份验证器应用或手机短信验证&lt;/p>
 &lt;p>但是从&lt;a class="link" href="https://docs.github.com/articles/countries-where-sms-authentication-is-supported#supported-countries-for-sms-authentication" target="_blank" rel="noopener"
 >官方文档&lt;/a>可知，GitHub 手机短信验证不支持中国号码，所以没有国外号码的话只能考虑 TOTP 应用或浏览器扩展&lt;/p>
-&lt;h2 id="totp应用">TOTP应用&lt;/h2>
-&lt;p>以微软的 Authenticator 为例&lt;/p>
+&lt;h2 id="totp应用">&lt;a href="#totp%e5%ba%94%e7%94%a8" class="header-anchor">&lt;/a>TOTP应用
+&lt;/h2>&lt;p>以微软的 Authenticator 为例&lt;/p>
 &lt;ol>
 &lt;li>GitHub 右上角选择【设置】，或者打开 &lt;a class="link" href="https://github.com/settings/security" target="_blank" rel="noopener"
 >https://github.com/settings/security&lt;/a>&lt;/li>
@@ -613,8 +613,8 @@ alt="totp"
 &lt;li>打开 Authenticator 应用，从右上角的 + 号添加帐户，选择其他帐户，然后扫一扫二维码&lt;/li>
 &lt;li>扫描完成之后帐号就添加到 Authenticator 中了，下次打开切到 GitHub 即可展示动态验证码&lt;/li>
 &lt;/ol>
-&lt;h2 id="浏览器扩展">浏览器扩展&lt;/h2>
-&lt;p>以开源免费的 Authenticator: 2FA Client 为例&lt;/p>
+&lt;h2 id="浏览器扩展">&lt;a href="#%e6%b5%8f%e8%a7%88%e5%99%a8%e6%89%a9%e5%b1%95" class="header-anchor">&lt;/a>浏览器扩展
+&lt;/h2>&lt;p>以开源免费的 Authenticator: 2FA Client 为例&lt;/p>
 &lt;ol>
 &lt;li>GitHub 右上角选择【设置】，或者打开 &lt;a class="link" href="https://github.com/settings/security" target="_blank" rel="noopener"
 >https://github.com/settings/security&lt;/a>&lt;/li>
@@ -632,8 +632,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;div class="notice notice-info" >
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="#705943">&lt;path d="M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z"/>&lt;/svg>&lt;/div>&lt;p>&lt;strong>WebP&lt;/strong> 是一种同时提供了有损压缩与无损压缩（可逆压缩）的图片文件格式，派生自影像编码格式 VP8，被认为是 WebM 多媒体格式的姊妹项目，是由 Google 在购买 On2 Technologies 后发展出来，以 BSD 授权条款发布。&lt;/p>&lt;/div>
 &lt;p>百度一搜发现人家诞生的目标就是在达到和JPEG格式相同的图片质量的前提下减少文件大小，而且&lt;strong>同时支持静态图片和动态图片&lt;/strong>！大开眼界啊！&lt;/p></description></item><item><title>博客魔改美化（通用）</title><link>https://www.xalaok.top/post/blog-modify/</link><pubDate>Fri, 04 Aug 2023 20:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/blog-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/04/cover.webp" alt="Featured image of post 博客魔改美化（通用）" />&lt;p>昨天写过一篇 Stack 主题魔改，那篇仅适用于 Stack 主题，今天的这篇适用于所有 Hugo 博客（部分适用于所有网页），以后所有的添加也会在这篇文章里面&lt;/p>
-&lt;h2 id="博客运行时间">博客运行时间&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;timeDate&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入天数&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&amp;lt;span id=&amp;#34;times&amp;#34;&amp;gt;载入时分秒...&amp;lt;/span&amp;gt;&lt;/span>
+&lt;h2 id="博客运行时间">&lt;a href="#%e5%8d%9a%e5%ae%a2%e8%bf%90%e8%a1%8c%e6%97%b6%e9%97%b4" class="header-anchor">&lt;/a>博客运行时间
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;timeDate&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入天数&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&amp;lt;span id=&amp;#34;times&amp;#34;&amp;gt;载入时分秒...&amp;lt;/span&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">script&lt;/span> &lt;span class="nx">language&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">now&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Date&lt;/span>&lt;span class="p">();&lt;/span>
@@ -658,8 +658,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setInterval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;createtime()&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">250&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/script&amp;gt; &lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="旅行者-1-号离地球距离">旅行者 1 号离地球距离&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;voyager&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入旅行者一号离地球距离信息&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="旅行者-1-号离地球距离">&lt;a href="#%e6%97%85%e8%a1%8c%e8%80%85-1-%e5%8f%b7%e7%a6%bb%e5%9c%b0%e7%90%83%e8%b7%9d%e7%a6%bb" class="header-anchor">&lt;/a>旅行者 1 号离地球距离
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;voyager&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入旅行者一号离地球距离信息&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">script&lt;/span> &lt;span class="nx">language&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">now&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Date&lt;/span>&lt;span class="p">();&lt;/span>
@@ -674,8 +674,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setInterval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;createtime()&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">250&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/script&amp;gt; &lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="已写完了哪本书">已写完了哪本书？&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://immmmm.com/what-book-i-write/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="已写完了哪本书">&lt;a href="#%e5%b7%b2%e5%86%99%e5%ae%8c%e4%ba%86%e5%93%aa%e6%9c%ac%e4%b9%a6" class="header-anchor">&lt;/a>已写完了哪本书？
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://immmmm.com/what-book-i-write/" target="_blank" rel="noopener"
 >已写完了哪本书？ :: 木木木木木&lt;/a>&lt;/p>
 &lt;p>将以下代码添加到 footer.html：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span>&lt;span class="nx">$scratch&lt;/span> &lt;span class="o">:=&lt;/span> &lt;span class="nx">newScratch&lt;/span>&lt;span class="p">}}&lt;/span>
@@ -712,15 +712,15 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="nx">ge&lt;/span> &lt;span class="nx">$wowWord&lt;/span> &lt;span class="mi">5&lt;/span> &lt;span class="p">}}{{&lt;/span>&lt;span class="nx">$wowBook&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;写完一本 埃克苏佩里 的&amp;lt;/br&amp;gt;《小王子》了！&amp;#34;&lt;/span>&lt;span class="p">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span> &lt;span class="nx">end&lt;/span> &lt;span class="p">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">共&lt;/span> &lt;span class="p">{{&lt;/span>&lt;span class="nx">$totalWord&lt;/span> &lt;span class="p">}}&lt;/span> &lt;span class="nx">字&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">br&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="p">{{&lt;/span>&lt;span class="nx">$wowBook&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeHTML&lt;/span> &lt;span class="p">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="图片懒加载">图片懒加载&lt;/h2>
-&lt;p>注：Stack 主题默认有懒加载，不需要自行添加&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="图片懒加载">&lt;a href="#%e5%9b%be%e7%89%87%e6%87%92%e5%8a%a0%e8%bd%bd" class="header-anchor">&lt;/a>图片懒加载
+&lt;/h2>&lt;p>注：Stack 主题默认有懒加载，不需要自行添加&lt;/p>
 &lt;p>原理：使用 Hugo (v0.62+) 的渲染钩子对 markdown 文件内的链接和图像自定义渲染&lt;/p>
 &lt;p>实现：&lt;code>/layouts/_default/_markup&lt;/code> 中新建 &lt;code>render-image.html&lt;/code> 然后丢入代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;md_image&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">loading&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#39;lazy&amp;#39;&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Destination | safeURL }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Text }}&amp;#34;&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">with&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Title&lt;/span>&lt;span class="err">}}&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="博客产量">博客产量&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://blog.douchi.space/hugo-blog-heatmap/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="博客产量">&lt;a href="#%e5%8d%9a%e5%ae%a2%e4%ba%a7%e9%87%8f" class="header-anchor">&lt;/a>博客产量
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://blog.douchi.space/hugo-blog-heatmap/" target="_blank" rel="noopener"
 >如何给 Hugo 博客添加热力图 - 椒盐豆豉&lt;/a>&lt;/p>
 &lt;p>任意位置加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;heatmap&amp;#34;&lt;/span> &lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;
@@ -889,9 +889,9 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见首页&lt;/p>
-&lt;h2 id="自定义字体">自定义字体&lt;/h2>
-&lt;h3 id="使用谷歌字体">使用谷歌字体&lt;/h3>
-&lt;ol>
+&lt;h2 id="自定义字体">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>自定义字体
+&lt;/h2>&lt;h3 id="使用谷歌字体">&lt;a href="#%e4%bd%bf%e7%94%a8%e8%b0%b7%e6%ad%8c%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>使用谷歌字体
+&lt;/h3>&lt;ol>
 &lt;li>修改 &lt;code>/layouts/partials/footer/components/custom-font.html&lt;/code> 为以下代码：&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;preconnect&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://fonts.googleapis.com&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -909,9 +909,9 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="其他字体">其他字体&lt;/h3>
-&lt;h4 id="霞骛文楷">霞骛文楷&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="其他字体">&lt;a href="#%e5%85%b6%e4%bb%96%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>其他字体
+&lt;/h3>&lt;h4 id="霞骛文楷">&lt;a href="#%e9%9c%9e%e9%aa%9b%e6%96%87%e6%a5%b7" class="header-anchor">&lt;/a>霞骛文楷
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- LXGW WenKai GB Screen --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- LXGW WenKai GB Screen R --&amp;gt;&lt;/span>
@@ -930,8 +930,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;LXGW WenKai Screen R&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="harmonyos-sans">HarmonyOS Sans&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="harmonyos-sans">&lt;a href="#harmonyos-sans" class="header-anchor">&lt;/a>HarmonyOS Sans
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- B 站 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span>
@@ -948,8 +948,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#39;HarmonyOS_Regular&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">MiSans&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">&lt;a href="#misans" class="header-anchor">&lt;/a>MiSans
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;stylesheet&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;https://cdn.jsdelivr.net/npm/misans@3.1.1/lib/misans-400-regular.min.css&amp;#34;&lt;/span>
@@ -959,8 +959,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;MiSans&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鼠标样式">鼠标样式&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://blog.xecades.xyz/articles/cursor/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鼠标样式">&lt;a href="#%e9%bc%a0%e6%a0%87%e6%a0%b7%e5%bc%8f" class="header-anchor">&lt;/a>鼠标样式
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://blog.xecades.xyz/articles/cursor/" target="_blank" rel="noopener"
 >打造一款乖巧的鼠标指针特效 - Xecades&lt;/a>&lt;/p>
 &lt;p>Cursor.css&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">#&lt;/span>&lt;span class="nn">cursor&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1074,9 +1074,9 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 需要重新获取列表时，使用 CURSOR.refresh()
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">})();&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见 &lt;a class="link" href="https://xecades.xyz" target="_blank" rel="noopener"
->Xecades 主页&lt;/a>&lt;/p></description></item><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">全局&lt;/h2>
-&lt;h3 id="零碎玩意">零碎玩意&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+>Xecades 主页&lt;/a>&lt;/p></description></item><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">&lt;a href="#%e5%85%a8%e5%b1%80" class="header-anchor">&lt;/a>全局
+&lt;/h2>&lt;h3 id="零碎玩意">&lt;a href="#%e9%9b%b6%e7%a2%8e%e7%8e%a9%e6%84%8f" class="header-anchor">&lt;/a>零碎玩意
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 页面基本配色
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nd">:root&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局顶部边距
@@ -1296,8 +1296,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">object-fit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">cover&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">17&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="菜单栏圆角">菜单栏圆角&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="菜单栏圆角">&lt;a href="#%e8%8f%9c%e5%8d%95%e6%a0%8f%e5%9c%86%e8%a7%92" class="header-anchor">&lt;/a>菜单栏圆角
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 菜单栏样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 下拉菜单改圆角样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.menu&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1378,8 +1378,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="滚动条">滚动条&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="滚动条">&lt;a href="#%e6%bb%9a%e5%8a%a8%e6%9d%a1" class="header-anchor">&lt;/a>滚动条
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//将滚动条修改为圆角样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//菜单滚动条美化
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.menu&lt;/span>&lt;span class="nd">::-webkit-scrollbar&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1407,8 +1407,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#a8bbbf&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="加载进度条">加载进度条&lt;/h3>
-&lt;p>在 &lt;code>/layouts/partials/footer/custom.html&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="加载进度条">&lt;a href="#%e5%8a%a0%e8%bd%bd%e8%bf%9b%e5%ba%a6%e6%9d%a1" class="header-anchor">&lt;/a>加载进度条
+&lt;/h3>&lt;p>在 &lt;code>/layouts/partials/footer/custom.html&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js&amp;#34;&lt;/span> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css&amp;#34;&lt;/span> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -1418,8 +1418,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">readyState&lt;/span> &lt;span class="o">===&lt;/span> &lt;span class="s2">&amp;#34;complete&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nx">NProgress&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">done&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="深色模式开关图标">深色模式开关图标&lt;/h3>
-&lt;p>不太喜欢默认图标，默认图标不够直观，当然你可以不换&lt;br>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="深色模式开关图标">&lt;a href="#%e6%b7%b1%e8%89%b2%e6%a8%a1%e5%bc%8f%e5%bc%80%e5%85%b3%e5%9b%be%e6%a0%87" class="header-anchor">&lt;/a>深色模式开关图标
+&lt;/h3>&lt;p>不太喜欢默认图标，默认图标不够直观，当然你可以不换&lt;br>
 我选取了 &lt;a class="link" href="https://tablericons.com/" target="_blank" rel="noopener"
 >Tabler Icons&lt;/a> 中的 &lt;code>sun-high&lt;/code> 和 &lt;code>moon-stars&lt;/code> 这两个图标&lt;br>
 在 &lt;code>/assets/scss/partials/sidebar.scss&lt;/code> 第 154~180 行中将图标名进行修改，最终效果：&lt;/p>
@@ -1460,8 +1460,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ T &amp;#34;darkMode&amp;#34; }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end }}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="修改布局">修改布局&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/grid.scss&lt;/code> 中修改 &lt;code>left-sidebar&lt;/code> 和 &lt;code>right-sidebar&lt;/code> 的描述：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="修改布局">&lt;a href="#%e4%bf%ae%e6%94%b9%e5%b8%83%e5%b1%80" class="header-anchor">&lt;/a>修改布局
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/grid.scss&lt;/code> 中修改 &lt;code>left-sidebar&lt;/code> 和 &lt;code>right-sidebar&lt;/code> 的描述：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.left-sidebar&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">order&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// max-width: var(--left-sidebar-max-width);
@@ -1479,10 +1479,10 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>把正文的占比改到了 70%, 原来的只有 50% 左右&lt;/p>
-&lt;h2 id="页面">页面&lt;/h2>
-&lt;h3 id="归档">归档&lt;/h3>
-&lt;h4 id="双栏">双栏&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;h2 id="页面">&lt;a href="#%e9%a1%b5%e9%9d%a2" class="header-anchor">&lt;/a>页面
+&lt;/h2>&lt;h3 id="归档">&lt;a href="#%e5%bd%92%e6%a1%a3" class="header-anchor">&lt;/a>归档
+&lt;/h3>&lt;h4 id="双栏">&lt;a href="#%e5%8f%8c%e6%a0%8f" class="header-anchor">&lt;/a>双栏
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 归档页面两栏
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">@media&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="na">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.article-list--compact&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1501,8 +1501,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="卡片缩放动画">卡片缩放动画&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="卡片缩放动画">&lt;a href="#%e5%8d%a1%e7%89%87%e7%bc%a9%e6%94%be%e5%8a%a8%e7%94%bb" class="header-anchor">&lt;/a>卡片缩放动画
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*-----------归档页面----------*/&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//归档页面卡片缩放
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-list--tile&lt;/span> &lt;span class="nt">article&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1512,8 +1512,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.article-list--tile&lt;/span> &lt;span class="nt">article&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">scale&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="mf">.03&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.03&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="友链三栏">友链三栏&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="友链三栏">&lt;a href="#%e5%8f%8b%e9%93%be%e4%b8%89%e6%a0%8f" class="header-anchor">&lt;/a>友链三栏
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 友情链接三栏
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">@media&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="na">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.article-list--compact.links&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1536,9 +1536,9 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="首页">首页&lt;/h3>
-&lt;h4 id="布局">布局&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="首页">&lt;a href="#%e9%a6%96%e9%a1%b5" class="header-anchor">&lt;/a>首页
+&lt;/h3>&lt;h4 id="布局">&lt;a href="#%e5%b8%83%e5%b1%80" class="header-anchor">&lt;/a>布局
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*主页布局间距调整*/&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.main-container&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">gap&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">50&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">//文章宽度
@@ -1553,8 +1553,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">overflow-x&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">visible&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">//显示隐藏的图标
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">padding-bottom&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">15&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="右侧导航栏动画">右侧导航栏动画&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="右侧导航栏动画">&lt;a href="#%e5%8f%b3%e4%be%a7%e5%af%bc%e8%88%aa%e6%a0%8f%e5%8a%a8%e7%94%bb" class="header-anchor">&lt;/a>右侧导航栏动画
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*------------------右侧导航栏--------------*/&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 搜索菜单动画
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.search-form.widget&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1586,9 +1586,9 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.tagCloud&lt;/span> &lt;span class="nc">.tagCloud-tags&lt;/span> &lt;span class="nt">a&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">scale&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="mf">.1&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.1&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="细节">细节&lt;/h2>
-&lt;h3 id="首页欢迎横幅">首页欢迎横幅&lt;/h3>
-&lt;p>在 &lt;code>/layouts/index.html&lt;/code> 的 &lt;code>&amp;lt;section class=&amp;quot;article-list&amp;quot;&amp;gt;&lt;/code> 前添加以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="细节">&lt;a href="#%e7%bb%86%e8%8a%82" class="header-anchor">&lt;/a>细节
+&lt;/h2>&lt;h3 id="首页欢迎横幅">&lt;a href="#%e9%a6%96%e9%a1%b5%e6%ac%a2%e8%bf%8e%e6%a8%aa%e5%b9%85" class="header-anchor">&lt;/a>首页欢迎横幅
+&lt;/h3>&lt;p>在 &lt;code>/layouts/index.html&lt;/code> 的 &lt;code>&amp;lt;section class=&amp;quot;article-list&amp;quot;&amp;gt;&lt;/code> 前添加以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 首页欢迎字幅 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;welcome&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span> &lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;font-size: 2rem; text-align: center; font-weight: bold&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -1709,9 +1709,9 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">translateY&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="代码块">代码块&lt;/h3>
-&lt;h4 id="macos-风格红绿灯图标">macOS 风格红绿灯图标&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="代码块">&lt;a href="#%e4%bb%a3%e7%a0%81%e5%9d%97" class="header-anchor">&lt;/a>代码块
+&lt;/h3>&lt;h4 id="macos-风格红绿灯图标">&lt;a href="#macos-%e9%a3%8e%e6%a0%bc%e7%ba%a2%e7%bb%bf%e7%81%af%e5%9b%be%e6%a0%87" class="header-anchor">&lt;/a>macOS 风格红绿灯图标
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// macOS 风格代码块
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.highlight&lt;/span>&lt;span class="nd">:before&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1733,8 +1733,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;ellipse&lt;/span> &lt;span class="na">cx=&lt;/span>&lt;span class="s">&amp;#34;225&amp;#34;&lt;/span> &lt;span class="na">cy=&lt;/span>&lt;span class="s">&amp;#34;65&amp;#34;&lt;/span> &lt;span class="na">rx=&lt;/span>&lt;span class="s">&amp;#34;50&amp;#34;&lt;/span> &lt;span class="na">ry=&lt;/span>&lt;span class="s">&amp;#34;52&amp;#34;&lt;/span> &lt;span class="na">stroke=&lt;/span>&lt;span class="s">&amp;#34;rgb(218,151,33)&amp;#34;&lt;/span> &lt;span class="na">stroke-width=&lt;/span>&lt;span class="s">&amp;#34;2&amp;#34;&lt;/span> &lt;span class="na">fill=&lt;/span>&lt;span class="s">&amp;#34;rgb(247,193,81)&amp;#34;&lt;/span>&lt;span class="nt">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;ellipse&lt;/span> &lt;span class="na">cx=&lt;/span>&lt;span class="s">&amp;#34;385&amp;#34;&lt;/span> &lt;span class="na">cy=&lt;/span>&lt;span class="s">&amp;#34;65&amp;#34;&lt;/span> &lt;span class="na">rx=&lt;/span>&lt;span class="s">&amp;#34;50&amp;#34;&lt;/span> &lt;span class="na">ry=&lt;/span>&lt;span class="s">&amp;#34;52&amp;#34;&lt;/span> &lt;span class="na">stroke=&lt;/span>&lt;span class="s">&amp;#34;rgb(27,161,37)&amp;#34;&lt;/span> &lt;span class="na">stroke-width=&lt;/span>&lt;span class="s">&amp;#34;2&amp;#34;&lt;/span> &lt;span class="na">fill=&lt;/span>&lt;span class="s">&amp;#34;rgb(100,200,86)&amp;#34;&lt;/span>&lt;span class="nt">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/svg&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="显示语言和复制按钮">显示语言和复制按钮&lt;/h4>
-&lt;p>在 &lt;code>/assets/ts/custom.ts&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="显示语言和复制按钮">&lt;a href="#%e6%98%be%e7%a4%ba%e8%af%ad%e8%a8%80%e5%92%8c%e5%a4%8d%e5%88%b6%e6%8c%89%e9%92%ae" class="header-anchor">&lt;/a>显示语言和复制按钮
+&lt;/h4>&lt;p>在 &lt;code>/assets/ts/custom.ts&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-typescript" data-lang="typescript">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 显示语言和复制按钮
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kr">const&lt;/span> &lt;span class="nx">highlights&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">querySelectorAll&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;.article-content div.highlight&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">copyText&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="sb">`📄拷贝`&lt;/span>&lt;span class="p">,&lt;/span>
@@ -1803,8 +1803,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">lato&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-size&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.5&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固定块的高度">固定块的高度&lt;/h3>
-&lt;p>过长的内容影响观感，所以把 block 的高度限制在 20em，并隐藏滚动条&lt;br>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固定块的高度">&lt;a href="#%e5%9b%ba%e5%ae%9a%e5%9d%97%e7%9a%84%e9%ab%98%e5%ba%a6" class="header-anchor">&lt;/a>固定块的高度
+&lt;/h3>&lt;p>过长的内容影响观感，所以把 block 的高度限制在 20em，并隐藏滚动条&lt;br>
 在 &lt;code>/assets/scss/partials/layout/article.scss&lt;/code> 中进行如下修改：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.highlight&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1822,8 +1822,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="键盘样式">键盘样式&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="键盘样式">&lt;a href="#%e9%94%ae%e7%9b%98%e6%a0%b7%e5%bc%8f" class="header-anchor">&lt;/a>键盘样式
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 键盘样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">kbd&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="mf">.1&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
@@ -1841,8 +1841,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这样即可使用如下 Markdown 高级语法生成键盘样式：&lt;br>
 &lt;code>&amp;lt;kbd&amp;gt;CTRL&amp;lt;/kbd&amp;gt; + &amp;lt;kbd&amp;gt;C&amp;lt;/kbd&amp;gt;&lt;/code>&lt;br>
 &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>C&lt;/kbd>&lt;/p>
-&lt;h3 id="头像旋转">头像旋转&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;h3 id="头像旋转">&lt;a href="#%e5%a4%b4%e5%83%8f%e6%97%8b%e8%bd%ac" class="header-anchor">&lt;/a>头像旋转
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 头像旋转动画
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.sidebar&lt;/span> &lt;span class="nt">header&lt;/span> &lt;span class="nc">.site-avatar&lt;/span> &lt;span class="nc">.site-logo&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transition&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">transform&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.65&lt;/span>&lt;span class="kt">s&lt;/span> &lt;span class="ni">ease-in-out&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 旋转时间
@@ -1851,8 +1851,8 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.sidebar&lt;/span> &lt;span class="nt">header&lt;/span> &lt;span class="nc">.site-avatar&lt;/span> &lt;span class="nc">.site-logo&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">rotate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">360&lt;/span>&lt;span class="kt">deg&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 旋转角度为360度
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鸣谢">鸣谢&lt;/h2>
-&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鸣谢">&lt;a href="#%e9%b8%a3%e8%b0%a2" class="header-anchor">&lt;/a>鸣谢
+&lt;/h2>&lt;blockquote>
 &lt;p>&lt;a class="link" href="https://stack.jimmycai.com/" target="_blank" rel="noopener"
 >Stack 主题文档&lt;/a>&lt;br>
 &lt;a class="link" href="https://blog.linsnow.cn/p/modify-hugo/" target="_blank" rel="noopener"
@@ -1870,8 +1870,8 @@ loading="lazy"
 &lt;img src="https://cdn.xalaok.top/images/blog/2023/08/02/02.webp"
 loading="lazy"
 >&lt;/p>
-&lt;h2 id="基本">基本&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://img.shields.io/badge/:badgeContent
+&lt;h2 id="基本">&lt;a href="#%e5%9f%ba%e6%9c%ac" class="header-anchor">&lt;/a>基本
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://img.shields.io/badge/:badgeContent
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>:badgeContent&lt;/code> 的内容是 &lt;code>label-message-color?Query Parameters&lt;/code>&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;code>lablel&lt;/code>：徽章左侧字符&lt;br>
@@ -1892,19 +1892,19 @@ loading="lazy"
 &lt;img src="https://img.shields.io/badge/label-message-fdfesf"
 loading="lazy"
 >&lt;/p>
-&lt;h2 id="进阶加查询参数">进阶（加查询参数）&lt;/h2>
-&lt;h3 id="color">color&lt;/h3>
-&lt;p>类型：字符串&lt;br>
+&lt;h2 id="进阶加查询参数">&lt;a href="#%e8%bf%9b%e9%98%b6%e5%8a%a0%e6%9f%a5%e8%af%a2%e5%8f%82%e6%95%b0" class="header-anchor">&lt;/a>进阶（加查询参数）
+&lt;/h2>&lt;h3 id="color">&lt;a href="#color" class="header-anchor">&lt;/a>color
+&lt;/h3>&lt;p>类型：字符串&lt;br>
 内容：颜色值（支持 hex、rgb、rgba、hsl、hsla 和 css 颜色名）&lt;br>
 右侧部分的背景颜色&lt;br>
 在前面基础款徽章里面就有此项，因此此项并不必要，两处任意选一处即可。&lt;/p>
-&lt;h3 id="label">label&lt;/h3>
-&lt;p>类型：字符串&lt;br>
+&lt;h3 id="label">&lt;a href="#label" class="header-anchor">&lt;/a>label
+&lt;/h3>&lt;p>类型：字符串&lt;br>
 左侧文本（空格或特殊字符需要&lt;a class="link" href="https://developer.mozilla.org/zh-CN/docs/Glossary/percent-encoding" target="_blank" rel="noopener"
 >百分比编码&lt;/a>）&lt;br>
 在前面基础款徽章里面就有此项，因此此项并不必要，两处任意选一处即可。&lt;/p>
-&lt;h3 id="labelcolor">labelColor&lt;/h3>
-&lt;p>类型：字符串&lt;br>
+&lt;h3 id="labelcolor">&lt;a href="#labelcolor" class="header-anchor">&lt;/a>labelColor
+&lt;/h3>&lt;p>类型：字符串&lt;br>
 内容：颜色值（支持 hex、rgb、rgba、hsl、hsla 和 css 颜色名）&lt;br>
 左侧部分的背景颜色&lt;br>
 示例：&lt;br>
@@ -1912,8 +1912,8 @@ loading="lazy"
 &lt;img src="https://img.shields.io/badge/label-message-red?labelColor=green"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="style">style&lt;/h3>
-&lt;p>类型：字符串&lt;br>
+&lt;h3 id="style">&lt;a href="#style" class="header-anchor">&lt;/a>style
+&lt;/h3>&lt;p>类型：字符串&lt;br>
 内容：&lt;code>flat&lt;/code>, &lt;code>flat-square&lt;/code>, &lt;code>plastic&lt;/code>, &lt;code>for-the-badge&lt;/code>, &lt;code>social&lt;/code>&lt;br>
 不添加该参数则默认为 &lt;code>flat&lt;/code> 样式&lt;br>
 示例：&lt;br>
@@ -1932,8 +1932,8 @@ loading="lazy"
 &lt;code>social&lt;/code>：&lt;img src="https://img.shields.io/badge/label-message-red?style=social"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="logo">logo&lt;/h3>
-&lt;p>类型：字符串&lt;br>
+&lt;h3 id="logo">&lt;a href="#logo" class="header-anchor">&lt;/a>logo
+&lt;/h3>&lt;p>类型：字符串&lt;br>
 内容：bitcoin、dependabot、gitlab、npm、paypal、serverfault、stackexchange、superuser、telegram、travis 或 &lt;a class="link" href="https://simpleicons.org/" target="_blank" rel="noopener"
 >Simple Icons&lt;/a> 图标（单击图标标题来复制 slug）或 Base64 编码图片&lt;br>
 示例：&lt;br>
@@ -1945,16 +1945,16 @@ loading="lazy"
 &lt;img src="https://img.shields.io/badge/label-%e8%bf%99%e9%87%8c%e7%9a%84%e5%9b%be%e6%a0%87%e6%98%afsimple%20icon%e5%9b%be%e6%a0%87-red?logo=creativecommons"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="logocolor">logoColor&lt;/h3>
-&lt;p>类型：字符串&lt;br>
+&lt;h3 id="logocolor">&lt;a href="#logocolor" class="header-anchor">&lt;/a>logoColor
+&lt;/h3>&lt;p>类型：字符串&lt;br>
 内容：颜色值（支持 hex、rgb、rgba、hsl、hsla 和 css 颜色名）&lt;br>
 支持 Simple-Icon 图标和 Shields 图标，但不支持自定义图标&lt;br>
 示例：&lt;br>
 &lt;code>https://img.shields.io/badge/label-message-red?logo=dependabot&amp;amp;logoColor=blue&lt;/code>
 &lt;img src="https://img.shields.io/badge/label-message-red?logo=dependabot&amp;amp;logoColor=blue"
 loading="lazy"
->&lt;/p></description></item><item><title>解决 Hugo 默认时区问题</title><link>https://www.xalaok.top/post/hugo-timezone-problem/</link><pubDate>Fri, 28 Jul 2023 16:50:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-timezone-problem/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/28/cover.webp" alt="Featured image of post 解决 Hugo 默认时区问题" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>相信各位 Hugo 博主应该都有遇到一个问题，就是发布时间设置没问题，但文章没有被渲染，我遇到的时候第一时间就想到作为一个国外的博客框架，应该就是时区问题，然后查阅&lt;a class="link" href="https://gohugo.io/getting-started/usage/#draft-future-and-expired-content" target="_blank" rel="noopener"
+>&lt;/p></description></item><item><title>解决 Hugo 默认时区问题</title><link>https://www.xalaok.top/post/hugo-timezone-problem/</link><pubDate>Fri, 28 Jul 2023 16:50:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-timezone-problem/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/28/cover.webp" alt="Featured image of post 解决 Hugo 默认时区问题" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>相信各位 Hugo 博主应该都有遇到一个问题，就是发布时间设置没问题，但文章没有被渲染，我遇到的时候第一时间就想到作为一个国外的博客框架，应该就是时区问题，然后查阅&lt;a class="link" href="https://gohugo.io/getting-started/usage/#draft-future-and-expired-content" target="_blank" rel="noopener"
 >官方文档&lt;/a>后更证实了这个猜想。&lt;/p>
 &lt;blockquote>
 &lt;p>Hugo 在以下情况下不会发布内容：&lt;/p>
@@ -1966,8 +1966,8 @@ loading="lazy"
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>很显然我们遇到的问题不满足以上所有情况，那么肯定是时区问题，经过测试，只有在发布时间设置为当前北京时间八小时内的文章是不会被渲染的，因此 Hugo 的默认时区是世界标准时间（也不意外对吧），那么该怎么解决呢，经过一番 Google，我找到了以下两种解决办法&lt;/p>
-&lt;h2 id="解决方案-1在-front-matter-的-date-加上时区">解决方案 1：在 Front Matter 的 &lt;code>date&lt;/code> 加上时区&lt;/h2>
-&lt;p>在 Front Matter 的 &lt;code>date&lt;/code> 原本内容上加上你所在的时区随对应要加或减的小时数，如北京时间（东八区区时）就在后面加上 &lt;code>+0800&lt;/code>&lt;/p>
+&lt;h2 id="解决方案-1在-front-matter-的-date-加上时区">&lt;a href="#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88-1%e5%9c%a8-front-matter-%e7%9a%84-date-%e5%8a%a0%e4%b8%8a%e6%97%b6%e5%8c%ba" class="header-anchor">&lt;/a>解决方案 1：在 Front Matter 的 &lt;code>date&lt;/code> 加上时区
+&lt;/h2>&lt;p>在 Front Matter 的 &lt;code>date&lt;/code> 原本内容上加上你所在的时区随对应要加或减的小时数，如北京时间（东八区区时）就在后面加上 &lt;code>+0800&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">title:
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: 2023-07-28 08:00:00+0800
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">lastmod:
@@ -1977,18 +1977,18 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">categories:
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tags:
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">draft:
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="解决方案-2配置-hugo-使其输出将来的页面">解决方案 2：配置 Hugo 使其输出将来的页面&lt;/h2>
-&lt;h3 id="第一种方式编辑-hugoyaml">第一种方式：编辑 hugo.yaml&lt;/h3>
-&lt;p>在根级加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="解决方案-2配置-hugo-使其输出将来的页面">&lt;a href="#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88-2%e9%85%8d%e7%bd%ae-hugo-%e4%bd%bf%e5%85%b6%e8%be%93%e5%87%ba%e5%b0%86%e6%9d%a5%e7%9a%84%e9%a1%b5%e9%9d%a2" class="header-anchor">&lt;/a>解决方案 2：配置 Hugo 使其输出将来的页面
+&lt;/h2>&lt;h3 id="第一种方式编辑-hugoyaml">&lt;a href="#%e7%ac%ac%e4%b8%80%e7%a7%8d%e6%96%b9%e5%bc%8f%e7%bc%96%e8%be%91-hugoyaml" class="header-anchor">&lt;/a>第一种方式：编辑 hugo.yaml
+&lt;/h3>&lt;p>在根级加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">buildFuture&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="第二种方式在构建博客时加上--buildfuture">第二种方式：在构建博客时加上 &lt;code>--buildFuture&lt;/code>&lt;/h3>
-&lt;p>在构建博客时运行 &lt;code>hugo --buildFuture&lt;/code> 或 &lt;code>hugo -F&lt;/code> 而不是 &lt;code>hugo&lt;/code>&lt;/p></description></item><item><title>Hi, NCM 3.0</title><link>https://www.xalaok.top/post/ncm3/</link><pubDate>Tue, 25 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/ncm3/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/25/cover.webp" alt="Featured image of post Hi, NCM 3.0" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>前段时间网易偷偷在官网上架了网易云音乐 PC 端 3.0 内测版本，有不少变化，UI 界面比以前好看多了（当然旧版用 BetterNCM 主题的话也很好看）。
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="第二种方式在构建博客时加上--buildfuture">&lt;a href="#%e7%ac%ac%e4%ba%8c%e7%a7%8d%e6%96%b9%e5%bc%8f%e5%9c%a8%e6%9e%84%e5%bb%ba%e5%8d%9a%e5%ae%a2%e6%97%b6%e5%8a%a0%e4%b8%8a--buildfuture" class="header-anchor">&lt;/a>第二种方式：在构建博客时加上 &lt;code>--buildFuture&lt;/code>
+&lt;/h3>&lt;p>在构建博客时运行 &lt;code>hugo --buildFuture&lt;/code> 或 &lt;code>hugo -F&lt;/code> 而不是 &lt;code>hugo&lt;/code>&lt;/p></description></item><item><title>Hi, NCM 3.0</title><link>https://www.xalaok.top/post/ncm3/</link><pubDate>Tue, 25 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/ncm3/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/25/cover.webp" alt="Featured image of post Hi, NCM 3.0" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>前段时间网易偷偷在官网上架了网易云音乐 PC 端 3.0 内测版本，有不少变化，UI 界面比以前好看多了（当然旧版用 BetterNCM 主题的话也很好看）。
 &lt;img src="https://cdn.xalaok.top/images/blog/2023/07/25/ncm3light.webp"
 loading="lazy"
 >&lt;/p>
-&lt;h2 id="变化">变化&lt;/h2>
-&lt;ol>
+&lt;h2 id="变化">&lt;a href="#%e5%8f%98%e5%8c%96" class="header-anchor">&lt;/a>变化
+&lt;/h2>&lt;ol>
 &lt;li>应用图标比旧版颜色更亮一些&lt;/li>
 &lt;li>首页焕然一新，和手机端保持一致，有点像 Apple Music&lt;/li>
 &lt;li>侧边原来的直播等栏目没了，取而代之的是博客和社区&lt;/li>
@@ -1998,8 +1998,8 @@ loading="lazy"
 &lt;li>有新的音质选项（超清母带、沉浸环绕声、超清环绕声【算法搞出来的】），但是对像我这种不开会员的用户来说，这玩意等于没有😅&lt;/li>
 &lt;li>上新了 7 款主题（仅 SVIP 可用（恼&lt;/li>
 &lt;/ol>
-&lt;h2 id="问题">问题&lt;/h2>
-&lt;ol>
+&lt;h2 id="问题">&lt;a href="#%e9%97%ae%e9%a2%98" class="header-anchor">&lt;/a>问题
+&lt;/h2>&lt;ol>
 &lt;li>鼠标悬浮任务栏应用图标时应用缩略图是当前播放音乐的封面图，而且文字跑到屏幕左上角去了&lt;/li>
 &lt;li>CPU、RAM、GPU 占用高，耗电高（播放歌曲内存占用七百多M，个别场景下内存占用能达到 2G+）
 &lt;img src="https://cdn.xalaok.top/images/blog/2023/07/25/1.webp"
@@ -2012,12 +2012,12 @@ loading="lazy"
 &lt;li>迷你模式没了&lt;/li>
 &lt;li>最小化到托盘后不能通过单击任务栏图标再次打开&lt;/li>
 &lt;/ol>
-&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>虽然还是有一些问题还亟待解决，还有一些功能要添加，但是新版本网易云的总体体验还是不错的。&lt;/p></description></item><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
+&lt;h2 id="总结">&lt;a href="#%e6%80%bb%e7%bb%93" class="header-anchor">&lt;/a>总结
+&lt;/h2>&lt;p>虽然还是有一些问题还亟待解决，还有一些功能要添加，但是新版本网易云的总体体验还是不错的。&lt;/p></description></item><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
 &lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>官方给了几种部署方式：Docker，Render，Fly，Zeabur，PikaPods
+&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>官方给了几种部署方式：Docker，Render，Fly，Zeabur，PikaPods
 但是作为没有服务器不想绑信用卡的白嫖党来说，全部不可用，那么今天就来白嫖 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
 >Replit&lt;/a> 不用服务器搭建 &lt;a class="link" href="https://github.com/usememos/memos" target="_blank" rel="noopener"
 >Memos&lt;/a>&lt;/p>
@@ -2034,8 +2034,8 @@ loading="lazy"
 loading="lazy"
 alt="MEMOS"
 >&lt;/p>
-&lt;h2 id="部署">部署&lt;/h2>
-&lt;ol>
+&lt;h2 id="部署">&lt;a href="#%e9%83%a8%e7%bd%b2" class="header-anchor">&lt;/a>部署
+&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
 >Replit 官网&lt;/a>&lt;br>
@@ -2050,8 +2050,8 @@ loading="lazy"
 >&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h3 id="方式-1clone-github-仓库">方式 1：Clone GitHub 仓库&lt;/h3>
-&lt;ol start="3">
+&lt;h3 id="方式-1clone-github-仓库">&lt;a href="#%e6%96%b9%e5%bc%8f-1clone-github-%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>方式 1：Clone GitHub 仓库
+&lt;/h3>&lt;ol start="3">
 &lt;li>Clone &lt;a class="link" href="https://github.com/sixmillions/memos-replit" target="_blank" rel="noopener"
 >sixmillions/memos-replit&lt;/a> 到 Replit，语言选择 Go&lt;/li>
 &lt;li>检查 文件（点击 &lt;code>Files&lt;/code> 右上角三个点，选择 &lt;code>Show hidden files&lt;/code>，就能看到 &lt;code>.replit&lt;/code> 文件，检查该文件内容是否与仓库内的一致&lt;/li>
@@ -2069,8 +2069,8 @@ alt="run"
 loading="lazy"
 alt="success"
 >&lt;/p>
-&lt;h3 id="方式-2使用-replit-template">方式 2：使用 Replit Template&lt;/h3>
-&lt;ol>
+&lt;h3 id="方式-2使用-replit-template">&lt;a href="#%e6%96%b9%e5%bc%8f-2%e4%bd%bf%e7%94%a8-replit-template" class="header-anchor">&lt;/a>方式 2：使用 Replit Template
+&lt;/h3>&lt;ol>
 &lt;li>打开同样是这个作者创建的 &lt;a class="link" href="https://replit.com/@sixmillions/memos-replit" target="_blank" rel="noopener"
 >模板地址&lt;/a>&lt;/li>
 &lt;li>点击右上角 &lt;code>Use Template&lt;/code>&lt;/li>
@@ -2079,8 +2079,8 @@ alt="success"
 loading="lazy"
 alt="template"
 >&lt;/p>
-&lt;h3 id="方式-3自己构建">方式 3：自己构建&lt;/h3>
-&lt;ol>
+&lt;h3 id="方式-3自己构建">&lt;a href="#%e6%96%b9%e5%bc%8f-3%e8%87%aa%e5%b7%b1%e6%9e%84%e5%bb%ba" class="header-anchor">&lt;/a>方式 3：自己构建
+&lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>构建 Memos&lt;/p>
 &lt;blockquote>
@@ -2101,15 +2101,15 @@ alt="template"
 &lt;p>运行 &lt;code>main.sh&lt;/code>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="自定义域名">自定义域名&lt;/h2>
-&lt;p>在 Webview 选项卡网址右侧的第一个图标点开自定义域名&lt;/p>
+&lt;h2 id="自定义域名">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%9f%9f%e5%90%8d" class="header-anchor">&lt;/a>自定义域名
+&lt;/h2>&lt;p>在 Webview 选项卡网址右侧的第一个图标点开自定义域名&lt;/p>
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/5.webp"
 loading="lazy"
 alt="replit-custom-domain"
 >&lt;/p>
 &lt;p>然后到你的 DNS 解析服务商添加 &lt;code>cname&lt;/code> 和 &lt;code>txt&lt;/code> 解析&lt;/p>
-&lt;h2 id="版本升级">版本升级&lt;/h2>
-&lt;p>注意备份数据！&lt;/p>
+&lt;h2 id="版本升级">&lt;a href="#%e7%89%88%e6%9c%ac%e5%8d%87%e7%ba%a7" class="header-anchor">&lt;/a>版本升级
+&lt;/h2>&lt;p>注意备份数据！&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 先备份数据库然后下载&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">zip memeos-db.zip -qr db/*
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -2121,13 +2121,13 @@ alt="replit-custom-domain"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 或者指定版本（项目构建的某个版本）&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bash main.sh v0.12.2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="防止-replit-休眠">防止 Replit 休眠&lt;/h2>
-&lt;p>好像 Replit 超过五分钟不操作就会休眠，官方也提供了保持唤醒的方案，但是要付费，不得不说，这点难受了，好在有方式可以替代&lt;/p>
-&lt;h3 id="方式-1linux-系统-crontab">方式 1：linux 系统 crontab&lt;/h3>
-&lt;p>在 &lt;code>main.sh&lt;/code> 中加入以下代码&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="防止-replit-休眠">&lt;a href="#%e9%98%b2%e6%ad%a2-replit-%e4%bc%91%e7%9c%a0" class="header-anchor">&lt;/a>防止 Replit 休眠
+&lt;/h2>&lt;p>好像 Replit 超过五分钟不操作就会休眠，官方也提供了保持唤醒的方案，但是要付费，不得不说，这点难受了，好在有方式可以替代&lt;/p>
+&lt;h3 id="方式-1linux-系统-crontab">&lt;a href="#%e6%96%b9%e5%bc%8f-1linux-%e7%b3%bb%e7%bb%9f-crontab" class="header-anchor">&lt;/a>方式 1：linux 系统 crontab
+&lt;/h3>&lt;p>在 &lt;code>main.sh&lt;/code> 中加入以下代码&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">curl 你memos地址 &amp;gt;/dev/null 2&amp;gt;&lt;span class="p">&amp;amp;&lt;/span>&lt;span class="m">1&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="方式-2监控平台定时访问">方式 2：监控平台定时访问&lt;/h2>
-&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="方式-2监控平台定时访问">&lt;a href="#%e6%96%b9%e5%bc%8f-2%e7%9b%91%e6%8e%a7%e5%b9%b3%e5%8f%b0%e5%ae%9a%e6%97%b6%e8%ae%bf%e9%97%ae" class="header-anchor">&lt;/a>方式 2：监控平台定时访问
+&lt;/h2>&lt;blockquote>
 &lt;p>我目前知道的平台：&lt;/p>
 &lt;ol>
 &lt;li>&lt;a class="link" href="https://uptime.betterstack.com/" target="_blank" rel="noopener"
@@ -2143,14 +2143,14 @@ alt="replit-custom-domain"
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="#704343">&lt;path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>Replit 的免费版本中所有项目都是公开的，所以任何人都可以看到你的文件，包括数据库，所以不要用来存重要数据或者隐私数据。&lt;/p>&lt;/div></description></item><item><title>一些 Hugo 短代码</title><link>https://www.xalaok.top/post/hugo-shortcodes/</link><pubDate>Tue, 18 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-shortcodes/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/18/cover.webp" alt="Featured image of post 一些 Hugo 短代码" />
 &lt;div class="notice notice-tip" >
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="#437052">&lt;path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z"/>&lt;/svg>&lt;/div>&lt;p>本文为了防止在代码块中的短代码被 Hugo 转译，在代码块中添加了 &lt;code>\&lt;/code>，请在使用时去除&lt;/p>&lt;/div>
-&lt;h2 id="notice">Notice&lt;/h2>
-&lt;blockquote>
+&lt;h2 id="notice">&lt;a href="#notice" class="header-anchor">&lt;/a>Notice
+&lt;/h2>&lt;blockquote>
 &lt;p>感谢：&lt;a class="link" href="https://github.com/martignoni/hugo-notice" target="_blank" rel="noopener"
 >martignoni&lt;/a> &amp;amp; &lt;a class="link" href="https://guanqr.com/tech/website/hugo-shortcodes-customization/#notice" target="_blank" rel="noopener"
 >荷戟独彷徨&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="配置">配置&lt;/h3>
-&lt;ol>
+&lt;h3 id="配置">&lt;a href="#%e9%85%8d%e7%bd%ae" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;ol>
 &lt;li>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>notice.html&lt;/code> 并填入以下代码：&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{- $noticeType := .Get 0 -}}
@@ -2258,8 +2258,8 @@ alt="replit-custom-domain"
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">notice-info &lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;&amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; class=&amp;#34;icon&amp;#34; viewBox=&amp;#34;0 0 512 512&amp;#34; fill=&amp;#34;#705943&amp;#34;&amp;gt;&amp;lt;path d=&amp;#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&amp;#34;/&amp;gt;&amp;lt;/svg&amp;gt;&amp;#39;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">notice-note &lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;&amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; class=&amp;#34;icon&amp;#34; viewBox=&amp;#34;0 0 512 512&amp;#34; fill=&amp;#34;#436170&amp;#34;&amp;gt;&amp;lt;path d=&amp;#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&amp;#34;/&amp;gt;&amp;lt;/svg&amp;gt;&amp;#39;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">notice-tip &lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;&amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; class=&amp;#34;icon&amp;#34; viewBox=&amp;#34;0 0 512 512&amp;#34; fill=&amp;#34;#437052&amp;#34;&amp;gt;&amp;lt;path d=&amp;#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z&amp;#34;/&amp;gt;&amp;lt;/svg&amp;gt;&amp;#39;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">notice&lt;/span> &lt;span class="na">notice-warning&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用">&lt;a href="#%e4%bd%bf%e7%94%a8" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">notice&lt;/span> &lt;span class="na">notice-warning&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">你好。
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">notice&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -2283,28 +2283,28 @@ alt="replit-custom-domain"
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="#436170">&lt;path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>你好。&lt;/p>&lt;/div>
 &lt;div class="notice notice-tip" >
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="#437052">&lt;path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z"/>&lt;/svg>&lt;/div>&lt;p>你好。&lt;/p>&lt;/div>
-&lt;h2 id="details">Details&lt;/h2>
-&lt;h3 id="配置-1">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>detail.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h2 id="details">&lt;a href="#details" class="header-anchor">&lt;/a>Details
+&lt;/h2>&lt;h3 id="配置-1">&lt;a href="#%e9%85%8d%e7%bd%ae-1" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>detail.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">details&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ (.Get 0) | markdownify }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{ .Inner | markdownify }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">details&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-1">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">detail&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">点这里看隐藏内容&lt;/span>&lt;span class="err">！&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-1">&lt;a href="#%e4%bd%bf%e7%94%a8-1" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">detail&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">点这里看隐藏内容&lt;/span>&lt;span class="err">！&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">这里是隐藏内容！🥰
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">detail&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;details>
 &lt;summary>点这里看隐藏内容！&lt;/summary>
 这里是隐藏内容！🥰
 &lt;/details>
-&lt;h2 id="聊天气泡">聊天气泡&lt;/h2>
-&lt;blockquote>
+&lt;h2 id="聊天气泡">&lt;a href="#%e8%81%8a%e5%a4%a9%e6%b0%94%e6%b3%a1" class="header-anchor">&lt;/a>聊天气泡
+&lt;/h2>&lt;blockquote>
 &lt;p>感谢：&lt;a class="link" href="https://yelleis.top/p/61fdb627/" target="_blank" rel="noopener"
 >Yelle🦋&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="配置-2">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>chat.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h3 id="配置-2">&lt;a href="#%e9%85%8d%e7%bd%ae-2" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>chat.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ if eq (.Get &amp;#34;position&amp;#34;) &amp;#34;left&amp;#34; }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;chat --other&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;chat__inner&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -2421,8 +2421,8 @@ alt="replit-custom-domain"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">style&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-2">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">chat&lt;/span> &lt;span class="na">position&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;left&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;John Doe&amp;#34;&lt;/span> &lt;span class="na">timestamp&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;2023-09-12 14:30&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>}\}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-2">&lt;a href="#%e4%bd%bf%e7%94%a8-2" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">chat&lt;/span> &lt;span class="na">position&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;left&amp;#34;&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;John Doe&amp;#34;&lt;/span> &lt;span class="na">timestamp&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;2023-09-12 14:30&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>}\}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">这是左边的消息内容。
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">chat&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -2604,13 +2604,13 @@ color: #b1b1b1;
 }
 }
 &lt;/style>
-&lt;h2 id="时间轴">时间轴&lt;/h2>
-&lt;blockquote>
+&lt;h2 id="时间轴">&lt;a href="#%e6%97%b6%e9%97%b4%e8%bd%b4" class="header-anchor">&lt;/a>时间轴
+&lt;/h2>&lt;blockquote>
 &lt;p>感谢：&lt;a class="link" href="https://yelleis.top/p/61fdb627/" target="_blank" rel="noopener"
 >Yelle🦋&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="配置-3">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>timeline.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h3 id="配置-3">&lt;a href="#%e9%85%8d%e7%bd%ae-3" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>timeline.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{- $date := .Get &amp;#34;date&amp;#34; -}} {{- $title := .Get &amp;#34;title&amp;#34; -}} {{- $description := .Get &amp;#34;description&amp;#34; -}} {{- $tags := .Get &amp;#34;tags&amp;#34; -}}{{- $url := .Get &amp;#34;url&amp;#34; -}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;timeline__row&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -2789,8 +2789,8 @@ color: #b1b1b1;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">style&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-3">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">timeline&lt;/span> &lt;span class="na">date&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;2023-10-01&amp;#34;&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;国庆节&amp;#34;&lt;/span> &lt;span class="na">description&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;祖国生日快乐&amp;#34;&lt;/span> &lt;span class="na">tags&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;节日&amp;#34;&lt;/span> &lt;span class="na">url&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-3">&lt;a href="#%e4%bd%bf%e7%94%a8-3" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">timeline&lt;/span> &lt;span class="na">date&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;2023-10-01&amp;#34;&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;国庆节&amp;#34;&lt;/span> &lt;span class="na">description&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;祖国生日快乐&amp;#34;&lt;/span> &lt;span class="na">tags&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;节日&amp;#34;&lt;/span> &lt;span class="na">url&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;div class="timeline__row">
 &lt;div class="timeline__time">
@@ -2801,6 +2801,7 @@ color: #b1b1b1;
 &lt;div class="timeline__tags">
 &lt;span class="timeline__tag">节日&lt;/span>
 &lt;/div>
+&lt;div class="timeline__title">国庆节&lt;/div>
 &lt;div class="timeline__description">
 祖国生日快乐
 &lt;/div>
@@ -2926,13 +2927,13 @@ font-size: 14px;
 }
 }
 &lt;/style>
-&lt;h2 id="neodb">NeoDB&lt;/h2>
-&lt;blockquote>
+&lt;h2 id="neodb">&lt;a href="#neodb" class="header-anchor">&lt;/a>NeoDB
+&lt;/h2>&lt;blockquote>
 &lt;p>感谢：&lt;a class="link" href="https://immmmm.com/hi-neodb-api/" target="_blank" rel="noopener"
 >木木木木木&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="配置-4">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>neodb.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h3 id="配置-4">&lt;a href="#%e9%85%8d%e7%bd%ae-4" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>neodb.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $dbUrl := .Get 0 }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $dbApiUrl := &amp;#34;https://neodb.social/api/&amp;#34; }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $dbType := &amp;#34;&amp;#34; }}
@@ -3068,8 +3069,8 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">none&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-4">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">neodb&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">NeoDB&lt;/span> &lt;span class="na">网址&lt;/span>&lt;span class="err">/&lt;/span>&lt;span class="na">豆瓣网址&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-4">&lt;a href="#%e4%bd%bf%e7%94%a8-4" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">neodb&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">NeoDB&lt;/span> &lt;span class="na">网址&lt;/span>&lt;span class="err">/&lt;/span>&lt;span class="na">豆瓣网址&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;div class="db-card">
 &lt;div class="db-card-subject">
@@ -3082,9 +3083,9 @@ font-size: 14px;
 &lt;div class="db-card-cate">movie&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;h2 id="友链">友链&lt;/h2>
-&lt;h3 id="配置-5">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>friend.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h2 id="友链">&lt;a href="#%e5%8f%8b%e9%93%be" class="header-anchor">&lt;/a>友链
+&lt;/h2>&lt;h3 id="配置-5">&lt;a href="#%e9%85%8d%e7%bd%ae-5" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>friend.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{- $name := .Get &amp;#34;name&amp;#34; | default (.Get 0) -}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{- $url := .Get &amp;#34;url&amp;#34; | default (.Get 1) -}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{- $avatar := .Get &amp;#34;avatar&amp;#34; | default (.Get 2) -}}
@@ -3265,15 +3266,15 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;Microsoft Yahei&amp;#39;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="s1">&amp;#39;微软雅黑&amp;#39;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">Arial&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-5">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">friend&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;名称&amp;#34;&lt;/span> &lt;span class="na">url&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;网址&amp;#34;&lt;/span> &lt;span class="na">avatar&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;头像&amp;#34;&lt;/span> &lt;span class="na">bio&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;简介&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="块引用">块引用&lt;/h2>
-&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-5">&lt;a href="#%e4%bd%bf%e7%94%a8-5" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">friend&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;名称&amp;#34;&lt;/span> &lt;span class="na">url&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;网址&amp;#34;&lt;/span> &lt;span class="na">avatar&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;头像&amp;#34;&lt;/span> &lt;span class="na">bio&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;简介&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="块引用">&lt;a href="#%e5%9d%97%e5%bc%95%e7%94%a8" class="header-anchor">&lt;/a>块引用
+&lt;/h2>&lt;blockquote>
 &lt;p>感谢：&lt;a class="link" href="https://stack.jimmycai.com/writing/shortcodes#quote" target="_blank" rel="noopener"
 >Jimmy&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="配置-6">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>quote.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h3 id="配置-6">&lt;a href="#%e9%85%8d%e7%bd%ae-6" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>quote.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Inner | markdownify }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    {{- if or (.Get &amp;#34;author&amp;#34;) (.Get &amp;#34;source&amp;#34;) -}}
@@ -3289,15 +3290,15 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    {{- end -}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-6">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">quote&lt;/span> &lt;span class="na">author&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;作者/说话的人&amp;#34;&lt;/span> &lt;span class="na">source&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;书名/来源&amp;#34;&lt;/span> &lt;span class="na">url&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;链接（可选）&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-6">&lt;a href="#%e4%bd%bf%e7%94%a8-6" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">quote&lt;/span> &lt;span class="na">author&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;作者/说话的人&amp;#34;&lt;/span> &lt;span class="na">source&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;书名/来源&amp;#34;&lt;/span> &lt;span class="na">url&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;链接（可选）&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">内容
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">quote&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>A famous person, &lt;/span>&lt;a href="https://en.wikipedia.org/wiki/Book">&lt;cite>The book he wrote&lt;/cite>&lt;/a>&lt;/span>&lt;/blockquote>
-&lt;h2 id="哔哩哔哩">哔哩哔哩&lt;/h2>
-&lt;h3 id="配置-7">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>bilibili.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h2 id="哔哩哔哩">&lt;a href="#%e5%93%94%e5%93%a9%e5%93%94%e5%93%a9" class="header-anchor">&lt;/a>哔哩哔哩
+&lt;/h2>&lt;h3 id="配置-7">&lt;a href="#%e9%85%8d%e7%bd%ae-7" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>bilibili.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $vid := (.Get 0) }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $videopage := default 1 (.Get 1) }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $basicQuery := querify &amp;#34;page&amp;#34; $videopage &amp;#34;high_quality&amp;#34; 1 &amp;#34;as_wide&amp;#34; 1 }}
@@ -3321,19 +3322,19 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">iframe&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-7">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">bilibili&lt;/span> &lt;span class="na">VIDEO_ID&lt;/span> &lt;span class="na">PART_NUMBER&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-7">&lt;a href="#%e4%bd%bf%e7%94%a8-7" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">bilibili&lt;/span> &lt;span class="na">VIDEO_ID&lt;/span> &lt;span class="na">PART_NUMBER&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>&lt;code>Video_ID&lt;/code>: &lt;code>AV&lt;/code>或&lt;code>BV&lt;/code>
 &lt;code>PART_NUMBER&lt;/code>（可选）：指定要播放的视频序号&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="腾讯视频">腾讯视频&lt;/h2>
-&lt;blockquote>
+&lt;h2 id="腾讯视频">&lt;a href="#%e8%85%be%e8%ae%af%e8%a7%86%e9%a2%91" class="header-anchor">&lt;/a>腾讯视频
+&lt;/h2>&lt;blockquote>
 &lt;p>感谢：&lt;a class="link" href="https://stack.jimmycai.com/writing/shortcodes#tencent-video" target="_blank" rel="noopener"
 >Jimmy&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="配置-8">配置&lt;/h3>
-&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>tencent.html&lt;/code> 并填入以下代码：&lt;/p>
+&lt;h3 id="配置-8">&lt;a href="#%e9%85%8d%e7%bd%ae-8" class="header-anchor">&lt;/a>配置
+&lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>tencent.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $vid := .Get 0 }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;video-wrapper&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">iframe&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://v.qq.com/txp/iframe/player.html?vid={{ $vid }}&amp;amp;auto=0&amp;#34;&lt;/span>
@@ -3344,13 +3345,13 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">iframe&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-8">使用&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">tencent&lt;/span> &lt;span class="na">VIDEO_ID&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-8">&lt;a href="#%e4%bd%bf%e7%94%a8-8" class="header-anchor">&lt;/a>使用
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">tencent&lt;/span> &lt;span class="na">VIDEO_ID&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
 >Vercel 文档&lt;/a> 中看到确实支持&lt;/p>
-&lt;h2 id="准备工作">准备工作&lt;/h2>
-&lt;ol>
+&lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
+&lt;/h2>&lt;ol>
 &lt;li>Github 账号&lt;/li>
 &lt;li>Vercel 账号&lt;/li>
 &lt;li>Typecho 程序&lt;/li>
@@ -3358,8 +3359,8 @@ font-size: 14px;
 &lt;li>自己的域名（可选，国内注册可以首年1元甚至免费）&lt;br>
 部署完成之后默认会给你的项目分配一个 vercel.app 的三级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
 &lt;/ol>
-&lt;h2 id="过程">过程&lt;/h2>
-&lt;ol>
+&lt;h2 id="过程">&lt;a href="#%e8%bf%87%e7%a8%8b" class="header-anchor">&lt;/a>过程
+&lt;/h2>&lt;ol>
 &lt;li>创建 Github 仓库&lt;/li>
 &lt;li>本地解压 Typecho 程序&lt;/li>
 &lt;li>在根目录下新建 &lt;code>vercel.json&lt;/code> 并填入以下代码&lt;/li>
@@ -3457,39 +3458,17 @@ loading="lazy"
 &lt;li>如果你有域名，直接从此界面右边“Add Domain”进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角“Go to Dashboard”就可以看到 Vercel 为你准备的域名&lt;/li>
 &lt;li>打开 &lt;code>https://你的网址/install.php&lt;/code> 初始化&lt;/li>
 &lt;/ol>
-&lt;p>Enjoy~&lt;/p></description></item><item><title>绕过 Windows 11 安装时的一些限制</title><link>https://www.xalaok.top/post/skip-check-on-win11/</link><pubDate>Mon, 10 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/skip-check-on-win11/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/10/cover.webp" alt="Featured image of post 绕过 Windows 11 安装时的一些限制" />&lt;p>Windows 11 安装时必需要求有 TPM 2.0 模块而且要联网（22H2 及以后），否则就无法安装系统，这篇文章将会介绍如何绕过这些限制。&lt;/p>
-&lt;h2 id="绕过-tpm-检查">绕过 TPM 检查&lt;/h2>
-&lt;ol>
-&lt;li>
-&lt;p>在 Windows 刚开始安装的界面中，按下 &lt;code>Shift&lt;/code> + &lt;code>F10&lt;/code> 调出命令行，输入 &lt;code>regedit&lt;/code> 打开注册表编辑器&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>在 &lt;code>HKEY_LOCAL_MACHINE\SYSTEM\Setup&lt;/code> 下新增一项 &lt;code>LabConfig&lt;/code>，再增加两个值，来禁用安全启动内存检查和 TPM 检查：&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>&lt;code>BypassTPMCheck&lt;/code> &lt;code>REG_DWORD&lt;/code> 1&lt;/li>
-&lt;li>&lt;code>BypassSecureBoot&lt;/code> &lt;code>REG_DWORD&lt;/code> 1&lt;/li>
-&lt;li>&lt;code>BypassRAMCheck&lt;/code> &lt;code>REG_DWORD&lt;/code> 1&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>或者直接在命令行输入以下代码：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-batch" data-lang="batch">&lt;span class="line">&lt;span class="cl">REG ADD HKLM\SYSTEM\Setup\LabConfig -v BypassTPMCheck -t REG_DWORD -d 1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">REG ADD HKLM\SYSTEM\Setup\LabConfig -v BypassSecureBoot -t REG_DWORD -d 1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">REG ADD HKLM\SYSTEM\Setup\LabConfig -v BypassRAMCheck -t REG_DWORD -d 1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/blockquote>
-&lt;h2 id="绕过网络连接22h2">绕过网络连接（22H2）&lt;/h2>
-&lt;p>按下 &lt;code>Shift&lt;/code> + &lt;code>F10&lt;/code>，调出命令行界面，输入 &lt;code>oobe\BypassNRO.cmd&lt;/code> 回车。系统会自动重启然后重新开始安装并不再强制要求连接网络了&lt;/p></description></item><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/alist-replit.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
+&lt;p>Enjoy~&lt;/p></description></item><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/alist-replit.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
 &lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>相信大家之前应该有所耳闻著名的文件列表程序——AList，目前在 GitHub 上有 35.2k star。&lt;/p>
+&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>相信大家之前应该有所耳闻著名的文件列表程序——AList，目前在 GitHub 上有 35.2k star。&lt;/p>
 &lt;p>官方这边给了几个 PaaS 部署的平台，但是基本上都禁掉了官方仓库，无法导入，fork 成自己的仓库也一样可以检测到。&lt;/p>
 &lt;p>官方文档说过，所有上传均使用服务器传输，会消耗服务器流量与对应存储的API通信（具体见 &lt;a class="link" href="https://alist.nn.ci/zh/faq/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%E6%98%BE%E7%A4%BA-uploading-in-backend" target="_blank" rel="noopener"
 >这里 ↗&lt;/a>），我猜测占服务器资源应该就是这些平台禁止部署 AList 的原因吧？&lt;/p>
 &lt;p>我之前在网上也看过一些方法，但那些方法都失效了，前几天找到了一个新方法，尝试部署目前最新版 3.19.0 之后成功了，而且到今天已经稳定运行几天了，下面就来分享一下方法&lt;/p>
-&lt;h2 id="过程">过程&lt;/h2>
-&lt;ol>
+&lt;h2 id="过程">&lt;a href="#%e8%bf%87%e7%a8%8b" class="header-anchor">&lt;/a>过程
+&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
 >官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;br>
@@ -3603,9 +3582,9 @@ loading="lazy"
 &lt;li>Hugo 主题：Stack&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;h2 id="hugo-环境搭建">Hugo 环境搭建&lt;/h2>
-&lt;h3 id="安装-vs-code">安装 VS Code&lt;/h3>
-&lt;ol>
+&lt;h2 id="hugo-环境搭建">&lt;a href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" class="header-anchor">&lt;/a>Hugo 环境搭建
+&lt;/h2>&lt;h3 id="安装-vs-code">&lt;a href="#%e5%ae%89%e8%a3%85-vs-code" class="header-anchor">&lt;/a>安装 VS Code
+&lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>从&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
 >官网&lt;/a>获取 VS Code 安装包（国内直接下载速度慢，可将下载链接中的域名替换为 &lt;code>vscode.cdn.azure.cn&lt;/code>，下载速度直接起飞）&lt;/p>
@@ -3624,8 +3603,8 @@ loading="lazy"
 &lt;li>install 开始安装，等待安装完成后选择 Finish&lt;/li>
 &lt;/ol>
 &lt;p>至此，VS Code 就安装完成了，接下来安装 Git&lt;/p>
-&lt;h3 id="安装-git">安装 Git&lt;/h3>
-&lt;p>小白直接上手 git 感觉门槛有点高，还是建议装 git 的 GUI 版本&lt;br>
+&lt;h3 id="安装-git">&lt;a href="#%e5%ae%89%e8%a3%85-git" class="header-anchor">&lt;/a>安装 Git
+&lt;/h3>&lt;p>小白直接上手 git 感觉门槛有点高，还是建议装 git 的 GUI 版本&lt;br>
 我选的是 GitHub Desktop&lt;/p>
 &lt;ol>
 &lt;li>
@@ -3640,8 +3619,8 @@ loading="lazy"
 &lt;/li>
 &lt;/ol>
 &lt;p>当然大佬们可以直接用 Git，也不需要我多解释&lt;/p>
-&lt;h3 id="安装-hugo">安装 Hugo&lt;/h3>
-&lt;ol>
+&lt;h3 id="安装-hugo">&lt;a href="#%e5%ae%89%e8%a3%85-hugo" class="header-anchor">&lt;/a>安装 Hugo
+&lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>从 Hugo 官方 github 仓库下载 hugo extended 版本&lt;br>
 下载地址: &lt;a class="link" href="https://github.com/gohugoio/hugo/releases/latest" target="_blank" rel="noopener"
@@ -3661,12 +3640,12 @@ loading="lazy"
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo v0.114.0-9df2ec7988e5a217a14901cc76c0b7e76b2e9f02+extended windows/amd64 BuildDate=2023-06-19T17:01:43Z VendorInfo=gohugoio
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>恭喜！到这里，基本就都配置完毕了，现在可以开始博客的搭建了&lt;/p>
-&lt;h2 id="hugo博客搭建">Hugo博客搭建&lt;/h2>
-&lt;h3 id="初始化博客">初始化博客&lt;/h3>
-&lt;p>在任意位置右键，选择在终端打开，输入以下命令：&lt;/p>
+&lt;h2 id="hugo博客搭建">&lt;a href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" class="header-anchor">&lt;/a>Hugo博客搭建
+&lt;/h2>&lt;h3 id="初始化博客">&lt;a href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>初始化博客
+&lt;/h3>&lt;p>在任意位置右键，选择在终端打开，输入以下命令：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo new site &amp;lt;这里填上你想要的位置&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="stack-主题安装">Stack 主题安装&lt;/h3>
-&lt;ol>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="stack-主题安装">&lt;a href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" class="header-anchor">&lt;/a>Stack 主题安装
+&lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>获取主题文件&lt;br>
 找到 Stack 主题 GitHub 仓库（链接：&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
@@ -3685,8 +3664,8 @@ Code Download → Download ZIP 下载源码解压&lt;/p>
 >https://stack.jimmycai.com/config/&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h3 id="配置博客各个页面">配置博客各个页面&lt;/h3>
-&lt;p>如果添加的是自己博客的一个页面，可以在这个页面的 md 文件的 Front Matter 中添加以下内容：&lt;/p>
+&lt;h3 id="配置博客各个页面">&lt;a href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" class="header-anchor">&lt;/a>配置博客各个页面
+&lt;/h3>&lt;p>如果添加的是自己博客的一个页面，可以在这个页面的 md 文件的 Front Matter 中添加以下内容：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-YAML" data-lang="YAML">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">menu&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">main&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 名称&lt;/span>&lt;span class="w">
@@ -3714,14 +3693,14 @@ params:&lt;br>
 &lt;/blockquote>
 &lt;p>官方文档：&lt;a class="link" href="https://stack.jimmycai.com/config/menu" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/config/menu&lt;/a>&lt;/p>
-&lt;h3 id="开始创作">开始创作&lt;/h3>
-&lt;p>博客文章都存放在 /content 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
+&lt;h3 id="开始创作">&lt;a href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" class="header-anchor">&lt;/a>开始创作
+&lt;/h3>&lt;p>博客文章都存放在 /content 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo new posts/my-first-post.md
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再打开 /content/posts 就可以找到一个 Hugo 为你创建好的一个名为 my-first-post.md 的文件&lt;/p>
 &lt;p>当然你也可以使用官方推荐的一篇文章一个文件夹的方式（官方文档: &lt;a class="link" href="https://stack.jimmycai.com/writing/markdown" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/writing/markdown&lt;/a>）&lt;/p>
-&lt;h3 id="预览博客">预览博客&lt;/h3>
-&lt;p>创作完成的你一定想要本地预览你的博客吧，博客根目录右键“在终端打开”，输入以下命令：&lt;/p>
+&lt;h3 id="预览博客">&lt;a href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>预览博客
+&lt;/h3>&lt;p>创作完成的你一定想要本地预览你的博客吧，博客根目录右键“在终端打开”，输入以下命令：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo server --navigateToChanged
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>后面加的 &lt;code>--navigateToChanged&lt;/code> 可以省略，加它的作用是可以在你更改某个页面后自动跳转查看该页面的修改&lt;/p>
 &lt;p>根本不想每次输代码启动预览服务器的懒癌患者们，可以像我一样在博客根目录新建一个 vbs 文件：&lt;/p>
@@ -3737,8 +3716,8 @@ params:&lt;br>
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>利用 Vercel 免费搭建镜像网站</title><link>https://www.xalaok.top/post/websiteproxy/</link><pubDate>Fri, 05 May 2023 22:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/websiteproxy/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/05/cover.webp" alt="Featured image of post 利用 Vercel 免费搭建镜像网站" />
 &lt;div class="notice notice-warning" >
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="#704343">&lt;path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>本教程不能镜像某些网站（如资源文件域名与网页域名不同的网站）。也请勿使用此教程镜像非法网站在国内访问，否则后果（被请喝茶或域名被墙等）自负！&lt;/p>&lt;/div>
-&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>有自己服务器的朋友可以使用 nginx 反代理。但是服务器不便宜，本文介绍的方法使用 GitHub + Vercel，部署非常简单&lt;/p>
+&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>有自己服务器的朋友可以使用 nginx 反代理。但是服务器不便宜，本文介绍的方法使用 GitHub + Vercel，部署非常简单&lt;/p>
 &lt;p>你只需要：&lt;/p>
 &lt;ol>
 &lt;li>GitHub账号&lt;/li>
@@ -3746,8 +3725,8 @@ params:&lt;br>
 &lt;li>自己的域名（可选，国内注册可以首年 1 元甚至免费）&lt;br>
 部署完成之后默认会给你的项目分配一个 vercel.app 的二级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
 &lt;/ol>
-&lt;h2 id="步骤">步骤&lt;/h2>
-&lt;ol>
+&lt;h2 id="步骤">&lt;a href="#%e6%ad%a5%e9%aa%a4" class="header-anchor">&lt;/a>步骤
+&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>首先打开 GitHub 的 &lt;a class="link" href="https://github.com/gaowanlu/google" target="_blank" rel="noopener"
 >这个仓库&lt;/a>

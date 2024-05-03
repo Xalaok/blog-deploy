@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Naive Koala</title><link>https://www.xalaok.top/tags/ai/</link><description>Recent content in AI on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 24 Feb 2024 14:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Hi，AI 摘要</title><link>https://www.xalaok.top/post/aisummary/</link><pubDate>Sat, 24 Feb 2024 14:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/aisummary/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/02/24/cover.webp" alt="Featured image of post Hi，AI 摘要" />&lt;p>又又又来折腾博客了，看不少博友都加上了 AI 总结文章的功能，也想自己整一个。本文借鉴了&lt;a class="link" href="https://www.eallion.com/ai-summary/" target="_blank" rel="noopener"
 >大大的小蜗牛&lt;/a>并进行了部分修改。&lt;/p>
-&lt;h2 id="获取摘要数据">获取摘要数据&lt;/h2>
-&lt;h3 id="ai-生成总结">AI 生成总结&lt;/h3>
-&lt;p>方式有三种：&lt;/p>
+&lt;h2 id="获取摘要数据">&lt;a href="#%e8%8e%b7%e5%8f%96%e6%91%98%e8%a6%81%e6%95%b0%e6%8d%ae" class="header-anchor">&lt;/a>获取摘要数据
+&lt;/h2>&lt;h3 id="ai-生成总结">&lt;a href="#ai-%e7%94%9f%e6%88%90%e6%80%bb%e7%bb%93" class="header-anchor">&lt;/a>AI 生成总结
+&lt;/h3>&lt;p>方式有三种：&lt;/p>
 &lt;ul>
 &lt;li>接入 &lt;a class="link" href="https://github.com/zhheo/Post-Abstract-AI" target="_blank" rel="noopener"
 >TianliGPT&lt;/a>，自动在访问时生成（需要购买 Key）&lt;/li>
@@ -10,8 +10,8 @@
 &lt;li>手动把文章内容喂给 ChatGPT 或 Claude2 获取&lt;/li>
 &lt;/ul>
 &lt;p>我自己用的是第三种。因为我博客也就三十几篇文章，TianliGPT 9块钱能生成至少 50 篇文章的摘要，而且目前博客访问的人也不多，能省就省省😅。脚本虽然很方便，但貌似我还不太会使用，搞不出来。正好之前部署过 NextChat 且有一个免费的 GPT-3.5 的 API Key，所以就手动喂给 GPT 了。&lt;/p>
-&lt;h3 id="数据存在哪">数据存在哪&lt;/h3>
-&lt;p>有两种方式：&lt;/p>
+&lt;h3 id="数据存在哪">&lt;a href="#%e6%95%b0%e6%8d%ae%e5%ad%98%e5%9c%a8%e5%93%aa" class="header-anchor">&lt;/a>数据存在哪
+&lt;/h3>&lt;p>有两种方式：&lt;/p>
 &lt;ol>
 &lt;li>在 &lt;code>/data&lt;/code> 目录下用 &lt;code>json&lt;/code> 文件保存&lt;/li>
 &lt;li>把摘要结果放在文章 Front Matter 的 &lt;code>summary&lt;/code> 下&lt;/li>
@@ -28,9 +28,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">渲染 AI 摘要&lt;/h2>
-&lt;h3 id="修改模板文件">修改模板文件&lt;/h3>
-&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">&lt;a href="#%e6%b8%b2%e6%9f%93-ai-%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>渲染 AI 摘要
+&lt;/h2>&lt;h3 id="修改模板文件">&lt;a href="#%e4%bf%ae%e6%94%b9%e6%a8%a1%e6%9d%bf%e6%96%87%e4%bb%b6" class="header-anchor">&lt;/a>修改模板文件
+&lt;/h3>&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
 &lt;p>在 &lt;code>/layouts/partial/article/components&lt;/code> 创建 &lt;code>aisummary.html&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 获取数据 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $summary := getJSON &amp;#34;data/summary/summary.json&amp;#34; }}
@@ -77,8 +77,8 @@
 如不需要打字机效果，需要将 &lt;code>&amp;lt;div id=&amp;quot;ai-explanation&amp;quot; class=&amp;quot;ai-explanation&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code> 和 JS 部分注释掉。&lt;br>
 这里的修改是把 unpkg 换成了国内的饿了么 npm 镜像，并且调快了打字机速度（原来感觉有点太慢了，如果还觉得慢可以把 &lt;code>speed&lt;/code> 数值继续调小）&lt;br>
 然后把摘要引入文章的模板文件。在 &lt;code>/layouts/partial/article/article.html&lt;/code> 的 &lt;code>header&lt;/code> 和 &lt;code>content&lt;/code> 中间加上 &lt;code>{{ partial &amp;quot;article/components/aisummary&amp;quot; . }}&lt;/code>&lt;/p>
-&lt;h3 id="添加-css">添加 CSS&lt;/h3>
-&lt;p>同样本着一个文件干一件事的原则单独创建自定义 SCSS。在 &lt;code>/assets/scss&lt;/code> 下的合适位置（我是 &lt;code>/assets/scss/custom&lt;/code>）创建 &lt;code>ai.scss&lt;/code>：&lt;/p>
+&lt;h3 id="添加-css">&lt;a href="#%e6%b7%bb%e5%8a%a0-css" class="header-anchor">&lt;/a>添加 CSS
+&lt;/h3>&lt;p>同样本着一个文件干一件事的原则单独创建自定义 SCSS。在 &lt;code>/assets/scss&lt;/code> 下的合适位置（我是 &lt;code>/assets/scss/custom&lt;/code>）创建 &lt;code>ai.scss&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.post-ai&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#f5f5f5&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
@@ -133,8 +133,8 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>部分参数可以自行根据喜好更改。&lt;br>
 如不需要打字机效果，也要把最后一项 &lt;code>ai-explanation-content&lt;/code> 的 CSS 注释掉。&lt;br>
 然后在 &lt;code>/assets/scss/custom.scss&lt;/code> 中引入（&lt;code>@import &amp;quot;custom/ai.scss&amp;quot;;&lt;/code>）。&lt;/p>
-&lt;h2 id="单篇文章禁用摘要">单篇文章禁用摘要&lt;/h2>
-&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
+&lt;h2 id="单篇文章禁用摘要">&lt;a href="#%e5%8d%95%e7%af%87%e6%96%87%e7%ab%a0%e7%a6%81%e7%94%a8%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>单篇文章禁用摘要
+&lt;/h2>&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
 &lt;p>询问 ChatGPT 后得知，上面的代码意思是：&lt;/p>
 &lt;blockquote>
 &lt;p>这段代码是在Hugo模板中使用的条件语句，用于根据条件来决定是否插入数学公式。让我们逐步解释这段代码的含义：&lt;/p>

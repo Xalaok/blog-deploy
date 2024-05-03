@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件 on Naive Koala</title><link>https://www.xalaok.top/tags/%E8%BD%AF%E4%BB%B6/</link><description>Recent content in 软件 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Jan 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>工欲善其事，必先利其器</title><link>https://www.xalaok.top/post/my-software/</link><pubDate>Wed, 17 Jan 2024 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/my-software/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/17/cover.webp" alt="Featured image of post 工欲善其事，必先利其器" />&lt;p>这个软件清单记录了软件的名称，下载地址和我主观的简短描述。把电脑使用的软件列出来，方便以后电脑重装后安装。这张清单会随着后续我电脑使用软件的情况进行更新。本文为跟风 &lt;a class="link" href="https://blog.linsnow.cn/p/software" target="_blank" rel="noopener"
 >L1nsn0w&lt;/a> 🤣&lt;/p>
-&lt;h2 id="系统">系统&lt;/h2>
-&lt;table>
+&lt;h2 id="系统">&lt;a href="#%e7%b3%bb%e7%bb%9f" class="header-anchor">&lt;/a>系统
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -18,8 +18,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="驱动程序">驱动程序&lt;/h2>
-&lt;table>
+&lt;h2 id="驱动程序">&lt;a href="#%e9%a9%b1%e5%8a%a8%e7%a8%8b%e5%ba%8f" class="header-anchor">&lt;/a>驱动程序
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -42,8 +42,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="上网冲浪">上网冲浪&lt;/h2>
-&lt;table>
+&lt;h2 id="上网冲浪">&lt;a href="#%e4%b8%8a%e7%bd%91%e5%86%b2%e6%b5%aa" class="header-anchor">&lt;/a>上网冲浪
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -66,8 +66,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="学习软件">学习软件&lt;/h2>
-&lt;table>
+&lt;h2 id="学习软件">&lt;a href="#%e5%ad%a6%e4%b9%a0%e8%bd%af%e4%bb%b6" class="header-anchor">&lt;/a>学习软件
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -96,8 +96,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="社交软件">社交软件&lt;/h2>
-&lt;table>
+&lt;h2 id="社交软件">&lt;a href="#%e7%a4%be%e4%ba%a4%e8%bd%af%e4%bb%b6" class="header-anchor">&lt;/a>社交软件
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -126,8 +126,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="开发软件">开发软件&lt;/h2>
-&lt;table>
+&lt;h2 id="开发软件">&lt;a href="#%e5%bc%80%e5%8f%91%e8%bd%af%e4%bb%b6" class="header-anchor">&lt;/a>开发软件
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -162,8 +162,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="开发环境">开发环境&lt;/h2>
-&lt;table>
+&lt;h2 id="开发环境">&lt;a href="#%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83" class="header-anchor">&lt;/a>开发环境
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -186,8 +186,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="媒体工具">媒体工具&lt;/h2>
-&lt;table>
+&lt;h2 id="媒体工具">&lt;a href="#%e5%aa%92%e4%bd%93%e5%b7%a5%e5%85%b7" class="header-anchor">&lt;/a>媒体工具
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -216,8 +216,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="实用软件">实用软件&lt;/h2>
-&lt;table>
+&lt;h2 id="实用软件">&lt;a href="#%e5%ae%9e%e7%94%a8%e8%bd%af%e4%bb%b6" class="header-anchor">&lt;/a>实用软件
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -384,8 +384,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="游戏">游戏&lt;/h2>
-&lt;table>
+&lt;h2 id="游戏">&lt;a href="#%e6%b8%b8%e6%88%8f" class="header-anchor">&lt;/a>游戏
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>
@@ -414,8 +414,8 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="破解与补丁">破解与补丁&lt;/h2>
-&lt;table>
+&lt;h2 id="破解与补丁">&lt;a href="#%e7%a0%b4%e8%a7%a3%e4%b8%8e%e8%a1%a5%e4%b8%81" class="header-anchor">&lt;/a>破解与补丁
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>名称&lt;/th>

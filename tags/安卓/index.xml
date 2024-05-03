@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安卓 on Naive Koala</title><link>https://www.xalaok.top/tags/%E5%AE%89%E5%8D%93/</link><description>Recent content in 安卓 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jan 2024 17:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E5%AE%89%E5%8D%93/index.xml" rel="self" type="application/rss+xml"/><item><title>APK 的修改与精简</title><link>https://www.xalaok.top/post/mod-apk/</link><pubDate>Sun, 07 Jan 2024 17:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/mod-apk/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/07/cover.webp" alt="Featured image of post APK 的修改与精简" />&lt;h2 id="准备">准备&lt;/h2>
-&lt;p>手机可以使用 MT 管理器&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安卓 on Naive Koala</title><link>https://www.xalaok.top/tags/%E5%AE%89%E5%8D%93/</link><description>Recent content in 安卓 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Jan 2024 17:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E5%AE%89%E5%8D%93/index.xml" rel="self" type="application/rss+xml"/><item><title>APK 的修改与精简</title><link>https://www.xalaok.top/post/mod-apk/</link><pubDate>Sun, 07 Jan 2024 17:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/mod-apk/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/07/cover.webp" alt="Featured image of post APK 的修改与精简" />&lt;h2 id="准备">&lt;a href="#%e5%87%86%e5%a4%87" class="header-anchor">&lt;/a>准备
+&lt;/h2>&lt;p>手机可以使用 MT 管理器&lt;/p>
 &lt;p>电脑可以使用 &lt;a class="link" href="https://apktool.org/" target="_blank" rel="noopener"
 >ApkTool&lt;/a>：&lt;/p>
 &lt;ol>
@@ -11,8 +11,8 @@
 &lt;li>将要解包的 apk 放在同一目录下&lt;/li>
 &lt;li>运行 &lt;code>apktool d 安装包文件名.apk -o 输出文件夹&lt;/code> 解码 apk&lt;/li>
 &lt;/ol>
-&lt;h2 id="apk-包结构">APK 包结构&lt;/h2>
-&lt;p>在精简 apk 之前，首先要了解一下它的结构。&lt;/p>
+&lt;h2 id="apk-包结构">&lt;a href="#apk-%e5%8c%85%e7%bb%93%e6%9e%84" class="header-anchor">&lt;/a>APK 包结构
+&lt;/h2>&lt;p>在精简 apk 之前，首先要了解一下它的结构。&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>【assets】&lt;br>
@@ -43,8 +43,8 @@
 这里面是一些二进制的资源引用，通过它可以查资源的十六进制的引用值，方便修改 DEX。&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="精简-lib">精简 &lt;code>lib&lt;/code>&lt;/h2>
-&lt;p>armeabi-v7a、arm64-v8a、armeabi、x86、x86_64 有什么区别？以下是 ChatGPT 给出的内容：&lt;/p>
+&lt;h2 id="精简-lib">&lt;a href="#%e7%b2%be%e7%ae%80-lib" class="header-anchor">&lt;/a>精简 &lt;code>lib&lt;/code>
+&lt;/h2>&lt;p>armeabi-v7a、arm64-v8a、armeabi、x86、x86_64 有什么区别？以下是 ChatGPT 给出的内容：&lt;/p>
 &lt;ul>
 &lt;li>armeabi-v7a：基于 ARMv7 指令集的 CPU 架构，适用于大多数现代的 ARM 处理器。&lt;/li>
 &lt;li>arm64-v8a：基于 ARMv8 指令集的 64 位 CPU 架构，适用于支持 64 位指令集的 ARM 处理器。&lt;/li>
@@ -53,8 +53,8 @@
 &lt;li>x86_64：基于 x86-64 指令集的 64 位 CPU 架构，适用于支持 64 位指令集的 x86 处理器。&lt;/li>
 &lt;/ul>
 &lt;p>现在大部分手机都支持 arm64-v8a 吧，自己看着留。&lt;/p>
-&lt;h2 id="精简-res-asstes">精简 &lt;code>res&lt;/code> &lt;code>asstes&lt;/code>&lt;/h2>
-&lt;ol>
+&lt;h2 id="精简-res-asstes">&lt;a href="#%e7%b2%be%e7%ae%80-res-asstes" class="header-anchor">&lt;/a>精简 &lt;code>res&lt;/code> &lt;code>asstes&lt;/code>
+&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>删除广告插件&lt;br>
 主要有 bdx 开头的压缩包（百度）和 gdt_ 开头的文件夹（腾讯）&lt;/p>
@@ -67,10 +67,10 @@
 &lt;p>删除 &lt;code>abc\_&lt;/code> 开头的图片文件（这种一般都是自动生成的，开发者也不会调用）&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="精简-classesdex-resourcesacrs">精简 &lt;code>classes.dex&lt;/code> &lt;code>resources.acrs&lt;/code>&lt;/h2>
-&lt;p>剥离广告 sdk，用 proguard 工具啥的太高级了，还不会。听说有时候 arsc 越精简越大😅&lt;/p>
-&lt;h2 id="精简-androidmanifestxml">精简 &lt;code>AndroidManifest.xml&lt;/code>&lt;/h2>
-&lt;p>删掉无用 activity service permission 啥的。&lt;/p>
+&lt;h2 id="精简-classesdex-resourcesacrs">&lt;a href="#%e7%b2%be%e7%ae%80-classesdex-resourcesacrs" class="header-anchor">&lt;/a>精简 &lt;code>classes.dex&lt;/code> &lt;code>resources.acrs&lt;/code>
+&lt;/h2>&lt;p>剥离广告 sdk，用 proguard 工具啥的太高级了，还不会。听说有时候 arsc 越精简越大😅&lt;/p>
+&lt;h2 id="精简-androidmanifestxml">&lt;a href="#%e7%b2%be%e7%ae%80-androidmanifestxml" class="header-anchor">&lt;/a>精简 &lt;code>AndroidManifest.xml&lt;/code>
+&lt;/h2>&lt;p>删掉无用 activity service permission 啥的。&lt;/p>
 &lt;p>常见的广告关键词：&lt;/p>
 &lt;ul>
 &lt;li>qq.e（腾讯）&lt;/li>
@@ -82,5 +82,5 @@
 &lt;li>sdk（带有 huawei，xiaomi，meizu，vivo，push 等字样的）&lt;/li>
 &lt;/ul>
 &lt;p>sdk 要自行判断，比如微博的 sdk 删了会导致无法用微博登陆和分享，删淘宝可能会导致无法调用淘宝，删 alipay 可能导致无法调用支付宝支付，删带有手机型号的可能会导致无法使用手机运营商相关的服务等等&lt;/p>
-&lt;h2 id="构建修改好的-apk">构建修改好的 apk&lt;/h2>
-&lt;p>运行 &lt;code>apktool b 文件夹 -o 新安装包文件名.apk&lt;/code> 即可，注意，还要签名才能安装。&lt;/p></description></item></channel></rss>
+&lt;h2 id="构建修改好的-apk">&lt;a href="#%e6%9e%84%e5%bb%ba%e4%bf%ae%e6%94%b9%e5%a5%bd%e7%9a%84-apk" class="header-anchor">&lt;/a>构建修改好的 apk
+&lt;/h2>&lt;p>运行 &lt;code>apktool b 文件夹 -o 新安装包文件名.apk&lt;/code> 即可，注意，还要签名才能安装。&lt;/p></description></item></channel></rss>

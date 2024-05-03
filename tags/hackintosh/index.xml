@@ -13,8 +13,8 @@ alt="系统信息"
 &lt;li>Y530/Y540/Y545/Y730/Y740&lt;/li>
 &lt;li>Legion 5i/Legion 7&lt;/li>
 &lt;/ul>
-&lt;h2 id="我的电脑信息">我的电脑信息&lt;/h2>
-&lt;p>Lenovo LEGION Y7000 2020&lt;/p>
+&lt;h2 id="我的电脑信息">&lt;a href="#%e6%88%91%e7%9a%84%e7%94%b5%e8%84%91%e4%bf%a1%e6%81%af" class="header-anchor">&lt;/a>我的电脑信息
+&lt;/h2>&lt;p>Lenovo LEGION Y7000 2020&lt;/p>
 &lt;ul>
 &lt;li>CPU：Intel Core i7-10750H&lt;/li>
 &lt;li>GPU：Nvidia GeForce GTX1650Ti&lt;/li>
@@ -22,9 +22,9 @@ alt="系统信息"
 &lt;li>硬盘：Lenovo SL700 SATA3 240GB&lt;/li>
 &lt;li>无线网卡：Intel Wi-Fi 6 AX201 160MHz&lt;/li>
 &lt;/ul>
-&lt;h2 id="准备阶段">准备阶段&lt;/h2>
-&lt;h3 id="工具下载">工具下载&lt;/h3>
-&lt;ul>
+&lt;h2 id="准备阶段">&lt;a href="#%e5%87%86%e5%a4%87%e9%98%b6%e6%ae%b5" class="header-anchor">&lt;/a>准备阶段
+&lt;/h2>&lt;h3 id="工具下载">&lt;a href="#%e5%b7%a5%e5%85%b7%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>工具下载
+&lt;/h3>&lt;ul>
 &lt;li>&lt;a class="link" href="https://www.diskgenius.cn/" target="_blank" rel="noopener"
 >DiskGenius&lt;/a> - 分区，管理启动项&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.drive-image.com/" target="_blank" rel="noopener"
@@ -34,16 +34,16 @@ alt="系统信息"
 &lt;li>&lt;a class="link" href="https://etcher.balena.io/" target="_blank" rel="noopener"
 >balenaEtcher&lt;/a> - 刻录镜像&lt;/li>
 &lt;/ul>
-&lt;h3 id="镜像下载">镜像下载&lt;/h3>
-&lt;p>10.13.6~13.x 镜像都可以&lt;/p>
-&lt;h3 id="准备磁盘">准备磁盘&lt;/h3>
-&lt;ol>
+&lt;h3 id="镜像下载">&lt;a href="#%e9%95%9c%e5%83%8f%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>镜像下载
+&lt;/h3>&lt;p>10.13.6~13.x 镜像都可以&lt;/p>
+&lt;h3 id="准备磁盘">&lt;a href="#%e5%87%86%e5%a4%87%e7%a3%81%e7%9b%98" class="header-anchor">&lt;/a>准备磁盘
+&lt;/h3>&lt;ol>
 &lt;li>将硬盘转换为 GPT 格式，采用 UEFI 引导&lt;/li>
 &lt;li>&lt;strong>单硬盘双系统&lt;/strong>：在有充足空间的分区上划分出 64G 以上空间，不要格式化&lt;/li>
 &lt;li>&lt;strong>多硬盘双系统&lt;/strong>：需要安装黑苹果的硬盘删除所有分区，然后建立 ESP 和 MSR 分区，剩余空间不要格式化&lt;/li>
 &lt;/ol>
-&lt;h3 id="efi">EFI&lt;/h3>
-&lt;p>已经将我的 EFI 发布在 GitHub 上（仓库地址：&lt;a class="link" href="https://github.com/Xalaok/LEGION-Y7000-2020-EFI" target="_blank" rel="noopener"
+&lt;h3 id="efi">&lt;a href="#efi" class="header-anchor">&lt;/a>EFI
+&lt;/h3>&lt;p>已经将我的 EFI 发布在 GitHub 上（仓库地址：&lt;a class="link" href="https://github.com/Xalaok/LEGION-Y7000-2020-EFI" target="_blank" rel="noopener"
 >Xalaok/LEGION-Y7000-2020-EFI&lt;/a>）。如果和我的配置一样（硬盘除外），且安装的 macOS 版本也是 Ventura，那么可以直接使用本 EFI，如果不是 Ventura 需要更换无线网卡驱动（方法参见下面第 3 步），如果配置不同需要自行根据下面教程配置 EFI&lt;/p>
 &lt;ol>
 &lt;li>在 xiaoM 大佬的&lt;a class="link" href="https://github.com/xiaoMGitHub/LEGION_Y7000Series_Hackintosh" target="_blank" rel="noopener"
@@ -60,15 +60,15 @@ alt="系统信息"
 &lt;li>在 OCAT 工具中打开 &lt;code>config.plist&lt;/code>，打开 &lt;code>Kernel&lt;/code> 选项卡拖入新添加的 Kext(Kernel Extention)，全部启用后保存&lt;/li>
 &lt;li>如果是 PM981、PM981a、镁光、海力士固态需要屏蔽。在 &lt;code>/EFI/OC/config.plist&lt;/code> 搜索 &lt;code>SSDT-DNVMe.aml&lt;/code>，将上方的 &lt;code>&amp;lt;key&amp;gt;Enabled&amp;lt;/key&amp;gt;&lt;/code> 下面一行 &lt;code>&amp;lt;false/&amp;gt;&lt;/code> 修改为 &lt;code>&amp;lt;true/&amp;gt;&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;h3 id="bios-设置">BIOS 设置&lt;/h3>
-&lt;h3 id="拯救者一键修改-bios-脚本">拯救者一键修改 BIOS 脚本&lt;/h3>
-&lt;ol>
+&lt;h3 id="bios-设置">&lt;a href="#bios-%e8%ae%be%e7%bd%ae" class="header-anchor">&lt;/a>BIOS 设置
+&lt;/h3>&lt;h3 id="拯救者一键修改-bios-脚本">&lt;a href="#%e6%8b%af%e6%95%91%e8%80%85%e4%b8%80%e9%94%ae%e4%bf%ae%e6%94%b9-bios-%e8%84%9a%e6%9c%ac" class="header-anchor">&lt;/a>拯救者一键修改 BIOS 脚本
+&lt;/h3>&lt;ol>
 &lt;li>下载工具：&lt;a class="link" href="https://github.com/xiaoMGitHub/LEGION_Y7000Series_Insyde_Advanced_Settings_Tools" target="_blank" rel="noopener"
 >xiaoMGitHub/LEGION_Y7000Series_Insyde_Advanced_Settings_Tools&lt;/a>&lt;/li>
 &lt;li>解压后运行&lt;code>双击执行.bat&lt;/code>。依次执行 2、4、5（如果是八代处理器则需要额外多执行 1）后重启&lt;/li>
 &lt;/ol>
-&lt;h3 id="重启按-f2-进入-bios">重启按 F2 进入 BIOS&lt;/h3>
-&lt;ul>
+&lt;h3 id="重启按-f2-进入-bios">&lt;a href="#%e9%87%8d%e5%90%af%e6%8c%89-f2-%e8%bf%9b%e5%85%a5-bios" class="header-anchor">&lt;/a>重启按 F2 进入 BIOS
+&lt;/h3>&lt;ul>
 &lt;li>关闭 Disabled
 &lt;ul>
 &lt;li>Secure Boot（安全启动，必须关闭）&lt;/li>
@@ -82,29 +82,29 @@ alt="系统信息"
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="安装系统">安装系统&lt;/h2>
-&lt;h3 id="安装版">安装版&lt;/h3>
-&lt;p>balenaEtcher 刻录镜像到 U 盘，替换 EFI，重启按 F12 选择 U 盘启动安装&lt;/p>
-&lt;h3 id="恢复版">恢复版&lt;/h3>
-&lt;h4 id="恢复镜像">恢复镜像&lt;/h4>
-&lt;ol>
+&lt;h2 id="安装系统">&lt;a href="#%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f" class="header-anchor">&lt;/a>安装系统
+&lt;/h2>&lt;h3 id="安装版">&lt;a href="#%e5%ae%89%e8%a3%85%e7%89%88" class="header-anchor">&lt;/a>安装版
+&lt;/h3>&lt;p>balenaEtcher 刻录镜像到 U 盘，替换 EFI，重启按 F12 选择 U 盘启动安装&lt;/p>
+&lt;h3 id="恢复版">&lt;a href="#%e6%81%a2%e5%a4%8d%e7%89%88" class="header-anchor">&lt;/a>恢复版
+&lt;/h3>&lt;h4 id="恢复镜像">&lt;a href="#%e6%81%a2%e5%a4%8d%e9%95%9c%e5%83%8f" class="header-anchor">&lt;/a>恢复镜像
+&lt;/h4>&lt;ol>
 &lt;li>安装并打开 R-Drive Image，选择“恢复映像”&lt;/li>
 &lt;li>选取镜像文件，然后点“下一步”&lt;/li>
 &lt;li>从源中将镜像按住拖到下面的“目标磁盘”或者“空闲分区”中，然后点“下一步”&lt;/li>
 &lt;li>点“启动”开始恢复镜像&lt;/li>
 &lt;/ol>
-&lt;h4 id="空余空间的的合并方法">空余空间的的合并方法&lt;/h4>
-&lt;p>当恢复完镜像后，会发现实际可用空间小于硬盘分区大小，有空余的空间出现。只需要在进入 macOS 后，点启动台 &amp;gt; 其它 &amp;gt; 磁盘工具 &amp;gt; 分区，合并未使用磁盘。&lt;/p>
+&lt;h4 id="空余空间的的合并方法">&lt;a href="#%e7%a9%ba%e4%bd%99%e7%a9%ba%e9%97%b4%e7%9a%84%e7%9a%84%e5%90%88%e5%b9%b6%e6%96%b9%e6%b3%95" class="header-anchor">&lt;/a>空余空间的的合并方法
+&lt;/h4>&lt;p>当恢复完镜像后，会发现实际可用空间小于硬盘分区大小，有空余的空间出现。只需要在进入 macOS 后，点启动台 &amp;gt; 其它 &amp;gt; 磁盘工具 &amp;gt; 分区，合并未使用磁盘。&lt;/p>
 &lt;p>10.13.6 先点+号划分出大概 5G 左右空间，然后点应用进行分区，分好之后再点分区，点未分配的空间，然后点下面的减号，再应用即可成功合并。&lt;/p>
-&lt;h2 id="引导建立">引导建立&lt;/h2>
-&lt;ol>
+&lt;h2 id="引导建立">&lt;a href="#%e5%bc%95%e5%af%bc%e5%bb%ba%e7%ab%8b" class="header-anchor">&lt;/a>引导建立
+&lt;/h2>&lt;ol>
 &lt;li>打开 DiskGenius，在工具选项卡打开&lt;code>设置 UEFI BIOS 启动项&lt;/code>&lt;/li>
 &lt;li>添加引导项选中 &lt;code>/EFI/BOOT/bootx64.efi&lt;/code>&lt;/li>
 &lt;li>给引导项改个名字，然后点“保存当前启动项设置”&lt;/li>
 &lt;li>点“上移”，将该引导项移到最上面即可&lt;/li>
 &lt;/ol>
-&lt;h2 id="系统优化">系统优化&lt;/h2>
-&lt;p>在 macOS 打开终端执行 &lt;code>sudo sh -c &amp;quot;$(curl -fsSL https://gitee.com/xiaoMGit/Y7000Series_Hackintosh_Fix/raw/master/Script/Optimize.sh)&amp;quot;&lt;/code>&lt;/p>
+&lt;h2 id="系统优化">&lt;a href="#%e7%b3%bb%e7%bb%9f%e4%bc%98%e5%8c%96" class="header-anchor">&lt;/a>系统优化
+&lt;/h2>&lt;p>在 macOS 打开终端执行 &lt;code>sudo sh -c &amp;quot;$(curl -fsSL https://gitee.com/xiaoMGit/Y7000Series_Hackintosh_Fix/raw/master/Script/Optimize.sh)&amp;quot;&lt;/code>&lt;/p>
 &lt;p>开启休眠（hibernatemode 25）（适用 8 代、10 代处理器，9 代处理器不支持）：上述优化脚本执行命令 7 即可&lt;/p>
 &lt;p>触控板带实体按钮的机型设置（主要针对 2018 款 Y7000 以及部分 2019 款 Y7000）：系统偏好设置 &amp;gt; 触控板 &amp;gt; 取消勾选&amp;quot;用力点按和触感反馈&amp;quot;&lt;/p>
 &lt;p>小键盘相关设置（8代处理器的机器不需要执行）：&lt;/p>
@@ -113,11 +113,11 @@ alt="系统信息"
 &lt;li>打开 系统偏好设置 &amp;gt; 安全性与隐私 &amp;gt; 隐私 &amp;gt; 辅助功能&lt;/li>
 &lt;li>将 setleds 添加到辅助功能&lt;/li>
 &lt;/ol>
-&lt;h2 id="去除多余-no_name-或-efi-引导项">去除多余 NO_NAME 或 EFI 引导项&lt;/h2>
-&lt;p>这是 OpenCore 0.8.8 开始的新特性，解决方案是在 &lt;code>/EFI/Boot&lt;/code> 创建一个内含 &lt;code>Disabled&lt;/code> 字符的 &lt;code>.contentVisibility&lt;/code> 文件&lt;/p>
-&lt;h2 id="说明">说明&lt;/h2>
-&lt;h3 id="正常工作的功能">正常工作的功能&lt;/h3>
-&lt;ul>
+&lt;h2 id="去除多余-no_name-或-efi-引导项">&lt;a href="#%e5%8e%bb%e9%99%a4%e5%a4%9a%e4%bd%99-no_name-%e6%88%96-efi-%e5%bc%95%e5%af%bc%e9%a1%b9" class="header-anchor">&lt;/a>去除多余 NO_NAME 或 EFI 引导项
+&lt;/h2>&lt;p>这是 OpenCore 0.8.8 开始的新特性，解决方案是在 &lt;code>/EFI/Boot&lt;/code> 创建一个内含 &lt;code>Disabled&lt;/code> 字符的 &lt;code>.contentVisibility&lt;/code> 文件&lt;/p>
+&lt;h2 id="说明">&lt;a href="#%e8%af%b4%e6%98%8e" class="header-anchor">&lt;/a>说明
+&lt;/h2>&lt;h3 id="正常工作的功能">&lt;a href="#%e6%ad%a3%e5%b8%b8%e5%b7%a5%e4%bd%9c%e7%9a%84%e5%8a%9f%e8%83%bd" class="header-anchor">&lt;/a>正常工作的功能
+&lt;/h3>&lt;ul>
 &lt;li>UEFI 通过 Clover/OpenCore 启动&lt;/li>
 &lt;li>支持任意版本系统 OTA 升级到最新系统&lt;/li>
 &lt;li>内置键盘以及数字键盘&lt;/li>
@@ -142,8 +142,8 @@ alt="系统信息"
 &lt;li>iMessage/FaceTime&lt;/li>
 &lt;li>休眠唤醒（hibernatemode 25）&lt;/li>
 &lt;/ul>
-&lt;h3 id="不能正常使用的功能">不能正常使用的功能&lt;/h3>
-&lt;ul>
+&lt;h3 id="不能正常使用的功能">&lt;a href="#%e4%b8%8d%e8%83%bd%e6%ad%a3%e5%b8%b8%e4%bd%bf%e7%94%a8%e7%9a%84%e5%8a%9f%e8%83%bd" class="header-anchor">&lt;/a>不能正常使用的功能
+&lt;/h3>&lt;ul>
 &lt;li>睡眠唤醒（原作者说鼠标，键盘、电源键唤醒均正常，但实测我的型号不正常😭）&lt;/li>
 &lt;li>HDMI，因为 HDMI 端口连接到已禁用的 Nvidia 卡&lt;/li>
 &lt;/ul>

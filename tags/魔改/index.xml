@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>魔改 on Naive Koala</title><link>https://www.xalaok.top/tags/%E9%AD%94%E6%94%B9/</link><description>Recent content in 魔改 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 04 Aug 2023 20:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E9%AD%94%E6%94%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>博客魔改美化（通用）</title><link>https://www.xalaok.top/post/blog-modify/</link><pubDate>Fri, 04 Aug 2023 20:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/blog-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/04/cover.webp" alt="Featured image of post 博客魔改美化（通用）" />&lt;p>昨天写过一篇 Stack 主题魔改，那篇仅适用于 Stack 主题，今天的这篇适用于所有 Hugo 博客（部分适用于所有网页），以后所有的添加也会在这篇文章里面&lt;/p>
-&lt;h2 id="博客运行时间">博客运行时间&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;timeDate&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入天数&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&amp;lt;span id=&amp;#34;times&amp;#34;&amp;gt;载入时分秒...&amp;lt;/span&amp;gt;&lt;/span>
+&lt;h2 id="博客运行时间">&lt;a href="#%e5%8d%9a%e5%ae%a2%e8%bf%90%e8%a1%8c%e6%97%b6%e9%97%b4" class="header-anchor">&lt;/a>博客运行时间
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;timeDate&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入天数&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&amp;lt;span id=&amp;#34;times&amp;#34;&amp;gt;载入时分秒...&amp;lt;/span&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">script&lt;/span> &lt;span class="nx">language&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">now&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Date&lt;/span>&lt;span class="p">();&lt;/span>
@@ -25,8 +25,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setInterval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;createtime()&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">250&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/script&amp;gt; &lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="旅行者-1-号离地球距离">旅行者 1 号离地球距离&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;voyager&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入旅行者一号离地球距离信息&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="旅行者-1-号离地球距离">&lt;a href="#%e6%97%85%e8%a1%8c%e8%80%85-1-%e5%8f%b7%e7%a6%bb%e5%9c%b0%e7%90%83%e8%b7%9d%e7%a6%bb" class="header-anchor">&lt;/a>旅行者 1 号离地球距离
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JavaScript" data-lang="JavaScript">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">span&lt;/span> &lt;span class="nx">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;voyager&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">载入旅行者一号离地球距离信息&lt;/span>&lt;span class="p">...&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/span&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">script&lt;/span> &lt;span class="nx">language&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">now&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Date&lt;/span>&lt;span class="p">();&lt;/span>
@@ -41,8 +41,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setInterval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;createtime()&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">250&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="err">/script&amp;gt; &lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="已写完了哪本书">已写完了哪本书？&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://immmmm.com/what-book-i-write/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="已写完了哪本书">&lt;a href="#%e5%b7%b2%e5%86%99%e5%ae%8c%e4%ba%86%e5%93%aa%e6%9c%ac%e4%b9%a6" class="header-anchor">&lt;/a>已写完了哪本书？
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://immmmm.com/what-book-i-write/" target="_blank" rel="noopener"
 >已写完了哪本书？ :: 木木木木木&lt;/a>&lt;/p>
 &lt;p>将以下代码添加到 footer.html：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span>&lt;span class="nx">$scratch&lt;/span> &lt;span class="o">:=&lt;/span> &lt;span class="nx">newScratch&lt;/span>&lt;span class="p">}}&lt;/span>
@@ -79,15 +79,15 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="nx">ge&lt;/span> &lt;span class="nx">$wowWord&lt;/span> &lt;span class="mi">5&lt;/span> &lt;span class="p">}}{{&lt;/span>&lt;span class="nx">$wowBook&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;写完一本 埃克苏佩里 的&amp;lt;/br&amp;gt;《小王子》了！&amp;#34;&lt;/span>&lt;span class="p">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&lt;/span> &lt;span class="nx">end&lt;/span> &lt;span class="p">}}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">共&lt;/span> &lt;span class="p">{{&lt;/span>&lt;span class="nx">$totalWord&lt;/span> &lt;span class="p">}}&lt;/span> &lt;span class="nx">字&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">br&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="p">{{&lt;/span>&lt;span class="nx">$wowBook&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeHTML&lt;/span> &lt;span class="p">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="图片懒加载">图片懒加载&lt;/h2>
-&lt;p>注：Stack 主题默认有懒加载，不需要自行添加&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="图片懒加载">&lt;a href="#%e5%9b%be%e7%89%87%e6%87%92%e5%8a%a0%e8%bd%bd" class="header-anchor">&lt;/a>图片懒加载
+&lt;/h2>&lt;p>注：Stack 主题默认有懒加载，不需要自行添加&lt;/p>
 &lt;p>原理：使用 Hugo (v0.62+) 的渲染钩子对 markdown 文件内的链接和图像自定义渲染&lt;/p>
 &lt;p>实现：&lt;code>/layouts/_default/_markup&lt;/code> 中新建 &lt;code>render-image.html&lt;/code> 然后丢入代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;md_image&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">loading&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#39;lazy&amp;#39;&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Destination | safeURL }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Text }}&amp;#34;&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">with&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Title&lt;/span>&lt;span class="err">}}&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="博客产量">博客产量&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://blog.douchi.space/hugo-blog-heatmap/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="博客产量">&lt;a href="#%e5%8d%9a%e5%ae%a2%e4%ba%a7%e9%87%8f" class="header-anchor">&lt;/a>博客产量
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://blog.douchi.space/hugo-blog-heatmap/" target="_blank" rel="noopener"
 >如何给 Hugo 博客添加热力图 - 椒盐豆豉&lt;/a>&lt;/p>
 &lt;p>任意位置加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;heatmap&amp;#34;&lt;/span> &lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;
@@ -256,9 +256,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见首页&lt;/p>
-&lt;h2 id="自定义字体">自定义字体&lt;/h2>
-&lt;h3 id="使用谷歌字体">使用谷歌字体&lt;/h3>
-&lt;ol>
+&lt;h2 id="自定义字体">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>自定义字体
+&lt;/h2>&lt;h3 id="使用谷歌字体">&lt;a href="#%e4%bd%bf%e7%94%a8%e8%b0%b7%e6%ad%8c%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>使用谷歌字体
+&lt;/h3>&lt;ol>
 &lt;li>修改 &lt;code>/layouts/partials/footer/components/custom-font.html&lt;/code> 为以下代码：&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;preconnect&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://fonts.googleapis.com&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -276,9 +276,9 @@
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="其他字体">其他字体&lt;/h3>
-&lt;h4 id="霞骛文楷">霞骛文楷&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="其他字体">&lt;a href="#%e5%85%b6%e4%bb%96%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>其他字体
+&lt;/h3>&lt;h4 id="霞骛文楷">&lt;a href="#%e9%9c%9e%e9%aa%9b%e6%96%87%e6%a5%b7" class="header-anchor">&lt;/a>霞骛文楷
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- LXGW WenKai GB Screen --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- LXGW WenKai GB Screen R --&amp;gt;&lt;/span>
@@ -297,8 +297,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;LXGW WenKai Screen R&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="harmonyos-sans">HarmonyOS Sans&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="harmonyos-sans">&lt;a href="#harmonyos-sans" class="header-anchor">&lt;/a>HarmonyOS Sans
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码（选一个即可）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- B 站 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span>
@@ -315,8 +315,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#39;HarmonyOS_Regular&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">MiSans&lt;/h4>
-&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">&lt;a href="#misans" class="header-anchor">&lt;/a>MiSans
+&lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;stylesheet&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;https://cdn.jsdelivr.net/npm/misans@3.1.1/lib/misans-400-regular.min.css&amp;#34;&lt;/span>
@@ -326,8 +326,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;MiSans&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鼠标样式">鼠标样式&lt;/h2>
-&lt;p>来自：&lt;a class="link" href="https://blog.xecades.xyz/articles/cursor/" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鼠标样式">&lt;a href="#%e9%bc%a0%e6%a0%87%e6%a0%b7%e5%bc%8f" class="header-anchor">&lt;/a>鼠标样式
+&lt;/h2>&lt;p>来自：&lt;a class="link" href="https://blog.xecades.xyz/articles/cursor/" target="_blank" rel="noopener"
 >打造一款乖巧的鼠标指针特效 - Xecades&lt;/a>&lt;/p>
 &lt;p>Cursor.css&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">#&lt;/span>&lt;span class="nn">cursor&lt;/span> &lt;span class="p">{&lt;/span>
@@ -441,9 +441,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 需要重新获取列表时，使用 CURSOR.refresh()
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">})();&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见 &lt;a class="link" href="https://xecades.xyz" target="_blank" rel="noopener"
->Xecades 主页&lt;/a>&lt;/p></description></item><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">全局&lt;/h2>
-&lt;h3 id="零碎玩意">零碎玩意&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+>Xecades 主页&lt;/a>&lt;/p></description></item><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">&lt;a href="#%e5%85%a8%e5%b1%80" class="header-anchor">&lt;/a>全局
+&lt;/h2>&lt;h3 id="零碎玩意">&lt;a href="#%e9%9b%b6%e7%a2%8e%e7%8e%a9%e6%84%8f" class="header-anchor">&lt;/a>零碎玩意
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 页面基本配色
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nd">:root&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 全局顶部边距
@@ -663,8 +663,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">object-fit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">cover&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">17&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="菜单栏圆角">菜单栏圆角&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="菜单栏圆角">&lt;a href="#%e8%8f%9c%e5%8d%95%e6%a0%8f%e5%9c%86%e8%a7%92" class="header-anchor">&lt;/a>菜单栏圆角
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 菜单栏样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 下拉菜单改圆角样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.menu&lt;/span> &lt;span class="p">{&lt;/span>
@@ -745,8 +745,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="滚动条">滚动条&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="滚动条">&lt;a href="#%e6%bb%9a%e5%8a%a8%e6%9d%a1" class="header-anchor">&lt;/a>滚动条
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//将滚动条修改为圆角样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//菜单滚动条美化
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.menu&lt;/span>&lt;span class="nd">::-webkit-scrollbar&lt;/span> &lt;span class="p">{&lt;/span>
@@ -774,8 +774,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">background-color&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">#a8bbbf&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="加载进度条">加载进度条&lt;/h3>
-&lt;p>在 &lt;code>/layouts/partials/footer/custom.html&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="加载进度条">&lt;a href="#%e5%8a%a0%e8%bd%bd%e8%bf%9b%e5%ba%a6%e6%9d%a1" class="header-anchor">&lt;/a>加载进度条
+&lt;/h3>&lt;p>在 &lt;code>/layouts/partials/footer/custom.html&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js&amp;#34;&lt;/span> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css&amp;#34;&lt;/span> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -785,8 +785,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">readyState&lt;/span> &lt;span class="o">===&lt;/span> &lt;span class="s2">&amp;#34;complete&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nx">NProgress&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">done&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="深色模式开关图标">深色模式开关图标&lt;/h3>
-&lt;p>不太喜欢默认图标，默认图标不够直观，当然你可以不换&lt;br>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="深色模式开关图标">&lt;a href="#%e6%b7%b1%e8%89%b2%e6%a8%a1%e5%bc%8f%e5%bc%80%e5%85%b3%e5%9b%be%e6%a0%87" class="header-anchor">&lt;/a>深色模式开关图标
+&lt;/h3>&lt;p>不太喜欢默认图标，默认图标不够直观，当然你可以不换&lt;br>
 我选取了 &lt;a class="link" href="https://tablericons.com/" target="_blank" rel="noopener"
 >Tabler Icons&lt;/a> 中的 &lt;code>sun-high&lt;/code> 和 &lt;code>moon-stars&lt;/code> 这两个图标&lt;br>
 在 &lt;code>/assets/scss/partials/sidebar.scss&lt;/code> 第 154~180 行中将图标名进行修改，最终效果：&lt;/p>
@@ -827,8 +827,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ T &amp;#34;darkMode&amp;#34; }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end }}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="修改布局">修改布局&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/grid.scss&lt;/code> 中修改 &lt;code>left-sidebar&lt;/code> 和 &lt;code>right-sidebar&lt;/code> 的描述：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="修改布局">&lt;a href="#%e4%bf%ae%e6%94%b9%e5%b8%83%e5%b1%80" class="header-anchor">&lt;/a>修改布局
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/grid.scss&lt;/code> 中修改 &lt;code>left-sidebar&lt;/code> 和 &lt;code>right-sidebar&lt;/code> 的描述：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.left-sidebar&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">order&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// max-width: var(--left-sidebar-max-width);
@@ -846,10 +846,10 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>把正文的占比改到了 70%, 原来的只有 50% 左右&lt;/p>
-&lt;h2 id="页面">页面&lt;/h2>
-&lt;h3 id="归档">归档&lt;/h3>
-&lt;h4 id="双栏">双栏&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;h2 id="页面">&lt;a href="#%e9%a1%b5%e9%9d%a2" class="header-anchor">&lt;/a>页面
+&lt;/h2>&lt;h3 id="归档">&lt;a href="#%e5%bd%92%e6%a1%a3" class="header-anchor">&lt;/a>归档
+&lt;/h3>&lt;h4 id="双栏">&lt;a href="#%e5%8f%8c%e6%a0%8f" class="header-anchor">&lt;/a>双栏
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 归档页面两栏
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">@media&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="na">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.article-list--compact&lt;/span> &lt;span class="p">{&lt;/span>
@@ -868,8 +868,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="卡片缩放动画">卡片缩放动画&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="卡片缩放动画">&lt;a href="#%e5%8d%a1%e7%89%87%e7%bc%a9%e6%94%be%e5%8a%a8%e7%94%bb" class="header-anchor">&lt;/a>卡片缩放动画
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*-----------归档页面----------*/&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">//归档页面卡片缩放
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-list--tile&lt;/span> &lt;span class="nt">article&lt;/span> &lt;span class="p">{&lt;/span>
@@ -879,8 +879,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.article-list--tile&lt;/span> &lt;span class="nt">article&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">scale&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="mf">.03&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.03&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="友链三栏">友链三栏&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="友链三栏">&lt;a href="#%e5%8f%8b%e9%93%be%e4%b8%89%e6%a0%8f" class="header-anchor">&lt;/a>友链三栏
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 友情链接三栏
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="k">@media&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="na">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1024&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.article-list--compact.links&lt;/span> &lt;span class="p">{&lt;/span>
@@ -903,9 +903,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="首页">首页&lt;/h3>
-&lt;h4 id="布局">布局&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="首页">&lt;a href="#%e9%a6%96%e9%a1%b5" class="header-anchor">&lt;/a>首页
+&lt;/h3>&lt;h4 id="布局">&lt;a href="#%e5%b8%83%e5%b1%80" class="header-anchor">&lt;/a>布局
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*主页布局间距调整*/&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.main-container&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">gap&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">50&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">//文章宽度
@@ -920,8 +920,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">overflow-x&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">visible&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">//显示隐藏的图标
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="na">padding-bottom&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">15&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="右侧导航栏动画">右侧导航栏动画&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="右侧导航栏动画">&lt;a href="#%e5%8f%b3%e4%be%a7%e5%af%bc%e8%88%aa%e6%a0%8f%e5%8a%a8%e7%94%bb" class="header-anchor">&lt;/a>右侧导航栏动画
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*------------------右侧导航栏--------------*/&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 搜索菜单动画
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.search-form.widget&lt;/span> &lt;span class="p">{&lt;/span>
@@ -953,9 +953,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.tagCloud&lt;/span> &lt;span class="nc">.tagCloud-tags&lt;/span> &lt;span class="nt">a&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">scale&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="mf">.1&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.1&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="细节">细节&lt;/h2>
-&lt;h3 id="首页欢迎横幅">首页欢迎横幅&lt;/h3>
-&lt;p>在 &lt;code>/layouts/index.html&lt;/code> 的 &lt;code>&amp;lt;section class=&amp;quot;article-list&amp;quot;&amp;gt;&lt;/code> 前添加以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="细节">&lt;a href="#%e7%bb%86%e8%8a%82" class="header-anchor">&lt;/a>细节
+&lt;/h2>&lt;h3 id="首页欢迎横幅">&lt;a href="#%e9%a6%96%e9%a1%b5%e6%ac%a2%e8%bf%8e%e6%a8%aa%e5%b9%85" class="header-anchor">&lt;/a>首页欢迎横幅
+&lt;/h3>&lt;p>在 &lt;code>/layouts/index.html&lt;/code> 的 &lt;code>&amp;lt;section class=&amp;quot;article-list&amp;quot;&amp;gt;&lt;/code> 前添加以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 首页欢迎字幅 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;welcome&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span> &lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;font-size: 2rem; text-align: center; font-weight: bold&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -1076,9 +1076,9 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">translateY&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="代码块">代码块&lt;/h3>
-&lt;h4 id="macos-风格红绿灯图标">macOS 风格红绿灯图标&lt;/h4>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="代码块">&lt;a href="#%e4%bb%a3%e7%a0%81%e5%9d%97" class="header-anchor">&lt;/a>代码块
+&lt;/h3>&lt;h4 id="macos-风格红绿灯图标">&lt;a href="#macos-%e9%a3%8e%e6%a0%bc%e7%ba%a2%e7%bb%bf%e7%81%af%e5%9b%be%e6%a0%87" class="header-anchor">&lt;/a>macOS 风格红绿灯图标
+&lt;/h4>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// macOS 风格代码块
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.highlight&lt;/span>&lt;span class="nd">:before&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1100,8 +1100,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;ellipse&lt;/span> &lt;span class="na">cx=&lt;/span>&lt;span class="s">&amp;#34;225&amp;#34;&lt;/span> &lt;span class="na">cy=&lt;/span>&lt;span class="s">&amp;#34;65&amp;#34;&lt;/span> &lt;span class="na">rx=&lt;/span>&lt;span class="s">&amp;#34;50&amp;#34;&lt;/span> &lt;span class="na">ry=&lt;/span>&lt;span class="s">&amp;#34;52&amp;#34;&lt;/span> &lt;span class="na">stroke=&lt;/span>&lt;span class="s">&amp;#34;rgb(218,151,33)&amp;#34;&lt;/span> &lt;span class="na">stroke-width=&lt;/span>&lt;span class="s">&amp;#34;2&amp;#34;&lt;/span> &lt;span class="na">fill=&lt;/span>&lt;span class="s">&amp;#34;rgb(247,193,81)&amp;#34;&lt;/span>&lt;span class="nt">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;lt;ellipse&lt;/span> &lt;span class="na">cx=&lt;/span>&lt;span class="s">&amp;#34;385&amp;#34;&lt;/span> &lt;span class="na">cy=&lt;/span>&lt;span class="s">&amp;#34;65&amp;#34;&lt;/span> &lt;span class="na">rx=&lt;/span>&lt;span class="s">&amp;#34;50&amp;#34;&lt;/span> &lt;span class="na">ry=&lt;/span>&lt;span class="s">&amp;#34;52&amp;#34;&lt;/span> &lt;span class="na">stroke=&lt;/span>&lt;span class="s">&amp;#34;rgb(27,161,37)&amp;#34;&lt;/span> &lt;span class="na">stroke-width=&lt;/span>&lt;span class="s">&amp;#34;2&amp;#34;&lt;/span> &lt;span class="na">fill=&lt;/span>&lt;span class="s">&amp;#34;rgb(100,200,86)&amp;#34;&lt;/span>&lt;span class="nt">/&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;lt;/svg&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="显示语言和复制按钮">显示语言和复制按钮&lt;/h4>
-&lt;p>在 &lt;code>/assets/ts/custom.ts&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="显示语言和复制按钮">&lt;a href="#%e6%98%be%e7%a4%ba%e8%af%ad%e8%a8%80%e5%92%8c%e5%a4%8d%e5%88%b6%e6%8c%89%e9%92%ae" class="header-anchor">&lt;/a>显示语言和复制按钮
+&lt;/h4>&lt;p>在 &lt;code>/assets/ts/custom.ts&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-typescript" data-lang="typescript">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 显示语言和复制按钮
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kr">const&lt;/span> &lt;span class="nx">highlights&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">querySelectorAll&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;.article-content div.highlight&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">copyText&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="sb">`📄拷贝`&lt;/span>&lt;span class="p">,&lt;/span>
@@ -1170,8 +1170,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">lato&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">font-size&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.5&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固定块的高度">固定块的高度&lt;/h3>
-&lt;p>过长的内容影响观感，所以把 block 的高度限制在 20em，并隐藏滚动条&lt;br>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固定块的高度">&lt;a href="#%e5%9b%ba%e5%ae%9a%e5%9d%97%e7%9a%84%e9%ab%98%e5%ba%a6" class="header-anchor">&lt;/a>固定块的高度
+&lt;/h3>&lt;p>过长的内容影响观感，所以把 block 的高度限制在 20em，并隐藏滚动条&lt;br>
 在 &lt;code>/assets/scss/partials/layout/article.scss&lt;/code> 中进行如下修改：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nc">.highlight&lt;/span> &lt;span class="p">{&lt;/span>
@@ -1189,8 +1189,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="键盘样式">键盘样式&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="键盘样式">&lt;a href="#%e9%94%ae%e7%9b%98%e6%a0%b7%e5%bc%8f" class="header-anchor">&lt;/a>键盘样式
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 键盘样式
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">kbd&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">margin&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="mf">.1&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
@@ -1208,8 +1208,8 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这样即可使用如下 Markdown 高级语法生成键盘样式：&lt;br>
 &lt;code>&amp;lt;kbd&amp;gt;CTRL&amp;lt;/kbd&amp;gt; + &amp;lt;kbd&amp;gt;C&amp;lt;/kbd&amp;gt;&lt;/code>&lt;br>
 &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>C&lt;/kbd>&lt;/p>
-&lt;h3 id="头像旋转">头像旋转&lt;/h3>
-&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
+&lt;h3 id="头像旋转">&lt;a href="#%e5%a4%b4%e5%83%8f%e6%97%8b%e8%bd%ac" class="header-anchor">&lt;/a>头像旋转
+&lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 头像旋转动画
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nc">.sidebar&lt;/span> &lt;span class="nt">header&lt;/span> &lt;span class="nc">.site-avatar&lt;/span> &lt;span class="nc">.site-logo&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transition&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">transform&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="mf">.65&lt;/span>&lt;span class="kt">s&lt;/span> &lt;span class="ni">ease-in-out&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 旋转时间
@@ -1218,8 +1218,8 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.sidebar&lt;/span> &lt;span class="nt">header&lt;/span> &lt;span class="nc">.site-avatar&lt;/span> &lt;span class="nc">.site-logo&lt;/span>&lt;span class="nd">:hover&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">transform&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nf">rotate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">360&lt;/span>&lt;span class="kt">deg&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 旋转角度为360度
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鸣谢">鸣谢&lt;/h2>
-&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="鸣谢">&lt;a href="#%e9%b8%a3%e8%b0%a2" class="header-anchor">&lt;/a>鸣谢
+&lt;/h2>&lt;blockquote>
 &lt;p>&lt;a class="link" href="https://stack.jimmycai.com/" target="_blank" rel="noopener"
 >Stack 主题文档&lt;/a>&lt;br>
 &lt;a class="link" href="https://blog.linsnow.cn/p/modify-hugo/" target="_blank" rel="noopener"

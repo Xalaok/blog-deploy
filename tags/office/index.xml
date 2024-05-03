@@ -4,8 +4,8 @@
 loading="lazy"
 >&lt;/p>
 &lt;hr>
-&lt;h3 id="新建个人访问令牌">新建个人访问令牌&lt;/h3>
-&lt;ol>
+&lt;h3 id="新建个人访问令牌">&lt;a href="#%e6%96%b0%e5%bb%ba%e4%b8%aa%e4%ba%ba%e8%ae%bf%e9%97%ae%e4%bb%a4%e7%89%8c" class="header-anchor">&lt;/a>新建个人访问令牌
+&lt;/h3>&lt;ol>
 &lt;li>打开 &lt;a class="link" href="https://github.com/settings/tokens" target="_blank" rel="noopener"
 >https://github.com/settings/tokens&lt;/a>&lt;/li>
 &lt;li>右上角新建个人访问令牌（经典）【注：我用的是油猴插件 &lt;a class="link" href="https://greasyfork.org/scripts/435208" target="_blank" rel="noopener"
@@ -21,8 +21,8 @@ loading="lazy"
 >&lt;/li>
 &lt;li>&lt;strong>妥善及时保存&lt;/strong>好新生成的 token，只会出现一次，过后不再可见&lt;/li>
 &lt;/ol>
-&lt;h3 id="导入仓库">导入仓库&lt;/h3>
-&lt;ol>
+&lt;h3 id="导入仓库">&lt;a href="#%e5%af%bc%e5%85%a5%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>导入仓库
+&lt;/h3>&lt;ol>
 &lt;li>GitHub 主页右上角加号选择导入仓库（&lt;code>import repository&lt;/code>）
 &lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/04.webp"
 loading="lazy"
@@ -31,8 +31,8 @@ loading="lazy"
 &lt;li>导入完成后打开导入后的仓库&lt;/li>
 &lt;li>打开 Settings-Actions-General（&lt;code>https://github.com/你的用户名/仓库名/settings/actions&lt;/code>），将 &lt;code>Actions permissions&lt;/code> 设为 &lt;code>Allow all actions add reusable workflows&lt;/code>（第一项）即可看到 Actions 选项卡&lt;/li>
 &lt;/ol>
-&lt;h3 id="设置-secrets">设置 Secrets&lt;/h3>
-&lt;ol>
+&lt;h3 id="设置-secrets">&lt;a href="#%e8%ae%be%e7%bd%ae-secrets" class="header-anchor">&lt;/a>设置 Secrets
+&lt;/h3>&lt;ol>
 &lt;li>打开 Settings-Secrets-Actions（&lt;code>https://github.com/你的用户名/仓库名/settings/secrets/actions&lt;/code>），点击 New repository secret&lt;/li>
 &lt;li>根据仓库作者 README 添加三项 Secret&lt;/li>
 &lt;/ol>
@@ -61,14 +61,14 @@ loading="lazy"
 &lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/05.webp"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="禁用安全默认值">禁用安全默认值&lt;/h3>
-&lt;p>根据&lt;a class="link" href="https://learn.microsoft.com/zh-cn/entra/fundamentals/security-defaults#disabling-security-defaults" target="_blank" rel="noopener"
+&lt;h3 id="禁用安全默认值">&lt;a href="#%e7%a6%81%e7%94%a8%e5%ae%89%e5%85%a8%e9%bb%98%e8%ae%a4%e5%80%bc" class="header-anchor">&lt;/a>禁用安全默认值
+&lt;/h3>&lt;p>根据&lt;a class="link" href="https://learn.microsoft.com/zh-cn/entra/fundamentals/security-defaults#disabling-security-defaults" target="_blank" rel="noopener"
 >微软官方教程&lt;/a>禁用安全默认值，否则无法注册成功，进而无法调用 API
 &lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/06.webp"
 loading="lazy"
 >&lt;/p>
-&lt;h3 id="手动触发-actions">手动触发 Actions&lt;/h3>
-&lt;ol>
+&lt;h3 id="手动触发-actions">&lt;a href="#%e6%89%8b%e5%8a%a8%e8%a7%a6%e5%8f%91-actions" class="header-anchor">&lt;/a>手动触发 Actions
+&lt;/h3>&lt;ol>
 &lt;li>转到 &lt;code>Action&lt;/code> 面板，在 &lt;code>All workflows&lt;/code> 下找到 &lt;code>Register APP&lt;/code>，手动触发它完成注册流程，2 分钟左右。如果确认一切操作正确仍然 &lt;code>Register&lt;/code> 失败，可等待 10-30min 后再操作，因为关闭安全默认值后，微软系统要过一段时间才会刷新。
 &lt;img src="https://cdn.xalaok.top/images/blog/2024/01/18/07.webp"
 loading="lazy"

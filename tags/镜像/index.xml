@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>镜像 on Naive Koala</title><link>https://www.xalaok.top/tags/%E9%95%9C%E5%83%8F/</link><description>Recent content in 镜像 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 05 May 2023 22:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E9%95%9C%E5%83%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>利用 Vercel 免费搭建镜像网站</title><link>https://www.xalaok.top/post/websiteproxy/</link><pubDate>Fri, 05 May 2023 22:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/websiteproxy/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/05/cover.webp" alt="Featured image of post 利用 Vercel 免费搭建镜像网站" />
 &lt;div class="notice notice-warning" >
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="#704343">&lt;path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>本教程不能镜像某些网站（如资源文件域名与网页域名不同的网站）。也请勿使用此教程镜像非法网站在国内访问，否则后果（被请喝茶或域名被墙等）自负！&lt;/p>&lt;/div>
-&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>有自己服务器的朋友可以使用 nginx 反代理。但是服务器不便宜，本文介绍的方法使用 GitHub + Vercel，部署非常简单&lt;/p>
+&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+&lt;/h2>&lt;p>有自己服务器的朋友可以使用 nginx 反代理。但是服务器不便宜，本文介绍的方法使用 GitHub + Vercel，部署非常简单&lt;/p>
 &lt;p>你只需要：&lt;/p>
 &lt;ol>
 &lt;li>GitHub账号&lt;/li>
@@ -10,8 +10,8 @@
 &lt;li>自己的域名（可选，国内注册可以首年 1 元甚至免费）&lt;br>
 部署完成之后默认会给你的项目分配一个 vercel.app 的二级域名，但是在 2021 年 vercel.app 域名被墙，大陆地区无法访问，因此强烈建议自己准备域名&lt;/li>
 &lt;/ol>
-&lt;h2 id="步骤">步骤&lt;/h2>
-&lt;ol>
+&lt;h2 id="步骤">&lt;a href="#%e6%ad%a5%e9%aa%a4" class="header-anchor">&lt;/a>步骤
+&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>首先打开 GitHub 的 &lt;a class="link" href="https://github.com/gaowanlu/google" target="_blank" rel="noopener"
 >这个仓库&lt;/a>
