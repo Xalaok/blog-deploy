@@ -9,7 +9,7 @@
 &lt;h2 id="-关于本站">&lt;a href="#-%e5%85%b3%e4%ba%8e%e6%9c%ac%e7%ab%99" class="header-anchor">&lt;/a>🏠 关于本站
 &lt;/h2>&lt;ul>
 &lt;li>博客框架：&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
->Hugo&lt;/a> 0.125.5&lt;/li>
+>Hugo&lt;/a> 0.126.1&lt;/li>
 &lt;li>博客主题：&lt;a class="link" href="https://stack.jimmycai.com/" target="_blank" rel="noopener"
 >Stack&lt;/a> 3.26.0&lt;/li>
 &lt;li>托管部署：源码托管于 &lt;a class="link" href="https://github.com/" target="_blank" rel="noopener"
