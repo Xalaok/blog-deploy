@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stack on Naive Koala</title><link>https://www.xalaok.top/tags/stack/</link><description>Recent content in Stack on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 03 Aug 2023 21:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/stack/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">&lt;a href="#%e5%85%a8%e5%b1%80" class="header-anchor">&lt;/a>全局
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stack on Naive Koala</title><link>https://www.xalaok.top/tags/stack/</link><description>Recent content in Stack on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 03 Aug 2023 21:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/stack/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-theme-Stack 魔改美化</title><link>https://www.xalaok.top/post/stack-modify/</link><pubDate>Thu, 03 Aug 2023 21:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/stack-modify/</guid><description>&lt;img src="https://www.xalaok.top/post/stack-modify/stack.webp" alt="Featured image of post Hugo-theme-Stack 魔改美化" />&lt;h2 id="全局">&lt;a href="#%e5%85%a8%e5%b1%80" class="header-anchor">&lt;/a>全局
 &lt;/h2>&lt;h3 id="零碎玩意">&lt;a href="#%e9%9b%b6%e7%a2%8e%e7%8e%a9%e6%84%8f" class="header-anchor">&lt;/a>零碎玩意
 &lt;/h3>&lt;p>在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 页面基本配色
@@ -786,16 +786,16 @@
 >小骆同学2&lt;/a>&lt;br>
 &lt;a class="link" href="https://blog.echosec.top/p/custom-hugo-theme-styles/" target="_blank" rel="noopener"
 >Echosec&lt;/a>&lt;/p>
-&lt;/blockquote></description></item><item><title>投入 Hugo 的怀抱！</title><link>https://www.xalaok.top/post/hugo-stack/</link><pubDate>Thu, 22 Jun 2023 09:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-stack/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp" alt="Featured image of post 投入 Hugo 的怀抱！" />&lt;blockquote>
+&lt;/blockquote></description></item><item><title>投入 Hugo 的怀抱！</title><link>https://www.xalaok.top/post/hugo-stack/</link><pubDate>Thu, 22 Jun 2023 09:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-stack/</guid><description>&lt;img src="https://www.xalaok.top/post/hugo-stack/stack.webp" alt="Featured image of post 投入 Hugo 的怀抱！" />&lt;blockquote>
 &lt;p>我的环境参数：&lt;/p>
 &lt;ul>
-&lt;li>Windows 11 22H2&lt;/li>
-&lt;li>Google Chrome 114&lt;/li>
+&lt;li>Windows 11 23H2&lt;/li>
+&lt;li>Google Chrome 126&lt;/li>
 &lt;li>Markdown 编辑器：VS Code&lt;/li>
 &lt;li>博客配置编辑器：VS Code&lt;/li>
 &lt;li>命令行工具：Windows Terminal&lt;/li>
 &lt;li>Git 工具：GitHub Desktop&lt;/li>
-&lt;li>Hugo 版本：0.114.0_extended（笑死，一开始写的时候版本还是 0.112.3）&lt;/li>
+&lt;li>Hugo 版本：0.128.1_extended&lt;/li>
 &lt;li>Hugo 主题：Stack&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -804,7 +804,7 @@
 &lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>从&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
->官网&lt;/a>获取 VS Code 安装包（国内直接下载速度慢，可将下载链接中的域名替换为 &lt;code>vscode.cdn.azure.cn&lt;/code>，下载速度直接起飞）&lt;/p>
+>官网&lt;/a>获取 VS Code 安装包&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Select Additional Tasks 中把下面列出的全部选项打勾&lt;/p>
@@ -821,41 +821,35 @@
 &lt;/ol>
 &lt;p>至此，VS Code 就安装完成了，接下来安装 Git&lt;/p>
 &lt;h3 id="安装-git">&lt;a href="#%e5%ae%89%e8%a3%85-git" class="header-anchor">&lt;/a>安装 Git
-&lt;/h3>&lt;p>小白直接上手 git 感觉门槛有点高，还是建议装 git 的 GUI 版本&lt;br>
-我选的是 GitHub Desktop&lt;/p>
+&lt;/h3>&lt;p>不想用命令行，所以装了 GitHub Desktop。&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>官网下载安装包&lt;br>
-下载地址：&lt;a class="link" href="https://desktop.github.com/" target="_blank" rel="noopener"
->https://desktop.github.com/&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://desktop.github.com/" target="_blank" rel="noopener"
+>官网&lt;/a>下载安装包&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>使用 &lt;a class="link" href="https://github.com/robotze/GithubDesktopZhTool" target="_blank" rel="noopener"
->GithubDesktopZhTool&lt;/a> 汉化&lt;br>
-个人觉得没任何难度，实在不懂可以看作者的 README 文档&lt;/p>
+&lt;p>（可选）使用 &lt;a class="link" href="https://github.com/robotze/GithubDesktopZhTool" target="_blank" rel="noopener"
+>GithubDesktopZhTool&lt;/a> 汉化&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>当然大佬们可以直接用 Git，也不需要我多解释&lt;/p>
 &lt;h3 id="安装-hugo">&lt;a href="#%e5%ae%89%e8%a3%85-hugo" class="header-anchor">&lt;/a>安装 Hugo
 &lt;/h3>&lt;ol>
 &lt;li>
-&lt;p>从 Hugo 官方 github 仓库下载 hugo extended 版本&lt;br>
-下载地址: &lt;a class="link" href="https://github.com/gohugoio/hugo/releases/latest" target="_blank" rel="noopener"
->https://github.com/gohugoio/hugo/releases/latest&lt;/a>&lt;/p>
+&lt;p>在&lt;a class="link" href="https://github.com/gohugoio/hugo/releases/latest" target="_blank" rel="noopener"
+>官方 Github 仓库 Releases&lt;/a> 下载 extended 版本&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>解压下载下来的压缩包，得到 &lt;code>hugo.exe&lt;/code> 并放到自己心仪的位置&lt;br>
-我这里放在 &lt;code>E:\Hugo\bin&lt;/code>&lt;/p>
+&lt;p>解压下载下来的压缩包，得到 &lt;code>hugo.exe&lt;/code> 并放到自己心仪的位置&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>设置 Hugo 环境变量，依次打开设置-系统-系统信息-高级系统设置-环境变量添加 Hugo 主程序所在文件夹&lt;/p>
+&lt;p>设置环境变量，依次打开设置-系统-系统信息-高级系统设置-环境变量，在 PATH 添加 Hugo 主程序所在文件夹&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>检查 hugo 是否安装成功，Win + R 输入 &lt;code>cmd&lt;/code> 回车打开 cmd，运行 &lt;code>hugo version&lt;/code>，如果输出版本信息则配置成功
-如我这里输出（0.114.0）：&lt;/p>
+&lt;p>检查 Hugo 是否安装成功，终端运行 &lt;code>hugo version&lt;/code>，如果输出版本信息则配置成功
+如我这里输出：&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo v0.114.0-9df2ec7988e5a217a14901cc76c0b7e76b2e9f02+extended windows/amd64 BuildDate=2023-06-19T17:01:43Z VendorInfo=gohugoio
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo v0.128.1-0ff542b4b9cc7b5cb425bbab8bdb5aace81d0c03+extended windows/amd64 BuildDate=2024-07-02T06:46:41Z VendorInfo=gohugoio
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>恭喜！到这里，基本就都配置完毕了，现在可以开始博客的搭建了&lt;/p>
 &lt;h2 id="hugo博客搭建">&lt;a href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" class="header-anchor">&lt;/a>Hugo博客搭建
 &lt;/h2>&lt;h3 id="初始化博客">&lt;a href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>初始化博客
@@ -865,18 +859,17 @@
 &lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>获取主题文件&lt;br>
-找到 Stack 主题 GitHub 仓库（链接：&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
->https://github.com/CaiJimmy/hugo-theme-stack&lt;/a>）&lt;br>
-Code Download → Download ZIP 下载源码解压&lt;/p>
+在 Stack 主题 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack/releases" target="_blank" rel="noopener"
+>GitHub 仓库 Releases&lt;/a> 下载一个心仪的版本后解压&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>改名为 &lt;code>hugo-theme-stack&lt;/code> 后放入博客文件夹根目录 /theme 中&lt;/p>
+&lt;p>文件夹改名为 &lt;code>hugo-theme-stack&lt;/code> 后放入博客文件夹根目录 &lt;code>/theme&lt;/code> 中&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>将获取到的主题中的 exampleSite 文件夹中所有文件复制到博客文件夹根目录中&lt;/p>
+&lt;p>将获取到的主题中的 &lt;code>exampleSite&lt;/code> 文件夹中所有文件复制到博客文件夹根目录中&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>编辑 config.yaml，根据自己需要进行配置，作者在配置文件里面写了基本注释（虽然都是英文的）&lt;br>
+&lt;p>编辑 &lt;code>config.yaml&lt;/code>，根据自己需要进行配置，作者在配置文件里面写了基本注释（虽然都是英文的）&lt;br>
 官方配置文档: &lt;a class="link" href="https://stack.jimmycai.com/config/" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/config/&lt;/a>&lt;/p>
 &lt;/li>
@@ -889,7 +882,7 @@ Code Download → Download ZIP 下载源码解压&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">weight&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>-&lt;span class="m">90&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">params&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">icon&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 图标名称&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果不是你的博客的一个页面，那么在 config.yaml 中的 menu 部分下添加以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果不是博客的一个页面，那么在 config.yaml 中的 menu 部分下添加以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-YAML" data-lang="YAML">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">menu&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">main&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">identifier&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
@@ -911,19 +904,21 @@ params:&lt;br>
 &lt;p>官方文档：&lt;a class="link" href="https://stack.jimmycai.com/config/menu" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/config/menu&lt;/a>&lt;/p>
 &lt;h3 id="开始创作">&lt;a href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" class="header-anchor">&lt;/a>开始创作
-&lt;/h3>&lt;p>博客文章都存放在 /content 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
+&lt;/h3>&lt;p>博客文章都存放在 &lt;code>/content&lt;/code> 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo new posts/my-first-post.md
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再打开 /content/posts 就可以找到一个 Hugo 为你创建好的一个名为 my-first-post.md 的文件&lt;/p>
-&lt;p>当然你也可以使用官方推荐的一篇文章一个文件夹的方式（官方文档: &lt;a class="link" href="https://stack.jimmycai.com/writing/markdown" target="_blank" rel="noopener"
+&lt;p>当然你也可以使用官方推荐的一篇文章一个文件夹的方式（官方文档：&lt;a class="link" href="https://stack.jimmycai.com/writing/markdown" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/writing/markdown&lt;/a>）&lt;/p>
 &lt;h3 id="预览博客">&lt;a href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>预览博客
 &lt;/h3>&lt;p>创作完成的你一定想要本地预览你的博客吧，博客根目录右键“在终端打开”，输入以下命令：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo server --navigateToChanged
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>后面加的 &lt;code>--navigateToChanged&lt;/code> 可以省略，加它的作用是可以在你更改某个页面后自动跳转查看该页面的修改&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo server --navigateToChanged --disableFastRender --renderToMemory
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>--navigateToChanged&lt;/code>：在更改某个页面后自动跳转查看该页面&lt;br>
+&lt;code>--disableFastRender&lt;/code>：在更改时重新构建整个网站&lt;br>
+&lt;code>--renderToMemory&lt;/code>：不开启的话会直接在 &lt;code>/public&lt;/code> 文件夹输出网站静态文件&lt;/p>
 &lt;p>根本不想每次输代码启动预览服务器的懒癌患者们，可以像我一样在博客根目录新建一个 vbs 文件：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Dim ws
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Set ws = Wscript.CreateObject(&amp;#34;Wscript.Shell&amp;#34;)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ws.run &amp;#34;hugo server --navigateToChanged&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ws.run &amp;#34;hugo server --navigateToChanged --disableFastRender --renderToMemory&amp;#34;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Wscript.quit
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>以后要预览博客可以直接双击运行这个脚本会直接弹出终端界面并启动预览服务器，要停止服务器按 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>C&lt;/kbd>，终端界面会自己消失&lt;/p>
 &lt;p>另：我遇到过以下的报错：&lt;/p>

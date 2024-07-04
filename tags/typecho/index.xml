@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Typecho on Naive Koala</title><link>https://www.xalaok.top/tags/typecho/</link><description>Recent content in Typecho on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/typecho/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/16/typecho-on-vercel.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Typecho on Naive Koala</title><link>https://www.xalaok.top/tags/typecho/</link><description>Recent content in Typecho on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/typecho/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://www.xalaok.top/post/typecho-vercel/cover.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
 >Vercel 文档&lt;/a> 中看到确实支持&lt;/p>
 &lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
@@ -90,23 +90,43 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#echo $_SERVER[&amp;#34;PHP_SELF&amp;#34;];
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
-&lt;li>下载一个自己心仪的主题解压放到 &lt;code>/usr/themes/&lt;/code> 目录下&lt;/li>
-&lt;li>将所有文件上传到第一步创建好的 GitHub 仓库里&lt;/li>
-&lt;li>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
->Vercel&lt;/a> 然后通过 GitHub 快捷登录
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/4.jpg"
-loading="lazy"
->&lt;/li>
-&lt;li>登陆后会自动跳转 Dashboard，点击 Add new - Project
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/5.jpg"
-loading="lazy"
->&lt;/li>
-&lt;li>Import Git Repository 选择 Continue With GitHub&lt;br>
-此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/li>
-&lt;li>选择你的仓库&lt;/li>
-&lt;li>即将开始部署，在这个界面你可以设置项目名称（可以随意设置），其他项全部保持默认即可，最后点击 Deploy 部署&lt;/li>
-&lt;li>部署成功后会显示 Congratulation 页面&lt;/li>
-&lt;li>如果你有域名，直接从此界面右边“Add Domain”进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角“Go to Dashboard”就可以看到 Vercel 为你准备的域名&lt;/li>
-&lt;li>打开 &lt;code>https://你的网址/install.php&lt;/code> 初始化&lt;/li>
+&lt;li>
+&lt;p>下载一个自己心仪的主题解压放到 &lt;code>/usr/themes/&lt;/code> 目录下&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将所有文件上传到第一步创建好的 GitHub 仓库里&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+>Vercel&lt;/a> 然后通过 GitHub 快捷登录&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/1.webp"
+loading="lazy" style="display:block;margin:0 auto;"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>登陆后会自动跳转 Dashboard，点击 Add new - Project&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/2.webp"
+loading="lazy" style="display:block;margin:0 auto;"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Import Git Repository 选择 Continue With GitHub&lt;br>
+此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择你的仓库&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>即将开始部署，在这个界面你可以设置项目名称（可以随意设置），其他项全部保持默认即可，最后点击 Deploy 部署&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>部署成功后会显示 Congratulation 页面&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>如果你有域名，直接从此界面右边“Add Domain”进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角“Go to Dashboard”就可以看到 Vercel 为你准备的域名&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 &lt;code>https://你的网址/install.php&lt;/code> 初始化&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;p>Enjoy~&lt;/p></description></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memos on Naive Koala</title><link>https://www.xalaok.top/tags/memos/</link><description>Recent content in Memos on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/memos/index.xml" rel="self" type="application/rss+xml"/><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
-&lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
+&lt;p>Replit 今年开始收费，此方法已失效😭&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>官方给了几种部署方式：Docker，Render，Fly，Zeabur，PikaPods
@@ -15,25 +15,28 @@
 &lt;a class="link" href="https://github.com/sixmillions/memos-replit" target="_blank" rel="noopener"
 >https://github.com/sixmillions/memos-replit&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/memos.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/memos.webp"
+width="1523"
+height="842"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="MEMOS"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="434px"
 >&lt;/p>
 &lt;h2 id="部署">&lt;a href="#%e9%83%a8%e7%bd%b2" class="header-anchor">&lt;/a>部署
 &lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
->Replit 官网&lt;/a>&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/2.webp"
-loading="lazy"
+&lt;li>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
+>Replit 官网&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/1.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 >&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/3.webp"
-loading="lazy"
->&lt;/p>
-&lt;/li>
+&lt;ol start="2">
+&lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
+&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/2.webp"
+loading="lazy" style="display:block;margin:0 auto;"
+>&lt;/li>
 &lt;/ol>
 &lt;h3 id="方式-1clone-github-仓库">&lt;a href="#%e6%96%b9%e5%bc%8f-1clone-github-%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>方式 1：Clone GitHub 仓库
 &lt;/h3>&lt;ol start="3">
@@ -42,16 +45,26 @@ loading="lazy"
 &lt;li>检查 文件（点击 &lt;code>Files&lt;/code> 右上角三个点，选择 &lt;code>Show hidden files&lt;/code>，就能看到 &lt;code>.replit&lt;/code> 文件，检查该文件内容是否与仓库内的一致&lt;/li>
 &lt;li>运行 &lt;code>main.sh&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/1.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/3.webp"
+width="912"
+height="838"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="创建repl"
->&lt;/p>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/2.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="108"
+data-flex-basis="261px"
+>
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/4.webp"
+width="2550"
+height="988"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="run"
->&lt;/p>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/3.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="258"
+data-flex-basis="619px"
+>
+&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/5.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="success"
 >&lt;/p>
 &lt;h3 id="方式-2使用-replit-template">&lt;a href="#%e6%96%b9%e5%bc%8f-2%e4%bd%bf%e7%94%a8-replit-template" class="header-anchor">&lt;/a>方式 2：使用 Replit Template
@@ -60,9 +73,14 @@ alt="success"
 >模板地址&lt;/a>&lt;/li>
 &lt;li>点击右上角 &lt;code>Use Template&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/4.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/6.webp"
+width="1873"
+height="860"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="template"
+class="gallery-image"
+data-flex-grow="217"
+data-flex-basis="522px"
 >&lt;/p>
 &lt;h3 id="方式-3自己构建">&lt;a href="#%e6%96%b9%e5%bc%8f-3%e8%87%aa%e5%b7%b1%e6%9e%84%e5%bb%ba" class="header-anchor">&lt;/a>方式 3：自己构建
 &lt;/h3>&lt;ol>
@@ -88,9 +106,14 @@ alt="template"
 &lt;/ol>
 &lt;h2 id="自定义域名">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%9f%9f%e5%90%8d" class="header-anchor">&lt;/a>自定义域名
 &lt;/h2>&lt;p>在 Webview 选项卡网址右侧的第一个图标点开自定义域名&lt;/p>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/5.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/7.webp"
+width="674"
+height="512"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="replit-custom-domain"
+class="gallery-image"
+data-flex-grow="131"
+data-flex-basis="315px"
 >&lt;/p>
 &lt;p>然后到你的 DNS 解析服务商添加 &lt;code>cname&lt;/code> 和 &lt;code>txt&lt;/code> 解析&lt;/p>
 &lt;h2 id="版本升级">&lt;a href="#%e7%89%88%e6%9c%ac%e5%8d%87%e7%ba%a7" class="header-anchor">&lt;/a>版本升级

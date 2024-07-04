@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mac on Naive Koala</title><link>https://www.xalaok.top/tags/mac/</link><description>Recent content in Mac on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 30 Jan 2024 14:30:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>黑苹果折腾记录</title><link>https://www.xalaok.top/post/hackintosh/</link><pubDate>Tue, 30 Jan 2024 14:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/hackintosh/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/30/cover.webp" alt="Featured image of post 黑苹果折腾记录" />&lt;p>之前整过两次黑苹果，尝试了不下五种镜像和 EFI，连 U 盘都写坏了一个，但都以失败告终。现在才知道罪魁祸首是这个 SKHynix 海力士硬盘的锅，这玩意装不了黑苹果😭&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mac on Naive Koala</title><link>https://www.xalaok.top/tags/mac/</link><description>Recent content in Mac on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 30 Jan 2024 14:30:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>黑苹果折腾记录</title><link>https://www.xalaok.top/post/hackintosh/</link><pubDate>Tue, 30 Jan 2024 14:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/hackintosh/</guid><description>&lt;img src="https://www.xalaok.top/post/hackintosh/cover.webp" alt="Featured image of post 黑苹果折腾记录" />&lt;p>之前整过两次黑苹果，尝试了不下五种镜像和 EFI，连 U 盘都写坏了一个，但都以失败告终。现在才知道罪魁祸首是这个 SKHynix 海力士硬盘的锅，这玩意装不了黑苹果😭&lt;/p>
 &lt;p>不过幸运的是去年在联想软件商店的酷软圈里发了一个帖大肆称赞了一番后赢得了一个奖品——联想 SL700 固态硬盘，它是可以装黑苹果的。于是自己 B 站找了官方的视频教程拆机装上了硬盘。&lt;/p>
 &lt;p>本来一直觉得是 EFI 不匹配导致不成功，所以还想找个淘宝店远程安装的。但是现在有个新硬盘当然要折腾试试，这不成功了，成功剩下几十块钱😅&lt;/p>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2024/01/30/systeminfo.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/hackintosh/systeminfo.webp"
+width="269"
+height="441"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="系统信息"
+class="gallery-image"
+data-flex-grow="60"
+data-flex-basis="146px"
 >&lt;/p>
 &lt;p>下面记录一下我的安装过程。如果是以下电脑型号都可以这么装：&lt;/p>
 &lt;ul>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shortcodes on Naive Koala</title><link>https://www.xalaok.top/tags/shortcodes/</link><description>Recent content in Shortcodes on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 18 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>一些 Hugo 短代码</title><link>https://www.xalaok.top/post/hugo-shortcodes/</link><pubDate>Tue, 18 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-shortcodes/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/18/cover.webp" alt="Featured image of post 一些 Hugo 短代码" />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shortcodes on Naive Koala</title><link>https://www.xalaok.top/tags/shortcodes/</link><description>Recent content in Shortcodes on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 18 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>一些 Hugo 短代码</title><link>https://www.xalaok.top/post/hugo-shortcodes/</link><pubDate>Tue, 18 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-shortcodes/</guid><description>&lt;img src="https://www.xalaok.top/post/hugo-shortcodes/cover.webp" alt="Featured image of post 一些 Hugo 短代码" />
 &lt;div class="notice notice-tip" >
 &lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="#437052">&lt;path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z"/>&lt;/svg>&lt;/div>&lt;p>本文为了防止在代码块中的短代码被 Hugo 转译，在代码块中添加了 &lt;code>\&lt;/code>，请在使用时去除&lt;/p>&lt;/div>
 &lt;h2 id="notice">&lt;a href="#notice" class="header-anchor">&lt;/a>Notice
@@ -929,19 +929,7 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="使用-4">&lt;a href="#%e4%bd%bf%e7%94%a8-4" class="header-anchor">&lt;/a>使用
 &lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{\{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">neodb&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">NeoDB&lt;/span> &lt;span class="na">网址&lt;/span>&lt;span class="err">/&lt;/span>&lt;span class="na">豆瓣网址&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}\}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;div class="db-card">
-&lt;div class="db-card-subject">
-&lt;div class="db-card-post">&lt;img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="https://neodb.social/media/item/doubanmovie/2023/07/02/0877652c-19db-4f9b-8be5-e8645b18db8b.jpg">&lt;/div>
-&lt;div class="db-card-content">
-&lt;div class="db-card-title">&lt;a href="https://neodb.social/movie/0DE4CClGV25yDhpLyQhrmt" class="cute" target="_blank" rel="noreferrer">长安三万里&lt;/a>&lt;/div>
-&lt;div class="rating">&lt;span class="allstardark">&lt;span class="allstarlight" style="width:66%">&lt;/span>&lt;/span>&lt;span class="rating_nums">6.6&lt;/span>&lt;/div>
-&lt;div class="db-card-abstract">安史之乱爆发后数年，吐蕃大军攻打西南。大唐节度使高适交战不利，长安岌岌可危。困守孤城的高适向监军太监回忆起自己与李白的一生往事。&lt;/div>
-&lt;/div>
-&lt;div class="db-card-cate">movie&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2 id="友链">&lt;a href="#%e5%8f%8b%e9%93%be" class="header-anchor">&lt;/a>友链
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="友链">&lt;a href="#%e5%8f%8b%e9%93%be" class="header-anchor">&lt;/a>友链
 &lt;/h2>&lt;h3 id="配置-5">&lt;a href="#%e9%85%8d%e7%bd%ae-5" class="header-anchor">&lt;/a>配置
 &lt;/h3>&lt;p>在 &lt;code>/layouts/shortcodes&lt;/code> 创建 &lt;code>friend.html&lt;/code> 并填入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{- $name := .Get &amp;#34;name&amp;#34; | default (.Get 0) -}}

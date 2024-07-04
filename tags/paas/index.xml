@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paas on Naive Koala</title><link>https://www.xalaok.top/tags/paas/</link><description>Recent content in Paas on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 08 Aug 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/paas/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Umami 网站统计服务</title><link>https://www.xalaok.top/post/umami-on-vercel/</link><pubDate>Tue, 08 Aug 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/umami-on-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/umami.webp" alt="Featured image of post Vercel 部署 Umami 网站统计服务" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paas on Naive Koala</title><link>https://www.xalaok.top/tags/paas/</link><description>Recent content in Paas on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 08 Aug 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/paas/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Umami 网站统计服务</title><link>https://www.xalaok.top/post/umami-on-vercel/</link><pubDate>Tue, 08 Aug 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/umami-on-vercel/</guid><description>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/umami.webp" alt="Featured image of post Vercel 部署 Umami 网站统计服务" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>最近逛木木佬的博客看到&lt;a class="link" href="https://immmmm.com/hi-umami-api/" target="_blank" rel="noopener"
 >前端调用 Umami API&lt;/a> 这篇文章，看封面图像是网站访问统计啥的，一搜发现是类似 51la 统计的玩意，还开源，支持 Serverless 自部署，有东西折腾，搞！&lt;/p>
 &lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
@@ -11,58 +11,124 @@
 &lt;/ol>
 &lt;h2 id="开搞">&lt;a href="#%e5%bc%80%e6%90%9e" class="header-anchor">&lt;/a>开搞
 &lt;/h2>&lt;ol>
-&lt;li>Fork 官方 GitHub 仓库
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/fork.webp"
-loading="lazy"
+&lt;li>
+&lt;p>Fork 官方 GitHub 仓库&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/fork.webp"
+width="1771"
+height="996"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="Fork"
->&lt;/li>
-&lt;li>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
->Vercel&lt;/a> 然后通过 GitHub 快捷登录
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/4.webp"
-loading="lazy"
->&lt;/li>
-&lt;li>打开 Storage 选项卡创建 Postgresql
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/storage.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+>Vercel&lt;/a> 然后通过 GitHub 快捷登录&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/loginvercel.webp"
+width="1692"
+height="788"
+loading="lazy" style="display:block;margin:0 auto;"
+alt="通过 GitHub 快捷登录"
+class="gallery-image"
+data-flex-grow="214"
+data-flex-basis="515px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 Storage 选项卡创建 Postgresql&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/storage.webp"
+width="1813"
+height="1020"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="storage"
->&lt;br>
-出现以下界面表示创建成功
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/sql.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>出现以下界面表示创建成功&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/sql.webp"
+width="1715"
+height="2705"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="sql"
->&lt;/li>
-&lt;li>打开 Dashboard，点击 Add new - Project
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/5.webp"
-loading="lazy"
->&lt;/li>
-&lt;li>Import Git Repository 选择 Continue With GitHub&lt;br>
-此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/li>
-&lt;li>选择你复刻的仓库&lt;/li>
-&lt;li>设置部署参数和环境变量&lt;/li>
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="152px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 Dashboard，点击 Add new - Project&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/newproject.webp"
+width="1896"
+height="892"
+loading="lazy" style="display:block;margin:0 auto;"
+alt="Add new - Project"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Import Git Repository 选择 Continue With GitHub&lt;br>
+此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择你复刻的仓库&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置部署参数和环境变量&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">变量名：HASH_SALT 值：自定义字符串
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">变量名：DATABASE_URL 值：数据库链接
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">例：
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">postgresql://username:mypassword@localhost:5432/mydb mysql://username:mypassword@localhost:3306/mydb
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">变量名：TRACKER_SCRIPT_NAME 值：自定义统计脚本名
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后点击 Deploy 部署
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/deploy.webp"
-loading="lazy"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后点击 Deploy 部署&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/deploy.webp"
+width="1715"
+height="2446"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="deploy"
->&lt;br>
-8. 部署成功后会显示 Congratulation 页面（部署时长两分钟左右）
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/success.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="168px"
+>&lt;/p>
+&lt;ol start="8">
+&lt;li>
+&lt;p>部署成功后会显示 Congratulation 页面（部署时长两分钟左右）&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/success.webp"
+width="1715"
+height="1019"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="success"
->&lt;br>
-9. 如果你有域名，直接从此界面右边 “Add Domain” 进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角 “Go to Dashboard” 就可以看到 Vercel 为你准备的域名&lt;br>
-10. 打开 Umami，初次登录输入默认用户名 &lt;code>admin&lt;/code> 与默认密码 &lt;code>umami&lt;/code>，
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/login.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="168"
+data-flex-basis="403px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>如果你有域名，直接从此界面右边 “Add Domain” 进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角 “Go to Dashboard” 就可以看到 Vercel 为你准备的域名&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 Umami，初次登录输入默认用户名 &lt;code>admin&lt;/code> 与默认密码 &lt;code>umami&lt;/code>，&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/loginumami.webp"
+width="1715"
+height="1019"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="login"
->&lt;br>
-11. Enjoy~&lt;/p></description></item><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
-&lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
+class="gallery-image"
+data-flex-grow="168"
+data-flex-basis="403px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Enjoy~&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
+&lt;p>Replit 今年开始收费，此方法已失效😭&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>官方给了几种部署方式：Docker，Render，Fly，Zeabur，PikaPods
@@ -78,25 +144,28 @@ alt="login"
 &lt;a class="link" href="https://github.com/sixmillions/memos-replit" target="_blank" rel="noopener"
 >https://github.com/sixmillions/memos-replit&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/memos.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/memos.webp"
+width="1523"
+height="842"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="MEMOS"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="434px"
 >&lt;/p>
 &lt;h2 id="部署">&lt;a href="#%e9%83%a8%e7%bd%b2" class="header-anchor">&lt;/a>部署
 &lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
->Replit 官网&lt;/a>&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/2.webp"
-loading="lazy"
+&lt;li>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
+>Replit 官网&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/1.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 >&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/3.webp"
-loading="lazy"
->&lt;/p>
-&lt;/li>
+&lt;ol start="2">
+&lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
+&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/2.webp"
+loading="lazy" style="display:block;margin:0 auto;"
+>&lt;/li>
 &lt;/ol>
 &lt;h3 id="方式-1clone-github-仓库">&lt;a href="#%e6%96%b9%e5%bc%8f-1clone-github-%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>方式 1：Clone GitHub 仓库
 &lt;/h3>&lt;ol start="3">
@@ -105,16 +174,26 @@ loading="lazy"
 &lt;li>检查 文件（点击 &lt;code>Files&lt;/code> 右上角三个点，选择 &lt;code>Show hidden files&lt;/code>，就能看到 &lt;code>.replit&lt;/code> 文件，检查该文件内容是否与仓库内的一致&lt;/li>
 &lt;li>运行 &lt;code>main.sh&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/1.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/3.webp"
+width="912"
+height="838"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="创建repl"
->&lt;/p>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/2.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="108"
+data-flex-basis="261px"
+>
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/4.webp"
+width="2550"
+height="988"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="run"
->&lt;/p>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/3.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="258"
+data-flex-basis="619px"
+>
+&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/5.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="success"
 >&lt;/p>
 &lt;h3 id="方式-2使用-replit-template">&lt;a href="#%e6%96%b9%e5%bc%8f-2%e4%bd%bf%e7%94%a8-replit-template" class="header-anchor">&lt;/a>方式 2：使用 Replit Template
@@ -123,9 +202,14 @@ alt="success"
 >模板地址&lt;/a>&lt;/li>
 &lt;li>点击右上角 &lt;code>Use Template&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/4.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/6.webp"
+width="1873"
+height="860"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="template"
+class="gallery-image"
+data-flex-grow="217"
+data-flex-basis="522px"
 >&lt;/p>
 &lt;h3 id="方式-3自己构建">&lt;a href="#%e6%96%b9%e5%bc%8f-3%e8%87%aa%e5%b7%b1%e6%9e%84%e5%bb%ba" class="header-anchor">&lt;/a>方式 3：自己构建
 &lt;/h3>&lt;ol>
@@ -151,9 +235,14 @@ alt="template"
 &lt;/ol>
 &lt;h2 id="自定义域名">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%9f%9f%e5%90%8d" class="header-anchor">&lt;/a>自定义域名
 &lt;/h2>&lt;p>在 Webview 选项卡网址右侧的第一个图标点开自定义域名&lt;/p>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/5.webp"
-loading="lazy"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/7.webp"
+width="674"
+height="512"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="replit-custom-domain"
+class="gallery-image"
+data-flex-grow="131"
+data-flex-basis="315px"
 >&lt;/p>
 &lt;p>然后到你的 DNS 解析服务商添加 &lt;code>cname&lt;/code> 和 &lt;code>txt&lt;/code> 解析&lt;/p>
 &lt;h2 id="版本升级">&lt;a href="#%e7%89%88%e6%9c%ac%e5%8d%87%e7%ba%a7" class="header-anchor">&lt;/a>版本升级
@@ -188,67 +277,87 @@ alt="replit-custom-domain"
 &lt;/blockquote>
 &lt;hr>
 &lt;div class="notice notice-warning" >
-&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="#704343">&lt;path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>Replit 的免费版本中所有项目都是公开的，所以任何人都可以看到你的文件，包括数据库，所以不要用来存重要数据或者隐私数据。&lt;/p>&lt;/div></description></item><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/alist-replit.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
+&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="#704343">&lt;path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>Replit 的免费版本中所有项目都是公开的，所以任何人都可以看到你的文件，包括数据库，所以不要用来存重要数据或者隐私数据。&lt;/p>&lt;/div></description></item><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://www.xalaok.top/post/alist-on-replit/cover.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
 &lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>相信大家之前应该有所耳闻著名的文件列表程序——AList，目前在 GitHub 上有 35.2k star。&lt;/p>
 &lt;p>官方这边给了几个 PaaS 部署的平台，但是基本上都禁掉了官方仓库，无法导入，fork 成自己的仓库也一样可以检测到。&lt;/p>
-&lt;p>官方文档说过，所有上传均使用服务器传输，会消耗服务器流量与对应存储的API通信（具体见 &lt;a class="link" href="https://alist.nn.ci/zh/faq/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%E6%98%BE%E7%A4%BA-uploading-in-backend" target="_blank" rel="noopener"
->这里 ↗&lt;/a>），我猜测占服务器资源应该就是这些平台禁止部署 AList 的原因吧？&lt;/p>
+&lt;p>官方文档说过，所有上传均使用服务器传输，会消耗服务器流量与对应存储的API通信（具体见&lt;a class="link" href="https://alist.nn.ci/zh/faq/why.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%E6%98%BE%E7%A4%BA-uploading-in-backend" target="_blank" rel="noopener"
+>这里&lt;/a>），我猜测占服务器资源应该就是这些平台禁止部署 AList 的原因吧？&lt;/p>
 &lt;p>我之前在网上也看过一些方法，但那些方法都失效了，前几天找到了一个新方法，尝试部署目前最新版 3.19.0 之后成功了，而且到今天已经稳定运行几天了，下面就来分享一下方法&lt;/p>
 &lt;h2 id="过程">&lt;a href="#%e8%bf%87%e7%a8%8b" class="header-anchor">&lt;/a>过程
 &lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
->官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/1.webp"
-loading="lazy"
+&lt;li>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
+>官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/1.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 >&lt;/p>
-&lt;/li>
+&lt;ol start="2">
 &lt;li>
 &lt;p>解压下载下来的压缩包，得到一个名为 alist 的无扩展名文件，将它改名为“Replit”（所有地方避免出现“AList”字样）&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
->Replit 官网&lt;/a>&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/2.webp"
-loading="lazy"
+>Replit 官网&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/2.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 >&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/3.webp"
-loading="lazy"
+&lt;ol start="4">
+&lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/3.webp"
+width="1920"
+height="892"
+loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>登录后点击左上角 Create Repl，创建 Bash 项目，名字随便起，比如114514（不要起“AList”）&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/4.webp"
-loading="lazy"
->&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/5.webp"
-loading="lazy"
+&lt;ol start="5">
+&lt;li>登录后点击左上角 Create Repl，创建 Bash 项目，名字随便起，比如 114514（不要起“AList”）&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/4.webp"
+width="1920"
+height="892"
+loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
+>
+&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/5.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 >&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>进入项目面板后，左侧上传第一步准备好的 replit 文件&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/6.webp"
-loading="lazy"
+&lt;ol start="6">
+&lt;li>进入项目面板后，左侧上传第一步准备好的 replit 文件&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/6.webp"
+width="1920"
+height="892"
+loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>中间可以看到编辑 main.sh 的窗口，删除里面的所有代码并粘贴以下代码：&lt;/p>
-&lt;/li>
+&lt;ol start="7">
+&lt;li>中间可以看到编辑 main.sh 的窗口，删除里面的所有代码并粘贴以下代码：&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Shell" data-lang="Shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> Hello World
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">URL&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">REPL_SLUG&lt;/span>&lt;span class="si">}&lt;/span>.&lt;span class="si">${&lt;/span>&lt;span class="nv">REPL_OWNER&lt;/span>&lt;span class="si">}&lt;/span>.repl.co
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">while&lt;/span> true&lt;span class="p">;&lt;/span> &lt;span class="k">do&lt;/span> curl -s &lt;span class="s2">&amp;#34;https://&lt;/span>&lt;span class="nv">$URL&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &amp;gt;/dev/null 2&amp;gt;&lt;span class="p">&amp;amp;&lt;/span>&lt;span class="m">1&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>date +&lt;span class="s1">&amp;#39;%Y%m%d%H%M%S&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2"> Keeping online …&amp;#34;&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sleep 300&lt;span class="p">;&lt;/span> &lt;span class="k">done&lt;/span> &lt;span class="p">&amp;amp;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">chmod +x ./replit
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">nohup ./replit server
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>其中第 3 行是自动保活，每三分钟自动检测一次并输出“日期 + 时间 + Keeping online &amp;hellip;”&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/7.webp"
-loading="lazy"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>其中第 3 行是自动保活，每三分钟自动检测一次并输出“日期 + 时间 + Keeping online &amp;hellip;”&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/7.webp"
+width="1920"
+height="892"
+loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="7">
 &lt;li>
@@ -258,16 +367,26 @@ loading="lazy"
 >https://db4free.net/&lt;/a>，界面就不放了，不用注册账号，只要一个邮箱直接可以创建数据库。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>在 Replit 上添加环境变量&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/8.webp"
-loading="lazy"
->&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/9.webp"
-loading="lazy"
->&lt;br>
-在左下角 Tools 中找到“Secret”，右侧会弹出面板，右上角 Edit as JSON，删掉里面原来的内容，填写以下内容：&lt;/p>
+&lt;p>在 Replit 上添加环境变量&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/8.webp"
+width="1920"
+height="892"
+loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
+>
+&lt;img src="https://www.xalaok.top/post/alist-on-replit/9.webp"
+width="642"
+height="466"
+loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="137"
+data-flex-basis="330px"
+>&lt;/p>
+&lt;p>在左下角 Tools 中找到“Secret”，右侧会弹出面板，右上角 Edit as JSON，删掉里面原来的内容，填写以下内容：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JSON" data-lang="JSON">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_TYPE&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;mysql&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;DB_HOST&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;db4free.net&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
@@ -280,19 +399,19 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后把这些在 &lt;code>/data/config.json&lt;/code> 也填一下，不然好像不能成功启用数据库&lt;/p>
 &lt;ol start="9">
-&lt;li>
-&lt;p>点击项目顶部“RUN”按钮，启动项目&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/10.webp"
-loading="lazy"
->&lt;br>
-启动后可能弹出 Repl 不可用，不用慌，不是被封了，过几分钟再打开看就好啦&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>右上角的 Webview 窗口就可以看到网页预览和 Replit 为你创建好的域名（项目名.用户名.repl.co），网址右侧第一个按钮点开就可以自定义域名&lt;br>
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/11.webp"
-loading="lazy"
+&lt;li>点击项目顶部“RUN”按钮，启动项目&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/10.webp"
+loading="lazy" style="display:block;margin:0 auto;"
 >&lt;/p>
-&lt;/li>
+&lt;p>启动后可能弹出 Repl 不可用，不用慌，不是被封了，过几分钟再打开看就好啦&lt;/p>
+&lt;ol start="10">
+&lt;li>右上角的 Webview 窗口就可以看到网页预览和 Replit 为你创建好的域名（项目名.用户名.repl.co），网址右侧第一个按钮点开就可以自定义域名&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/11.webp"
+loading="lazy" style="display:block;margin:0 auto;"
+>&lt;/p>
+&lt;ol start="11">
 &lt;li>
 &lt;p>右下角点开日志的标签页可以看到 AList 创建的管理员账号初始密码&lt;/p>
 &lt;/li>

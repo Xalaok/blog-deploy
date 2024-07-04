@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Userscript on Naive Koala</title><link>https://www.xalaok.top/tags/userscript/</link><description>Recent content in Userscript on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 26 Mar 2023 20:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/userscript/index.xml" rel="self" type="application/rss+xml"/><item><title>实用油猴脚本分享</title><link>https://www.xalaok.top/post/j4tdf8e5c/</link><pubDate>Sun, 26 Mar 2023 20:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/j4tdf8e5c/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/03/26/userscript.webp" alt="Featured image of post 实用油猴脚本分享" />&lt;p>Tampermonkey（油猴）是一款浏览器上的扩展，用户可以通过 Tampermonkey 添加和使用脚本，而脚本是一种可以修改网页 JavaScript 的程序。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Userscript on Naive Koala</title><link>https://www.xalaok.top/tags/userscript/</link><description>Recent content in Userscript on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 26 Mar 2023 20:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/userscript/index.xml" rel="self" type="application/rss+xml"/><item><title>实用油猴脚本分享</title><link>https://www.xalaok.top/post/j4tdf8e5c/</link><pubDate>Sun, 26 Mar 2023 20:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/j4tdf8e5c/</guid><description>&lt;img src="https://www.xalaok.top/post/j4tdf8e5c/userscript.webp" alt="Featured image of post 实用油猴脚本分享" />&lt;p>Tampermonkey（油猴）是一款浏览器上的扩展，用户可以通过 Tampermonkey 添加和使用脚本，而脚本是一种可以修改网页 JavaScript 的程序。&lt;/p>
 &lt;hr>
 &lt;blockquote>
 &lt;p>以下按总安装量由高到低排序&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="1-文本选中复制">&lt;a href="#1-%e6%96%87%e6%9c%ac%e9%80%89%e4%b8%ad%e5%a4%8d%e5%88%b6" class="header-anchor">&lt;/a>1 🔥🔥🔥文本选中复制🔥🔥🔥
+&lt;h2 id="文本选中复制">&lt;a href="#%e6%96%87%e6%9c%ac%e9%80%89%e4%b8%ad%e5%a4%8d%e5%88%b6" class="header-anchor">&lt;/a>🔥🔥🔥文本选中复制🔥🔥🔥
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：Czy&lt;br>
 &lt;strong>总安装量&lt;/strong>：2,199k&lt;br>
@@ -11,10 +11,15 @@
 >https://greasyfork.org/zh-CN/scripts/405130&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>解除网站不允许复制的限制，文本选中后点击复制按钮即可复制，主要用于 百度文库 道客巴巴 腾讯文档 豆丁网 无忧考网 学习啦 蓬勃范文 思否社区 力扣 知乎 语雀 等&lt;/p>
-&lt;h2 id="2-csdn广告完全过滤人性化脚本优化">&lt;a href="#2-csdn%e5%b9%bf%e5%91%8a%e5%ae%8c%e5%85%a8%e8%bf%87%e6%bb%a4%e4%ba%ba%e6%80%a7%e5%8c%96%e8%84%9a%e6%9c%ac%e4%bc%98%e5%8c%96" class="header-anchor">&lt;/a>2 CSDN广告完全过滤、人性化脚本优化
-&lt;/h2>&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/03/26/csdngreener.webp"
-loading="lazy"
-alt="csdn greener"
+&lt;h2 id="csdn-广告完全过滤人性化脚本优化">&lt;a href="#csdn-%e5%b9%bf%e5%91%8a%e5%ae%8c%e5%85%a8%e8%bf%87%e6%bb%a4%e4%ba%ba%e6%80%a7%e5%8c%96%e8%84%9a%e6%9c%ac%e4%bc%98%e5%8c%96" class="header-anchor">&lt;/a>CSDN 广告完全过滤、人性化脚本优化
+&lt;/h2>&lt;p>&lt;img src="https://www.xalaok.top/post/j4tdf8e5c/csdngreener.webp"
+width="1000"
+height="300"
+loading="lazy" style="display:block;margin:0 auto;"
+alt="CSDN Greener"
+class="gallery-image"
+data-flex-grow="333"
+data-flex-basis="800px"
 >&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：adlered_&lt;br>
@@ -22,8 +27,8 @@ alt="csdn greener"
 &lt;strong>网址&lt;/strong>：&lt;a class="link" href="https://greasyfork.org/zh-CN/scripts/378351" target="_blank" rel="noopener"
 >https://greasyfork.org/zh-CN/scripts/378351&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>🕶无需登录CSDN，获得比会员更佳的体验|🖥自定义背景图，分辨率自适配，分屏不用滚动|💾超级预优化|🔖独家超级免会员|🏷独家原创文章免登录展开|🔌独家推荐内容自由开关|📠独家免登录复制|🔗独家防外链重定向|📝独家论坛未登录自动展开文章、评论|🌵全面净化|📈沉浸阅读|🧴净化剪贴板|📕作者信息文章顶部展示&lt;/p>
-&lt;h2 id="3-github-增强---高速下载">&lt;a href="#3-github-%e5%a2%9e%e5%bc%ba---%e9%ab%98%e9%80%9f%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>3 Github 增强 - 高速下载
+&lt;p>🕶无需登录 CSDN，获得比会员更佳的体验|🖥自定义背景图，分辨率自适配，分屏不用滚动|💾超级预优化|🔖独家超级免会员|🏷独家原创文章免登录展开|🔌独家推荐内容自由开关|📠独家免登录复制|🔗独家防外链重定向|📝独家论坛未登录自动展开文章、评论|🌵全面净化|📈沉浸阅读|🧴净化剪贴板|📕作者信息文章顶部展示&lt;/p>
+&lt;h2 id="github-增强---高速下载">&lt;a href="#github-%e5%a2%9e%e5%bc%ba---%e9%ab%98%e9%80%9f%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>Github 增强 - 高速下载
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：X.I.U&lt;br>
 &lt;strong>总安装量&lt;/strong>：604k&lt;br>
@@ -33,7 +38,7 @@ alt="csdn greener"
 &lt;p>安装后为 Github 的 Git Clone/SSH、Release、Raw、Code(ZIP) 等任何需要下载的文件添加 高速下载（加速下载）&lt;br>
 以及在项目列表页，添加单文件快捷下载 (☁) 链接，方便单独下载某个文件&lt;br>
 以及在项目 Git 地址处，自动在开头添加 git clone 命令&lt;/p>
-&lt;h2 id="4-知乎增强">&lt;a href="#4-%e7%9f%a5%e4%b9%8e%e5%a2%9e%e5%bc%ba" class="header-anchor">&lt;/a>4 知乎增强
+&lt;h2 id="知乎增强">&lt;a href="#%e7%9f%a5%e4%b9%8e%e5%a2%9e%e5%bc%ba" class="header-anchor">&lt;/a>知乎增强
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：X.I.U&lt;br>
 &lt;strong>总安装量&lt;/strong>：512k&lt;br>
@@ -41,7 +46,7 @@ alt="csdn greener"
 >https://greasyfork.org/zh-CN/scripts/419081&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>移除登录弹窗、屏蔽首页视频、默认收起回答、快捷收起回答/评论（左键两侧）、快捷回到顶部（右键两侧）、屏蔽用户、屏蔽关键词、移除高亮链接、屏蔽盐选内容/热榜杂项、净化搜索热门、净化标题消息、展开问题描述、显示问题作者、置顶显示时间、完整问题时间、区分问题文章、直达问题按钮、默认高清原图、默认站外直链&lt;/p>
-&lt;h2 id="5-自动无缝翻页">&lt;a href="#5-%e8%87%aa%e5%8a%a8%e6%97%a0%e7%bc%9d%e7%bf%bb%e9%a1%b5" class="header-anchor">&lt;/a>5 自动无缝翻页
+&lt;h2 id="自动无缝翻页">&lt;a href="#%e8%87%aa%e5%8a%a8%e6%97%a0%e7%bc%9d%e7%bf%bb%e9%a1%b5" class="header-anchor">&lt;/a>自动无缝翻页
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：X.I.U&lt;br>
 &lt;strong>总安装量&lt;/strong>：408k&lt;br>
@@ -49,8 +54,8 @@ alt="csdn greener"
 >https://greasyfork.org/zh-CN/scripts/419215&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>⭐无缝加载 下一页内容 至网页底部（类似瀑布流）⭐&lt;br>
-目前支持：【所有「Discuz!、Flarum、phpBB、Xiuno、XenForo、NexusPHP&amp;hellip;」论坛】【百度、谷歌(Google)）、必应(Bing)、搜狗、微信、360、Yahoo、Yandex 等搜索引擎&amp;hellip;】、贴吧、豆瓣、知乎、B 站、NGA、V2EX、煎蛋网、龙的天空、起点中文、千图网、千库网、Pixabay、Pixiv、3DM、游侠网、游民星空、NexusMods、Steam 创意工坊、CS.RIN.RU、RuTracker、BT之家、萌番组、动漫花园、樱花动漫、爱恋动漫、AGE 动漫、Nyaa、SrkBT、RARBG、SubHD、423Down、不死鸟、扩展迷、小众软件、【动漫狂、动漫屋、漫画猫、漫画屋、漫画 DB、动漫之家、HiComic、Mangabz、Xmanhua 等漫画网站&amp;hellip;】、PubMed、Z-Library、GreasyFork、Github、StackOverflow（以上仅一小部分）&lt;/p>
-&lt;h2 id="6-bilibili-视频下载">&lt;a href="#6-bilibili-%e8%a7%86%e9%a2%91%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>6 Bilibili 视频下载
+目前支持：【所有「Discuz!、Flarum、phpBB、Xiuno、XenForo、NexusPHP&amp;hellip;」论坛】【百度、谷歌(Google)）、必应(Bing)、搜狗、微信、360、Yahoo、Yandex 等搜索引擎&amp;hellip;】、贴吧、豆瓣、知乎、B 站、NGA、V2EX、煎蛋网、龙的天空、起点中文、千图网、千库网、Pixabay、Pixiv、3DM、游侠网、游民星空、NexusMods、Steam 创意工坊、CS.RIN.RU、RuTracker、BT 之家、萌番组、动漫花园、樱花动漫、爱恋动漫、AGE 动漫、Nyaa、SrkBT、RARBG、SubHD、423Down、不死鸟、扩展迷、小众软件、【动漫狂、动漫屋、漫画猫、漫画屋、漫画 DB、动漫之家、HiComic、Mangabz、Xmanhua 等漫画网站&amp;hellip;】、PubMed、Z-Library、GreasyFork、Github、StackOverflow（以上仅一小部分）&lt;/p>
+&lt;h2 id="bilibili-视频下载">&lt;a href="#bilibili-%e8%a7%86%e9%a2%91%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>Bilibili 视频下载
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：injahow&lt;br>
 &lt;strong>总安装量&lt;/strong>：350k&lt;br>
@@ -58,7 +63,7 @@ alt="csdn greener"
 >https://greasyfork.org/zh-CN/scripts/413228&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>支持Web、RPC、Blob、Aria等下载方式；支持下载flv、dash、mp4视频格式；支持下载港区番剧；支持下载字幕弹幕；支持换源播放等功能&lt;/p>
-&lt;h2 id="7-夸克网盘直链下载">&lt;a href="#7-%e5%a4%b8%e5%85%8b%e7%bd%91%e7%9b%98%e7%9b%b4%e9%93%be%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>7 夸克网盘直链下载
+&lt;h2 id="夸克网盘直链下载">&lt;a href="#%e5%a4%b8%e5%85%8b%e7%bd%91%e7%9b%98%e7%9b%b4%e9%93%be%e4%b8%8b%e8%bd%bd" class="header-anchor">&lt;/a>夸克网盘直链下载
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：Threee&lt;br>
 &lt;strong>总安装量&lt;/strong>：229k&lt;br>
@@ -66,7 +71,7 @@ alt="csdn greener"
 >https://greasyfork.org/zh-CN/scripts/448675&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>解除夸克网盘下载限制，直接在浏览器中下载&lt;/p>
-&lt;h2 id="8-网盘智能识别助手">&lt;a href="#8-%e7%bd%91%e7%9b%98%e6%99%ba%e8%83%bd%e8%af%86%e5%88%ab%e5%8a%a9%e6%89%8b" class="header-anchor">&lt;/a>8 网盘智能识别助手
+&lt;h2 id="网盘智能识别助手">&lt;a href="#%e7%bd%91%e7%9b%98%e6%99%ba%e8%83%bd%e8%af%86%e5%88%ab%e5%8a%a9%e6%89%8b" class="header-anchor">&lt;/a>网盘智能识别助手
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：🥇_🥇&lt;br>
 &lt;strong>总安装量&lt;/strong>：160k&lt;br>
@@ -74,7 +79,7 @@ alt="csdn greener"
 >https://greasyfork.org/zh-CN/scripts/422960&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>智能识别选中文字中的🔗网盘链接和🔑提取码，识别成功打开网盘链接并自动填写提取码，省去手动复制提取码在输入的烦恼。支持识别 ✅百度网盘 ✅阿里云盘 ✅腾讯微云 ✅蓝奏云 ✅天翼云盘 ✅移动云盘 ✅迅雷云盘 ✅123云盘 ✅360云盘 ✅115网盘 ✅奶牛快传 ✅城通网盘 ✅夸克网盘 ✅FlowUs息流 ✅Chrome 扩展商店 ✅Edge 扩展商店 ✅Firefox 扩展商店 ✅Windows 应用商店。&lt;/p>
-&lt;h2 id="9-屏蔽谷歌广告百度广告知乎广告隐藏谷歌和百度搜索增强百度搜索结果的各种广告等等">&lt;a href="#9-%e5%b1%8f%e8%94%bd%e8%b0%b7%e6%ad%8c%e5%b9%bf%e5%91%8a%e7%99%be%e5%ba%a6%e5%b9%bf%e5%91%8a%e7%9f%a5%e4%b9%8e%e5%b9%bf%e5%91%8a%e9%9a%90%e8%97%8f%e8%b0%b7%e6%ad%8c%e5%92%8c%e7%99%be%e5%ba%a6%e6%90%9c%e7%b4%a2%e5%a2%9e%e5%bc%ba%e7%99%be%e5%ba%a6%e6%90%9c%e7%b4%a2%e7%bb%93%e6%9e%9c%e7%9a%84%e5%90%84%e7%a7%8d%e5%b9%bf%e5%91%8a%e7%ad%89%e7%ad%89" class="header-anchor">&lt;/a>9 屏蔽谷歌广告、百度广告、知乎广告、隐藏谷歌和百度搜索增强百度搜索结果的各种广告等等
+&lt;h2 id="屏蔽谷歌广告百度广告知乎广告隐藏谷歌和百度搜索增强百度搜索结果的各种广告等等">&lt;a href="#%e5%b1%8f%e8%94%bd%e8%b0%b7%e6%ad%8c%e5%b9%bf%e5%91%8a%e7%99%be%e5%ba%a6%e5%b9%bf%e5%91%8a%e7%9f%a5%e4%b9%8e%e5%b9%bf%e5%91%8a%e9%9a%90%e8%97%8f%e8%b0%b7%e6%ad%8c%e5%92%8c%e7%99%be%e5%ba%a6%e6%90%9c%e7%b4%a2%e5%a2%9e%e5%bc%ba%e7%99%be%e5%ba%a6%e6%90%9c%e7%b4%a2%e7%bb%93%e6%9e%9c%e7%9a%84%e5%90%84%e7%a7%8d%e5%b9%bf%e5%91%8a%e7%ad%89%e7%ad%89" class="header-anchor">&lt;/a>屏蔽谷歌广告、百度广告、知乎广告、隐藏谷歌和百度搜索增强百度搜索结果的各种广告等等
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：周老大&lt;br>
 &lt;strong>总安装量&lt;/strong>：129k&lt;br>
@@ -82,7 +87,7 @@ alt="csdn greener"
 >https://greasyfork.org/zh-CN/scripts/460743&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>可按网址和关键词屏蔽过滤百度谷歌必应bing360微信微博知乎豆瓣B站的搜索结果、屏蔽谷歌推广的广告和去知乎广告、csdn广告、去百度搜索广告、去百度知道广告、去百度文库广告、去360搜索广告、去必应Bing搜索广告、百度文库去广告、去百度在别的网站的推广广告，移除知乎的强制登陆弹窗。去豆瓣广告、去B站广告&lt;/p>
-&lt;h2 id="10-护眼模式">&lt;a href="#10-%e6%8a%a4%e7%9c%bc%e6%a8%a1%e5%bc%8f" class="header-anchor">&lt;/a>10 护眼模式
+&lt;h2 id="护眼模式">&lt;a href="#%e6%8a%a4%e7%9c%bc%e6%a8%a1%e5%bc%8f" class="header-anchor">&lt;/a>护眼模式
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：X.I.U&lt;br>
 &lt;strong>总安装量&lt;/strong>：85k&lt;br>
@@ -93,7 +98,7 @@ alt="csdn greener"
 &lt;p>模式一： 降低网页亮度&lt;br>
 模式二： 降低网页亮度，并添加暖色调滤镜&lt;br>
 模式三： 直接对网页进行负片反色（图片、视频除外）&lt;/p>
-&lt;h2 id="11-github-中文化">&lt;a href="#11-github-%e4%b8%ad%e6%96%87%e5%8c%96" class="header-anchor">&lt;/a>11 GitHub 中文化
+&lt;h2 id="github-中文化">&lt;a href="#github-%e4%b8%ad%e6%96%87%e5%8c%96" class="header-anchor">&lt;/a>GitHub 中文化
 &lt;/h2>&lt;blockquote>
 &lt;p>&lt;strong>作者&lt;/strong>：maboloshi&lt;br>
 &lt;strong>总安装量&lt;/strong>：45k&lt;br>

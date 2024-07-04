@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 08 Aug 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Umami 网站统计服务</title><link>https://www.xalaok.top/post/umami-on-vercel/</link><pubDate>Tue, 08 Aug 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/umami-on-vercel/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/umami.webp" alt="Featured image of post Vercel 部署 Umami 网站统计服务" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 08 Aug 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Umami 网站统计服务</title><link>https://www.xalaok.top/post/umami-on-vercel/</link><pubDate>Tue, 08 Aug 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/umami-on-vercel/</guid><description>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/umami.webp" alt="Featured image of post Vercel 部署 Umami 网站统计服务" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>最近逛木木佬的博客看到&lt;a class="link" href="https://immmmm.com/hi-umami-api/" target="_blank" rel="noopener"
 >前端调用 Umami API&lt;/a> 这篇文章，看封面图像是网站访问统计啥的，一搜发现是类似 51la 统计的玩意，还开源，支持 Serverless 自部署，有东西折腾，搞！&lt;/p>
 &lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
@@ -11,54 +11,120 @@
 &lt;/ol>
 &lt;h2 id="开搞">&lt;a href="#%e5%bc%80%e6%90%9e" class="header-anchor">&lt;/a>开搞
 &lt;/h2>&lt;ol>
-&lt;li>Fork 官方 GitHub 仓库
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/fork.webp"
-loading="lazy"
+&lt;li>
+&lt;p>Fork 官方 GitHub 仓库&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/fork.webp"
+width="1771"
+height="996"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="Fork"
->&lt;/li>
-&lt;li>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
->Vercel&lt;/a> 然后通过 GitHub 快捷登录
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/4.webp"
-loading="lazy"
->&lt;/li>
-&lt;li>打开 Storage 选项卡创建 Postgresql
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/storage.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
+>Vercel&lt;/a> 然后通过 GitHub 快捷登录&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/loginvercel.webp"
+width="1692"
+height="788"
+loading="lazy" style="display:block;margin:0 auto;"
+alt="通过 GitHub 快捷登录"
+class="gallery-image"
+data-flex-grow="214"
+data-flex-basis="515px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 Storage 选项卡创建 Postgresql&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/storage.webp"
+width="1813"
+height="1020"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="storage"
->&lt;br>
-出现以下界面表示创建成功
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/sql.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>出现以下界面表示创建成功&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/sql.webp"
+width="1715"
+height="2705"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="sql"
->&lt;/li>
-&lt;li>打开 Dashboard，点击 Add new - Project
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/05/06/5.webp"
-loading="lazy"
->&lt;/li>
-&lt;li>Import Git Repository 选择 Continue With GitHub&lt;br>
-此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/li>
-&lt;li>选择你复刻的仓库&lt;/li>
-&lt;li>设置部署参数和环境变量&lt;/li>
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="152px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 Dashboard，点击 Add new - Project&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/newproject.webp"
+width="1896"
+height="892"
+loading="lazy" style="display:block;margin:0 auto;"
+alt="Add new - Project"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Import Git Repository 选择 Continue With GitHub&lt;br>
+此时会跳转到 GitHub 批准 Vercel 访问，建议选择允许访问全部仓库，当然你也可以设置仅可访问部分仓库。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择你复刻的仓库&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置部署参数和环境变量&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">变量名：HASH_SALT 值：自定义字符串
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">变量名：DATABASE_URL 值：数据库链接
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">例：
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">postgresql://username:mypassword@localhost:5432/mydb mysql://username:mypassword@localhost:3306/mydb
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">变量名：TRACKER_SCRIPT_NAME 值：自定义统计脚本名
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后点击 Deploy 部署
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/deploy.webp"
-loading="lazy"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后点击 Deploy 部署&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/deploy.webp"
+width="1715"
+height="2446"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="deploy"
->&lt;br>
-8. 部署成功后会显示 Congratulation 页面（部署时长两分钟左右）
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/success.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="168px"
+>&lt;/p>
+&lt;ol start="8">
+&lt;li>
+&lt;p>部署成功后会显示 Congratulation 页面（部署时长两分钟左右）&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/success.webp"
+width="1715"
+height="1019"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="success"
->&lt;br>
-9. 如果你有域名，直接从此界面右边 “Add Domain” 进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角 “Go to Dashboard” 就可以看到 Vercel 为你准备的域名&lt;br>
-10. 打开 Umami，初次登录输入默认用户名 &lt;code>admin&lt;/code> 与默认密码 &lt;code>umami&lt;/code>，
-&lt;img src="https://cdn.xalaok.top/images/blog/2023/08/08/login.webp"
-loading="lazy"
+class="gallery-image"
+data-flex-grow="168"
+data-flex-basis="403px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>如果你有域名，直接从此界面右边 “Add Domain” 进入添加域名，Vercel 会自动生成 SSL 证书（开启 https）。没有的话直接右上角 “Go to Dashboard” 就可以看到 Vercel 为你准备的域名&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 Umami，初次登录输入默认用户名 &lt;code>admin&lt;/code> 与默认密码 &lt;code>umami&lt;/code>，&lt;/p>
+&lt;p>&lt;img src="https://www.xalaok.top/post/umami-on-vercel/loginumami.webp"
+width="1715"
+height="1019"
+loading="lazy" style="display:block;margin:0 auto;"
 alt="login"
->&lt;br>
-11. Enjoy~&lt;/p></description></item></channel></rss>
+class="gallery-image"
+data-flex-grow="168"
+data-flex-basis="403px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Enjoy~&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
