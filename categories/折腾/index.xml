@@ -2104,66 +2104,7 @@ loading="lazy" style="display:block;margin:0 auto;"
 &lt;/h3>&lt;p>在根级加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">buildFuture&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="第二种方式在构建博客时加上--buildfuture">&lt;a href="#%e7%ac%ac%e4%ba%8c%e7%a7%8d%e6%96%b9%e5%bc%8f%e5%9c%a8%e6%9e%84%e5%bb%ba%e5%8d%9a%e5%ae%a2%e6%97%b6%e5%8a%a0%e4%b8%8a--buildfuture" class="header-anchor">&lt;/a>第二种方式：在构建博客时加上 &lt;code>--buildFuture&lt;/code>
-&lt;/h3>&lt;p>在构建博客时运行 &lt;code>hugo --buildFuture&lt;/code> 或 &lt;code>hugo -F&lt;/code> 而不是 &lt;code>hugo&lt;/code>&lt;/p></description></item><item><title>Hi, NCM 3.0</title><link>https://www.xalaok.top/post/ncm3/</link><pubDate>Tue, 25 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/ncm3/</guid><description>&lt;img src="https://www.xalaok.top/post/ncm3/cover.webp" alt="Featured image of post Hi, NCM 3.0" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
-&lt;/h2>&lt;p>前段时间网易偷偷在官网上架了网易云音乐 PC 端 3.0 内测版本，有不少变化，UI 界面比以前好看多了（当然旧版用 BetterNCM 主题的话也很好看）。&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/ncm3/ncm3light.webp"
-width="1920"
-height="1020"
-loading="lazy" style="display:block;margin:0 auto;"
-alt="UI 界面"
-class="gallery-image"
-data-flex-grow="188"
-data-flex-basis="451px"
->&lt;/p>
-&lt;h2 id="变化">&lt;a href="#%e5%8f%98%e5%8c%96" class="header-anchor">&lt;/a>变化
-&lt;/h2>&lt;ol>
-&lt;li>应用图标比旧版颜色更亮一些&lt;/li>
-&lt;li>首页焕然一新，和手机端保持一致，有点像 Apple Music&lt;/li>
-&lt;li>侧边原来的直播等栏目没了，取而代之的是博客和社区&lt;/li>
-&lt;li>歌单页面软件界面上 1/3 部分的颜色会随歌单封面颜色变化&lt;/li>
-&lt;li>歌曲播放页颜色会随歌曲封面颜色变化，有百科信息&lt;/li>
-&lt;li>歌曲间距变大，有缩略图了😀&lt;/li>
-&lt;li>有新的音质选项（超清母带、沉浸环绕声、超清环绕声【算法搞出来的】），但是对像我这种不开会员的用户来说，这玩意等于没有😅&lt;/li>
-&lt;li>上新了 7 款主题（仅 SVIP 可用（恼&lt;/li>
-&lt;/ol>
-&lt;h2 id="问题">&lt;a href="#%e9%97%ae%e9%a2%98" class="header-anchor">&lt;/a>问题
-&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>鼠标悬浮任务栏应用图标时应用缩略图是当前播放音乐的封面图，而且文字跑到屏幕左上角去了&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>CPU、RAM、GPU 占用高，耗电高（播放歌曲内存占用七百多M，个别场景下内存占用能达到 2G+）&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/ncm3/taskmanager.webp"
-width="1074"
-height="150"
-loading="lazy" style="display:block;margin:0 auto;"
-alt="任务管理器截图"
-class="gallery-image"
-data-flex-grow="716"
-data-flex-basis="1718px"
->&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>设置页面可以换字体，但是换了的字体没有高分屏适配，很糊，而且经测试，霞骛文楷无法显示出来，不知道是不是高分屏才有的问题&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>歌曲播放页百科信息的详细内容必须手机扫码才能看，emmm，这是哪个大聪明想出来的😖&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>歌曲播放进度条还是一卡一卡地前进，就不能流畅的嘛😞&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;del>还没有音乐云盘、播放 MV 功能&lt;/del>（2023/07/28 更新中上线）&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>迷你模式没了&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>最小化到托盘后不能通过单击任务栏图标再次打开&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="总结">&lt;a href="#%e6%80%bb%e7%bb%93" class="header-anchor">&lt;/a>总结
-&lt;/h2>&lt;p>虽然还是有一些问题还亟待解决，还有一些功能要添加，但是新版本网易云的总体体验还是不错的。&lt;/p></description></item><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
+&lt;/h3>&lt;p>在构建博客时运行 &lt;code>hugo --buildFuture&lt;/code> 或 &lt;code>hugo -F&lt;/code> 而不是 &lt;code>hugo&lt;/code>&lt;/p></description></item><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
 &lt;p>Replit 今年开始收费，此方法已失效😭&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
