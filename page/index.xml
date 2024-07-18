@@ -3,13 +3,12 @@
 &lt;li>和博主闲聊&lt;/li>
 &lt;li>告知博客问题（图片链接失效等）&lt;/li>
 &lt;li>告知博主转载&lt;/li>
-&lt;/ol></description></item><item><title>关于</title><link>https://www.xalaok.top/about/</link><pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.xalaok.top/about/</guid><description>&lt;blockquote>
-&lt;p>欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p>
-&lt;/blockquote>
+&lt;/ol></description></item><item><title>关于</title><link>https://www.xalaok.top/about/</link><pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.xalaok.top/about/</guid><description>&lt;h2 id="-关于本人">&lt;a href="#-%e5%85%b3%e4%ba%8e%e6%9c%ac%e4%ba%ba" class="header-anchor">&lt;/a>👦 关于本人
+&lt;/h2>&lt;p>鸽 有空再说&lt;/p>
 &lt;h2 id="-关于本站">&lt;a href="#-%e5%85%b3%e4%ba%8e%e6%9c%ac%e7%ab%99" class="header-anchor">&lt;/a>🏠 关于本站
 &lt;/h2>&lt;ul>
 &lt;li>博客框架：&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
->Hugo&lt;/a> 0.126.3&lt;/li>
+>Hugo&lt;/a> 0.129.0&lt;/li>
 &lt;li>博客主题：&lt;a class="link" href="https://stack.jimmycai.com/" target="_blank" rel="noopener"
 >Stack&lt;/a> 3.26.0&lt;/li>
 &lt;li>托管部署：源码托管于 &lt;a class="link" href="https://github.com/" target="_blank" rel="noopener"
@@ -695,61 +694,13 @@ font-size: 14px;
 }
 }
 &lt;/style>&lt;/p>
-&lt;h3 id="访问统计">&lt;a href="#%e8%ae%bf%e9%97%ae%e7%bb%9f%e8%ae%a1" class="header-anchor">&lt;/a>访问统计
-&lt;/h3>&lt;div id="statistic">
-&lt;div class="content">&lt;/div>
-&lt;/div>
-&lt;!-- js -->
-&lt;script>
-// 链接替换即可，不需要后面的参数
-fetch('https://v6-widget.51.la/v6/K3aYNEt3ZeYoZwhE/quote.js').then(res => res.text()).then((data) => {
-let title = ['最近活跃访客', '今日人数', '今日访问', '昨日人数', '昨日访问', '本月访问', '总访问量']
-let num = data.match(/(?&lt;=&lt;\/span>&lt;span>).*?(?=&lt;\/span>&lt;\/p>)/g)
-let order = [1, 3, 2, 4, 5, 6] // 新增 可排序，如果需要隐藏则删除对应数字即可。
-// 示例：[1, 3, 2, 4, 5] 显示 ['今日人数', '昨日人数', '今日访问', '昨日访问', '本月访问']，不显示 最近活跃访客(0) 和 总访问量(6)
-for (let i = 0; i &lt; order.length; i++) { document.querySelectorAll('#statistic .content')[0].innerHTML += '&lt;div>&lt;span>' + title[order[i]] + '&lt;/span>&lt;span class="num">' + num[order[i]] + '&lt;/span>&lt;/div>' }
-});
-&lt;/script>
-&lt;style>
-#statistic {
-font-size: 18px;
-padding: 20px;
-border-radius: 12px;
-width: 100%;
-color: var(--font-color);
-background-color: var(--card-bg);
-}
-div#statistic .content {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-div#statistic a {
-text-decoration: none;
-}
-#statistic .content div {
-display: inline-block;
-}
-#statistic div span {
-font-size: 14px;
-line-height: 1.3;
-display: block;
-}
-#statistic div .num {
-letter-spacing: 1px;
-font-weight: bold;
-font-size: 2rem;
-margin-bottom: .8rem;
-white-space: nowrap;
-}
-&lt;/style>
 &lt;h2 id="-博主是谁">&lt;a href="#-%e5%8d%9a%e4%b8%bb%e6%98%af%e8%b0%81" class="header-anchor">&lt;/a>👨‍💻 博主是谁
 &lt;/h2>&lt;ul>
 &lt;li>&lt;strong>昵称：&lt;/strong> Xalaok🐨&lt;/li>
 &lt;li>&lt;strong>性别：&lt;/strong> ♂&lt;/li>
-&lt;li>&lt;strong>生日：&lt;/strong> 200X.XX.XX&lt;/li>
-&lt;li>&lt;strong>身份：&lt;/strong> JECASer&lt;/li>
-&lt;li>&lt;strong>地点：&lt;/strong> 中国某著名国际化大都市🤣&lt;/li>
+&lt;li>&lt;strong>生日：&lt;/strong> 2008.XX.XX&lt;/li>
+&lt;li>&lt;strong>身份：&lt;/strong> 高中牲&lt;/li>
+&lt;li>&lt;strong>地点：&lt;/strong> Shanghai&lt;/li>
 &lt;li>&lt;strong>邮箱：&lt;/strong> &lt;a class="link" href="mailto:lichenjun08@126.com" >lichenjun08@126.com&lt;/a> | &lt;a class="link" href="mailto:2679779587@qq.com" >2679779587@qq.com&lt;/a>&lt;/li>
 &lt;li>&lt;strong>擅长：&lt;/strong> 404 Not Found&lt;/li>
 &lt;/ul>
