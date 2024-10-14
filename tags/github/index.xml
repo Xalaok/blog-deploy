@@ -71,22 +71,22 @@ data-flex-basis="182px"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Value&lt;/th>
+&lt;th style="text-align: left">Name&lt;/th>
+&lt;th style="text-align: left">Value&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>PAT&lt;/td>
-&lt;td>Github 个人访问密钥，需要具有 workflow 权限&lt;/td>
+&lt;td style="text-align: left">PAT&lt;/td>
+&lt;td style="text-align: left">Github 个人访问密钥，需要具有 workflow 权限&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>USER&lt;/td>
-&lt;td>E5 管理员邮箱（支持多个，每行一个，不要填写子号）&lt;/td>
+&lt;td style="text-align: left">USER&lt;/td>
+&lt;td style="text-align: left">E5 管理员邮箱（支持多个，每行一个，不要填写子号）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>PASSWD&lt;/td>
-&lt;td>E5 管理员密码（支持多个，每行一个，顺序必须和邮箱一致）&lt;/td>
+&lt;td style="text-align: left">PASSWD&lt;/td>
+&lt;td style="text-align: left">E5 管理员密码（支持多个，每行一个，顺序必须和邮箱一致）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

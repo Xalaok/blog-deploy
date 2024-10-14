@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 13 Apr 2024 13:30:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://www.xalaok.top/post/putty/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 20 Jun 2024 15:00:00 +0000</lastBuildDate><atom:link href="https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://www.xalaok.top/post/putty/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>去年十二月中旬由&lt;a class="link" href="https://yinji.org/" target="_blank" rel="noopener"
 >胡同学&lt;/a>推荐买了 CloudCone VPS 用来搭建一些 Docker 自托管项目，因为原本我部署 Uptime Kuma、AList 和 Memos 的平台 Zeabur 和 Replit 都相继在年底开启了收费。&lt;br>
 初上手 VPS 就跑了个 1Panel 面板方便管理，但还是经常要使用 SSH 连接。当时根本没啥安全意识，就设了个密码连接，而且那个密码很简单。果不其然还没过几天就出事了，搭建的服务全部 502，SSH 也连不上，直接整个人愣在当场。打开 CC 后台看到 CPU 占用为 0，我觉得是被人黑了，所以重置了 SSH 密码然后还是连不上。心急如焚地试了各种办法，发现后台重启能获得短暂复活时间，但不一会又死掉。利用短暂时间把面板密码、SSH 密码又都改了，但服务器每次重启都还是会在很短的时间内再次断连。对方手速真是太快了，而且我想不明白黑客是怎么搞我的。最后迫不得已决定尝试终极办法——后台重装系统，还好 1Panel 有备份恢复功能，数据完好无损。这才总算是恢复了对服务器的控制权。&lt;/p>
@@ -20,38 +20,38 @@
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>文件名&lt;/th>
-&lt;th>概述&lt;/th>
+&lt;th style="text-align: left">文件名&lt;/th>
+&lt;th style="text-align: left">概述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>putty.exe&lt;/td>
-&lt;td>SSH 和 Telnet 客户端（最常使用）&lt;/td>
+&lt;td style="text-align: left">putty.exe&lt;/td>
+&lt;td style="text-align: left">SSH 和 Telnet 客户端（最常使用）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>pscp.exe&lt;/td>
-&lt;td>SCP 客户端，命令行下通过 SSH 远程拷贝文件&lt;/td>
+&lt;td style="text-align: left">pscp.exe&lt;/td>
+&lt;td style="text-align: left">SCP 客户端，命令行下通过 SSH 远程拷贝文件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>psftp.exe&lt;/td>
-&lt;td>SFTP 客户端，命令行下的文件传输会话&lt;/td>
+&lt;td style="text-align: left">psftp.exe&lt;/td>
+&lt;td style="text-align: left">SFTP 客户端，命令行下的文件传输会话&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>puttytel.exe&lt;/td>
-&lt;td>Telnet 客户端&lt;/td>
+&lt;td style="text-align: left">puttytel.exe&lt;/td>
+&lt;td style="text-align: left">Telnet 客户端&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>plink.exe&lt;/td>
-&lt;td>PuTTY 后端的命令行工具&lt;/td>
+&lt;td style="text-align: left">plink.exe&lt;/td>
+&lt;td style="text-align: left">PuTTY 后端的命令行工具&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>pageant.exe&lt;/td>
-&lt;td>PuTTY、PSCP、Plink 的 SSH 认证代理&lt;/td>
+&lt;td style="text-align: left">pageant.exe&lt;/td>
+&lt;td style="text-align: left">PuTTY、PSCP、Plink 的 SSH 认证代理&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>puttygen.exe&lt;/td>
-&lt;td>RSA、DSA、ECDSA 和 EdDSA 密钥生成工具&lt;/td>
+&lt;td style="text-align: left">puttygen.exe&lt;/td>
+&lt;td style="text-align: left">RSA、DSA、ECDSA 和 EdDSA 密钥生成工具&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -250,7 +250,7 @@ data-flex-basis="266px"
 如不需要打字机效果，也要把最后一项 &lt;code>ai-explanation-content&lt;/code> 的 CSS 注释掉。&lt;br>
 然后在 &lt;code>/assets/scss/custom.scss&lt;/code> 中引入（&lt;code>@import &amp;quot;custom/ai.scss&amp;quot;;&lt;/code>）。&lt;/p>
 &lt;h2 id="单篇文章禁用摘要">&lt;a href="#%e5%8d%95%e7%af%87%e6%96%87%e7%ab%a0%e7%a6%81%e7%94%a8%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>单篇文章禁用摘要
-&lt;/h2>&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
+&lt;/h2>&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/post/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/post/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
 &lt;p>询问 ChatGPT 后得知，上面的代码意思是：&lt;/p>
 &lt;blockquote>
 &lt;p>这段代码是在Hugo模板中使用的条件语句，用于根据条件来决定是否插入数学公式。让我们逐步解释这段代码的含义：&lt;/p>
@@ -516,22 +516,22 @@ data-flex-basis="182px"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Value&lt;/th>
+&lt;th style="text-align: left">Name&lt;/th>
+&lt;th style="text-align: left">Value&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>PAT&lt;/td>
-&lt;td>Github 个人访问密钥，需要具有 workflow 权限&lt;/td>
+&lt;td style="text-align: left">PAT&lt;/td>
+&lt;td style="text-align: left">Github 个人访问密钥，需要具有 workflow 权限&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>USER&lt;/td>
-&lt;td>E5 管理员邮箱（支持多个，每行一个，不要填写子号）&lt;/td>
+&lt;td style="text-align: left">USER&lt;/td>
+&lt;td style="text-align: left">E5 管理员邮箱（支持多个，每行一个，不要填写子号）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>PASSWD&lt;/td>
-&lt;td>E5 管理员密码（支持多个，每行一个，顺序必须和邮箱一致）&lt;/td>
+&lt;td style="text-align: left">PASSWD&lt;/td>
+&lt;td style="text-align: left">E5 管理员密码（支持多个，每行一个，顺序必须和邮箱一致）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -999,8 +999,7 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见首页&lt;/p>
-&lt;h2 id="自定义字体">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>自定义字体
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="自定义字体">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>自定义字体
 &lt;/h2>&lt;h3 id="使用谷歌字体">&lt;a href="#%e4%bd%bf%e7%94%a8%e8%b0%b7%e6%ad%8c%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>使用谷歌字体
 &lt;/h3>&lt;ol>
 &lt;li>修改 &lt;code>/layouts/partials/footer/components/custom-font.html&lt;/code> 为以下代码：&lt;/li>
@@ -1057,7 +1056,7 @@ Chrome扩展：&lt;a class="link" href="https://chromewebstore.google.com/detail
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 字体
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#39;HarmonyOS_Regular&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;HarmonyOS_Regular&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">&lt;a href="#misans" class="header-anchor">&lt;/a>MiSans
 &lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
@@ -2135,13 +2134,23 @@ data-flex-basis="434px"
 &lt;li>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
 >Replit 官网&lt;/a>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/1.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="2">
 &lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
-&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/2.webp"
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/2.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/li>
 &lt;/ol>
 &lt;h3 id="方式-1clone-github-仓库">&lt;a href="#%e6%96%b9%e5%bc%8f-1clone-github-%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>方式 1：Clone GitHub 仓库
@@ -2169,9 +2178,14 @@ class="gallery-image"
 data-flex-grow="258"
 data-flex-basis="619px"
 >
-&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/5.webp"
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/5.webp"
+width="2544"
+height="1411"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="success"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="432px"
 >&lt;/p>
 &lt;h3 id="方式-2使用-replit-template">&lt;a href="#%e6%96%b9%e5%bc%8f-2%e4%bd%bf%e7%94%a8-replit-template" class="header-anchor">&lt;/a>方式 2：使用 Replit Template
 &lt;/h3>&lt;ol>
@@ -3550,14 +3564,24 @@ font-size: 14px;
 &lt;li>
 &lt;p>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
 >Vercel&lt;/a> 然后通过 GitHub 快捷登录&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/typecho-vercel/1.webp"
+width="1692"
+height="788"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="214"
+data-flex-basis="515px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>登陆后会自动跳转 Dashboard，点击 Add new - Project&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/typecho-vercel/2.webp"
+width="1896"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
@@ -3594,8 +3618,13 @@ loading="lazy" style="display:block;margin:0 auto;"
 &lt;li>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
 >官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/1.webp"
+width="1092"
+height="511"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="213"
+data-flex-basis="512px"
 >&lt;/p>
 &lt;ol start="2">
 &lt;li>
@@ -3606,8 +3635,13 @@ loading="lazy" style="display:block;margin:0 auto;"
 >Replit 官网&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/2.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="4">
 &lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;/li>
@@ -3631,8 +3665,13 @@ class="gallery-image"
 data-flex-grow="215"
 data-flex-basis="516px"
 >
-&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/5.webp"
+&lt;img src="https://www.xalaok.top/post/alist-on-replit/5.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="6">
 &lt;li>进入项目面板后，左侧上传第一步准备好的 replit 文件&lt;/li>
@@ -3704,15 +3743,25 @@ data-flex-basis="330px"
 &lt;ol start="9">
 &lt;li>点击项目顶部“RUN”按钮，启动项目&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/10.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/10.webp"
+width="154"
+height="76"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="202"
+data-flex-basis="486px"
 >&lt;/p>
 &lt;p>启动后可能弹出 Repl 不可用，不用慌，不是被封了，过几分钟再打开看就好啦&lt;/p>
 &lt;ol start="10">
 &lt;li>右上角的 Webview 窗口就可以看到网页预览和 Replit 为你创建好的域名（项目名.用户名.repl.co），网址右侧第一个按钮点开就可以自定义域名&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/11.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/11.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="11">
 &lt;li>
@@ -3877,16 +3926,26 @@ params:&lt;br>
 &lt;li>
 &lt;p>首先打开 GitHub 的 &lt;a class="link" href="https://github.com/gaowanlu/google" target="_blank" rel="noopener"
 >这个仓库&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/07-websiteproxy/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/websiteproxy/1.webp"
+width="1580"
+height="815"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="gaowanlu/google"
+class="gallery-image"
+data-flex-grow="193"
+data-flex-basis="465px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>fork 此仓库（或者自己打包下载源代码然后上传到自己的仓库）&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/07-websiteproxy/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/websiteproxy/2.webp"
+width="1896"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="Fork"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
@@ -3921,9 +3980,14 @@ data-flex-basis="515px"
 &lt;/li>
 &lt;li>
 &lt;p>登陆后会自动跳转 Dashboard，点击 Add new - Project&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/07-websiteproxy/5.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/websiteproxy/5.webp"
+width="1896"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="Add new project"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
 >&lt;/p>
 &lt;/li>
 &lt;li>

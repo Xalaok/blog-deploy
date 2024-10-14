@@ -20,38 +20,38 @@
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>文件名&lt;/th>
-&lt;th>概述&lt;/th>
+&lt;th style="text-align: left">文件名&lt;/th>
+&lt;th style="text-align: left">概述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>putty.exe&lt;/td>
-&lt;td>SSH 和 Telnet 客户端（最常使用）&lt;/td>
+&lt;td style="text-align: left">putty.exe&lt;/td>
+&lt;td style="text-align: left">SSH 和 Telnet 客户端（最常使用）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>pscp.exe&lt;/td>
-&lt;td>SCP 客户端，命令行下通过 SSH 远程拷贝文件&lt;/td>
+&lt;td style="text-align: left">pscp.exe&lt;/td>
+&lt;td style="text-align: left">SCP 客户端，命令行下通过 SSH 远程拷贝文件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>psftp.exe&lt;/td>
-&lt;td>SFTP 客户端，命令行下的文件传输会话&lt;/td>
+&lt;td style="text-align: left">psftp.exe&lt;/td>
+&lt;td style="text-align: left">SFTP 客户端，命令行下的文件传输会话&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>puttytel.exe&lt;/td>
-&lt;td>Telnet 客户端&lt;/td>
+&lt;td style="text-align: left">puttytel.exe&lt;/td>
+&lt;td style="text-align: left">Telnet 客户端&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>plink.exe&lt;/td>
-&lt;td>PuTTY 后端的命令行工具&lt;/td>
+&lt;td style="text-align: left">plink.exe&lt;/td>
+&lt;td style="text-align: left">PuTTY 后端的命令行工具&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>pageant.exe&lt;/td>
-&lt;td>PuTTY、PSCP、Plink 的 SSH 认证代理&lt;/td>
+&lt;td style="text-align: left">pageant.exe&lt;/td>
+&lt;td style="text-align: left">PuTTY、PSCP、Plink 的 SSH 认证代理&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>puttygen.exe&lt;/td>
-&lt;td>RSA、DSA、ECDSA 和 EdDSA 密钥生成工具&lt;/td>
+&lt;td style="text-align: left">puttygen.exe&lt;/td>
+&lt;td style="text-align: left">RSA、DSA、ECDSA 和 EdDSA 密钥生成工具&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

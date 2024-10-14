@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AList on Naive Koala</title><link>https://www.xalaok.top/tags/alist/</link><description>Recent content in AList on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 25 Jun 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/alist/index.xml" rel="self" type="application/rss+xml"/><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://www.xalaok.top/post/alist-on-replit/cover.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AList on Naive Koala</title><link>https://www.xalaok.top/tags/alist/</link><description>Recent content in AList on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 01 Jan 2024 19:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/alist/index.xml" rel="self" type="application/rss+xml"/><item><title>利用 Replit 平台免费搭建 AList 网盘</title><link>https://www.xalaok.top/post/alist-on-replit/</link><pubDate>Sun, 25 Jun 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/alist-on-replit/</guid><description>&lt;img src="https://www.xalaok.top/post/alist-on-replit/cover.webp" alt="Featured image of post 利用 Replit 平台免费搭建 AList 网盘" />&lt;blockquote>
 &lt;p>Replit 今年开始收费，此方法不再免费😭&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
@@ -12,8 +12,13 @@
 &lt;li>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
 >官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/1.webp"
+width="1092"
+height="511"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="213"
+data-flex-basis="512px"
 >&lt;/p>
 &lt;ol start="2">
 &lt;li>
@@ -24,8 +29,13 @@ loading="lazy" style="display:block;margin:0 auto;"
 >Replit 官网&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/2.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="4">
 &lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;/li>
@@ -49,8 +59,13 @@ class="gallery-image"
 data-flex-grow="215"
 data-flex-basis="516px"
 >
-&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/5.webp"
+&lt;img src="https://www.xalaok.top/post/alist-on-replit/5.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="6">
 &lt;li>进入项目面板后，左侧上传第一步准备好的 replit 文件&lt;/li>
@@ -122,15 +137,25 @@ data-flex-basis="330px"
 &lt;ol start="9">
 &lt;li>点击项目顶部“RUN”按钮，启动项目&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/10.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/10.webp"
+width="154"
+height="76"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="202"
+data-flex-basis="486px"
 >&lt;/p>
 &lt;p>启动后可能弹出 Repl 不可用，不用慌，不是被封了，过几分钟再打开看就好啦&lt;/p>
 &lt;ol start="10">
 &lt;li>右上角的 Webview 窗口就可以看到网页预览和 Replit 为你创建好的域名（项目名.用户名.repl.co），网址右侧第一个按钮点开就可以自定义域名&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/11.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/11.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="11">
 &lt;li>

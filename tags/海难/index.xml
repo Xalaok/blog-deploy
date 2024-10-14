@@ -8,22 +8,22 @@
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">人员&lt;/th>
-&lt;th style="text-align:center">船员&lt;/th>
-&lt;th style="text-align:center">第二潜艇训练师的士官及士兵&lt;/th>
-&lt;th style="text-align:center">海军医护人员&lt;/th>
-&lt;th style="text-align:center">受重伤的士兵&lt;/th>
-&lt;th style="text-align:center">难民&lt;/th>
+&lt;th style="text-align: center">人员&lt;/th>
+&lt;th style="text-align: center">船员&lt;/th>
+&lt;th style="text-align: center">第二潜艇训练师的士官及士兵&lt;/th>
+&lt;th style="text-align: center">海军医护人员&lt;/th>
+&lt;th style="text-align: center">受重伤的士兵&lt;/th>
+&lt;th style="text-align: center">难民&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">人数&lt;/td>
-&lt;td style="text-align:center">173&lt;/td>
-&lt;td style="text-align:center">918&lt;/td>
-&lt;td style="text-align:center">373&lt;/td>
-&lt;td style="text-align:center">162&lt;/td>
-&lt;td style="text-align:center">8956&lt;/td>
+&lt;td style="text-align: center">人数&lt;/td>
+&lt;td style="text-align: center">173&lt;/td>
+&lt;td style="text-align: center">918&lt;/td>
+&lt;td style="text-align: center">373&lt;/td>
+&lt;td style="text-align: center">162&lt;/td>
+&lt;td style="text-align: center">8956&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

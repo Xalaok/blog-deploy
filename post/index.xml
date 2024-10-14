@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Naive Koala</title><link>https://www.xalaok.top/post/</link><description>Recent content in Posts on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 01 Jul 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>绍兴之行 | 这次是五人组的子集</title><link>https://www.xalaok.top/post/a-trip-to-shaoxing/</link><pubDate>Mon, 01 Jul 2024 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/a-trip-to-shaoxing/</guid><description>&lt;img src="https://www.xalaok.top/post/a-trip-to-shaoxing/cover.webp" alt="Featured image of post 绍兴之行 | 这次是五人组的子集" />&lt;p>没记错的话是国内玩过的第三个城市，前两个是三亚和哈尔滨。是的，我连北京都还没去过。6/27 上午是自招考试，下午是班级拍照，晚上是毕业典礼。6/28 一早起来就约 sc 出去玩，先定下了目的地，准备体验下九年级课文《孔乙己》中的茴香豆和黄酒。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Naive Koala</title><link>https://www.xalaok.top/post/</link><description>Recent content in Posts on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jul 2024 07:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>绍兴之行 | 这次是五人组的子集</title><link>https://www.xalaok.top/post/a-trip-to-shaoxing/</link><pubDate>Mon, 01 Jul 2024 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/a-trip-to-shaoxing/</guid><description>&lt;img src="https://www.xalaok.top/post/a-trip-to-shaoxing/cover.webp" alt="Featured image of post 绍兴之行 | 这次是五人组的子集" />&lt;p>没记错的话是国内玩过的第三个城市，前两个是三亚和哈尔滨。是的，我连北京都还没去过。6/27 上午是自招考试，下午是班级拍照，晚上是毕业典礼。6/28 一早起来就约 sc 出去玩，先定下了目的地，准备体验下九年级课文《孔乙己》中的茴香豆和黄酒。&lt;/p>
 &lt;h2 id="第一次坐火车">&lt;a href="#%e7%ac%ac%e4%b8%80%e6%ac%a1%e5%9d%90%e7%81%ab%e8%bd%a6" class="header-anchor">&lt;/a>第一次坐火车
 &lt;/h2>&lt;p>我之前出去玩一般都出国，所以都是飞机，记忆中没有做过火车。
 由于我们敲定计划太晚，这两天的火车票基本都是无座或时间不合适。原计划去程从上海松江站出发，看看新车站，候补了 D3131 和 D3201，回程候补 T136(19:20-22:15)，最大化利用可玩时间。&lt;/p>
@@ -413,38 +413,38 @@ data-flex-basis="426px"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>文件名&lt;/th>
-&lt;th>概述&lt;/th>
+&lt;th style="text-align: left">文件名&lt;/th>
+&lt;th style="text-align: left">概述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>putty.exe&lt;/td>
-&lt;td>SSH 和 Telnet 客户端（最常使用）&lt;/td>
+&lt;td style="text-align: left">putty.exe&lt;/td>
+&lt;td style="text-align: left">SSH 和 Telnet 客户端（最常使用）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>pscp.exe&lt;/td>
-&lt;td>SCP 客户端，命令行下通过 SSH 远程拷贝文件&lt;/td>
+&lt;td style="text-align: left">pscp.exe&lt;/td>
+&lt;td style="text-align: left">SCP 客户端，命令行下通过 SSH 远程拷贝文件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>psftp.exe&lt;/td>
-&lt;td>SFTP 客户端，命令行下的文件传输会话&lt;/td>
+&lt;td style="text-align: left">psftp.exe&lt;/td>
+&lt;td style="text-align: left">SFTP 客户端，命令行下的文件传输会话&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>puttytel.exe&lt;/td>
-&lt;td>Telnet 客户端&lt;/td>
+&lt;td style="text-align: left">puttytel.exe&lt;/td>
+&lt;td style="text-align: left">Telnet 客户端&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>plink.exe&lt;/td>
-&lt;td>PuTTY 后端的命令行工具&lt;/td>
+&lt;td style="text-align: left">plink.exe&lt;/td>
+&lt;td style="text-align: left">PuTTY 后端的命令行工具&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>pageant.exe&lt;/td>
-&lt;td>PuTTY、PSCP、Plink 的 SSH 认证代理&lt;/td>
+&lt;td style="text-align: left">pageant.exe&lt;/td>
+&lt;td style="text-align: left">PuTTY、PSCP、Plink 的 SSH 认证代理&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>puttygen.exe&lt;/td>
-&lt;td>RSA、DSA、ECDSA 和 EdDSA 密钥生成工具&lt;/td>
+&lt;td style="text-align: left">puttygen.exe&lt;/td>
+&lt;td style="text-align: left">RSA、DSA、ECDSA 和 EdDSA 密钥生成工具&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -643,7 +643,7 @@ data-flex-basis="266px"
 如不需要打字机效果，也要把最后一项 &lt;code>ai-explanation-content&lt;/code> 的 CSS 注释掉。&lt;br>
 然后在 &lt;code>/assets/scss/custom.scss&lt;/code> 中引入（&lt;code>@import &amp;quot;custom/ai.scss&amp;quot;;&lt;/code>）。&lt;/p>
 &lt;h2 id="单篇文章禁用摘要">&lt;a href="#%e5%8d%95%e7%af%87%e6%96%87%e7%ab%a0%e7%a6%81%e7%94%a8%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>单篇文章禁用摘要
-&lt;/h2>&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
+&lt;/h2>&lt;p>这是我自己添加的功能。有些文章代码太多，总字符数很大，导致喂给 GPT 会超出最大字符数，无法生成摘要。并且一些文章并不需要 AI 摘要，比如我的 &lt;a class="link" href="https://www.xalaok.top/post/stack-modify/" >Hugo-theme-Stack 魔改美化&lt;/a> 和 &lt;a class="link" href="https://www.xalaok.top/post/blog-modify/" >博客魔改美化（通用）&lt;/a> 这两篇文章，几乎都是代码片段，右侧的目录本身就是总结。所以禁用单篇文章摘要的功能来了。受到 &lt;code>article.html&lt;/code> 里面 &lt;code>{{ if or .Params.math .Site.Params.article.math }}{{ partialCached &amp;quot;article/components/math.html&amp;quot; . }}{{ end }}&lt;/code> 的启发，可以通过调用 Hugo 的函数方式实现。&lt;/p>
 &lt;p>询问 ChatGPT 后得知，上面的代码意思是：&lt;/p>
 &lt;blockquote>
 &lt;p>这段代码是在Hugo模板中使用的条件语句，用于根据条件来决定是否插入数学公式。让我们逐步解释这段代码的含义：&lt;/p>
@@ -967,22 +967,22 @@ data-flex-basis="182px"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Value&lt;/th>
+&lt;th style="text-align: left">Name&lt;/th>
+&lt;th style="text-align: left">Value&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>PAT&lt;/td>
-&lt;td>Github 个人访问密钥，需要具有 workflow 权限&lt;/td>
+&lt;td style="text-align: left">PAT&lt;/td>
+&lt;td style="text-align: left">Github 个人访问密钥，需要具有 workflow 权限&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>USER&lt;/td>
-&lt;td>E5 管理员邮箱（支持多个，每行一个，不要填写子号）&lt;/td>
+&lt;td style="text-align: left">USER&lt;/td>
+&lt;td style="text-align: left">E5 管理员邮箱（支持多个，每行一个，不要填写子号）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>PASSWD&lt;/td>
-&lt;td>E5 管理员密码（支持多个，每行一个，顺序必须和邮箱一致）&lt;/td>
+&lt;td style="text-align: left">PASSWD&lt;/td>
+&lt;td style="text-align: left">E5 管理员密码（支持多个，每行一个，顺序必须和邮箱一致）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1052,17 +1052,17 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Windows 11&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.microsoft.com/software-download/windows11" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Windows 11&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.microsoft.com/software-download/windows11" target="_blank" rel="noopener"
 >https://www.microsoft.com/software-download/windows11&lt;/a>&lt;/td>
-&lt;td>Windows 11 真的比 Windows 10 好看很多，颜值就是生产力&lt;/td>
+&lt;td style="text-align: left">Windows 11 真的比 Windows 10 好看很多，颜值就是生产力&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1070,23 +1070,23 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Legion Y7000&lt;/td>
-&lt;td>&lt;a class="link" href="https://newsupport.lenovo.com.cn/driveDownloads_index.html" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Legion Y7000&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://newsupport.lenovo.com.cn/driveDownloads_index.html" target="_blank" rel="noopener"
 >https://newsupport.lenovo.com.cn/driveDownloads_index.html&lt;/a>&lt;/td>
-&lt;td>官网驱动&lt;/td>
+&lt;td style="text-align: left">官网驱动&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>NVIDIA Driver&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.nvidia.com/download/index.aspx" target="_blank" rel="noopener"
+&lt;td style="text-align: left">NVIDIA Driver&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.nvidia.com/download/index.aspx" target="_blank" rel="noopener"
 >https://www.nvidia.com/download/index.aspx&lt;/a>&lt;/td>
-&lt;td>N 卡驱动&lt;/td>
+&lt;td style="text-align: left">N 卡驱动&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1094,23 +1094,23 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Chrome&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.google.com/intl/zh-CN/chrome/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Chrome&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.google.com/intl/zh-CN/chrome/" target="_blank" rel="noopener"
 >https://www.google.com/intl/zh-CN/chrome/&lt;/a>&lt;/td>
-&lt;td>目前唯一使用的浏览器，比 Edge 更简洁，也更符合我的审美&lt;/td>
+&lt;td style="text-align: left">目前唯一使用的浏览器，比 Edge 更简洁，也更符合我的审美&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>哔哩哔哩&lt;/td>
-&lt;td>&lt;a class="link" href="https://app.bilibili.com" target="_blank" rel="noopener"
+&lt;td style="text-align: left">哔哩哔哩&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://app.bilibili.com" target="_blank" rel="noopener"
 >https://app.bilibili.com&lt;/a>&lt;/td>
-&lt;td>每天都刷的 B 站&lt;/td>
+&lt;td style="text-align: left">每天都刷的 B 站&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1118,29 +1118,29 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>上海数字教材&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.sh-genius.cn/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">上海数字教材&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.sh-genius.cn/" target="_blank" rel="noopener"
 >https://www.sh-genius.cn/&lt;/a>&lt;/td>
-&lt;td>电子课本这里找&lt;/td>
+&lt;td style="text-align: left">电子课本这里找&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>腾讯会议&lt;/td>
-&lt;td>&lt;a class="link" href="https://meeting.tencent.com/download/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">腾讯会议&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://meeting.tencent.com/download/" target="_blank" rel="noopener"
 >https://meeting.tencent.com/download/&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>ClassIn&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.eeo.cn/cn/download" target="_blank" rel="noopener"
+&lt;td style="text-align: left">ClassIn&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.eeo.cn/cn/download" target="_blank" rel="noopener"
 >https://www.eeo.cn/cn/download&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1148,29 +1148,29 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>微信&lt;/td>
-&lt;td>&lt;a class="link" href="https://weixin.qq.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">微信&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://weixin.qq.com/" target="_blank" rel="noopener"
 >https://weixin.qq.com/&lt;/a>&lt;/td>
-&lt;td>小而美&lt;/td>
+&lt;td style="text-align: left">小而美&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>NTQQ&lt;/td>
-&lt;td>&lt;a class="link" href="https://im.qq.com/pcqq/index.shtml" target="_blank" rel="noopener"
+&lt;td style="text-align: left">NTQQ&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://im.qq.com/pcqq/index.shtml" target="_blank" rel="noopener"
 >https://im.qq.com/pcqq/index.shtml&lt;/a>&lt;/td>
-&lt;td>新架构 QQ，比旧版的💩好看多了&lt;/td>
+&lt;td style="text-align: left">新架构 QQ，比旧版的💩好看多了&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Telegram&lt;/td>
-&lt;td>&lt;a class="link" href="https://telegram.org/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Telegram&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://telegram.org/" target="_blank" rel="noopener"
 >https://telegram.org/&lt;/a>&lt;/td>
-&lt;td>有很多博主交流频道&lt;/td>
+&lt;td style="text-align: left">有很多博主交流频道&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1178,35 +1178,35 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>GitHub Desktop&lt;/td>
-&lt;td>&lt;a class="link" href="https://desktop.github.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">GitHub Desktop&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://desktop.github.com/" target="_blank" rel="noopener"
 >https://desktop.github.com/&lt;/a>&lt;/td>
-&lt;td>小白 Git 工具&lt;/td>
+&lt;td style="text-align: left">小白 Git 工具&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Navicat Premium&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.navicat.com.cn/products" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Navicat Premium&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.navicat.com.cn/products" target="_blank" rel="noopener"
 >https://www.navicat.com.cn/products&lt;/a>&lt;/td>
-&lt;td>数据库管理&lt;/td>
+&lt;td style="text-align: left">数据库管理&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Putty&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Putty&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank" rel="noopener"
 >https://www.chiark.greenend.org.uk/~sgtatham/putty/&lt;/a>&lt;/td>
-&lt;td>SSH 工具&lt;/td>
+&lt;td style="text-align: left">SSH 工具&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>VS Code&lt;/td>
-&lt;td>&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">VS Code&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
 >https://code.visualstudio.com/&lt;/a>&lt;/td>
-&lt;td>日常编辑代码全靠它&lt;/td>
+&lt;td style="text-align: left">日常编辑代码全靠它&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1214,23 +1214,23 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Hugo&lt;/td>
-&lt;td>&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Hugo&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
 >https://gohugo.io/&lt;/a>&lt;/td>
-&lt;td>Hugo 博客生成器&lt;/td>
+&lt;td style="text-align: left">Hugo 博客生成器&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Nodejs&lt;/td>
-&lt;td>&lt;a class="link" href="https://nodejs.org/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Nodejs&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://nodejs.org/" target="_blank" rel="noopener"
 >https://nodejs.org/&lt;/a>&lt;/td>
-&lt;td>Node.js 运行环境&lt;/td>
+&lt;td style="text-align: left">Node.js 运行环境&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1238,29 +1238,29 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>剪映&lt;/td>
-&lt;td>&lt;a class="link" href="https://capcut.cn/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">剪映&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://capcut.cn/" target="_blank" rel="noopener"
 >https://capcut.cn/&lt;/a>&lt;/td>
-&lt;td>易用的剪辑软件&lt;/td>
+&lt;td style="text-align: left">易用的剪辑软件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Adobe Photoshop&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Adobe Photoshop&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener"
 >https://www.adobe.com/products/photoshop.html&lt;/a>&lt;/td>
-&lt;td>最强大的 P 图软件&lt;/td>
+&lt;td style="text-align: left">最强大的 P 图软件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>HandBrake&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/HandBrake/HandBrake" target="_blank" rel="noopener"
+&lt;td style="text-align: left">HandBrake&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/HandBrake/HandBrake" target="_blank" rel="noopener"
 >https://github.com/HandBrake/HandBrake&lt;/a>&lt;/td>
-&lt;td>强大的视频编码软件&lt;/td>
+&lt;td style="text-align: left">强大的视频编码软件&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1268,149 +1268,149 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>123 云盘&lt;/td>
-&lt;td>&lt;a class="link" href="https://123pan.com/DownloadClient" target="_blank" rel="noopener"
+&lt;td style="text-align: left">123 云盘&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://123pan.com/DownloadClient" target="_blank" rel="noopener"
 >https://123pan.com/DownloadClient&lt;/a>&lt;/td>
-&lt;td>在国内算是很良心的网盘了，不限速下载&lt;/td>
+&lt;td style="text-align: left">在国内算是很良心的网盘了，不限速下载&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>7-zip&lt;/td>
-&lt;td>&lt;a class="link" href="https://7-zip.org" target="_blank" rel="noopener"
+&lt;td style="text-align: left">7-zip&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://7-zip.org" target="_blank" rel="noopener"
 >https://7-zip.org&lt;/a>&lt;/td>
-&lt;td>功能强大并且开源的解压缩软件&lt;/td>
+&lt;td style="text-align: left">功能强大并且开源的解压缩软件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>百度网盘&lt;/td>
-&lt;td>&lt;a class="link" href="https://pan.baidu.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">百度网盘&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pan.baidu.com/" target="_blank" rel="noopener"
 >https://pan.baidu.com/&lt;/a>&lt;/td>
-&lt;td>会员用户体验还是很不错的&lt;/td>
+&lt;td style="text-align: left">会员用户体验还是很不错的&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>能源之星X&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/JasonWei512/EnergyStarX" target="_blank" rel="noopener"
+&lt;td style="text-align: left">能源之星X&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/JasonWei512/EnergyStarX" target="_blank" rel="noopener"
 >https://github.com/JasonWei512/EnergyStarX&lt;/a>&lt;/td>
-&lt;td>利用 Windows 11 效率模式增长电池续航&lt;/td>
+&lt;td style="text-align: left">利用 Windows 11 效率模式增长电池续航&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>网易邮箱大师&lt;/td>
-&lt;td>&lt;a class="link" href="https://dashi.163.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">网易邮箱大师&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://dashi.163.com/" target="_blank" rel="noopener"
 >https://dashi.163.com/&lt;/a>&lt;/td>
-&lt;td>邮箱还得是它&lt;/td>
+&lt;td style="text-align: left">邮箱还得是它&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>网易云音乐&lt;/td>
-&lt;td>&lt;a class="link" href="https://music.163.com" target="_blank" rel="noopener"
+&lt;td style="text-align: left">网易云音乐&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://music.163.com" target="_blank" rel="noopener"
 >https://music.163.com&lt;/a>&lt;/td>
-&lt;td>学生会员国内最便宜，就是版权少了点&lt;/td>
+&lt;td style="text-align: left">学生会员国内最便宜，就是版权少了点&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Bandzip&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.bandisoft.com/bandizip/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Bandzip&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.bandisoft.com/bandizip/" target="_blank" rel="noopener"
 >https://www.bandisoft.com/bandizip/&lt;/a>&lt;/td>
-&lt;td>功能强大并且简洁的解压缩软件&lt;/td>
+&lt;td style="text-align: left">功能强大并且简洁的解压缩软件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Caesium Image Compressor&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/Lymphatus/caesium-image-compressor" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Caesium Image Compressor&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/Lymphatus/caesium-image-compressor" target="_blank" rel="noopener"
 >https://github.com/Lymphatus/caesium-image-compressor&lt;/a>&lt;/td>
-&lt;td>超方便的本地图片压缩&lt;/td>
+&lt;td style="text-align: left">超方便的本地图片压缩&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Clash Verge&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/clash-verge-rev/clash-verge-rev" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Clash Verge&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/clash-verge-rev/clash-verge-rev" target="_blank" rel="noopener"
 >https://github.com/clash-verge-rev/clash-verge-rev&lt;/a>&lt;/td>
-&lt;td>Clash.Meta 内核，zzzgydi/clash-verge 的续作&lt;/td>
+&lt;td style="text-align: left">Clash.Meta 内核，zzzgydi/clash-verge 的续作&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>FileConverter&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/Tichau/FileConverter" target="_blank" rel="noopener"
+&lt;td style="text-align: left">FileConverter&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/Tichau/FileConverter" target="_blank" rel="noopener"
 >https://github.com/Tichau/FileConverter&lt;/a>&lt;/td>
-&lt;td>超方便的本地格式转换，吊打格式工厂&lt;/td>
+&lt;td style="text-align: left">超方便的本地格式转换，吊打格式工厂&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Fluent Reader&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/yang991178/fluent-reader" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Fluent Reader&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/yang991178/fluent-reader" target="_blank" rel="noopener"
 >https://github.com/yang991178/fluent-reader&lt;/a>&lt;/td>
-&lt;td>RSS 阅读客户端&lt;/td>
+&lt;td style="text-align: left">RSS 阅读客户端&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>IDM&lt;/td>
-&lt;td>&lt;a class="link" href="https://internetdownloadmanager.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">IDM&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://internetdownloadmanager.com/" target="_blank" rel="noopener"
 >https://internetdownloadmanager.com/&lt;/a>&lt;/td>
-&lt;td>多线程下载，速度起飞~&lt;/td>
+&lt;td style="text-align: left">多线程下载，速度起飞~&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Lenovo Legion Toolkit&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/BartoszCichecki/LenovoLegionToolkit" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Lenovo Legion Toolkit&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/BartoszCichecki/LenovoLegionToolkit" target="_blank" rel="noopener"
 >https://github.com/BartoszCichecki/LenovoLegionToolkit&lt;/a>&lt;/td>
-&lt;td>拯救者用户必备的替代联想电脑管家直接控制硬件的开源软件&lt;/td>
+&lt;td style="text-align: left">拯救者用户必备的替代联想电脑管家直接控制硬件的开源软件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>LocalSend&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/localsend/localsend" target="_blank" rel="noopener"
+&lt;td style="text-align: left">LocalSend&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/localsend/localsend" target="_blank" rel="noopener"
 >https://github.com/localsend/localsend&lt;/a>&lt;/td>
-&lt;td>局域网传文件必备&lt;/td>
+&lt;td style="text-align: left">局域网传文件必备&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Logi Options+&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.logitech.com.cn/zh-cn/software/logi-options-plus.html" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Logi Options+&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.logitech.com.cn/zh-cn/software/logi-options-plus.html" target="_blank" rel="noopener"
 >https://www.logitech.com.cn/zh-cn/software/logi-options-plus.html&lt;/a>&lt;/td>
-&lt;td>配置罗技产品&lt;/td>
+&lt;td style="text-align: left">配置罗技产品&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Mem Reduct&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/henrypp/memreduct" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Mem Reduct&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/henrypp/memreduct" target="_blank" rel="noopener"
 >https://github.com/henrypp/memreduct&lt;/a>&lt;/td>
-&lt;td>自动释放内存&lt;/td>
+&lt;td style="text-align: left">自动释放内存&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Microsoft OneDrive&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.microsoft.com/zh-cn/microsoft-365/onedrive/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Microsoft OneDrive&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.microsoft.com/zh-cn/microsoft-365/onedrive/" target="_blank" rel="noopener"
 >https://www.microsoft.com/zh-cn/microsoft-365/onedrive/&lt;/a>&lt;/td>
-&lt;td>非常方便的无感同步，搭配 E5 账号的 5T 空间，嘎嘎好用&lt;/td>
+&lt;td style="text-align: left">非常方便的无感同步，搭配 E5 账号的 5T 空间，嘎嘎好用&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Obsidian&lt;/td>
-&lt;td>&lt;a class="link" href="https://obsidian.md/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Obsidian&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://obsidian.md/" target="_blank" rel="noopener"
 >https://obsidian.md/&lt;/a>&lt;/td>
-&lt;td>万能 md 编辑器&lt;/td>
+&lt;td style="text-align: left">万能 md 编辑器&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>OBS Studio&lt;/td>
-&lt;td>&lt;a class="link" href="https://obsproject.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">OBS Studio&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://obsproject.com/" target="_blank" rel="noopener"
 >https://obsproject.com/&lt;/a>&lt;/td>
-&lt;td>可以当完全免费的录屏软件用&lt;/td>
+&lt;td style="text-align: left">可以当完全免费的录屏软件用&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>PixPin&lt;/td>
-&lt;td>&lt;a class="link" href="https://pixpinapp.com/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">PixPin&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://pixpinapp.com/" target="_blank" rel="noopener"
 >https://pixpinapp.com/&lt;/a>&lt;/td>
-&lt;td>功能强大的截图软件&lt;/td>
+&lt;td style="text-align: left">功能强大的截图软件&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>PotPlayer&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.potplayer.cn/download/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">PotPlayer&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.potplayer.cn/download/" target="_blank" rel="noopener"
 >https://www.potplayer.cn/download/&lt;/a>&lt;/td>
-&lt;td>最好用的播放器&lt;/td>
+&lt;td style="text-align: left">最好用的播放器&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>uTools&lt;/td>
-&lt;td>&lt;a class="link" href="https://u.tools/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">uTools&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://u.tools/" target="_blank" rel="noopener"
 >https://u.tools/&lt;/a>&lt;/td>
-&lt;td>效率工具&lt;/td>
+&lt;td style="text-align: left">效率工具&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>WPS Office&lt;/td>
-&lt;td>&lt;a class="link" href="https://platform.wps.cn/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">WPS Office&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://platform.wps.cn/" target="_blank" rel="noopener"
 >https://platform.wps.cn/&lt;/a>&lt;/td>
-&lt;td>办公必备&lt;/td>
+&lt;td style="text-align: left">办公必备&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1418,29 +1418,29 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>HMCL&lt;/td>
-&lt;td>&lt;a class="link" href="https://hmcl.huangyuhui.net/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">HMCL&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://hmcl.huangyuhui.net/" target="_blank" rel="noopener"
 >https://hmcl.huangyuhui.net/&lt;/a>&lt;/td>
-&lt;td>非常好用的 MC 启动器&lt;/td>
+&lt;td style="text-align: left">非常好用的 MC 启动器&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>PCL2&lt;/td>
-&lt;td>&lt;a class="link" href="https://afdian.net/a/LTCat" target="_blank" rel="noopener"
+&lt;td style="text-align: left">PCL2&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://afdian.net/a/LTCat" target="_blank" rel="noopener"
 >https://afdian.net/a/LTCat&lt;/a>&lt;/td>
-&lt;td>非常好用的 MC 启动器&lt;/td>
+&lt;td style="text-align: left">非常好用的 MC 启动器&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Java JDK&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.oracle.com/java/technologies/downloads" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Java JDK&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.oracle.com/java/technologies/downloads" target="_blank" rel="noopener"
 >https://www.oracle.com/java/technologies/downloads&lt;/a>&lt;/td>
-&lt;td>放这是因为只在玩 MC 时用得着😅&lt;/td>
+&lt;td style="text-align: left">放这是因为只在玩 MC 时用得着😅&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1448,71 +1448,71 @@ data-flex-basis="199px"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>名称&lt;/th>
-&lt;th>下载&lt;/th>
-&lt;th>描述&lt;/th>
+&lt;th style="text-align: left">名称&lt;/th>
+&lt;th style="text-align: left">下载&lt;/th>
+&lt;th style="text-align: left">描述&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Adobe 破解补丁&lt;/td>
-&lt;td>&lt;a class="link" href="https://www.cybermania.ws/apps/adobe-genp/" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Adobe 破解补丁&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://www.cybermania.ws/apps/adobe-genp/" target="_blank" rel="noopener"
 >https://www.cybermania.ws/apps/adobe-genp/&lt;/a>&lt;/td>
-&lt;td>用于 Adobe 全家桶的激活&lt;/td>
+&lt;td style="text-align: left">用于 Adobe 全家桶的激活&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Bandizip 7 破解补丁&lt;/td>
-&lt;td>&lt;a class="link" href="https://fahai.org/jszt/13.html" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Bandizip 7 破解补丁&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://fahai.org/jszt/13.html" target="_blank" rel="noopener"
 >https://fahai.org/jszt/13.html&lt;/a>&lt;/td>
-&lt;td>激活 Bandizip 7（支持更新）&lt;/td>
+&lt;td style="text-align: left">激活 Bandizip 7（支持更新）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>BetterNCM&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/MicroCBer/BetterNCM" target="_blank" rel="noopener"
+&lt;td style="text-align: left">BetterNCM&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/MicroCBer/BetterNCM" target="_blank" rel="noopener"
 >https://github.com/MicroCBer/BetterNCM&lt;/a>&lt;/td>
-&lt;td>优化网易云音乐客户端&lt;/td>
+&lt;td style="text-align: left">优化网易云音乐客户端&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>ClassIn-Replay-Download&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/CarlGao4/ClassIn-Replay-Download" target="_blank" rel="noopener"
+&lt;td style="text-align: left">ClassIn-Replay-Download&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/CarlGao4/ClassIn-Replay-Download" target="_blank" rel="noopener"
 >https://github.com/CarlGao4/ClassIn-Replay-Download&lt;/a>&lt;/td>
-&lt;td>下载 ClassIn 课程回放&lt;/td>
+&lt;td style="text-align: left">下载 ClassIn 课程回放&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>HEU KMS Activator&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/zbezj/HEU_KMS_Activator" target="_blank" rel="noopener"
+&lt;td style="text-align: left">HEU KMS Activator&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/zbezj/HEU_KMS_Activator" target="_blank" rel="noopener"
 >https://github.com/zbezj/HEU_KMS_Activator&lt;/a>&lt;/td>
-&lt;td>KMS 激活 Windows 和 Office&lt;/td>
+&lt;td style="text-align: left">KMS 激活 Windows 和 Office&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>LiteLoaderQQNT&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/LiteLoaderQQNT/LiteLoaderQQNT" target="_blank" rel="noopener"
+&lt;td style="text-align: left">LiteLoaderQQNT&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/LiteLoaderQQNT/LiteLoaderQQNT" target="_blank" rel="noopener"
 >https://github.com/LiteLoaderQQNT/LiteLoaderQQNT&lt;/a>&lt;/td>
-&lt;td>QQNT 插件加载器&lt;/td>
+&lt;td style="text-align: left">QQNT 插件加载器&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Navicat Premium 16 破解补丁&lt;/td>
-&lt;td>&lt;a class="link" href="https://fahai.org/jszt/12.html" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Navicat Premium 16 破解补丁&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://fahai.org/jszt/12.html" target="_blank" rel="noopener"
 >https://fahai.org/jszt/12.html&lt;/a>&lt;/td>
-&lt;td>激活 Navicat Premium 16（支持更新）&lt;/td>
+&lt;td style="text-align: left">激活 Navicat Premium 16（支持更新）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>RevokeMsgPatcher&lt;/td>
-&lt;td>&lt;a class="link" href="https://github.com/huiyadanli/RevokeMsgPatcher" target="_blank" rel="noopener"
+&lt;td style="text-align: left">RevokeMsgPatcher&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://github.com/huiyadanli/RevokeMsgPatcher" target="_blank" rel="noopener"
 >https://github.com/huiyadanli/RevokeMsgPatcher&lt;/a>&lt;/td>
-&lt;td>微信/QQ/TIM防撤回补丁&lt;/td>
+&lt;td style="text-align: left">微信/QQ/TIM防撤回补丁&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Typora 破解补丁&lt;/td>
-&lt;td>&lt;a class="link" href="https://fahai.org/jszt/14.html" target="_blank" rel="noopener"
+&lt;td style="text-align: left">Typora 破解补丁&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://fahai.org/jszt/14.html" target="_blank" rel="noopener"
 >https://fahai.org/jszt/14.html&lt;/a>&lt;/td>
-&lt;td>激活 Typora（支持更新）&lt;/td>
+&lt;td style="text-align: left">激活 Typora（支持更新）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>XMind 破解补丁&lt;/td>
-&lt;td>&lt;a class="link" href="https://fahai.org/jszt/15.html" target="_blank" rel="noopener"
+&lt;td style="text-align: left">XMind 破解补丁&lt;/td>
+&lt;td style="text-align: left">&lt;a class="link" href="https://fahai.org/jszt/15.html" target="_blank" rel="noopener"
 >https://fahai.org/jszt/15.html&lt;/a>&lt;/td>
-&lt;td>激活 XMind 2024（支持更新）&lt;/td>
+&lt;td style="text-align: left">激活 XMind 2024（支持更新）&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>APK 的修改与精简</title><link>https://www.xalaok.top/post/mod-apk/</link><pubDate>Sun, 07 Jan 2024 17:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/mod-apk/</guid><description>&lt;img src="https://www.xalaok.top/post/mod-apk/cover.webp" alt="Featured image of post APK 的修改与精简" />&lt;h2 id="准备">&lt;a href="#%e5%87%86%e5%a4%87" class="header-anchor">&lt;/a>准备
@@ -2130,8 +2130,7 @@ data-flex-basis="403px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果见首页&lt;/p>
-&lt;h2 id="自定义字体">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>自定义字体
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="自定义字体">&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>自定义字体
 &lt;/h2>&lt;h3 id="使用谷歌字体">&lt;a href="#%e4%bd%bf%e7%94%a8%e8%b0%b7%e6%ad%8c%e5%ad%97%e4%bd%93" class="header-anchor">&lt;/a>使用谷歌字体
 &lt;/h3>&lt;ol>
 &lt;li>修改 &lt;code>/layouts/partials/footer/components/custom-font.html&lt;/code> 为以下代码：&lt;/li>
@@ -2188,7 +2187,7 @@ data-flex-basis="403px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再在 &lt;code>/assets/scss/custom.scss&lt;/code> 中加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 字体
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nc">.article-content&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#39;HarmonyOS_Regular&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-family&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;HarmonyOS_Regular&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="ni">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="misans">&lt;a href="#misans" class="header-anchor">&lt;/a>MiSans
 &lt;/h4>&lt;p>在 &lt;code>/layouts/partials/head/custom.html&lt;/code> 中加入以下代码：&lt;/p>
@@ -3207,30 +3206,26 @@ loading="lazy" style="display:block;margin:0 auto;"
 &lt;img src="https://img.shields.io/badge/label-message-red?logo=dependabot&amp;amp;logoColor=blue"
 loading="lazy" style="display:block;margin:0 auto;"
 >&lt;/p></description></item><item><title>柯西不等式的证明</title><link>https://www.xalaok.top/post/cauchy-inequality/</link><pubDate>Tue, 01 Aug 2023 11:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/cauchy-inequality/</guid><description>&lt;p>柯西不等式：
-$$\sum_{i=1}^{n} a_{i}^{2} \sum_{i=1}^{n} b_{i}^{2} \ge (\sum_{i=1}^{n} a_{i} b_{i})^{2} $$
-$$(a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \ge (a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2$$&lt;/p>
-&lt;blockquote>
+&lt;/p>
+$$\sum_{i=1}^{n} a_{i}^{2} \sum_{i=1}^{n} b_{i}^{2} \ge (\sum_{i=1}^{n} a_{i} b_{i})^{2} $$$$(a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \ge (a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2$$&lt;blockquote>
 &lt;p>利用 $b^{2} - 4ac \ge 0$&lt;/p>
 &lt;/blockquote>
 &lt;p>证明：
 构造系列函数：&lt;/p>
-&lt;p>$$f_{1}(x) = a_{1}^{2}x^{2} + 2a_{1}b_{1}x + b_{1}^{2} = (a_{1}x+b_{1})^{2} \ge 0$$
-$$f_{2}(x) = a_{2}^{2}x^{2} + 2a_{2}b_{2}x + b_{2}^{2} = (a_{2}x+b_{2})^{2} \ge 0$$
-$$\cdots \cdots$$
-$$f_{n}(x) = a_{n}^{2}x^{2} + 2a_{n}b_{n}x + b_{n}^{2} = (a_{n}x+b_{n})^{2} \ge 0$$
+$$f_{1}(x) = a_{1}^{2}x^{2} + 2a_{1}b_{1}x + b_{1}^{2} = (a_{1}x+b_{1})^{2} \ge 0$$$$f_{2}(x) = a_{2}^{2}x^{2} + 2a_{2}b_{2}x + b_{2}^{2} = (a_{2}x+b_{2})^{2} \ge 0$$$$\cdots \cdots$$$$f_{n}(x) = a_{n}^{2}x^{2} + 2a_{n}b_{n}x + b_{n}^{2} = (a_{n}x+b_{n})^{2} \ge 0$$&lt;p>
 设：
-$$g(x) = f_{1}(x) + f_{2}(x) + \cdots + f_{n}(x)$$
-$$\therefore g(x) = (a_{1}^{2}+a_{2}^{2}+\cdots+a_{n}^{2})x^{2}+2(a_{1}b_{1}+a_{2}b_{2}+\cdots+a_{n}b_{n}) \ge 0$$
+&lt;/p>
+$$g(x) = f_{1}(x) + f_{2}(x) + \cdots + f_{n}(x)$$$$\therefore g(x) = (a_{1}^{2}+a_{2}^{2}+\cdots+a_{n}^{2})x^{2}+2(a_{1}b_{1}+a_{2}b_{2}+\cdots+a_{n}b_{n}) \ge 0$$&lt;p>
 ① 当 $a_{1}^{2}+a_{2}^{2}+\cdots+a_{n}^{2} = 0$ 即 $a_{1}=a_{2}=\cdots=a_{n}=0$ 时&lt;br>
 $(a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \ge (a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2$ 显然成立&lt;br>
 ② 当 $a_{1}^{2}+a_{2}^{2}+\cdots+a_{n}^{2} ≠ 0$ 时&lt;br>
-$$\Delta_{x} \le 0$$
-$$\therefore 4(a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2 - 4(a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \le 0$$
-$$\therefore (a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \ge (a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2$$
+&lt;/p>
+$$\Delta_{x} \le 0$$$$\therefore 4(a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2 - 4(a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \le 0$$$$\therefore (a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \ge (a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2$$&lt;p>
 当上式取等时，$\Delta = 0$，有 $x$ 使得 $g(x)=0$ 成立&lt;br>
 则 $x = - \frac {b_{1}} {a_{1}} = - \frac {b_{2}} {a_{2}} = \cdots = - \frac {b_{n}} {a_{n}}$&lt;br>
 即当且仅当 $\frac {b_{1}} {a_{1}} = \frac {b_{2}} {a_{2}} = \cdots = \frac {b_{n}} {a_{n}}$ 时等号成立&lt;/p>
-&lt;p>综上，$$(a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \ge (a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2$$
+&lt;p>综上，&lt;/p>
+$$(a_{1}^{2} + a_{2}^{2} + \cdots + a_{n}^{2})(b_{1}^{2} + b_{2}^{2} + \cdots + b_{n}^{2}) \ge (a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n})^2$$&lt;p>
 当且仅当 $\frac {b_{1}} {a_{1}} = \frac {b_{2}} {a_{2}} = \cdots = \frac {b_{n}} {a_{n}}$ 时等号成立&lt;/p></description></item><item><title>解决 Hugo 默认时区问题</title><link>https://www.xalaok.top/post/hugo-timezone-problem/</link><pubDate>Fri, 28 Jul 2023 16:50:00 +0800</pubDate><guid>https://www.xalaok.top/post/hugo-timezone-problem/</guid><description>&lt;img src="https://www.xalaok.top/post/hugo-timezone-problem/cover.webp" alt="Featured image of post 解决 Hugo 默认时区问题" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>相信各位 Hugo 博主应该都有遇到一个问题，就是发布时间设置没问题，但文章没有被渲染，我遇到的时候第一时间就想到作为一个国外的博客框架，应该就是时区问题，然后查阅&lt;a class="link" href="https://gohugo.io/getting-started/usage/#draft-future-and-expired-content" target="_blank" rel="noopener"
 >官方文档&lt;/a>后更证实了这个猜想。&lt;/p>
@@ -3291,13 +3286,23 @@ data-flex-basis="434px"
 &lt;li>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
 >Replit 官网&lt;/a>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/1.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="2">
 &lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
-&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/2.webp"
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/2.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/li>
 &lt;/ol>
 &lt;h3 id="方式-1clone-github-仓库">&lt;a href="#%e6%96%b9%e5%bc%8f-1clone-github-%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>方式 1：Clone GitHub 仓库
@@ -3325,9 +3330,14 @@ class="gallery-image"
 data-flex-grow="258"
 data-flex-basis="619px"
 >
-&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/5.webp"
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/5.webp"
+width="2544"
+height="1411"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="success"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="432px"
 >&lt;/p>
 &lt;h3 id="方式-2使用-replit-template">&lt;a href="#%e6%96%b9%e5%bc%8f-2%e4%bd%bf%e7%94%a8-replit-template" class="header-anchor">&lt;/a>方式 2：使用 Replit Template
 &lt;/h3>&lt;ol>
@@ -4706,14 +4716,24 @@ font-size: 14px;
 &lt;li>
 &lt;p>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
 >Vercel&lt;/a> 然后通过 GitHub 快捷登录&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/typecho-vercel/1.webp"
+width="1692"
+height="788"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="214"
+data-flex-basis="515px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>登陆后会自动跳转 Dashboard，点击 Add new - Project&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/typecho-vercel/2.webp"
+width="1896"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
@@ -4825,8 +4845,13 @@ SSSHIT!!!!!&lt;/p></description></item><item><title>曾经骗过我们的未解�
 &lt;li>首先到&lt;a class="link" href="https://github.com/alist-org/alist/releases/latest" target="_blank" rel="noopener"
 >官方仓库&lt;/a>下载最新版本AList（注意是下载 Linux-amd64 版本）&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/1.webp"
+width="1092"
+height="511"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="213"
+data-flex-basis="512px"
 >&lt;/p>
 &lt;ol start="2">
 &lt;li>
@@ -4837,8 +4862,13 @@ loading="lazy" style="display:block;margin:0 auto;"
 >Replit 官网&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/2.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="4">
 &lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;/li>
@@ -4862,8 +4892,13 @@ class="gallery-image"
 data-flex-grow="215"
 data-flex-basis="516px"
 >
-&lt;img src="https://www.xalaok.top/post/10-alist-on-replit/5.webp"
+&lt;img src="https://www.xalaok.top/post/alist-on-replit/5.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="6">
 &lt;li>进入项目面板后，左侧上传第一步准备好的 replit 文件&lt;/li>
@@ -4935,15 +4970,25 @@ data-flex-basis="330px"
 &lt;ol start="9">
 &lt;li>点击项目顶部“RUN”按钮，启动项目&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/10.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/10.webp"
+width="154"
+height="76"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="202"
+data-flex-basis="486px"
 >&lt;/p>
 &lt;p>启动后可能弹出 Repl 不可用，不用慌，不是被封了，过几分钟再打开看就好啦&lt;/p>
 &lt;ol start="10">
 &lt;li>右上角的 Webview 窗口就可以看到网页预览和 Replit 为你创建好的域名（项目名.用户名.repl.co），网址右侧第一个按钮点开就可以自定义域名&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/25/11.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/alist-on-replit/11.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="11">
 &lt;li>
@@ -5149,16 +5194,26 @@ params:&lt;br>
 &lt;li>
 &lt;p>首先打开 GitHub 的 &lt;a class="link" href="https://github.com/gaowanlu/google" target="_blank" rel="noopener"
 >这个仓库&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/07-websiteproxy/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/websiteproxy/1.webp"
+width="1580"
+height="815"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="gaowanlu/google"
+class="gallery-image"
+data-flex-grow="193"
+data-flex-basis="465px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>fork 此仓库（或者自己打包下载源代码然后上传到自己的仓库）&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/07-websiteproxy/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/websiteproxy/2.webp"
+width="1896"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="Fork"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
@@ -5193,9 +5248,14 @@ data-flex-basis="515px"
 &lt;/li>
 &lt;li>
 &lt;p>登陆后会自动跳转 Dashboard，点击 Add new - Project&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/07-websiteproxy/5.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/websiteproxy/5.webp"
+width="1896"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="Add new project"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
@@ -5365,22 +5425,22 @@ iPhone 横空出世。&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">人员&lt;/th>
-&lt;th style="text-align:center">船员&lt;/th>
-&lt;th style="text-align:center">第二潜艇训练师的士官及士兵&lt;/th>
-&lt;th style="text-align:center">海军医护人员&lt;/th>
-&lt;th style="text-align:center">受重伤的士兵&lt;/th>
-&lt;th style="text-align:center">难民&lt;/th>
+&lt;th style="text-align: center">人员&lt;/th>
+&lt;th style="text-align: center">船员&lt;/th>
+&lt;th style="text-align: center">第二潜艇训练师的士官及士兵&lt;/th>
+&lt;th style="text-align: center">海军医护人员&lt;/th>
+&lt;th style="text-align: center">受重伤的士兵&lt;/th>
+&lt;th style="text-align: center">难民&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">人数&lt;/td>
-&lt;td style="text-align:center">173&lt;/td>
-&lt;td style="text-align:center">918&lt;/td>
-&lt;td style="text-align:center">373&lt;/td>
-&lt;td style="text-align:center">162&lt;/td>
-&lt;td style="text-align:center">8956&lt;/td>
+&lt;td style="text-align: center">人数&lt;/td>
+&lt;td style="text-align: center">173&lt;/td>
+&lt;td style="text-align: center">918&lt;/td>
+&lt;td style="text-align: center">373&lt;/td>
+&lt;td style="text-align: center">162&lt;/td>
+&lt;td style="text-align: center">8956&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -5565,11 +5625,21 @@ QQ 的用户数超过了 6 亿&lt;/p>
 &lt;p>但是，从来就不会有莫名其妙的衰败，每幢楼倒塌的背后，都能找到原因。&lt;/p>
 &lt;p>再大的巨无霸，说倒就倒，垮塌也就是一眨眼的事。&lt;/p>
 &lt;p>在这个充满变化的时代，唯变不变。&lt;/p></description></item><item><title>2023春节前，上海的大雪</title><link>https://www.xalaok.top/post/2023-shanghai-snow/</link><pubDate>Sun, 15 Jan 2023 11:30:00 +0000</pubDate><guid>https://www.xalaok.top/post/2023-shanghai-snow/</guid><description>&lt;img src="https://www.xalaok.top/post/2023-shanghai-snow/1.webp" alt="Featured image of post 2023春节前，上海的大雪" />&lt;p>&lt;video src="video.mp4" controls controlslist="nodownload" loading="lazy" style="display:block;margin:0 auto;width:80%">&lt;/video>&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/01-2023-shanghai-snow/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/2023-shanghai-snow/1.webp"
+width="1440"
+height="1080"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
 >
-&lt;img src="https://www.xalaok.top/post/01-2023-shanghai-snow/2.webp"
+&lt;img src="https://www.xalaok.top/post/2023-shanghai-snow/2.webp"
+width="1440"
+height="1080"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
 >
 &lt;img src="https://www.xalaok.top/post/2023-shanghai-snow/3.webp"
 width="1080"
@@ -5586,4 +5656,78 @@ loading="lazy" style="display:block;margin:0 auto;"
 class="gallery-image"
 data-flex-grow="75"
 data-flex-basis="180px"
->&lt;/p></description></item></channel></rss>
+>&lt;/p></description></item><item><title/><link>https://www.xalaok.top/post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.xalaok.top/post/</guid><description>&lt;p>&lt;strong>1、你的博客更新频率是多少？&lt;/strong>&lt;/p>
+&lt;p>A.每周更新&lt;/p>
+&lt;p>B.一周数篇&lt;/p>
+&lt;p>C.一月1-2篇&lt;/p>
+&lt;p>D.几个月一篇&lt;/p>
+&lt;p>&lt;strong>2、你的博客上次更新是什么时候？&lt;/strong>&lt;/p>
+&lt;p>A.本周&lt;/p>
+&lt;p>B.上周&lt;/p>
+&lt;p>C.上个月&lt;/p>
+&lt;p>D.上季度&lt;/p>
+&lt;p>&lt;strong>3、你的博客文章是原创的吗？&lt;/strong>&lt;/p>
+&lt;p>A.坚持原创&lt;/p>
+&lt;p>B.部分借鉴&lt;/p>
+&lt;p>C.AI 帮我写的&lt;/p>
+&lt;p>D.搬运别人的，而且不署名&lt;/p>
+&lt;p>&lt;strong>4、你觉得自己的文章对他人有帮助吗？&lt;/strong>&lt;/p>
+&lt;p>A.旨在对他人有启示&lt;/p>
+&lt;p>B.多少有点意义&lt;/p>
+&lt;p>C.每日每周流水账&lt;/p>
+&lt;p>D.自我陶醉就好，管他呢&lt;/p>
+&lt;p>&lt;strong>5、你上次换博客主题/程序是什么时候？&lt;/strong>&lt;/p>
+&lt;p>A.上周&lt;/p>
+&lt;p>B.上个月&lt;/p>
+&lt;p>C.去年&lt;/p>
+&lt;p>D.凭良心说，我多年都是一个主题&lt;/p>
+&lt;p>&lt;strong>6、你上一次捣腾博客主题代码是什么时候？&lt;/strong>&lt;/p>
+&lt;p>A.昨天，撸代码到凌晨&lt;/p>
+&lt;p>B.每周必捣腾&lt;/p>
+&lt;p>C.每月有那么一次&lt;/p>
+&lt;p>D.一年有那么一次&lt;/p>
+&lt;p>&lt;strong>7、你会对博客主题进行二次开发？&lt;/strong>&lt;/p>
+&lt;p>A.直接配置使用，省心不折腾&lt;/p>
+&lt;p>B.时不时自己改改，搞点新花样，换图片，换字体，爽&lt;/p>
+&lt;p>C.删除主题作者版权信息，改改样式，然后自我感觉良好&lt;/p>
+&lt;p>D.改得面目全非，但保留原作者版权信息或注明&lt;/p>
+&lt;p>&lt;strong>8、你多久打开自己博客自我陶醉一次？&lt;/strong>&lt;/p>
+&lt;p>A.每天数次&lt;/p>
+&lt;p>B.每周一次&lt;/p>
+&lt;p>C.看心情&lt;/p>
+&lt;p>D.一般都是照镜子，不看博客&lt;/p>
+&lt;p>&lt;strong>9、你近期对自己博客域名什么感受？&lt;/strong>&lt;/p>
+&lt;p>A.想搞到一个 .COM 的域名&lt;/p>
+&lt;p>B.如果域名能再短几个字符就更好了&lt;/p>
+&lt;p>C.今年才换双拼域名了，明年再看看&lt;/p>
+&lt;p>D.目前挺好，没想法&lt;/p>
+&lt;p>&lt;strong>10、你每天都会看网站的流量统计吗？&lt;/strong>&lt;/p>
+&lt;p>A.每天看几次，今天又多了100PV&lt;/p>
+&lt;p>B.每周回顾，看看流量趋势&lt;/p>
+&lt;p>C.记得就看看&lt;/p>
+&lt;p>D.没有搞流量统计，都是浮云&lt;/p>
+&lt;p>&lt;strong>11、你通过博客的广告赚到钱了吗？&lt;/strong>&lt;/p>
+&lt;p>A.有，能覆盖建站费用&lt;/p>
+&lt;p>B.有，但付出大于收入&lt;/p>
+&lt;p>C.没考虑通过博客流量赚钱&lt;/p>
+&lt;p>D.拒绝广告，保证阅读体验&lt;/p>
+&lt;p>&lt;strong>12、你去浏览别人的博客/网站主要为什么？&lt;/strong>&lt;/p>
+&lt;p>A.学习别人分享的知识&lt;/p>
+&lt;p>B.搬运别人的内容&lt;/p>
+&lt;p>C.看看别人怎么装修博客，自己也抄一下，感觉都比自己的好&lt;/p>
+&lt;p>D.不爱看别人博客，自己爱写啥写啥&lt;/p>
+&lt;p>&lt;strong>13、看到别人分享了一篇文章，你打开第一反应是什么？&lt;/strong>&lt;/p>
+&lt;p>A.哇，这域名真不错，怎么我没想到&lt;/p>
+&lt;p>B.哇，这网站速度真快，图片延迟加载丝滑&lt;/p>
+&lt;p>C.哇，这程序/主题不错，我也要抄一抄/留言问问哪里搞的&lt;/p>
+&lt;p>D.看看文章内容&lt;/p>
+&lt;p>&lt;strong>14、你觉得博客哪方面更重要？&lt;/strong>&lt;/p>
+&lt;p>A.域名&lt;/p>
+&lt;p>B.服务器&lt;/p>
+&lt;p>C.主题&lt;/p>
+&lt;p>D.内容&lt;/p>
+&lt;p>&lt;strong>15、近期通过写博客有哪些新收获？&lt;/strong>&lt;/p>
+&lt;p>A.知识面有拓展&lt;/p>
+&lt;p>B.认识了新朋友&lt;/p>
+&lt;p>C.写作水平提升&lt;/p>
+&lt;p>D.通过知识变现&lt;/p></description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on Naive Koala</title><link>https://www.xalaok.top/tags/vercel/</link><description>Recent content in Vercel on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://www.xalaok.top/post/typecho-vercel/cover.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on Naive Koala</title><link>https://www.xalaok.top/tags/vercel/</link><description>Recent content in Vercel on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 07 Apr 2024 22:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>Vercel 部署 Typecho 博客</title><link>https://www.xalaok.top/post/typecho-vercel/</link><pubDate>Sun, 16 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/typecho-vercel/</guid><description>&lt;img src="https://www.xalaok.top/post/typecho-vercel/cover.webp" alt="Featured image of post Vercel 部署 Typecho 博客" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>相信很多人不知道 Vercel 可以部署 PHP，可以在 &lt;a class="link" href="https://vercel.com/docs/runtimes?query=php#advanced-usage/community-runtimes" target="_blank" rel="noopener"
 >Vercel 文档&lt;/a> 中看到确实支持&lt;/p>
 &lt;h2 id="准备工作">&lt;a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="header-anchor">&lt;/a>准备工作
@@ -99,14 +99,24 @@
 &lt;li>
 &lt;p>打开 &lt;a class="link" href="https://vercel.com" target="_blank" rel="noopener"
 >Vercel&lt;/a> 然后通过 GitHub 快捷登录&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/typecho-vercel/1.webp"
+width="1692"
+height="788"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="214"
+data-flex-basis="515px"
 >&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>登陆后会自动跳转 Dashboard，点击 Add new - Project&lt;/p>
-&lt;p>&lt;img src="https://www.xalaok.top/post/13-typecho-vercel/2.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/typecho-vercel/2.webp"
+width="1896"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="510px"
 >&lt;/p>
 &lt;/li>
 &lt;li>

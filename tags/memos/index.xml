@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memos on Naive Koala</title><link>https://www.xalaok.top/tags/memos/</link><description>Recent content in Memos on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 Jul 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/memos/index.xml" rel="self" type="application/rss+xml"/><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memos on Naive Koala</title><link>https://www.xalaok.top/tags/memos/</link><description>Recent content in Memos on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 01 Jan 2024 19:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/tags/memos/index.xml" rel="self" type="application/rss+xml"/><item><title>在 Replit 部署 Memos</title><link>https://www.xalaok.top/post/memos-on-replit/</link><pubDate>Sat, 22 Jul 2023 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/memos-on-replit/</guid><description>&lt;img src="https://cdn.xalaok.top/images/blog/2023/07/22/cover.webp" alt="Featured image of post 在 Replit 部署 Memos" />&lt;blockquote>
 &lt;p>Replit 今年开始收费，此方法已失效😭&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
@@ -29,13 +29,23 @@ data-flex-basis="434px"
 &lt;li>打开 &lt;a class="link" href="https://replit.com" target="_blank" rel="noopener"
 >Replit 官网&lt;/a>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/1.webp"
+&lt;p>&lt;img src="https://www.xalaok.top/post/memos-on-replit/1.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/p>
 &lt;ol start="2">
 &lt;li>点击中间“Start creating”跳转到登录页，有 Google 或 GitHub 账号的可以直接登录，没有的话可以通过邮箱注册，国内邮箱支不支持我不知道&lt;br>
-&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/2.webp"
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/2.webp"
+width="1920"
+height="892"
 loading="lazy" style="display:block;margin:0 auto;"
+class="gallery-image"
+data-flex-grow="215"
+data-flex-basis="516px"
 >&lt;/li>
 &lt;/ol>
 &lt;h3 id="方式-1clone-github-仓库">&lt;a href="#%e6%96%b9%e5%bc%8f-1clone-github-%e4%bb%93%e5%ba%93" class="header-anchor">&lt;/a>方式 1：Clone GitHub 仓库
@@ -63,9 +73,14 @@ class="gallery-image"
 data-flex-grow="258"
 data-flex-basis="619px"
 >
-&lt;img src="https://www.xalaok.top/post/15-memos-on-replit/5.webp"
+&lt;img src="https://www.xalaok.top/post/memos-on-replit/5.webp"
+width="2544"
+height="1411"
 loading="lazy" style="display:block;margin:0 auto;"
 alt="success"
+class="gallery-image"
+data-flex-grow="180"
+data-flex-basis="432px"
 >&lt;/p>
 &lt;h3 id="方式-2使用-replit-template">&lt;a href="#%e6%96%b9%e5%bc%8f-2%e4%bd%bf%e7%94%a8-replit-template" class="header-anchor">&lt;/a>方式 2：使用 Replit Template
 &lt;/h3>&lt;ol>
