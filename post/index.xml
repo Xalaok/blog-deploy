@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Naive Koala</title><link>https://www.xalaok.top/post/</link><description>Recent content in Posts on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 04 Jul 2024 07:00:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>绍兴之行 | 这次是五人组的子集</title><link>https://www.xalaok.top/post/a-trip-to-shaoxing/</link><pubDate>Mon, 01 Jul 2024 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/a-trip-to-shaoxing/</guid><description>&lt;img src="https://www.xalaok.top/post/a-trip-to-shaoxing/cover.webp" alt="Featured image of post 绍兴之行 | 这次是五人组的子集" />&lt;p>没记错的话是国内玩过的第三个城市，前两个是三亚和哈尔滨。是的，我连北京都还没去过。6/27 上午是自招考试，下午是班级拍照，晚上是毕业典礼。6/28 一早起来就约 sc 出去玩，先定下了目的地，准备体验下九年级课文《孔乙己》中的茴香豆和黄酒。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Naive Koala</title><link>https://www.xalaok.top/post/</link><description>Recent content in Posts on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 29 Oct 2024 20:19:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>绍兴之行 | 这次是五人组的子集</title><link>https://www.xalaok.top/post/a-trip-to-shaoxing/</link><pubDate>Mon, 01 Jul 2024 10:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/a-trip-to-shaoxing/</guid><description>&lt;img src="https://www.xalaok.top/post/a-trip-to-shaoxing/cover.webp" alt="Featured image of post 绍兴之行 | 这次是五人组的子集" />&lt;p>没记错的话是国内玩过的第三个城市，前两个是三亚和哈尔滨。是的，我连北京都还没去过。6/27 上午是自招考试，下午是班级拍照，晚上是毕业典礼。6/28 一早起来就约 sc 出去玩，先定下了目的地，准备体验下九年级课文《孔乙己》中的茴香豆和黄酒。&lt;/p>
 &lt;h2 id="第一次坐火车">&lt;a href="#%e7%ac%ac%e4%b8%80%e6%ac%a1%e5%9d%90%e7%81%ab%e8%bd%a6" class="header-anchor">&lt;/a>第一次坐火车
 &lt;/h2>&lt;p>我之前出去玩一般都出国，所以都是飞机，记忆中没有做过火车。
 由于我们敲定计划太晚，这两天的火车票基本都是无座或时间不合适。原计划去程从上海松江站出发，看看新车站，候补了 D3131 和 D3201，回程候补 T136(19:20-22:15)，最大化利用可玩时间。&lt;/p>
@@ -540,7 +540,7 @@ data-flex-basis="266px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">&lt;a href="#%e6%b8%b2%e6%9f%93-ai-%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>渲染 AI 摘要
 &lt;/h2>&lt;h3 id="修改模板文件">&lt;a href="#%e4%bf%ae%e6%94%b9%e6%a8%a1%e6%9d%bf%e6%96%87%e4%bb%b6" class="header-anchor">&lt;/a>修改模板文件
 &lt;/h3>&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
-&lt;p>在 &lt;code>/layouts/partial/article/components&lt;/code> 创建 &lt;code>aisummary.html&lt;/code>：&lt;/p>
+&lt;p>在 &lt;code>/layouts/partial/article/components&lt;/code> 创建 &lt;code>aisummary.html&lt;/code>（仅适用于 Hugo 0.134.3 及以下，适配新版的 &lt;code>resource.Get&lt;/code> 我还没搞明白）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 获取数据 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $summary := getJSON &amp;#34;data/summary/summary.json&amp;#34; }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -5001,12 +5001,12 @@ data-flex-basis="516px"
 &lt;p>我的环境参数：&lt;/p>
 &lt;ul>
 &lt;li>Windows 11 23H2&lt;/li>
-&lt;li>Google Chrome 126&lt;/li>
+&lt;li>Google Chrome 130&lt;/li>
 &lt;li>Markdown 编辑器：VS Code&lt;/li>
 &lt;li>博客配置编辑器：VS Code&lt;/li>
 &lt;li>命令行工具：Windows Terminal&lt;/li>
 &lt;li>Git 工具：GitHub Desktop&lt;/li>
-&lt;li>Hugo 版本：0.128.1_extended&lt;/li>
+&lt;li>Hugo 版本：0.134.3_extended&lt;/li>
 &lt;li>Hugo 主题：Stack&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -5060,7 +5060,7 @@ data-flex-basis="516px"
 如我这里输出：&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo v0.128.1-0ff542b4b9cc7b5cb425bbab8bdb5aace81d0c03+extended windows/amd64 BuildDate=2024-07-02T06:46:41Z VendorInfo=gohugoio
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo v0.134.3-5fb333b9f5ff4ec018f9d78910177d0bec1befb0+extended windows/amd64 BuildDate=2024-09-19T14:28:20Z VendorInfo=gohugoio
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>恭喜！到这里，基本就都配置完毕了，现在可以开始博客的搭建了&lt;/p>
 &lt;h2 id="hugo博客搭建">&lt;a href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" class="header-anchor">&lt;/a>Hugo博客搭建
 &lt;/h2>&lt;h3 id="初始化博客">&lt;a href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>初始化博客
@@ -5074,7 +5074,7 @@ data-flex-basis="516px"
 >GitHub 仓库 Releases&lt;/a> 下载一个心仪的版本后解压&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>文件夹改名为 &lt;code>hugo-theme-stack&lt;/code> 后放入博客文件夹根目录 &lt;code>/theme&lt;/code> 中&lt;/p>
+&lt;p>文件夹改名为 &lt;code>hugo-theme-stack&lt;/code> 后放入博客文件夹根目录 &lt;code>\theme&lt;/code> 中&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>将获取到的主题中的 &lt;code>exampleSite&lt;/code> 文件夹中所有文件复制到博客文件夹根目录中&lt;/p>
@@ -5115,9 +5115,9 @@ params:&lt;br>
 &lt;p>官方文档：&lt;a class="link" href="https://stack.jimmycai.com/config/menu" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/config/menu&lt;/a>&lt;/p>
 &lt;h3 id="开始创作">&lt;a href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" class="header-anchor">&lt;/a>开始创作
-&lt;/h3>&lt;p>博客文章都存放在 &lt;code>/content&lt;/code> 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
+&lt;/h3>&lt;p>博客文章都存放在 &lt;code>\content&lt;/code> 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo new posts/my-first-post.md
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再打开 /content/posts 就可以找到一个 Hugo 为你创建好的一个名为 my-first-post.md 的文件&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再打开 &lt;code>\content\posts&lt;/code> 就可以找到一个 Hugo 为你创建好的一个名为 &lt;code>my-first-post.md&lt;/code> 的文件&lt;/p>
 &lt;p>当然你也可以使用官方推荐的一篇文章一个文件夹的方式（官方文档：&lt;a class="link" href="https://stack.jimmycai.com/writing/markdown" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/writing/markdown&lt;/a>）&lt;/p>
 &lt;h3 id="预览博客">&lt;a href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>预览博客
@@ -5125,8 +5125,8 @@ params:&lt;br>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo server --navigateToChanged --disableFastRender --renderToMemory
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>--navigateToChanged&lt;/code>：在更改某个页面后自动跳转查看该页面&lt;br>
 &lt;code>--disableFastRender&lt;/code>：在更改时重新构建整个网站&lt;br>
-&lt;code>--renderToMemory&lt;/code>：不开启的话会直接在 &lt;code>/public&lt;/code> 文件夹输出网站静态文件&lt;/p>
-&lt;p>根本不想每次输代码启动预览服务器的懒癌患者们，可以像我一样在博客根目录新建一个 vbs 文件：&lt;/p>
+&lt;code>--renderToMemory&lt;/code>：不开启的话会直接在 &lt;code>\public&lt;/code> 输出网站静态文件&lt;/p>
+&lt;p>根本不想每次输代码启动预览服务器的懒癌患者们，可以像我一样在博客根目录新建一个 &lt;code>vbs&lt;/code> 脚本：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Dim ws
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Set ws = Wscript.CreateObject(&amp;#34;Wscript.Shell&amp;#34;)
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ws.run &amp;#34;hugo server --navigateToChanged --disableFastRender --renderToMemory&amp;#34;
@@ -5134,7 +5134,7 @@ params:&lt;br>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>以后要预览博客可以直接双击运行这个脚本会直接弹出终端界面并启动预览服务器，要停止服务器按 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>C&lt;/kbd>，终端界面会自己消失&lt;/p>
 &lt;p>另：我遇到过以下的报错：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">This is most likely due to infinite recursion. If this is just a slow template, you can try to increase the &amp;#39;timeout&amp;#39; config setting.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>不知道你会不会遇到，但如果遇到了，那恭喜你节省很多找解决办法的时间，解决办法：在 config.yml 根级加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>不知道你会不会遇到，但如果遇到了，那恭喜你能节省很多时间：在 config.yml 根级加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-YAML" data-lang="YAML">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">timeout&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">10m&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>初中物理电学概念及公式汇总</title><link>https://www.xalaok.top/post/_lgbaqpnc/</link><pubDate>Sun, 04 Jun 2023 12:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/_lgbaqpnc/</guid><description>&lt;ol>
 &lt;li>电荷量 $Q$：物体所带电荷的多少，单位：库伦（$C$）&lt;/li>
@@ -5656,78 +5656,4 @@ loading="lazy" style="display:block;margin:0 auto;"
 class="gallery-image"
 data-flex-grow="75"
 data-flex-basis="180px"
->&lt;/p></description></item><item><title/><link>https://www.xalaok.top/post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.xalaok.top/post/</guid><description>&lt;p>&lt;strong>1、你的博客更新频率是多少？&lt;/strong>&lt;/p>
-&lt;p>A.每周更新&lt;/p>
-&lt;p>B.一周数篇&lt;/p>
-&lt;p>C.一月1-2篇&lt;/p>
-&lt;p>D.几个月一篇&lt;/p>
-&lt;p>&lt;strong>2、你的博客上次更新是什么时候？&lt;/strong>&lt;/p>
-&lt;p>A.本周&lt;/p>
-&lt;p>B.上周&lt;/p>
-&lt;p>C.上个月&lt;/p>
-&lt;p>D.上季度&lt;/p>
-&lt;p>&lt;strong>3、你的博客文章是原创的吗？&lt;/strong>&lt;/p>
-&lt;p>A.坚持原创&lt;/p>
-&lt;p>B.部分借鉴&lt;/p>
-&lt;p>C.AI 帮我写的&lt;/p>
-&lt;p>D.搬运别人的，而且不署名&lt;/p>
-&lt;p>&lt;strong>4、你觉得自己的文章对他人有帮助吗？&lt;/strong>&lt;/p>
-&lt;p>A.旨在对他人有启示&lt;/p>
-&lt;p>B.多少有点意义&lt;/p>
-&lt;p>C.每日每周流水账&lt;/p>
-&lt;p>D.自我陶醉就好，管他呢&lt;/p>
-&lt;p>&lt;strong>5、你上次换博客主题/程序是什么时候？&lt;/strong>&lt;/p>
-&lt;p>A.上周&lt;/p>
-&lt;p>B.上个月&lt;/p>
-&lt;p>C.去年&lt;/p>
-&lt;p>D.凭良心说，我多年都是一个主题&lt;/p>
-&lt;p>&lt;strong>6、你上一次捣腾博客主题代码是什么时候？&lt;/strong>&lt;/p>
-&lt;p>A.昨天，撸代码到凌晨&lt;/p>
-&lt;p>B.每周必捣腾&lt;/p>
-&lt;p>C.每月有那么一次&lt;/p>
-&lt;p>D.一年有那么一次&lt;/p>
-&lt;p>&lt;strong>7、你会对博客主题进行二次开发？&lt;/strong>&lt;/p>
-&lt;p>A.直接配置使用，省心不折腾&lt;/p>
-&lt;p>B.时不时自己改改，搞点新花样，换图片，换字体，爽&lt;/p>
-&lt;p>C.删除主题作者版权信息，改改样式，然后自我感觉良好&lt;/p>
-&lt;p>D.改得面目全非，但保留原作者版权信息或注明&lt;/p>
-&lt;p>&lt;strong>8、你多久打开自己博客自我陶醉一次？&lt;/strong>&lt;/p>
-&lt;p>A.每天数次&lt;/p>
-&lt;p>B.每周一次&lt;/p>
-&lt;p>C.看心情&lt;/p>
-&lt;p>D.一般都是照镜子，不看博客&lt;/p>
-&lt;p>&lt;strong>9、你近期对自己博客域名什么感受？&lt;/strong>&lt;/p>
-&lt;p>A.想搞到一个 .COM 的域名&lt;/p>
-&lt;p>B.如果域名能再短几个字符就更好了&lt;/p>
-&lt;p>C.今年才换双拼域名了，明年再看看&lt;/p>
-&lt;p>D.目前挺好，没想法&lt;/p>
-&lt;p>&lt;strong>10、你每天都会看网站的流量统计吗？&lt;/strong>&lt;/p>
-&lt;p>A.每天看几次，今天又多了100PV&lt;/p>
-&lt;p>B.每周回顾，看看流量趋势&lt;/p>
-&lt;p>C.记得就看看&lt;/p>
-&lt;p>D.没有搞流量统计，都是浮云&lt;/p>
-&lt;p>&lt;strong>11、你通过博客的广告赚到钱了吗？&lt;/strong>&lt;/p>
-&lt;p>A.有，能覆盖建站费用&lt;/p>
-&lt;p>B.有，但付出大于收入&lt;/p>
-&lt;p>C.没考虑通过博客流量赚钱&lt;/p>
-&lt;p>D.拒绝广告，保证阅读体验&lt;/p>
-&lt;p>&lt;strong>12、你去浏览别人的博客/网站主要为什么？&lt;/strong>&lt;/p>
-&lt;p>A.学习别人分享的知识&lt;/p>
-&lt;p>B.搬运别人的内容&lt;/p>
-&lt;p>C.看看别人怎么装修博客，自己也抄一下，感觉都比自己的好&lt;/p>
-&lt;p>D.不爱看别人博客，自己爱写啥写啥&lt;/p>
-&lt;p>&lt;strong>13、看到别人分享了一篇文章，你打开第一反应是什么？&lt;/strong>&lt;/p>
-&lt;p>A.哇，这域名真不错，怎么我没想到&lt;/p>
-&lt;p>B.哇，这网站速度真快，图片延迟加载丝滑&lt;/p>
-&lt;p>C.哇，这程序/主题不错，我也要抄一抄/留言问问哪里搞的&lt;/p>
-&lt;p>D.看看文章内容&lt;/p>
-&lt;p>&lt;strong>14、你觉得博客哪方面更重要？&lt;/strong>&lt;/p>
-&lt;p>A.域名&lt;/p>
-&lt;p>B.服务器&lt;/p>
-&lt;p>C.主题&lt;/p>
-&lt;p>D.内容&lt;/p>
-&lt;p>&lt;strong>15、近期通过写博客有哪些新收获？&lt;/strong>&lt;/p>
-&lt;p>A.知识面有拓展&lt;/p>
-&lt;p>B.认识了新朋友&lt;/p>
-&lt;p>C.写作水平提升&lt;/p>
-&lt;p>D.通过知识变现&lt;/p></description></item></channel></rss>
+>&lt;/p></description></item></channel></rss>

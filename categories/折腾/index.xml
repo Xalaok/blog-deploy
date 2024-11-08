@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 20 Jun 2024 15:00:00 +0000</lastBuildDate><atom:link href="https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://www.xalaok.top/post/putty/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on Naive Koala</title><link>https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on Naive Koala</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 29 Oct 2024 20:19:00 +0800</lastBuildDate><atom:link href="https://www.xalaok.top/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>记一次服务器被黑（？）</title><link>https://www.xalaok.top/post/putty/</link><pubDate>Sat, 13 Apr 2024 13:30:00 +0800</pubDate><guid>https://www.xalaok.top/post/putty/</guid><description>&lt;img src="https://www.xalaok.top/post/putty/cover.webp" alt="Featured image of post 记一次服务器被黑（？）" />&lt;h2 id="前言">&lt;a href="#%e5%89%8d%e8%a8%80" class="header-anchor">&lt;/a>前言
 &lt;/h2>&lt;p>去年十二月中旬由&lt;a class="link" href="https://yinji.org/" target="_blank" rel="noopener"
 >胡同学&lt;/a>推荐买了 CloudCone VPS 用来搭建一些 Docker 自托管项目，因为原本我部署 Uptime Kuma、AList 和 Memos 的平台 Zeabur 和 Replit 都相继在年底开启了收费。&lt;br>
 初上手 VPS 就跑了个 1Panel 面板方便管理，但还是经常要使用 SSH 连接。当时根本没啥安全意识，就设了个密码连接，而且那个密码很简单。果不其然还没过几天就出事了，搭建的服务全部 502，SSH 也连不上，直接整个人愣在当场。打开 CC 后台看到 CPU 占用为 0，我觉得是被人黑了，所以重置了 SSH 密码然后还是连不上。心急如焚地试了各种办法，发现后台重启能获得短暂复活时间，但不一会又死掉。利用短暂时间把面板密码、SSH 密码又都改了，但服务器每次重启都还是会在很短的时间内再次断连。对方手速真是太快了，而且我想不明白黑客是怎么搞我的。最后迫不得已决定尝试终极办法——后台重装系统，还好 1Panel 有备份恢复功能，数据完好无损。这才总算是恢复了对服务器的控制权。&lt;/p>
@@ -147,7 +147,7 @@ data-flex-basis="266px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="渲染-ai-摘要">&lt;a href="#%e6%b8%b2%e6%9f%93-ai-%e6%91%98%e8%a6%81" class="header-anchor">&lt;/a>渲染 AI 摘要
 &lt;/h2>&lt;h3 id="修改模板文件">&lt;a href="#%e4%bf%ae%e6%94%b9%e6%a8%a1%e6%9d%bf%e6%96%87%e4%bb%b6" class="header-anchor">&lt;/a>修改模板文件
 &lt;/h3>&lt;p>Hugo 可以直接修改位于 &lt;code>/layouts&lt;/code> 的页面模板文件，大大的小蜗牛直接把代码加在 &lt;code>single.html&lt;/code> 里了，我为了单个文件不要太长难看懂，单独将 AI 摘要部分放在一个文件里。如果同样是 Stack 主题，可以直接跟着下文操作，其他主题也大差不差。&lt;/p>
-&lt;p>在 &lt;code>/layouts/partial/article/components&lt;/code> 创建 &lt;code>aisummary.html&lt;/code>：&lt;/p>
+&lt;p>在 &lt;code>/layouts/partial/article/components&lt;/code> 创建 &lt;code>aisummary.html&lt;/code>（仅适用于 Hugo 0.134.3 及以下，适配新版的 &lt;code>resource.Get&lt;/code> 我还没搞明白）：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- 获取数据 --&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $summary := getJSON &amp;#34;data/summary/summary.json&amp;#34; }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -3774,12 +3774,12 @@ data-flex-basis="516px"
 &lt;p>我的环境参数：&lt;/p>
 &lt;ul>
 &lt;li>Windows 11 23H2&lt;/li>
-&lt;li>Google Chrome 126&lt;/li>
+&lt;li>Google Chrome 130&lt;/li>
 &lt;li>Markdown 编辑器：VS Code&lt;/li>
 &lt;li>博客配置编辑器：VS Code&lt;/li>
 &lt;li>命令行工具：Windows Terminal&lt;/li>
 &lt;li>Git 工具：GitHub Desktop&lt;/li>
-&lt;li>Hugo 版本：0.128.1_extended&lt;/li>
+&lt;li>Hugo 版本：0.134.3_extended&lt;/li>
 &lt;li>Hugo 主题：Stack&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -3833,7 +3833,7 @@ data-flex-basis="516px"
 如我这里输出：&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo v0.128.1-0ff542b4b9cc7b5cb425bbab8bdb5aace81d0c03+extended windows/amd64 BuildDate=2024-07-02T06:46:41Z VendorInfo=gohugoio
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo v0.134.3-5fb333b9f5ff4ec018f9d78910177d0bec1befb0+extended windows/amd64 BuildDate=2024-09-19T14:28:20Z VendorInfo=gohugoio
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>恭喜！到这里，基本就都配置完毕了，现在可以开始博客的搭建了&lt;/p>
 &lt;h2 id="hugo博客搭建">&lt;a href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" class="header-anchor">&lt;/a>Hugo博客搭建
 &lt;/h2>&lt;h3 id="初始化博客">&lt;a href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>初始化博客
@@ -3847,7 +3847,7 @@ data-flex-basis="516px"
 >GitHub 仓库 Releases&lt;/a> 下载一个心仪的版本后解压&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>文件夹改名为 &lt;code>hugo-theme-stack&lt;/code> 后放入博客文件夹根目录 &lt;code>/theme&lt;/code> 中&lt;/p>
+&lt;p>文件夹改名为 &lt;code>hugo-theme-stack&lt;/code> 后放入博客文件夹根目录 &lt;code>\theme&lt;/code> 中&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>将获取到的主题中的 &lt;code>exampleSite&lt;/code> 文件夹中所有文件复制到博客文件夹根目录中&lt;/p>
@@ -3888,9 +3888,9 @@ params:&lt;br>
 &lt;p>官方文档：&lt;a class="link" href="https://stack.jimmycai.com/config/menu" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/config/menu&lt;/a>&lt;/p>
 &lt;h3 id="开始创作">&lt;a href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" class="header-anchor">&lt;/a>开始创作
-&lt;/h3>&lt;p>博客文章都存放在 &lt;code>/content&lt;/code> 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
+&lt;/h3>&lt;p>博客文章都存放在 &lt;code>\content&lt;/code> 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-Plain" data-lang="Plain">&lt;span class="line">&lt;span class="cl">hugo new posts/my-first-post.md
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再打开 /content/posts 就可以找到一个 Hugo 为你创建好的一个名为 my-first-post.md 的文件&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>再打开 &lt;code>\content\posts&lt;/code> 就可以找到一个 Hugo 为你创建好的一个名为 &lt;code>my-first-post.md&lt;/code> 的文件&lt;/p>
 &lt;p>当然你也可以使用官方推荐的一篇文章一个文件夹的方式（官方文档：&lt;a class="link" href="https://stack.jimmycai.com/writing/markdown" target="_blank" rel="noopener"
 >https://stack.jimmycai.com/writing/markdown&lt;/a>）&lt;/p>
 &lt;h3 id="预览博客">&lt;a href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" class="header-anchor">&lt;/a>预览博客
@@ -3898,8 +3898,8 @@ params:&lt;br>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo server --navigateToChanged --disableFastRender --renderToMemory
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>--navigateToChanged&lt;/code>：在更改某个页面后自动跳转查看该页面&lt;br>
 &lt;code>--disableFastRender&lt;/code>：在更改时重新构建整个网站&lt;br>
-&lt;code>--renderToMemory&lt;/code>：不开启的话会直接在 &lt;code>/public&lt;/code> 文件夹输出网站静态文件&lt;/p>
-&lt;p>根本不想每次输代码启动预览服务器的懒癌患者们，可以像我一样在博客根目录新建一个 vbs 文件：&lt;/p>
+&lt;code>--renderToMemory&lt;/code>：不开启的话会直接在 &lt;code>\public&lt;/code> 输出网站静态文件&lt;/p>
+&lt;p>根本不想每次输代码启动预览服务器的懒癌患者们，可以像我一样在博客根目录新建一个 &lt;code>vbs&lt;/code> 脚本：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Dim ws
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Set ws = Wscript.CreateObject(&amp;#34;Wscript.Shell&amp;#34;)
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ws.run &amp;#34;hugo server --navigateToChanged --disableFastRender --renderToMemory&amp;#34;
@@ -3907,7 +3907,7 @@ params:&lt;br>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>以后要预览博客可以直接双击运行这个脚本会直接弹出终端界面并启动预览服务器，要停止服务器按 &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>C&lt;/kbd>，终端界面会自己消失&lt;/p>
 &lt;p>另：我遇到过以下的报错：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">This is most likely due to infinite recursion. If this is just a slow template, you can try to increase the &amp;#39;timeout&amp;#39; config setting.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>不知道你会不会遇到，但如果遇到了，那恭喜你节省很多找解决办法的时间，解决办法：在 config.yml 根级加入以下代码：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>不知道你会不会遇到，但如果遇到了，那恭喜你能节省很多时间：在 config.yml 根级加入以下代码：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-YAML" data-lang="YAML">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">timeout&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">10m&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>利用 Vercel 免费搭建镜像网站</title><link>https://www.xalaok.top/post/websiteproxy/</link><pubDate>Fri, 05 May 2023 22:00:00 +0800</pubDate><guid>https://www.xalaok.top/post/websiteproxy/</guid><description>&lt;img src="https://www.xalaok.top/post/websiteproxy/cover.webp" alt="Featured image of post 利用 Vercel 免费搭建镜像网站" />
 &lt;div class="notice notice-warning" >
